@@ -50,6 +50,7 @@ Cette politique ne choisit jamais automatiquement « le meilleur » modèle. Ell
 - `registry/catalog.json` — inventaire transversal complet ;
 - `registry/selector.json` — vue compacte destinée au choix de modèle ;
 - `registry/guidance.json` — règles de prompting vérifiées contre les sources officielles suivies ;
+- `registry/evals.json` — contrat d'évaluation versionné et cas de test de référence ;
 - `registry/models/*.json` — fiches détaillées par fournisseur.
 
 ## Sécurité
@@ -72,3 +73,18 @@ Chaque règle possède un état de confiance distinct des fiches modèles :
 Cette couche ne tente pas de résumer arbitrairement une page avec un LLM. Les règles sont volontairement courtes et contrôlées ; la collecte vérifie uniquement que les éléments officiels qui les justifient restent présents. Une modification de documentation peut donc invalider automatiquement une guidance sans la réécrire silencieusement.
 
 Le registre suit notamment les guides officiels de prompting d'OpenAI, Anthropic, Google, Mistral ainsi que les recommandations xAI liées à l'architecture de conversation et au prompt caching.
+
+
+## Évaluation des prompts
+
+`registry/evals.json` formalise le contrat de contrôle qualité d'Aurora. Le système n'utilise pas de score numérique global arbitraire : chaque critère produit `pass`, `fail`, `needs_review` ou `not_applicable`.
+
+Trois catégories sont séparées :
+
+- contrôles déterministes sur le texte ou des métadonnées structurées : chaîne de pensée privée demandée, marqueurs TODO/FIXME/TBD, intégrité des variables, budgets de contexte/sortie et capacités explicitement vérifiées ;
+- contrôles dépendant d'un contrat structuré : politique d'outils, séparation des données non fiables et contrat de sortie ;
+- contrôles sémantiques : clarté de l'objectif, cohérence des contraintes, conservation de l'intention et ambiguïtés. Ces critères exigent une justification explicite et ne sont jamais transformés en pseudo-mesure heuristique.
+
+Le release gate est conservateur : un défaut `blocker` ou `error` confirmé donne `fail`; une vérification encore nécessaire donne `needs_review`; `pass` n'est possible que lorsque tous les critères applicables sont établis.
+
+Le moteur Python de référence est `automation/prompt_eval.py`. Les tests de régression sont exécutés par GitHub Actions à chaque modification de la logique d'automatisation.
