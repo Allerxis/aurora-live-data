@@ -1,7 +1,137 @@
 {
-  "schema_version": "0.5.0",
-  "generated_at": "2026-10-02T12:02:12Z",
+  "schema_version": "0.6.0",
+  "generated_at": "2026-10-02T12:09:24Z",
   "changes": [
+    {
+      "observed_at": "2026-10-02T12:09:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "xai:grok-4.7",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "fa1902bd810e005ef12ed5a29da08f324d4a5a37b9506e2744cc482d9fc27069",
+      "source_url": "https://docs.x.ai/developers/models/grok-4.7",
+      "summary": "Deterministic facts were verified from the official xAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:09:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.3",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T12:09:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "xai:grok-4.3",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "45e9b3e74e47fc9c2d8fe811208419c7d4d256344e9f052444606a9a43e942ac",
+      "source_url": "https://docs.x.ai/developers/models/grok-4.3",
+      "summary": "Deterministic facts were verified from the official xAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:09:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4-fast-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T12:09:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4-fast-non-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T12:09:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4-1-fast-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T12:09:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4-1-fast-non-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T12:09:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4-0709",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T12:09:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-3",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T12:09:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-embedding-2-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "9b10c0db8bb859b8d1f0ed0b4e4467b1d2b76038492492704ff34e11c22e7604",
+      "new_hash": "9370a2f109b641061a7ccc1ef9e7b70a64945254f5f486f2257289250a40ae59",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:09:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-embedding-2",
+      "change_type": "semantic_changed",
+      "previous_hash": "11355aa17f5898f3a95b0245f41de38ff39056bc5f56438cd67c745b2e9d6733",
+      "new_hash": "d12677182fbea1f92425566f50685e36cd7a104053e4890a2f663337bbeca260",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:09:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-embedding-001",
+      "change_type": "semantic_changed",
+      "previous_hash": "ffc5ed8b2b7fd232b39301d444e5644e9d4b0d1b7dfb55fed9afa0f52e9e1932",
+      "new_hash": "922617b5ffe1c014e1fe14efd9d3cc3fa7516c015b3727a2ca0487bcf98500be",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:09:24Z",
+      "entity_type": "source",
+      "entity_key": "xai-retirement-2026-05",
+      "change_type": "source_initialized",
+      "previous_hash": null,
+      "new_hash": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719",
+      "source_url": "https://docs.x.ai/developers/migration/may-15-retirement",
+      "summary": "Official source initialized in Aurora Live Data."
+    },
     {
       "observed_at": "2026-10-02T12:02:12Z",
       "entity_type": "model_semantics",

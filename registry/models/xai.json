@@ -1,12 +1,240 @@
 {
-  "schema_version": "0.5.0",
+  "schema_version": "0.6.0",
   "provider": "xai",
-  "generated_at": "2026-10-02T12:02:12Z",
+  "generated_at": "2026-10-02T12:09:24Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
   },
   "models": [
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-3",
+      "display_name": "grok-3",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "retired_redirect",
+      "lifecycle": {
+        "status": "retired_redirect",
+        "effective_date": "2026-05-15",
+        "redirect_target": "grok-4.3",
+        "redirect_reasoning_effort": "none",
+        "source_url": "https://docs.x.ai/developers/migration/may-15-retirement"
+      },
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:09:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-retirement-2026-05"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/migration/may-15-retirement"
+      ],
+      "source_hashes": {
+        "xai-retirement-2026-05": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "RuntimeError: unexpected redirect to https://docs.x.ai/developers/models",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4-0709",
+      "display_name": "grok-4-0709",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "retired_redirect",
+      "lifecycle": {
+        "status": "retired_redirect",
+        "effective_date": "2026-05-15",
+        "redirect_target": "grok-4.3",
+        "redirect_reasoning_effort": "low",
+        "source_url": "https://docs.x.ai/developers/migration/may-15-retirement"
+      },
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:09:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-retirement-2026-05"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/migration/may-15-retirement"
+      ],
+      "source_hashes": {
+        "xai-retirement-2026-05": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "RuntimeError: unexpected redirect to https://docs.x.ai/developers/models",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4-1-fast-non-reasoning",
+      "display_name": "grok-4-1-fast-non-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "retired_redirect",
+      "lifecycle": {
+        "status": "retired_redirect",
+        "effective_date": "2026-05-15",
+        "redirect_target": "grok-4.3",
+        "redirect_reasoning_effort": "none",
+        "source_url": "https://docs.x.ai/developers/migration/may-15-retirement"
+      },
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:09:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-retirement-2026-05"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/migration/may-15-retirement"
+      ],
+      "source_hashes": {
+        "xai-retirement-2026-05": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "RuntimeError: unexpected redirect to https://docs.x.ai/developers/models",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4-1-fast-reasoning",
+      "display_name": "grok-4-1-fast-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "retired_redirect",
+      "lifecycle": {
+        "status": "retired_redirect",
+        "effective_date": "2026-05-15",
+        "redirect_target": "grok-4.3",
+        "redirect_reasoning_effort": "low",
+        "source_url": "https://docs.x.ai/developers/migration/may-15-retirement"
+      },
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:09:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-retirement-2026-05"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/migration/may-15-retirement"
+      ],
+      "source_hashes": {
+        "xai-retirement-2026-05": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "RuntimeError: unexpected redirect to https://docs.x.ai/developers/models",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4-fast-non-reasoning",
+      "display_name": "grok-4-fast-non-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "retired_redirect",
+      "lifecycle": {
+        "status": "retired_redirect",
+        "effective_date": "2026-05-15",
+        "redirect_target": "grok-4.3",
+        "redirect_reasoning_effort": "none",
+        "source_url": "https://docs.x.ai/developers/migration/may-15-retirement"
+      },
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:09:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-retirement-2026-05"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/migration/may-15-retirement"
+      ],
+      "source_hashes": {
+        "xai-retirement-2026-05": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "RuntimeError: unexpected redirect to https://docs.x.ai/developers/models",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4-fast-reasoning",
+      "display_name": "grok-4-fast-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "retired_redirect",
+      "lifecycle": {
+        "status": "retired_redirect",
+        "effective_date": "2026-05-15",
+        "redirect_target": "grok-4.3",
+        "redirect_reasoning_effort": "low",
+        "source_url": "https://docs.x.ai/developers/migration/may-15-retirement"
+      },
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:09:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-retirement-2026-05"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/migration/may-15-retirement"
+      ],
+      "source_hashes": {
+        "xai-retirement-2026-05": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "RuntimeError: unexpected redirect to https://docs.x.ai/developers/models",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
     {
       "provider_slug": "xai",
       "model_key": "grok-4.20",
@@ -18,7 +246,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:02:12Z",
+      "last_seen_at": "2026-10-02T12:09:24Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -32,8 +260,67 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "RuntimeError: detail page did not expose required deterministic fields",
       "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.3",
+      "display_name": "grok-4.3",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T12:09:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-retirement-2026-05"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/migration/may-15-retirement"
+      ],
+      "source_hashes": {
+        "xai-retirement-2026-05": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719"
+      },
+      "semantic_verified_at": "2026-10-02T12:09:24Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.3",
+      "semantic_hash": "45e9b3e74e47fc9c2d8fe811208419c7d4d256344e9f052444606a9a43e942ac",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.x.ai/developers/models/grok-4.3",
+        "context_window_tokens": 1000000,
+        "modalities_raw": "Text, Image Text",
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": null,
+          "cached_input": null,
+          "output": null
+        },
+        "batch_api": true,
+        "reasoning": {
+          "supported": true,
+          "efforts": [
+            "none",
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+          ],
+          "default": "low"
+        }
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -44,28 +331,59 @@
       "model_key": "grok-4.7",
       "display_name": "grok-4.7",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "unknown",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:02:12Z",
+      "last_seen_at": "2026-10-02T12:09:24Z",
       "missing_since": null,
       "source_keys": [
-        "xai-models"
+        "xai-models",
+        "xai-retirement-2026-05"
       ],
       "source_urls": [
+        "https://docs.x.ai/developers/migration/may-15-retirement",
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "2886c4293f25d0ba75f7a636e166efa42a64ec759d4da19600535beedd324251"
+        "xai-models": "2886c4293f25d0ba75f7a636e166efa42a64ec759d4da19600535beedd324251",
+        "xai-retirement-2026-05": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T12:09:24Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.7",
+      "semantic_hash": "fa1902bd810e005ef12ed5a29da08f324d4a5a37b9506e2744cc482d9fc27069",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://docs.x.ai/developers/models/grok-4.7",
+        "context_window_tokens": 500000,
+        "modalities_raw": "Text, Image Text",
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": null,
+          "cached_input": null,
+          "output": null
+        },
+        "batch_api": false,
+        "reasoning": {
+          "supported": true,
+          "efforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+          ],
+          "default": "high"
+        },
+        "knowledge_cutoff": "2026-05",
+        "knowledge_cutoff_source_url": "https://docs.x.ai/developers/models"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -885,33 +1203,6 @@
       "provider_slug": "xai",
       "model_key": "grok-4.20-reasoning-latest",
       "display_name": "grok-4.20-reasoning-latest",
-      "kind": "model",
-      "discovery_state": "historical_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": false,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": "2026-10-02T11:36:55Z",
-      "source_keys": [
-        "xai-models"
-      ],
-      "source_urls": [
-        "https://docs.x.ai/developers/models"
-      ],
-      "source_hashes": {
-        "xai-models": "b39923df68865174f2e3cabc93c96b0215d259729dc63b61a0f71ee53769601c"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "xai",
-      "model_key": "grok-4.3",
-      "display_name": "grok-4.3",
       "kind": "model",
       "discovery_state": "historical_unverified",
       "verification_state": "unverified",
