@@ -24,7 +24,7 @@ SOURCES_OUT = REGISTRY_DIR / "sources.json"
 STATUS_OUT = REGISTRY_DIR / "status.json"
 CHANGES_OUT = REGISTRY_DIR / "changes.json"
 CATALOG_OUT = REGISTRY_DIR / "catalog.json"
-SCHEMA_VERSION = "0.8.0"
+SCHEMA_VERSION = "0.9.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -61,7 +61,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.8 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.9 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
@@ -341,6 +341,7 @@ def verify_mistral_candidates(
     detail_urls: list[str],
     pricing_rows: dict,
     generated_at: str,
+    index_hash: str | None = None,
 ):
     verified = {}
     failures = {}
@@ -354,6 +355,27 @@ def verify_mistral_candidates(
 
             normalized = normalize_html(result["body"])
             text = normalized.decode("utf-8", errors="replace")
+
+            # Current cards may expose the API ID only on the detail page, while
+            # the index uses a human title/version. Add those exact IDs to the
+            # discovery set only because the detail URL itself came from the
+            # official models index.
+            for candidate in discover("mistral", text):
+                candidates.setdefault(
+                    candidate.model_key,
+                    {
+                        "model_key": candidate.model_key,
+                        "display_name": candidate.display_name,
+                        "kind": candidate.kind,
+                        "source_keys": ["mistral-models"],
+                        "source_urls": [final_url],
+                        "source_hashes": (
+                            {"mistral-models": index_hash}
+                            if index_hash
+                            else {}
+                        ),
+                    },
+                )
 
             for model_id in sorted(candidates):
                 if model_id in verified:
@@ -384,6 +406,13 @@ def verify_mistral_candidates(
                     "semantic_verified_at": generated_at,
                     "semantic_source_url": final_url,
                 }
+
+                # Preserve direct semantic provenance even when the ID was
+                # discovered only from the linked detail card.
+                item = candidates[model_id]
+                if final_url not in item["source_urls"]:
+                    item["source_urls"].append(final_url)
+
                 print(
                     f"[semantic-ok] mistral:{model_id}: "
                     f"context={facts.get('context_window_tokens')}, "
@@ -457,12 +486,13 @@ def main():
             result = fetch(source["url"])
             normalized = normalize_html(result["body"])
             normalized_text = normalized.decode("utf-8", errors="replace")
+            new_hash = hashlib.sha256(normalized).hexdigest()
             source_texts[key] = {
                 "text": normalized_text,
                 "raw_html": result["body"].decode("utf-8", errors="replace"),
                 "final_url": result["final_url"],
+                "content_hash": new_hash,
             }
-            new_hash = hashlib.sha256(normalized).hexdigest()
             status = int(result["status"])
             reachable = 200 <= status < 400
 
@@ -660,6 +690,7 @@ def main():
         sorted(mistral_detail_urls),
         mistral_pricing,
         generated_at,
+        source_texts.get("mistral-models", {}).get("content_hash"),
     )
 
     all_catalog_models = []
