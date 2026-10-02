@@ -52,6 +52,7 @@ def discover_google(text: str) -> list[Candidate]:
         r"\bgemini-[a-z0-9][a-z0-9._-]{2,100}\b",
         r"\bimagen-[a-z0-9][a-z0-9._-]{2,100}\b",
         r"\bveo-[a-z0-9][a-z0-9._-]{2,100}\b",
+        r"\blyria-[a-z0-9][a-z0-9._-]{1,100}\b",
         r"\bdeep-research(?:-[a-z0-9._-]+)?\b",
         r"\bantigravity(?:-[a-z0-9._-]+)?\b",
     ]
