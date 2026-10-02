@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.4.0",
+  "schema_version": "0.5.0",
   "provider": "google",
-  "generated_at": "2026-10-02T11:54:27Z",
+  "generated_at": "2026-10-02T11:59:00Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -18,7 +18,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -35,7 +35,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -49,11 +49,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-05-19",
+        "shutdown": "2026-10-05",
+        "shutdown_announced": true,
+        "recommended_replacement": "antigravity-preview-09-2026",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -79,13 +86,20 @@
       "model_key": "antigravity-preview-09-2026",
       "display_name": "antigravity-preview-09-2026",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-09-17",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -99,11 +113,31 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-09-2026",
+      "semantic_hash": "ce383e419d047b53fcc60c050629ff70f0c927e7db33feaab3b903023e5b3463",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-09-2026",
+        "model_codes": [],
+        "input_types": [
+          "text",
+          "image"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": null,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {},
+        "consumption_options": {},
+        "versions": {
+          "preview": "antigravity-preview-09-2026"
+        },
+        "latest_update": "2026-09"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -114,13 +148,13 @@
       "model_key": "deep-research-max-preview-04-2026",
       "display_name": "deep-research-max-preview-04-2026",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "unknown",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -131,11 +165,35 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026",
+      "semantic_hash": "f303670cb2d07e79db4d21c5b7423bc071b687c310a9a45d2b77e96d04e0eb0e",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026",
+        "model_codes": [],
+        "input_types": [
+          "text",
+          "image",
+          "pdf",
+          "audio",
+          "video"
+        ],
+        "output_types": [
+          "text (cited reports)",
+          "images token_auto"
+        ],
+        "input_token_limit": null,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {},
+        "consumption_options": {},
+        "versions": {
+          "preview": "deep-research-max-preview-04-2026"
+        },
+        "latest_update": "2026-04"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -146,13 +204,13 @@
       "model_key": "deep-research-preview-04-2026",
       "display_name": "deep-research-preview-04-2026",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "unknown",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -163,11 +221,35 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-preview-04-2026",
+      "semantic_hash": "09162bdaad11ab61ad4b589def36415b948c63a3b987bb60c60912daa718318d",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-preview-04-2026",
+        "model_codes": [],
+        "input_types": [
+          "text",
+          "image",
+          "pdf",
+          "audio",
+          "video"
+        ],
+        "output_types": [
+          "text (cited reports)",
+          "images token_auto"
+        ],
+        "input_token_limit": null,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {},
+        "consumption_options": {},
+        "versions": {
+          "preview": "deep-research-preview-04-2026"
+        },
+        "latest_update": "2026-04"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -178,13 +260,20 @@
       "model_key": "gemini-2.0-flash",
       "display_name": "gemini-2.0-flash",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-02-05",
+        "shutdown": "2026-06-01",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.6-flash",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -198,11 +287,49 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash",
+      "semantic_hash": "7c805f5affc401eba641453e50012709bd89d66cdbee2420caffb9a6a5b79628",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash",
+        "model_codes": [
+          "gemini-2.0-flash"
+        ],
+        "input_types": [
+          "audio",
+          "images",
+          "video",
+          "text"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 8192,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Not supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {},
+        "latest_update": "2025-02"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -215,11 +342,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-02-05",
+        "shutdown": "2026-06-01",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.6-flash",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -245,13 +379,20 @@
       "model_key": "gemini-2.0-flash-lite",
       "display_name": "gemini-2.0-flash-lite",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-02-25",
+        "shutdown": "2026-06-01",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.1-flash-lite",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -265,11 +406,50 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash-lite",
+      "semantic_hash": "39d823b890f2f12163b7307796c685f898d5ea3fcae5f932907aca5d82a04c7a",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash-lite",
+        "model_codes": [
+          "gemini-2.0-flash-lite"
+        ],
+        "input_types": [
+          "audio",
+          "images",
+          "video",
+          "text"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 8192,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Supported",
+          "thinking": "Not Supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {},
+        "latest_update": "2025-02"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -282,11 +462,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-02-25",
+        "shutdown": "2026-06-01",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.1-flash-lite",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -314,11 +501,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-02-05",
+        "shutdown": "2025-12-09",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-2.5-flash-lite",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -346,11 +540,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-02-05",
+        "shutdown": "2025-12-09",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-2.5-flash-lite",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -378,11 +579,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-04-09",
+        "shutdown": "2025-12-09",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.8-live",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -410,11 +618,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-05-07",
+        "shutdown": "2025-11-14",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-2.5-flash-image",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -440,13 +655,20 @@
       "model_key": "gemini-2.5-computer-use-preview-10-2025",
       "display_name": "gemini-2.5-computer-use-preview-10-2025",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-10-07",
+        "shutdown": "2026-07-28",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.8-flash",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -460,11 +682,31 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-computer-use-preview-10-2025",
+      "semantic_hash": "73367fa0d8005613290f612d8b33e0b544e3af57ffe4606c9b6c2b1910df2f89",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-computer-use-preview-10-2025",
+        "model_codes": [
+          "gemini-2.5-computer-use-preview-10-2025"
+        ],
+        "input_types": [
+          "image",
+          "text"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 128000,
+        "output_token_limit": 64000,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {},
+        "consumption_options": {},
+        "versions": {},
+        "latest_update": "2025-10"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -475,13 +717,20 @@
       "model_key": "gemini-2.5-flash",
       "display_name": "gemini-2.5-flash",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-06-17",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -495,11 +744,52 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
+      "semantic_hash": "b49b9b347616372f367684d1d922ab5730d7b6156e7807f525d5bf81a36f58ff",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
+        "model_codes": [
+          "gemini-2.5-flash"
+        ],
+        "input_types": [
+          "text",
+          "images",
+          "video",
+          "audio"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {
+          "stable": "gemini-2.5-flash"
+        },
+        "latest_update": "2025-06"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -510,13 +800,20 @@
       "model_key": "gemini-2.5-flash-image",
       "display_name": "gemini-2.5-flash-image",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-10-02",
+        "shutdown": "2026-10-02",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.1-flash-image-preview",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -530,11 +827,51 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image",
+      "semantic_hash": "5089fb4b3e71bae7c3fb845dfa946789ce2c4e455d1552abf5c2c278bd2457fd",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image",
+        "model_codes": [
+          "gemini-2.5-flash-image"
+        ],
+        "input_types": [
+          "image",
+          "text"
+        ],
+        "output_types": [
+          "image",
+          "text token_auto"
+        ],
+        "input_token_limit": 65536,
+        "output_token_limit": 32768,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {
+          "stable": "gemini-2.5-flash-image"
+        },
+        "latest_update": "2025-10"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -547,11 +884,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-05-07",
+        "shutdown": "2026-01-15",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-2.5-flash-image",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -577,13 +921,20 @@
       "model_key": "gemini-2.5-flash-lite",
       "display_name": "gemini-2.5-flash-lite",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-07-22",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -597,11 +948,53 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
+      "semantic_hash": "10c5f3a8db32fdcb09daa24736bb6ffb211f80e4e8b421bce4318ff04e2b8365",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
+        "model_codes": [
+          "gemini-2.5-flash-lite"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {
+          "stable": "gemini-2.5-flash-lite"
+        },
+        "latest_update": "2025-07"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -614,11 +1007,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-09-25",
+        "shutdown": "2026-03-31",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.1-flash-lite",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -644,13 +1044,20 @@
       "model_key": "gemini-2.5-flash-native-audio-preview-12-2025",
       "display_name": "gemini-2.5-flash-native-audio-preview-12-2025",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-12-12",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": "gemini-3.8-live",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -664,11 +1071,52 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
+      "semantic_hash": "172c9a628cb5ce31349d6e59897b4fe41f8bde72696bfd1278d4fe283ea1a88e",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
+        "model_codes": [
+          "gemini-2.5-flash-native-audio-preview-12-2025"
+        ],
+        "input_types": [
+          "audio",
+          "video",
+          "text"
+        ],
+        "output_types": [
+          "audio",
+          "text token_auto"
+        ],
+        "input_token_limit": 131072,
+        "output_token_limit": 8192,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {
+          "preview": "gemini-2.5-flash-native-audio-preview-12-2025"
+        },
+        "latest_update": "2025-09"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -681,11 +1129,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-05-20",
+        "shutdown": "2025-11-18",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.6-flash",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -711,13 +1166,13 @@
       "model_key": "gemini-2.5-flash-preview-09-2025",
       "display_name": "gemini-2.5-flash-preview-09-2025",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "unknown",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -728,11 +1183,52 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-09-2025",
+      "semantic_hash": "8bdd71f24b5d0f51060bf1c2fb813ac8b1d256c97df84d58210ecfe5819807a9",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-09-2025",
+        "model_codes": [
+          "gemini-2.5-flash-preview-09-2025"
+        ],
+        "input_types": [
+          "text",
+          "images",
+          "video",
+          "audio"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {
+          "stable": "gemini-2.5-flash"
+        },
+        "latest_update": "2025-09"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -745,11 +1241,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-09-25",
+        "shutdown": "2026-02-17",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.6-flash",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -775,13 +1278,20 @@
       "model_key": "gemini-2.5-flash-preview-tts",
       "display_name": "gemini-2.5-flash-preview-tts",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-05-20",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": "gemini-3.8-flash-tts",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -795,11 +1305,47 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
+      "semantic_hash": "bc1a5d6d1ba2ed8da30b50e84ce612ff7ec590015f5ed0d3be84e95627dfd9ac",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
+        "model_codes": [
+          "gemini-2.5-flash-preview-tts"
+        ],
+        "input_types": [
+          "text"
+        ],
+        "output_types": [
+          "audio token_auto"
+        ],
+        "input_token_limit": 8192,
+        "output_token_limit": 16384,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not Supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {},
+        "latest_update": "2025-12"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -810,13 +1356,20 @@
       "model_key": "gemini-2.5-pro",
       "display_name": "gemini-2.5-pro",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-06-17",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -830,11 +1383,53 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro",
+      "semantic_hash": "43de147aae3553d273d606b8f2ac327be7b006eb362d27331dc7b832b9ab6069",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro",
+        "model_codes": [
+          "gemini-2.5-pro"
+        ],
+        "input_types": [
+          "audio",
+          "images",
+          "video",
+          "text",
+          "pdf"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {
+          "stable": "gemini-2.5-pro"
+        },
+        "latest_update": "2025-06"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -847,11 +1442,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-03-03",
+        "shutdown": "2025-12-02",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.1-pro-preview",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -879,11 +1481,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-05-06",
+        "shutdown": "2025-12-02",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.1-pro-preview",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -911,11 +1520,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-06-05",
+        "shutdown": "2025-12-02",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.1-pro-preview",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -941,13 +1557,20 @@
       "model_key": "gemini-2.5-pro-preview-tts",
       "display_name": "gemini-2.5-pro-preview-tts",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-05-20",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": "gemini-3.8-flash-tts",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -961,11 +1584,47 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro-preview-tts",
+      "semantic_hash": "0d408a6e7fbb73c92ef11174895b0369359b2e2388bbfb8ab949b6e8502d7fd2",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro-preview-tts",
+        "model_codes": [
+          "gemini-2.5-pro-preview-tts"
+        ],
+        "input_types": [
+          "text"
+        ],
+        "output_types": [
+          "audio token_auto"
+        ],
+        "input_token_limit": 8192,
+        "output_token_limit": 16384,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not Supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {},
+        "latest_update": "2025-12"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -976,13 +1635,20 @@
       "model_key": "gemini-3-flash-preview",
       "display_name": "gemini-3-flash-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-12-17",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": "gemini-3.6-flash",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -996,11 +1662,54 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
+      "semantic_hash": "14dd39d5f176afc5babea7896b55fc23266e7a1ac0f3b8a2c81864ea89848e3e",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
+        "model_codes": [
+          "gemini-3-flash-preview"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {
+          "preview": "gemini-3-flash-preview"
+        },
+        "latest_update": "2025-12"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1011,13 +1720,20 @@
       "model_key": "gemini-3-pro-image",
       "display_name": "gemini-3-pro-image",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-05-28",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1031,11 +1747,51 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image",
+      "semantic_hash": "0ba2b9bec5714c061e6da6a5ccd6a5e0aa10b43459e0c98ad96f77b215b89827",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image",
+        "model_codes": [
+          "gemini-3-pro-image"
+        ],
+        "input_types": [
+          "image",
+          "text"
+        ],
+        "output_types": [
+          "image",
+          "text token_auto"
+        ],
+        "input_token_limit": 65536,
+        "output_token_limit": 32768,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {
+          "stable": "gemini-3-pro-image"
+        },
+        "latest_update": "2025-11"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1048,11 +1804,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-11-20",
+        "shutdown": "2026-06-25",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3-pro-image",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1078,13 +1841,20 @@
       "model_key": "gemini-3-pro-preview",
       "display_name": "gemini-3-pro-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-11-18",
+        "shutdown": "2026-03-09",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.1-pro-preview",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1098,11 +1868,52 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-preview",
+      "semantic_hash": "04102abe8c0e2ac8003b8a4aeb6bea985881ad1735bbdff249db133cd8ca8ac1",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-preview",
+        "model_codes": [
+          "gemini-3-pro-preview"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Not supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {},
+        "latest_update": "2025-11"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1113,13 +1924,20 @@
       "model_key": "gemini-3.1-flash-image",
       "display_name": "gemini-3.1-flash-image",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-05-28",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1133,11 +1951,53 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image",
+      "semantic_hash": "0f8bb7bae48ec3f6ebde4d60069f8fc64cd293c6e1f81f6061f6b81cb566fe69",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image",
+        "model_codes": [
+          "gemini-3.1-flash-image"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "pdf"
+        ],
+        "output_types": [
+          "image",
+          "text token_auto"
+        ],
+        "input_token_limit": 131072,
+        "output_token_limit": 32768,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {
+          "stable": "gemini-3.1-flash-image"
+        },
+        "latest_update": "2026-02"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1150,11 +2010,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-02-26",
+        "shutdown": "2026-06-25",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.1-flash-image",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1180,13 +2047,20 @@
       "model_key": "gemini-3.1-flash-lite",
       "display_name": "gemini-3.1-flash-lite",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-05-07",
+        "shutdown": "2027-05-07",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.5-flash-lite",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1200,11 +2074,54 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
+      "semantic_hash": "9d2bcbdfd091e92ffe0666d0fc1dffb38a7901a766aaf74e7bcae42c45705d65",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
+        "model_codes": [
+          "gemini-3.1-flash-lite"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Not supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {
+          "stable": "gemini-3.1-flash-lite"
+        },
+        "latest_update": "2026-05"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1215,13 +2132,13 @@
       "model_key": "gemini-3.1-flash-lite-image",
       "display_name": "gemini-3.1-flash-lite-image",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "unknown",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1232,11 +2149,53 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image",
+      "semantic_hash": "f79d1a98875175c3ea8b28993b874f6e4a76fd6ed3546d2d224d16abc8ed6a9c",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image",
+        "model_codes": [
+          "gemini-3.1-flash-lite-image"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "pdf"
+        ],
+        "output_types": [
+          "image",
+          "text token_auto"
+        ],
+        "input_token_limit": 65536,
+        "output_token_limit": 4096,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Supported (minimal and high)",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {
+          "stable": "gemini-3.1-flash-lite-image"
+        },
+        "latest_update": "2026-06"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1247,13 +2206,20 @@
       "model_key": "gemini-3.1-flash-lite-preview",
       "display_name": "gemini-3.1-flash-lite-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-03-03",
+        "shutdown": "2026-05-25",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.1-flash-lite",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1267,11 +2233,52 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
+      "semantic_hash": "504349f2a5ca1b99065f1d6f6305673ab93d9dcaf3008d4a07f707a0d2a5405b",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
+        "model_codes": [
+          "gemini-3.1-flash-lite-preview"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Not supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {},
+        "latest_update": "2026-03"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1282,13 +2289,20 @@
       "model_key": "gemini-3.1-flash-live-preview",
       "display_name": "gemini-3.1-flash-live-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-03-11",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": "gemini-3.8-live",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1302,11 +2316,38 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview",
+      "semantic_hash": "133ed3f6b4fd30ba63dc271ca86ea0b60b78dfa5195078d3e1838f34ae2b63c6",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview",
+        "model_codes": [
+          "gemini-3.1-flash-live-preview"
+        ],
+        "input_types": [
+          "text",
+          "images",
+          "audio",
+          "video"
+        ],
+        "output_types": [
+          "text",
+          "audio token_auto"
+        ],
+        "input_token_limit": 131072,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {},
+        "consumption_options": {
+          "batch_api": "Not supported"
+        },
+        "versions": {
+          "preview": "gemini-3.1-flash-live-preview"
+        },
+        "latest_update": "2026-03"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1317,13 +2358,20 @@
       "model_key": "gemini-3.1-flash-tts-preview",
       "display_name": "gemini-3.1-flash-tts-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-02-26",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": "gemini-3.8-flash-tts",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1337,11 +2385,47 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview",
+      "semantic_hash": "645f450b42d529a5adbfa469c4fe04f71795dd7b3f3b32fd28e924e006ef312b",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview",
+        "model_codes": [
+          "gemini-3.1-flash-tts-preview"
+        ],
+        "input_types": [
+          "text"
+        ],
+        "output_types": [
+          "audio token_auto"
+        ],
+        "input_token_limit": 8192,
+        "output_token_limit": 16384,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not Supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {},
+        "latest_update": "2026-04"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1352,13 +2436,20 @@
       "model_key": "gemini-3.1-pro-preview",
       "display_name": "gemini-3.1-pro-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-02-19",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1372,11 +2463,53 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+      "semantic_hash": "2f521cde28a44419ebd463e91a90f2b3d75f4608f4676240eb4ae039be695e31",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+        "model_codes": [
+          "gemini-3.1-pro-preview"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Supported (AI Studio only)",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {
+          "preview": "gemini-3.1-pro-preview"
+        },
+        "latest_update": "2026-02"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1387,13 +2520,20 @@
       "model_key": "gemini-3.5-flash",
       "display_name": "gemini-3.5-flash",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-05-19",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1407,11 +2547,55 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash",
+      "semantic_hash": "e2a40650c2a5a19e172b74dc120e8ede9d278aaad0f8ffe837070a98eddf46b1",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash",
+        "model_codes": [
+          "gemini-3.5-flash"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported (Preview)",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {
+          "stable": "gemini-3.5-flash",
+          "preview": "gemini-3-flash-preview"
+        },
+        "latest_update": "2026-05"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1422,13 +2606,20 @@
       "model_key": "gemini-3.5-flash-lite",
       "display_name": "gemini-3.5-flash-lite",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-07-21",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1442,11 +2633,54 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+      "semantic_hash": "d5b544dc2cc378a15b6eb0ddf988b9caae4f6a665d07c940751b05a32b45f8b8",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+        "model_codes": [
+          "gemini-3.5-flash-lite"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported (Preview)",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {
+          "stable": "gemini-3.5-flash-lite"
+        },
+        "latest_update": "2026-07"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1457,13 +2691,20 @@
       "model_key": "gemini-3.5-live-translate-preview",
       "display_name": "gemini-3.5-live-translate-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-06",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1477,11 +2718,50 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-live-translate-preview",
+      "semantic_hash": "59419f5be26bef11739dc93e8356415afd6d8cbc32102e1029808ed7b0d9085d",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-live-translate-preview",
+        "model_codes": [
+          "gemini-3.5-live-translate-preview"
+        ],
+        "input_types": [
+          "audio (speech)"
+        ],
+        "output_types": [
+          "audio (translated speech)",
+          "text (transcript) token_auto"
+        ],
+        "input_token_limit": 131072,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {
+          "preview": "gemini-3.5-live-translate-preview"
+        },
+        "latest_update": "2026-06"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1492,13 +2772,20 @@
       "model_key": "gemini-3.5-transcribe",
       "display_name": "gemini-3.5-transcribe",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-08",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1512,11 +2799,42 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
+      "semantic_hash": "87fff2c541eaecaff277e227cea3250aa8f944e380e2952a08292e5f50103160",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
+        "model_codes": [
+          "gemini-3.5-transcribe"
+        ],
+        "input_types": [
+          "audio (up to 1 hour)"
+        ],
+        "output_types": [
+          "text",
+          "word annotations token_auto audio"
+        ],
+        "input_token_limit": null,
+        "output_token_limit": null,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "image_generation": "Not supported",
+          "thinking": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {},
+        "latest_update": "2026-08"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1529,11 +2847,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-08",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1550,7 +2875,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1562,13 +2887,20 @@
       "model_key": "gemini-3.6-flash",
       "display_name": "gemini-3.6-flash",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-07-21",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1582,11 +2914,54 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
+      "semantic_hash": "ded6e56c541589a6bb3938434be559f1afac88e74714fb7abc69dc889d2ddd47",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
+        "model_codes": [
+          "gemini-3.6-flash"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported (Preview)",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {
+          "stable": "gemini-3.6-flash"
+        },
+        "latest_update": "2026-07"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1597,13 +2972,20 @@
       "model_key": "gemini-3.7-flash",
       "display_name": "gemini-3.7-flash",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-08-13",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1617,11 +2999,54 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
+      "semantic_hash": "dd69a1ffc1528f873b406bfa4e92ef7013fe8dd398390ab5ad99721df9012ac0",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
+        "model_codes": [
+          "gemini-3.7-flash"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported (Preview)",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported (low, medium, high)",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {
+          "stable": "gemini-3.7-flash"
+        },
+        "latest_update": "2026-08"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1632,13 +3057,20 @@
       "model_key": "gemini-3.8-flash",
       "display_name": "gemini-3.8-flash",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-09-02",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1652,11 +3084,54 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+      "semantic_hash": "6af43f58a51d2c6e1562bfb46759583a3768b7ed493de86577fadd146e962f84",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+        "model_codes": [
+          "gemini-3.8-flash"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported (Preview)",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported (low, medium, high)",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {
+          "stable": "gemini-3.8-flash"
+        },
+        "latest_update": "2026-09"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1667,13 +3142,20 @@
       "model_key": "gemini-3.8-flash-lite-tts",
       "display_name": "gemini-3.8-flash-lite-tts",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-09-22",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1687,11 +3169,47 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-lite-tts",
+      "semantic_hash": "c92bff10304c0eb9ddc24480485a7431fe7f52a497db5a0657f50426726d9493",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-lite-tts",
+        "model_codes": [
+          "gemini-3.8-flash-lite-tts"
+        ],
+        "input_types": [
+          "text"
+        ],
+        "output_types": [
+          "audio token_auto"
+        ],
+        "input_token_limit": 8192,
+        "output_token_limit": 16384,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {},
+        "latest_update": "2026-09"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1702,13 +3220,20 @@
       "model_key": "gemini-3.8-flash-tts",
       "display_name": "gemini-3.8-flash-tts",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-09-22",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1722,11 +3247,47 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts",
+      "semantic_hash": "210995b70fbb759a10053de395425d2f3a6aa11cde9bdce0af28ed4053f8a83c",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts",
+        "model_codes": [
+          "gemini-3.8-flash-tts"
+        ],
+        "input_types": [
+          "text"
+        ],
+        "output_types": [
+          "audio token_auto"
+        ],
+        "input_token_limit": 8192,
+        "output_token_limit": 16384,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {},
+        "latest_update": "2026-09"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1737,13 +3298,20 @@
       "model_key": "gemini-3.8-live",
       "display_name": "gemini-3.8-live",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-09-15",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1757,11 +3325,51 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live",
+      "semantic_hash": "7a7a6e9d11306a51996aefdc9a94c4131e986825982e2456fcf68677de51f620",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live",
+        "model_codes": [
+          "gemini-3.8-live"
+        ],
+        "input_types": [
+          "text",
+          "images",
+          "audio",
+          "video"
+        ],
+        "output_types": [
+          "text",
+          "audio token_auto"
+        ],
+        "input_token_limit": 131072,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Supported (interleaved reasoning)",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported"
+        },
+        "versions": {
+          "stable": "gemini-3.8-live"
+        },
+        "latest_update": "2026-09"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1772,13 +3380,20 @@
       "model_key": "gemini-3.8-live-extended-thinking",
       "display_name": "gemini-3.8-live-extended-thinking",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-09-15",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1792,11 +3407,51 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking",
+      "semantic_hash": "34a705414f460a8e9513dfdc6103c6a3ea3b2e327edb1af26945271917867960",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking",
+        "model_codes": [
+          "gemini-3.8-live-extended-thinking"
+        ],
+        "input_types": [
+          "text",
+          "images",
+          "audio",
+          "video"
+        ],
+        "output_types": [
+          "text",
+          "audio token_auto"
+        ],
+        "input_token_limit": 131072,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Supported (Async only)",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported"
+        },
+        "versions": {
+          "stable": "gemini-3.8-live-extended-thinking"
+        },
+        "latest_update": "2026-09"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1807,13 +3462,20 @@
       "model_key": "gemini-embedding-001",
       "display_name": "gemini-embedding-001",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-07-14",
+        "shutdown": "2028-05-14",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-embedding-2",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1827,11 +3489,32 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001",
+      "semantic_hash": "befc6acdf731f5a5a36bcb32840bab3b93bf8bcbf7db7aed9a898ed056c9cecd",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001",
+        "model_codes": [
+          "gemini-embedding-001"
+        ],
+        "input_types": [
+          "text"
+        ],
+        "output_types": [
+          "text embeddings token_auto"
+        ],
+        "input_token_limit": 2048,
+        "output_token_limit": null,
+        "output_dimension": "Flexible, supports: 128 - 3072, Recommended: 768, 1536, 3072 123",
+        "video_output_count": null,
+        "capabilities": {},
+        "consumption_options": {},
+        "versions": {
+          "stable": "gemini-embedding-001"
+        },
+        "latest_update": "2025-06"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1844,11 +3527,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-04-22",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1874,13 +3564,13 @@
       "model_key": "gemini-embedding-2-preview",
       "display_name": "gemini-embedding-2-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "unknown",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1891,11 +3581,36 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2-preview",
+      "semantic_hash": "15cd54684b4febf95faee09daaf8641b6daf961f433be5c4507e04d2421a9b79",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2-preview",
+        "model_codes": [
+          "gemini-embedding-2-preview"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text embeddings token_auto"
+        ],
+        "input_token_limit": 8192,
+        "output_token_limit": null,
+        "output_dimension": "Flexible, supports: 128 - 3072, Recommended: 768, 1536, 3072 123",
+        "video_output_count": null,
+        "capabilities": {},
+        "consumption_options": {},
+        "versions": {
+          "preview": "gemini-embedding-2-preview"
+        },
+        "latest_update": "2026-03"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1908,11 +3623,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": null,
+        "shutdown": "2025-10-30",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-embedding-2",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1940,11 +3662,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": null,
+        "shutdown": "2025-10-30",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-embedding-2",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1976,7 +3705,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1990,7 +3719,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -2004,11 +3733,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-06-17",
+        "shutdown": "2025-12-09",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.8-live",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2036,11 +3772,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-08-27",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2057,7 +3800,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -2071,11 +3814,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-09-25",
+        "shutdown": "2026-04-30",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-robotics-er-1.6-preview",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2101,13 +3851,20 @@
       "model_key": "gemini-robotics-er-1.6-preview",
       "display_name": "gemini-robotics-er-1.6-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-04-14",
+        "shutdown": "2026-08-31",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-robotics-er-2-preview",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2121,11 +3878,53 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview",
+      "semantic_hash": "911e54b4b7cebfa57645f500336a22f8cf4f174f809a49268877da48f9ac568b",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview",
+        "model_codes": [
+          "gemini-robotics-er-1.6-preview"
+        ],
+        "input_types": [
+          "text",
+          "images",
+          "video",
+          "audio"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 131072,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        },
+        "versions": {
+          "preview": "gemini-robotics-er-1.6-preview"
+        },
+        "latest_update": "2025-12"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -2136,13 +3935,13 @@
       "model_key": "gemini-robotics-er-2-preview",
       "display_name": "gemini-robotics-er-2-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "unknown",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2156,11 +3955,53 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-preview",
+      "semantic_hash": "824c330bceef3196c764d7b263cce68ac99c856d2c4e577587a8fd99d5d94a76",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-preview",
+        "model_codes": [
+          "gemini-robotics-er-1.6-preview"
+        ],
+        "input_types": [
+          "text",
+          "images",
+          "video",
+          "audio"
+        ],
+        "output_types": [
+          "text token_auto"
+        ],
+        "input_token_limit": 131072,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {
+          "preview": "gemini-robotics-er-1.6-preview"
+        },
+        "latest_update": "2026-07"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -2173,11 +4014,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-02-06",
+        "shutdown": "2025-11-10",
+        "shutdown_announced": true,
+        "recommended_replacement": "imagen-4.0-generate-001",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2205,11 +4053,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-06-24",
+        "shutdown": "2026-08-17",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.1-flash-image",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2241,7 +4096,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2255,7 +4110,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -2269,11 +4124,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-06-24",
+        "shutdown": "2026-08-17",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.1-flash-image",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2301,11 +4163,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-06-24",
+        "shutdown": "2026-02-17",
+        "shutdown_announced": true,
+        "recommended_replacement": "imagen-4.0-generate-001",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2333,11 +4202,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-06-24",
+        "shutdown": "2026-08-17",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-3.1-flash-image",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2365,11 +4241,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-06-24",
+        "shutdown": "2026-02-17",
+        "shutdown_announced": true,
+        "recommended_replacement": "imagen-4.0-ultra-generate-001",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2392,16 +4275,332 @@
     },
     {
       "provider_slug": "google",
+      "model_key": "lyria-3-clip-preview",
+      "display_name": "lyria-3-clip-preview",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-03-25",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
+      "missing_since": null,
+      "source_keys": [
+        "google-deprecations",
+        "google-models"
+      ],
+      "source_urls": [
+        "https://ai.google.dev/gemini-api/docs/deprecations",
+        "https://ai.google.dev/gemini-api/docs/models"
+      ],
+      "source_hashes": {
+        "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
+        "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
+      },
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-clip-preview",
+      "semantic_hash": "504a4443468e7171b107b6033f1d05a1ceaf9800fc69ef634fbe663c965568b4",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-clip-preview",
+        "model_codes": [
+          "lyria-3-clip-preview"
+        ],
+        "input_types": [
+          "text",
+          "image"
+        ],
+        "output_types": [
+          "audio (mp3)",
+          "text (lyrics) token_auto"
+        ],
+        "input_token_limit": 131072,
+        "output_token_limit": null,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {
+          "preview": "lyria-3-clip-preview"
+        },
+        "latest_update": "2026-03"
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "lyria-3-pro-preview",
+      "display_name": "lyria-3-pro-preview",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-03-25",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": "lyria-3.5",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
+      "missing_since": null,
+      "source_keys": [
+        "google-deprecations",
+        "google-models"
+      ],
+      "source_urls": [
+        "https://ai.google.dev/gemini-api/docs/deprecations",
+        "https://ai.google.dev/gemini-api/docs/models"
+      ],
+      "source_hashes": {
+        "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
+        "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
+      },
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-pro-preview",
+      "semantic_hash": "b85ca3b84b217ec8b85f3d18fc0c68edd03506a8f42d56c6316b81978861569c",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-pro-preview",
+        "model_codes": [
+          "lyria-3-clip-preview"
+        ],
+        "input_types": [
+          "text",
+          "image"
+        ],
+        "output_types": [
+          "audio (mp3)",
+          "text (lyrics) token_auto"
+        ],
+        "input_token_limit": 131072,
+        "output_token_limit": null,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {
+          "preview": "lyria-3-clip-preview"
+        },
+        "latest_update": "2026-03"
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "lyria-3.5",
+      "display_name": "lyria-3.5",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-09-03",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
+      "missing_since": null,
+      "source_keys": [
+        "google-deprecations",
+        "google-models"
+      ],
+      "source_urls": [
+        "https://ai.google.dev/gemini-api/docs/deprecations",
+        "https://ai.google.dev/gemini-api/docs/models"
+      ],
+      "source_hashes": {
+        "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
+        "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
+      },
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3.5",
+      "semantic_hash": "aaf39b3146f5e990aac85125bbae10924a5a20fe2f528f72e5f054737f791c0c",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3.5",
+        "model_codes": [
+          "lyria-3.5"
+        ],
+        "input_types": [
+          "text",
+          "image"
+        ],
+        "output_types": [
+          "audio (mp3)",
+          "text (lyrics) token_auto"
+        ],
+        "input_token_limit": 131072,
+        "output_token_limit": null,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {
+          "stable": "lyria-3.5"
+        },
+        "latest_update": "2026-09"
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "lyria-realtime-exp",
+      "display_name": "lyria-realtime-exp",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "no_shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-05-20",
+        "shutdown": null,
+        "shutdown_announced": false,
+        "recommended_replacement": null,
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
+      "missing_since": null,
+      "source_keys": [
+        "google-deprecations",
+        "google-models"
+      ],
+      "source_urls": [
+        "https://ai.google.dev/gemini-api/docs/deprecations",
+        "https://ai.google.dev/gemini-api/docs/models"
+      ],
+      "source_hashes": {
+        "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
+        "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
+      },
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-realtime-exp",
+      "semantic_hash": "ceaf38100f943e0bb242b0ec49fda47445ede2b74438844c18a5d4413e801de1",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-realtime-exp",
+        "model_codes": [
+          "lyria-realtime-exp"
+        ],
+        "input_types": [
+          "text (weighted prompts)"
+        ],
+        "output_types": [
+          "audio (raw 16-bit pcm) token_auto streaming"
+        ],
+        "input_token_limit": null,
+        "output_token_limit": null,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {},
+        "consumption_options": {},
+        "versions": {
+          "experimental": "lyria-realtime-exp"
+        },
+        "latest_update": "2025-05"
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "google",
       "model_key": "veo-2.0-generate-001",
       "display_name": "veo-2.0-generate-001",
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-04-09",
+        "shutdown": "2026-06-30",
+        "shutdown_announced": true,
+        "recommended_replacement": "veo-3.1-generate-preview",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2429,11 +4628,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-09-09",
+        "shutdown": "2026-06-30",
+        "shutdown_announced": true,
+        "recommended_replacement": "veo-3.1-fast-generate-preview",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2461,11 +4667,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-07-31",
+        "shutdown": "2025-11-12",
+        "shutdown_announced": true,
+        "recommended_replacement": "veo-3.1-fast-generate-preview",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2493,11 +4706,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-09-09",
+        "shutdown": "2026-06-30",
+        "shutdown_announced": true,
+        "recommended_replacement": "veo-3.1-generate-preview",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2525,11 +4745,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-07-31",
+        "shutdown": "2025-11-12",
+        "shutdown_announced": true,
+        "recommended_replacement": "veo-3.1-generate-preview",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2557,11 +4784,18 @@
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-10-15",
+        "shutdown": "2026-10-22",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-omni-1.1-flash",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2587,13 +4821,20 @@
       "model_key": "veo-3.1-generate-preview",
       "display_name": "veo-3.1-generate-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2025-10-15",
+        "shutdown": "2026-10-22",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-omni-1.1-flash",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2607,11 +4848,32 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-generate-preview",
+      "semantic_hash": "adbc8bd594cf995e0708fca032ab35163935f3eb7316a45a2fbdf60a7b69dd80",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-generate-preview",
+        "model_codes": [
+          "veo-3.1-fast-generate-preview",
+          "veo-3.1-generate-preview"
+        ],
+        "input_types": [
+          "text",
+          "image"
+        ],
+        "output_types": [
+          "video with audio token_auto"
+        ],
+        "input_token_limit": null,
+        "output_token_limit": null,
+        "output_dimension": null,
+        "video_output_count": 1,
+        "capabilities": {},
+        "consumption_options": {},
+        "versions": {},
+        "latest_update": "2026-01"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -2622,13 +4884,20 @@
       "model_key": "veo-3.1-lite-generate-preview",
       "display_name": "veo-3.1-lite-generate-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "lifecycle": null,
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "shutdown_announced",
+      "lifecycle": {
+        "release_date": "2026-03-31",
+        "shutdown": "2026-10-22",
+        "shutdown_announced": true,
+        "recommended_replacement": "gemini-omni-1.1-flash",
+        "date_semantics": "earliest_possible_shutdown_date",
+        "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:54:27Z",
+      "last_seen_at": "2026-10-02T11:59:00Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2642,11 +4911,31 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-lite-generate-preview",
+      "semantic_hash": "607ee14cc00273a2eba39d41bc58623ee340f70cf9ecb9b62aead2bddd583aa0",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-lite-generate-preview",
+        "model_codes": [
+          "veo-3.1-lite-generate-preview"
+        ],
+        "input_types": [
+          "text",
+          "image"
+        ],
+        "output_types": [
+          "video with audio token_auto"
+        ],
+        "input_token_limit": null,
+        "output_token_limit": null,
+        "output_dimension": null,
+        "video_output_count": 1,
+        "capabilities": {},
+        "consumption_options": {},
+        "versions": {},
+        "latest_update": "2026-03"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
