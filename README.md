@@ -51,6 +51,7 @@ Cette politique ne choisit jamais automatiquement « le meilleur » modèle. Ell
 - `registry/selector.json` — vue compacte destinée au choix de modèle ;
 - `registry/guidance.json` — règles de prompting vérifiées contre les sources officielles suivies ;
 - `registry/evals.json` — contrat d'évaluation versionné et cas de test de référence ;
+- `registry/benchmarks.json` — résultat du corpus de régression Aurora exécuté dans CI ;
 - `registry/models/*.json` — fiches détaillées par fournisseur.
 
 ## Sécurité
@@ -88,3 +89,17 @@ Trois catégories sont séparées :
 Le release gate est conservateur : un défaut `blocker` ou `error` confirmé donne `fail`; une vérification encore nécessaire donne `needs_review`; `pass` n'est possible que lorsque tous les critères applicables sont établis.
 
 Le moteur Python de référence est `automation/prompt_eval.py`. Les tests de régression sont exécutés par GitHub Actions à chaque modification de la logique d'automatisation.
+
+
+## Benchmark de régression
+
+Le corpus `automation/benchmark_cases.json` protège le comportement du release gate contre les régressions. Il utilise des fixtures déterministes et ne dépend d'aucune API payante.
+
+Chaque cas définit :
+- un prompt et des métadonnées d'évaluation ;
+- un release gate attendu (`pass`, `needs_review` ou `fail`) ;
+- les critères dont le résultat doit rester stable.
+
+Le runner `automation/run_benchmarks.py` compare les résultats réels aux attentes. GitHub Actions exécute ce benchmark avant chaque collecte. Une divergence bloque la publication du registre.
+
+Le rapport public `registry/benchmarks.json` contient les comptes de cas conformes/non conformes, le hash du corpus et le détail des attentes vérifiées. Ce rapport mesure la stabilité de la suite de régression ; il ne constitue pas une note de qualité globale d'un modèle ou d'un prompt.
