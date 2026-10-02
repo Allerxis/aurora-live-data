@@ -267,3 +267,48 @@ def parse_anthropic_model_page(
         "platform_ids": ids,
         "platforms": platforms,
     }
+
+
+def parse_anthropic_lifecycle_page(
+    text: str,
+    source_url: str,
+) -> dict[str, dict[str, Any]]:
+    """
+    Parse the Claude model lifecycle table.
+
+    This parser records only explicit table rows. Partner-operated platforms may
+    use different retirement schedules, so the scope is stored with every row.
+    """
+    rows: dict[str, dict[str, Any]] = {}
+    pattern = re.compile(
+        r"(?P<model>claude-[a-z0-9.-]+)\s+"
+        r"(?P<state>Active|Legacy|Deprecated|Retired)\s+"
+        r"(?P<deprecated>N/A|[A-Z][a-z]+\s+\d{1,2},\s+\d{4})\s+"
+        r"(?P<retirement>Not sooner than [A-Z][a-z]+\s+\d{1,2},\s+\d{4}|"
+        r"To be announced|[A-Z][a-z]+\s+\d{1,2},\s+\d{4})",
+        re.I,
+    )
+
+    for m in pattern.finditer(text):
+        model_id = m.group("model").lower()
+        deprecated_raw = m.group("deprecated")
+        retirement_raw = m.group("retirement")
+
+        rows[model_id] = {
+            "status": m.group("state").capitalize(),
+            "deprecated_at": (
+                None
+                if deprecated_raw.upper() == "N/A"
+                else _date(deprecated_raw)
+            ),
+            "retirement": retirement_raw,
+            "scope": [
+                "Claude API",
+                "Claude Platform on AWS",
+                "Microsoft Foundry",
+            ],
+            "partner_platform_schedule_may_differ": True,
+            "source_url": source_url,
+        }
+
+    return rows
