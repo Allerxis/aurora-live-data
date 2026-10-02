@@ -225,6 +225,12 @@ def parse_google_model_page(
     )
     if m:
         output_dimension = re.sub(r"\s+", " ", m.group(1)).strip()
+        output_dimension = re.sub(
+            r"\s+(?:123|token_auto|handyman|speed|calendar_month|id_card|save)$",
+            "",
+            output_dimension,
+            flags=re.I,
+        ).strip()
 
     video_output_count = None
     m = re.search(r"Output video\s+([0-9]+)", text, re.I)
