@@ -32,7 +32,7 @@ CATALOG_OUT = REGISTRY_DIR / "catalog.json"
 SELECTOR_OUT = REGISTRY_DIR / "selector.json"
 GUIDANCE_OUT = REGISTRY_DIR / "guidance.json"
 EVALS_OUT = REGISTRY_DIR / "evals.json"
-SCHEMA_VERSION = "0.12.0"
+SCHEMA_VERSION = "0.13.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -69,7 +69,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.12 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.13 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
