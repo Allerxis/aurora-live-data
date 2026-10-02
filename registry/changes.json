@@ -1,7 +1,17 @@
 {
-  "schema_version": "0.18.0",
-  "generated_at": "2026-10-02T19:01:57Z",
+  "schema_version": "0.19.0",
+  "generated_at": "2026-10-02T19:06:10Z",
   "changes": [
+    {
+      "observed_at": "2026-10-02T19:06:10Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "118dd11a458ece568889e02f37f36dc14461d0e05eeece5f34b5091cd19c4f9b",
+      "new_hash": "32379c6e22a181e2662ad42006e08ae192b2391a103e0748c555581c240b434d",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-02T14:36:42Z",
       "entity_type": "source",
@@ -9986,16 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "google:gemini-2.5-flash-lite-preview-09-2025",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-2.5-flash-lite",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
