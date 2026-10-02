@@ -1,10 +1,10 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.3.0",
   "provider": "xai",
-  "generated_at": "2026-10-02T11:35:43Z",
+  "generated_at": "2026-10-02T11:36:55Z",
   "semantics": {
-    "present_in_current_sources": "True means the deterministic adapter found this candidate during the current refresh. It does not prove API availability or product availability.",
-    "verification_state": "Only records explicitly marked verified may be used as authoritative semantic model facts."
+    "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
+    "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
   },
   "models": [
     {
@@ -17,7 +17,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
+      "last_seen_at": "2026-10-02T11:36:55Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -26,12 +26,47 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "b39923df68865174f2e3cabc93c96b0215d259729dc63b61a0f71ee53769601c"
+        "xai-models": "2886c4293f25d0ba75f7a636e166efa42a64ec759d4da19600535beedd324251"
       },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": null,
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.7",
+      "display_name": "grok-4.7",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:36:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "2886c4293f25d0ba75f7a636e166efa42a64ec759d4da19600535beedd324251"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": null,
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
       ]
     },
     {
@@ -39,13 +74,13 @@
       "model_key": "grok-4.20-0309",
       "display_name": "grok-4.20-0309",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -66,13 +101,13 @@
       "model_key": "grok-4.20-0309-non-reasoning",
       "display_name": "grok-4.20-0309-non-reasoning",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -93,13 +128,13 @@
       "model_key": "grok-4.20-0309-reasoning",
       "display_name": "grok-4.20-0309-reasoning",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -120,13 +155,13 @@
       "model_key": "grok-4.20-beta",
       "display_name": "grok-4.20-beta",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -147,13 +182,13 @@
       "model_key": "grok-4.20-beta-0309",
       "display_name": "grok-4.20-beta-0309",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -174,13 +209,13 @@
       "model_key": "grok-4.20-beta-0309-non-reasoning",
       "display_name": "grok-4.20-beta-0309-non-reasoning",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -201,13 +236,13 @@
       "model_key": "grok-4.20-beta-0309-reasoning",
       "display_name": "grok-4.20-beta-0309-reasoning",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -228,13 +263,13 @@
       "model_key": "grok-4.20-beta-latest",
       "display_name": "grok-4.20-beta-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -255,13 +290,13 @@
       "model_key": "grok-4.20-beta-latest-non-reasoning",
       "display_name": "grok-4.20-beta-latest-non-reasoning",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -282,13 +317,13 @@
       "model_key": "grok-4.20-beta-latest-reasoning",
       "display_name": "grok-4.20-beta-latest-reasoning",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -309,13 +344,13 @@
       "model_key": "grok-4.20-beta-non-reasoning",
       "display_name": "grok-4.20-beta-non-reasoning",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -336,13 +371,13 @@
       "model_key": "grok-4.20-beta-reasoning",
       "display_name": "grok-4.20-beta-reasoning",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -363,13 +398,13 @@
       "model_key": "grok-4.20-experimental-beta-0304",
       "display_name": "grok-4.20-experimental-beta-0304",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -390,13 +425,13 @@
       "model_key": "grok-4.20-experimental-beta-0304-non-reasoning",
       "display_name": "grok-4.20-experimental-beta-0304-non-reasoning",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -417,13 +452,13 @@
       "model_key": "grok-4.20-experimental-beta-0304-reasoning",
       "display_name": "grok-4.20-experimental-beta-0304-reasoning",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -444,13 +479,13 @@
       "model_key": "grok-4.20-experimental-beta-latest",
       "display_name": "grok-4.20-experimental-beta-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -471,13 +506,13 @@
       "model_key": "grok-4.20-experimental-beta-non-reasoning-latest",
       "display_name": "grok-4.20-experimental-beta-non-reasoning-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -498,13 +533,13 @@
       "model_key": "grok-4.20-experimental-beta-reasoning-latest",
       "display_name": "grok-4.20-experimental-beta-reasoning-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -525,13 +560,13 @@
       "model_key": "grok-4.20-multi-agent",
       "display_name": "grok-4.20-multi-agent",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -552,13 +587,13 @@
       "model_key": "grok-4.20-multi-agent-0309",
       "display_name": "grok-4.20-multi-agent-0309",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -579,13 +614,13 @@
       "model_key": "grok-4.20-multi-agent-beta-0309",
       "display_name": "grok-4.20-multi-agent-beta-0309",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -606,13 +641,13 @@
       "model_key": "grok-4.20-multi-agent-beta-latest",
       "display_name": "grok-4.20-multi-agent-beta-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -633,13 +668,13 @@
       "model_key": "grok-4.20-multi-agent-experimental-beta-0304",
       "display_name": "grok-4.20-multi-agent-experimental-beta-0304",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -660,13 +695,13 @@
       "model_key": "grok-4.20-multi-agent-experimental-beta-latest",
       "display_name": "grok-4.20-multi-agent-experimental-beta-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -687,13 +722,13 @@
       "model_key": "grok-4.20-multi-agent-latest",
       "display_name": "grok-4.20-multi-agent-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -714,13 +749,13 @@
       "model_key": "grok-4.20-non-reasoning",
       "display_name": "grok-4.20-non-reasoning",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -741,13 +776,13 @@
       "model_key": "grok-4.20-non-reasoning-gv2",
       "display_name": "grok-4.20-non-reasoning-gv2",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -768,13 +803,13 @@
       "model_key": "grok-4.20-non-reasoning-latest",
       "display_name": "grok-4.20-non-reasoning-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -795,13 +830,13 @@
       "model_key": "grok-4.20-reasoning",
       "display_name": "grok-4.20-reasoning",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -822,13 +857,13 @@
       "model_key": "grok-4.20-reasoning-gv2",
       "display_name": "grok-4.20-reasoning-gv2",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -849,13 +884,13 @@
       "model_key": "grok-4.20-reasoning-latest",
       "display_name": "grok-4.20-reasoning-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -876,13 +911,13 @@
       "model_key": "grok-4.3",
       "display_name": "grok-4.3",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -903,13 +938,13 @@
       "model_key": "grok-4.3-latest",
       "display_name": "grok-4.3-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -930,13 +965,13 @@
       "model_key": "grok-4.5",
       "display_name": "grok-4.5",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -957,13 +992,13 @@
       "model_key": "grok-4.5-latest",
       "display_name": "grok-4.5-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -984,40 +1019,13 @@
       "model_key": "grok-4.6",
       "display_name": "grok-4.6",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
-      "source_keys": [
-        "xai-models"
-      ],
-      "source_urls": [
-        "https://docs.x.ai/developers/models"
-      ],
-      "source_hashes": {
-        "xai-models": "b39923df68865174f2e3cabc93c96b0215d259729dc63b61a0f71ee53769601c"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "xai",
-      "model_key": "grok-4.7",
-      "display_name": "grok-4.7",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1038,13 +1046,13 @@
       "model_key": "grok-47",
       "display_name": "grok-47",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:36:55Z",
       "source_keys": [
         "xai-models"
       ],

@@ -1,10 +1,10 @@
 {
-  "schema_version": "0.2.0",
+  "schema_version": "0.3.0",
   "provider": "openai",
-  "generated_at": "2026-10-02T11:35:43Z",
+  "generated_at": "2026-10-02T11:36:55Z",
   "semantics": {
-    "present_in_current_sources": "True means the deterministic adapter found this candidate during the current refresh. It does not prove API availability or product availability.",
-    "verification_state": "Only records explicitly marked verified may be used as authoritative semantic model facts."
+    "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
+    "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
   },
   "models": [
     {
@@ -12,12 +12,12 @@
       "model_key": "gpt-4o",
       "display_name": "gpt-4o",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
+      "last_seen_at": "2026-10-02T11:36:55Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -26,12 +26,38 @@
         "https://developers.openai.com/api/docs/models"
       ],
       "source_hashes": {
-        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
-      "facts": {},
+      "semantic_verified_at": "2026-10-02T11:36:55Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4o",
+      "semantic_hash": "e8489d614470ebb56bf03bcd48faa54a2750a4fe4e190fff92b62c8d665c8dde",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-4o",
+        "context_window_tokens": 128000,
+        "max_output_tokens": 16384,
+        "knowledge_cutoff": "2023-10-01",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 2.5,
+          "cached_input": 1.25,
+          "cache_writes": null,
+          "output": 10.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [],
+        "features": {},
+        "tools": {},
+        "reasoning_efforts": []
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
       ]
     },
     {
@@ -44,7 +70,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
+      "last_seen_at": "2026-10-02T11:36:55Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -53,12 +79,16 @@
         "https://developers.openai.com/api/docs/models"
       ],
       "source_hashes": {
-        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "RuntimeError: unexpected redirect to https://developers.openai.com/api/docs/models/gpt-5.6-sol",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
       ]
     },
     {
@@ -71,7 +101,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
+      "last_seen_at": "2026-10-02T11:36:55Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -80,12 +110,16 @@
         "https://developers.openai.com/api/docs/models"
       ],
       "source_hashes": {
-        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
       ]
     },
     {
@@ -93,12 +127,12 @@
       "model_key": "gpt-6-astra",
       "display_name": "gpt-6-astra",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
+      "last_seen_at": "2026-10-02T11:36:55Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -107,12 +141,44 @@
         "https://developers.openai.com/api/docs/models"
       ],
       "source_hashes": {
-        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
-      "facts": {},
+      "semantic_verified_at": "2026-10-02T11:36:55Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "semantic_hash": "67c5e15e544f9bfce7f6241c362411bdf7760abded862c4d98baa435a635304c",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+        "context_window_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-04-30",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 10.0,
+          "cached_input": 1.0,
+          "cache_writes": 12.5,
+          "output": 50.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [],
+        "features": {},
+        "tools": {},
+        "reasoning_efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
       ]
     },
     {
@@ -120,12 +186,12 @@
       "model_key": "gpt-6-luna",
       "display_name": "gpt-6-luna",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
+      "last_seen_at": "2026-10-02T11:36:55Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -134,12 +200,45 @@
         "https://developers.openai.com/api/docs/models"
       ],
       "source_hashes": {
-        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
-      "facts": {},
+      "semantic_verified_at": "2026-10-02T11:36:55Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "semantic_hash": "852d2a6c995afb9be26b34ff70e7ba09415f35b254fed05aa13d2dc724e77454",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+        "context_window_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-05-18",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.1,
+          "cached_input": 0.01,
+          "cache_writes": 0.125,
+          "output": 0.5
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [],
+        "features": {},
+        "tools": {},
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
       ]
     },
     {
@@ -152,7 +251,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
+      "last_seen_at": "2026-10-02T11:36:55Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -161,12 +260,16 @@
         "https://developers.openai.com/api/docs/models"
       ],
       "source_hashes": {
-        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
       ]
     },
     {
@@ -174,12 +277,12 @@
       "model_key": "gpt-6.1-sol",
       "display_name": "gpt-6.1-sol",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
+      "last_seen_at": "2026-10-02T11:36:55Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -188,12 +291,44 @@
         "https://developers.openai.com/api/docs/models"
       ],
       "source_hashes": {
-        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
-      "facts": {},
+      "semantic_verified_at": "2026-10-02T11:36:55Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "semantic_hash": "ad647937a3cd0f5e1ebbb0b771686aedfc243d2526a46216304f0484b6a4c426",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+        "context_window_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2026-04-30",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 2.0,
+          "cached_input": 0.1,
+          "cache_writes": 2.5,
+          "output": 10.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [],
+        "features": {},
+        "tools": {},
+        "reasoning_efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
       ]
     }
   ]
