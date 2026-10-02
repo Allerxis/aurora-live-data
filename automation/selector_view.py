@@ -189,6 +189,7 @@ def build_selector(
                     "verification_state": verification,
                     "semantic_verified_at": model.get("semantic_verified_at"),
                     "semantic_source_url": model.get("semantic_source_url"),
+                    "semantic_hash": model.get("semantic_hash"),
                     "lifecycle_status": model.get("lifecycle_status"),
                     "usage_state": usage_state,
                     "default_policy": default_policy,
