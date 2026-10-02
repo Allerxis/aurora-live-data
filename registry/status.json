@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.12.0",
+  "schema_version": "0.13.0",
   "service": "Aurora Live Data",
-  "generated_at": "2026-10-02T14:36:42Z",
+  "generated_at": "2026-10-02T14:52:00Z",
   "healthy": true,
   "sources_total": 21,
   "sources_reachable": 21,
@@ -35,5 +35,10 @@
   "guidance_unverified": 0,
   "eval_criteria": 16,
   "eval_test_case_templates": 5,
-  "eval_spec_hash": "34763d835c712846c5a367135d85e5480f4cc5c0f423fe5b2429157f731b7ee6"
+  "eval_spec_hash": "34763d835c712846c5a367135d85e5480f4cc5c0f423fe5b2429157f731b7ee6",
+  "benchmark_suite_gate": "pass",
+  "benchmark_cases": 17,
+  "benchmark_matched": 17,
+  "benchmark_mismatched": 0,
+  "benchmark_corpus_hash": "d12315748963034a8178ebd028fb8e64b8de8c63dc6c45bfd9de433d891ed102"
 }

@@ -1,0 +1,334 @@
+{
+  "schema_version": "1.0.0",
+  "suite_gate": "pass",
+  "corpus_schema_version": "1.0.0",
+  "corpus_hash": "d12315748963034a8178ebd028fb8e64b8de8c63dc6c45bfd9de433d891ed102",
+  "summary": {
+    "total": 17,
+    "matched": 17,
+    "mismatched": 0
+  },
+  "categories": {
+    "nominal": {
+      "total": 1,
+      "matched": 1,
+      "mismatched": 0
+    },
+    "safety": {
+      "total": 2,
+      "matched": 2,
+      "mismatched": 0
+    },
+    "quality": {
+      "total": 1,
+      "matched": 1,
+      "mismatched": 0
+    },
+    "contract": {
+      "total": 2,
+      "matched": 2,
+      "mismatched": 0
+    },
+    "model_compatibility": {
+      "total": 4,
+      "matched": 4,
+      "mismatched": 0
+    },
+    "tools": {
+      "total": 1,
+      "matched": 1,
+      "mismatched": 0
+    },
+    "security": {
+      "total": 1,
+      "matched": 1,
+      "mismatched": 0
+    },
+    "semantic": {
+      "total": 2,
+      "matched": 2,
+      "mismatched": 0
+    },
+    "lifecycle": {
+      "total": 1,
+      "matched": 1,
+      "mismatched": 0
+    },
+    "freshness": {
+      "total": 1,
+      "matched": 1,
+      "mismatched": 0
+    },
+    "guidance": {
+      "total": 1,
+      "matched": 1,
+      "mismatched": 0
+    }
+  },
+  "cases": [
+    {
+      "id": "nominal_pass",
+      "category": "nominal",
+      "matched": true,
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "expected_criteria": {
+        "safety.private_chain_of_thought": "pass",
+        "model.verified_target": "pass",
+        "model.lifecycle_policy": "pass",
+        "model.context_budget": "pass",
+        "model.output_budget": "pass",
+        "model.required_capabilities": "pass",
+        "guidance.provider_alignment": "pass"
+      },
+      "actual_criteria": {
+        "safety.private_chain_of_thought": "pass",
+        "model.verified_target": "pass",
+        "model.lifecycle_policy": "pass",
+        "model.context_budget": "pass",
+        "model.output_budget": "pass",
+        "model.required_capabilities": "pass",
+        "guidance.provider_alignment": "pass"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "negated_private_reasoning_pass",
+      "category": "safety",
+      "matched": true,
+      "expected_gate": "pass",
+      "actual_gate": "pass",
+      "expected_criteria": {
+        "safety.private_chain_of_thought": "pass"
+      },
+      "actual_criteria": {
+        "safety.private_chain_of_thought": "pass"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "private_reasoning_request_fails",
+      "category": "safety",
+      "matched": true,
+      "expected_gate": "fail",
+      "actual_gate": "fail",
+      "expected_criteria": {
+        "safety.private_chain_of_thought": "fail"
+      },
+      "actual_criteria": {
+        "safety.private_chain_of_thought": "fail"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "unresolved_marker_fails",
+      "category": "quality",
+      "matched": true,
+      "expected_gate": "fail",
+      "actual_gate": "fail",
+      "expected_criteria": {
+        "quality.unresolved_markers": "fail"
+      },
+      "actual_criteria": {
+        "quality.unresolved_markers": "fail"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "undeclared_variable_fails",
+      "category": "contract",
+      "matched": true,
+      "expected_gate": "fail",
+      "actual_gate": "fail",
+      "expected_criteria": {
+        "contract.variable_integrity": "fail"
+      },
+      "actual_criteria": {
+        "contract.variable_integrity": "fail"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "context_overflow_fails",
+      "category": "model_compatibility",
+      "matched": true,
+      "expected_gate": "fail",
+      "actual_gate": "fail",
+      "expected_criteria": {
+        "model.context_budget": "fail"
+      },
+      "actual_criteria": {
+        "model.context_budget": "fail"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "output_overflow_fails",
+      "category": "model_compatibility",
+      "matched": true,
+      "expected_gate": "fail",
+      "actual_gate": "fail",
+      "expected_criteria": {
+        "model.output_budget": "fail"
+      },
+      "actual_criteria": {
+        "model.output_budget": "fail"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "unsupported_capability_fails",
+      "category": "model_compatibility",
+      "matched": true,
+      "expected_gate": "fail",
+      "actual_gate": "fail",
+      "expected_criteria": {
+        "model.required_capabilities": "fail"
+      },
+      "actual_criteria": {
+        "model.required_capabilities": "fail"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "unknown_capability_needs_review",
+      "category": "model_compatibility",
+      "matched": true,
+      "expected_gate": "needs_review",
+      "actual_gate": "needs_review",
+      "expected_criteria": {
+        "model.required_capabilities": "needs_review"
+      },
+      "actual_criteria": {
+        "model.required_capabilities": "needs_review"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "missing_tool_policy_fails",
+      "category": "tools",
+      "matched": true,
+      "expected_gate": "fail",
+      "actual_gate": "fail",
+      "expected_criteria": {
+        "tools.policy": "fail"
+      },
+      "actual_criteria": {
+        "tools.policy": "fail"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "untrusted_data_without_boundary_fails",
+      "category": "security",
+      "matched": true,
+      "expected_gate": "fail",
+      "actual_gate": "fail",
+      "expected_criteria": {
+        "security.untrusted_data_boundary": "fail"
+      },
+      "actual_criteria": {
+        "security.untrusted_data_boundary": "fail"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "missing_output_contract_fails",
+      "category": "contract",
+      "matched": true,
+      "expected_gate": "fail",
+      "actual_gate": "fail",
+      "expected_criteria": {
+        "contract.output_contract": "fail"
+      },
+      "actual_criteria": {
+        "contract.output_contract": "fail"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "missing_semantic_review_needs_review",
+      "category": "semantic",
+      "matched": true,
+      "expected_gate": "needs_review",
+      "actual_gate": "needs_review",
+      "expected_criteria": {
+        "semantic.objective_clarity": "needs_review",
+        "semantic.constraint_consistency": "needs_review",
+        "semantic.intent_preservation": "needs_review",
+        "semantic.ambiguity": "needs_review"
+      },
+      "actual_criteria": {
+        "semantic.objective_clarity": "needs_review",
+        "semantic.constraint_consistency": "needs_review",
+        "semantic.intent_preservation": "needs_review",
+        "semantic.ambiguity": "needs_review"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "material_ambiguity_needs_review",
+      "category": "semantic",
+      "matched": true,
+      "expected_gate": "needs_review",
+      "actual_gate": "needs_review",
+      "expected_criteria": {
+        "semantic.ambiguity": "needs_review"
+      },
+      "actual_criteria": {
+        "semantic.ambiguity": "needs_review"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "retired_model_fails",
+      "category": "lifecycle",
+      "matched": true,
+      "expected_gate": "fail",
+      "actual_gate": "fail",
+      "expected_criteria": {
+        "model.verified_target": "pass",
+        "model.lifecycle_policy": "fail"
+      },
+      "actual_criteria": {
+        "model.verified_target": "pass",
+        "model.lifecycle_policy": "fail"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "stale_model_fails_closed",
+      "category": "freshness",
+      "matched": true,
+      "expected_gate": "fail",
+      "actual_gate": "fail",
+      "expected_criteria": {
+        "model.verified_target": "needs_review",
+        "model.lifecycle_policy": "fail"
+      },
+      "actual_criteria": {
+        "model.verified_target": "needs_review",
+        "model.lifecycle_policy": "fail"
+      },
+      "mismatches": []
+    },
+    {
+      "id": "stale_provider_guidance_needs_review",
+      "category": "guidance",
+      "matched": true,
+      "expected_gate": "needs_review",
+      "actual_gate": "needs_review",
+      "expected_criteria": {
+        "model.verified_target": "pass",
+        "model.lifecycle_policy": "pass",
+        "guidance.provider_alignment": "needs_review"
+      },
+      "actual_criteria": {
+        "model.verified_target": "pass",
+        "model.lifecycle_policy": "pass",
+        "guidance.provider_alignment": "needs_review"
+      },
+      "mismatches": []
+    }
+  ]
+}
