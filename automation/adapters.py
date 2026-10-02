@@ -35,11 +35,16 @@ def discover_openai(text: str) -> list[Candidate]:
     return _unique(Candidate(x.lower(), x.lower()) for x in raw)
 
 def discover_anthropic(text: str) -> list[Candidate]:
-    # Claude API model families. Excludes product/docs tokens such as claude-code and claude-api.
-    raw = _tokens(
-        text,
-        r"\bclaude-(?:opus|sonnet|haiku|fable|mythos)-\d+(?:-\d+)?(?:-\d{8})?\b",
-    )
+    # Claude API model IDs across current and legacy naming schemes.
+    # Excludes product/docs tokens such as claude-code and claude-api.
+    patterns = [
+        r"\bclaude-(?:opus|sonnet|haiku|fable|mythos)-(?:\d+(?:-\d+)?(?:-\d{8})?|preview)\b",
+        r"\bclaude-\d+(?:-\d+)?-(?:opus|sonnet|haiku)(?:-\d{8})?\b",
+        r"\bclaude-2(?:\.0|\.1)\b",
+    ]
+    raw = []
+    for pattern in patterns:
+        raw.extend(_tokens(text, pattern))
     return _unique(Candidate(x.lower(), x.lower()) for x in raw)
 
 def discover_google(text: str) -> list[Candidate]:
