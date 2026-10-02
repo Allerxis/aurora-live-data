@@ -181,11 +181,15 @@ def parse_anthropic_model_page(
         "Comparative latency",
         r"(?:Fastest|Fast|Moderate|Slower)",
     )
-    io = _extract_after_label(
+    io = None
+    io_match = re.search(
+        r"Input\s*→\s*output\s+(.+?)\s+"
+        r"(?:Reliable knowledge cutoff|Training data cutoff|Availability|Status)",
         text,
-        "Input → output",
-        r"[A-Za-z ]+→[A-Za-z ]+",
+        re.I | re.S,
     )
+    if io_match:
+        io = re.sub(r"\s+", " ", io_match.group(1)).strip()
 
     reliable_cutoff = _extract_after_label(
         text,
