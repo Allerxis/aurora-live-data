@@ -22,6 +22,7 @@ from guidance_view import build_guidance
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
 GUIDANCE_RULES_FILE = ROOT / "automation" / "guidance_rules.json"
+EVAL_SPEC_FILE = ROOT / "automation" / "eval_spec.json"
 REGISTRY_DIR = ROOT / "registry"
 MODELS_DIR = REGISTRY_DIR / "models"
 SOURCES_OUT = REGISTRY_DIR / "sources.json"
@@ -30,7 +31,8 @@ CHANGES_OUT = REGISTRY_DIR / "changes.json"
 CATALOG_OUT = REGISTRY_DIR / "catalog.json"
 SELECTOR_OUT = REGISTRY_DIR / "selector.json"
 GUIDANCE_OUT = REGISTRY_DIR / "guidance.json"
-SCHEMA_VERSION = "0.11.0"
+EVALS_OUT = REGISTRY_DIR / "evals.json"
+SCHEMA_VERSION = "0.12.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -67,7 +69,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.11 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.12 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
@@ -1015,6 +1017,15 @@ def main():
     )
     write_json(GUIDANCE_OUT, guidance_document)
 
+    eval_spec_document = read_json(
+        EVAL_SPEC_FILE,
+        {"criteria": [], "test_case_templates": []},
+    )
+    eval_document = dict(eval_spec_document)
+    eval_document["generated_at"] = generated_at
+    eval_document["spec_hash"] = stable_hash(eval_spec_document)
+    write_json(EVALS_OUT, eval_document)
+
     changes = changes[:MAX_CHANGE_HISTORY]
 
     write_json(
@@ -1087,6 +1098,9 @@ def main():
             "guidance_verified": guidance_document["counts"]["verified"],
             "guidance_stale": guidance_document["counts"]["stale"],
             "guidance_unverified": guidance_document["counts"]["unverified"],
+            "eval_criteria": len(eval_document.get("criteria", [])),
+            "eval_test_case_templates": len(eval_document.get("test_case_templates", [])),
+            "eval_spec_hash": eval_document.get("spec_hash"),
         },
     )
 
