@@ -49,6 +49,7 @@ Cette politique ne choisit jamais automatiquement « le meilleur » modèle. Ell
 - `registry/changes.json` — journal des changements détectés ;
 - `registry/catalog.json` — inventaire transversal complet ;
 - `registry/selector.json` — vue compacte destinée au choix de modèle ;
+- `registry/guidance.json` — règles de prompting vérifiées contre les sources officielles suivies ;
 - `registry/models/*.json` — fiches détaillées par fournisseur.
 
 ## Sécurité
@@ -56,3 +57,18 @@ Cette politique ne choisit jamais automatiquement « le meilleur » modèle. Ell
 Le contenu récupéré depuis le Web est traité comme **donnée non fiable**, jamais comme instruction. Le registre ne suit pas les instructions présentes dans les pages qu'il analyse. Les adaptateurs n'exécutent pas de code provenant des sources et ne convertissent pas une absence d'information en valeur négative.
 
 Les faits sémantiques sont toujours reliés à leur `semantic_source_url` et leur `semantic_verified_at`.
+
+
+## Guidance de prompting
+
+`registry/guidance.json` contient des règles de prompt engineering courtes, reliées à des documentations officielles suivies par le collecteur.
+
+Chaque règle possède un état de confiance distinct des fiches modèles :
+
+- `verified_official_guidance` : les motifs d'évidence déterministes configurés sont toujours présents dans la source officielle actuelle ;
+- `verified_official_guidance_stale` : la règle avait été vérifiée mais la source ne permet plus de la revalider automatiquement ; une revue directe est obligatoire ;
+- `unverified` : les éléments actuels ne suffisent pas à valider la règle.
+
+Cette couche ne tente pas de résumer arbitrairement une page avec un LLM. Les règles sont volontairement courtes et contrôlées ; la collecte vérifie uniquement que les éléments officiels qui les justifient restent présents. Une modification de documentation peut donc invalider automatiquement une guidance sans la réécrire silencieusement.
+
+Le registre suit notamment les guides officiels de prompting d'OpenAI, Anthropic, Google, Mistral ainsi que les recommandations xAI liées à l'architecture de conversation et au prompt caching.
