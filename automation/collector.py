@@ -12,6 +12,7 @@ from pathlib import Path
 from adapters import discover
 from openai_semantic import parse_openai_model_page
 from anthropic_semantic import detail_slug_candidates, parse_anthropic_model_page, parse_anthropic_lifecycle_page
+from google_semantic import parse_google_model_page, parse_google_lifecycle_page
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
@@ -21,7 +22,7 @@ SOURCES_OUT = REGISTRY_DIR / "sources.json"
 STATUS_OUT = REGISTRY_DIR / "status.json"
 CHANGES_OUT = REGISTRY_DIR / "changes.json"
 CATALOG_OUT = REGISTRY_DIR / "catalog.json"
-SCHEMA_VERSION = "0.4.0"
+SCHEMA_VERSION = "0.5.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -58,7 +59,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.4 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.5 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
@@ -241,6 +242,57 @@ def verify_anthropic_candidates(candidates: dict, generated_at: str):
     return verified, failures
 
 
+def verify_google_candidates(candidates: dict, generated_at: str):
+    verified = {}
+    failures = {}
+
+    for model_id, candidate in sorted(candidates.items()):
+        # Semantic detail pages are only attempted for models seen on Google's
+        # main model catalog. Deprecation-only IDs still receive lifecycle data.
+        if "google-models" not in candidate.get("source_keys", []):
+            continue
+
+        detail_url = f"https://ai.google.dev/gemini-api/docs/models/{model_id}"
+        try:
+            result = fetch(detail_url)
+            final_url = result["final_url"]
+
+            if "/gemini-api/docs/models/" not in final_url:
+                raise RuntimeError(
+                    f"unexpected redirect to {result['final_url']}"
+                )
+
+            normalized = normalize_html(result["body"])
+            text = normalized.decode("utf-8", errors="replace")
+            facts = parse_google_model_page(
+                model_id=model_id,
+                text=text,
+                source_url=result["final_url"],
+            )
+            if not facts:
+                raise RuntimeError(
+                    "detail page did not expose required deterministic fields"
+                )
+
+            semantic_hash = stable_hash(facts)
+            verified[model_id] = {
+                "facts": facts,
+                "semantic_hash": semantic_hash,
+                "semantic_verified_at": generated_at,
+                "semantic_source_url": result["final_url"],
+            }
+            print(
+                f"[semantic-ok] google:{model_id}: "
+                f"input_limit={facts.get('input_token_limit')}, "
+                f"output_limit={facts.get('output_token_limit')}"
+            )
+        except Exception as exc:
+            failures[model_id] = f"{type(exc).__name__}: {exc}"
+            print(f"[semantic-error] google:{model_id}: {exc}")
+
+    return verified, failures
+
+
 def main():
     now = utcnow()
     generated_at = iso(now)
@@ -408,6 +460,18 @@ def main():
             lifecycle_source["final_url"],
         )
 
+    google_verified, google_semantic_failures = verify_google_candidates(
+        discovered.get("google", {}),
+        generated_at,
+    )
+    google_lifecycle = {}
+    google_lifecycle_source = source_texts.get("google-deprecations")
+    if google_lifecycle_source:
+        google_lifecycle = parse_google_lifecycle_page(
+            google_lifecycle_source["text"],
+            google_lifecycle_source["final_url"],
+        )
+
     all_catalog_models = []
     present_total = 0
     retained_missing_total = 0
@@ -438,6 +502,9 @@ def main():
             elif provider == "anthropic":
                 semantic = anthropic_verified.get(model_key)
                 semantic_failure = anthropic_semantic_failures.get(model_key)
+            elif provider == "google":
+                semantic = google_verified.get(model_key)
+                semantic_failure = google_semantic_failures.get(model_key)
             else:
                 semantic = None
                 semantic_failure = None
@@ -462,6 +529,7 @@ def main():
                 provider_label = {
                     "openai": "OpenAI",
                     "anthropic": "Anthropic",
+                    "google": "Google",
                 }.get(provider, provider)
 
                 if not old_semantic_hash:
@@ -495,7 +563,7 @@ def main():
                         ),
                     )
 
-            elif provider in ("openai", "anthropic"):
+            elif provider in ("openai", "anthropic", "google"):
                 semantic_error = semantic_failure
                 if verification_state == "verified_official_detail":
                     verification_state = "verified_official_detail_stale"
@@ -505,6 +573,14 @@ def main():
                 lifecycle = anthropic_lifecycle.get(model_key)
                 if lifecycle:
                     lifecycle_status = lifecycle.get("status") or lifecycle_status
+            elif provider == "google":
+                lifecycle = google_lifecycle.get(model_key)
+                if lifecycle:
+                    lifecycle_status = (
+                        "shutdown_announced"
+                        if lifecycle.get("shutdown_announced")
+                        else "no_shutdown_announced"
+                    )
 
             model = {
                 "provider_slug": provider,
@@ -680,6 +756,8 @@ def main():
             "openai_semantic_failures": len(openai_semantic_failures),
             "anthropic_semantic_failures": len(anthropic_semantic_failures),
             "anthropic_lifecycle_rows": len(anthropic_lifecycle),
+            "google_semantic_failures": len(google_semantic_failures),
+            "google_lifecycle_rows": len(google_lifecycle),
         },
     )
 
