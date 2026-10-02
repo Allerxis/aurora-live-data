@@ -1,7 +1,57 @@
 {
   "schema_version": "0.3.0",
-  "generated_at": "2026-10-02T11:37:27Z",
+  "generated_at": "2026-10-02T11:38:09Z",
   "changes": [
+    {
+      "observed_at": "2026-10-02T11:38:09Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-6.1-sol",
+      "change_type": "semantic_changed",
+      "previous_hash": "ad647937a3cd0f5e1ebbb0b771686aedfc243d2526a46216304f0484b6a4c426",
+      "new_hash": "34bffc19500033a69ef2caf13f82fab56f333702fb9f0893d13725b4cfc49cfb",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "summary": "Verified semantic facts changed on the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:38:09Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-6-luna",
+      "change_type": "semantic_changed",
+      "previous_hash": "852d2a6c995afb9be26b34ff70e7ba09415f35b254fed05aa13d2dc724e77454",
+      "new_hash": "5e0cba6586ce3545a6b040e33659b86893e9b40700d2f2bfd2a6f27e2c279304",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "summary": "Verified semantic facts changed on the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:38:09Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-6-astra",
+      "change_type": "semantic_changed",
+      "previous_hash": "67c5e15e544f9bfce7f6241c362411bdf7760abded862c4d98baa435a635304c",
+      "new_hash": "64d8c49edf133d583214e31dbbab62dff9c774cb8a2671fa0706df61871f8ba4",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "summary": "Verified semantic facts changed on the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:38:09Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-4o",
+      "change_type": "semantic_changed",
+      "previous_hash": "e8489d614470ebb56bf03bcd48faa54a2750a4fe4e190fff92b62c8d665c8dde",
+      "new_hash": "bb6f6aa4709138157254d69f394b670c6140b27187004faa05a207ff498f8ff8",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4o",
+      "summary": "Verified semantic facts changed on the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:38:09Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "32379c6e22a181e2662ad42006e08ae192b2391a103e0748c555581c240b434d",
+      "new_hash": "118dd11a458ece568889e02f37f36dc14461d0e05eeece5f34b5091cd19c4f9b",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-02T11:37:27Z",
       "entity_type": "source",
