@@ -15,6 +15,7 @@ from anthropic_semantic import detail_slug_candidates, parse_anthropic_model_pag
 from google_semantic import parse_google_model_page, parse_google_lifecycle_page
 from xai_semantic import parse_xai_model_page, parse_xai_knowledge_cutoffs, parse_xai_pricing_page, parse_xai_retirement_page
 from mistral_semantic import extract_mistral_detail_urls, parse_mistral_model_page, parse_mistral_pricing_page
+from meta_semantic import parse_llama4_model_card
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
@@ -24,7 +25,7 @@ SOURCES_OUT = REGISTRY_DIR / "sources.json"
 STATUS_OUT = REGISTRY_DIR / "status.json"
 CHANGES_OUT = REGISTRY_DIR / "changes.json"
 CATALOG_OUT = REGISTRY_DIR / "catalog.json"
-SCHEMA_VERSION = "0.9.0"
+SCHEMA_VERSION = "0.10.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -61,7 +62,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.9 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.10 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
@@ -693,6 +694,42 @@ def main():
         source_texts.get("mistral-models", {}).get("content_hash"),
     )
 
+    meta_verified = {}
+    meta_semantic_failures = {}
+    meta_card_source = source_texts.get("meta-llama4-model-card")
+    if meta_card_source:
+        meta_facts = parse_llama4_model_card(
+            meta_card_source.get("raw_html", ""),
+            meta_card_source["final_url"],
+        )
+        for model_key, facts in meta_facts.items():
+            discovered.setdefault("meta", {}).setdefault(
+                model_key,
+                {
+                    "model_key": model_key,
+                    "display_name": facts.get("display_name", model_key),
+                    "kind": "model",
+                    "source_keys": ["meta-llama4-model-card"],
+                    "source_urls": [meta_card_source["final_url"]],
+                    "source_hashes": {
+                        "meta-llama4-model-card": meta_card_source.get("content_hash")
+                    },
+                },
+            )
+            semantic_hash = stable_hash(facts)
+            meta_verified[model_key] = {
+                "facts": facts,
+                "semantic_hash": semantic_hash,
+                "semantic_verified_at": generated_at,
+                "semantic_source_url": meta_card_source["final_url"],
+            }
+
+    for model_key in sorted(discovered.get("meta", {})):
+        if model_key not in meta_verified:
+            meta_semantic_failures[model_key] = (
+                "No matching structured record in the official Meta model card"
+            )
+
     all_catalog_models = []
     present_total = 0
     retained_missing_total = 0
@@ -732,6 +769,9 @@ def main():
             elif provider == "mistral":
                 semantic = mistral_verified.get(model_key)
                 semantic_failure = mistral_semantic_failures.get(model_key)
+            elif provider == "meta":
+                semantic = meta_verified.get(model_key)
+                semantic_failure = meta_semantic_failures.get(model_key)
             else:
                 semantic = None
                 semantic_failure = None
@@ -759,6 +799,7 @@ def main():
                     "google": "Google",
                     "xai": "xAI",
                     "mistral": "Mistral",
+                    "meta": "Meta",
                 }.get(provider, provider)
 
                 if not old_semantic_hash:
@@ -792,7 +833,7 @@ def main():
                         ),
                     )
 
-            elif provider in ("openai", "anthropic", "google", "xai", "mistral"):
+            elif provider in ("openai", "anthropic", "google", "xai", "mistral", "meta"):
                 semantic_error = semantic_failure
                 if verification_state == "verified_official_detail":
                     verification_state = "verified_official_detail_stale"
@@ -1003,6 +1044,8 @@ def main():
             "mistral_detail_pages": len(mistral_detail_urls),
             "mistral_pricing_rows": len(mistral_pricing),
             "mistral_semantic_failures": len(mistral_semantic_failures),
+            "meta_semantic_failures": len(meta_semantic_failures),
+            "meta_semantic_verified": len(meta_verified),
         },
     )
 
