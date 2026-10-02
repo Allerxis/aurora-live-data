@@ -16,6 +16,7 @@ from google_semantic import parse_google_model_page, parse_google_lifecycle_page
 from xai_semantic import parse_xai_model_page, parse_xai_knowledge_cutoffs, parse_xai_pricing_page, parse_xai_retirement_page
 from mistral_semantic import extract_mistral_detail_urls, parse_mistral_model_page, parse_mistral_pricing_page
 from meta_semantic import parse_llama4_model_card
+from selector_view import build_selector
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
@@ -25,6 +26,7 @@ SOURCES_OUT = REGISTRY_DIR / "sources.json"
 STATUS_OUT = REGISTRY_DIR / "status.json"
 CHANGES_OUT = REGISTRY_DIR / "changes.json"
 CATALOG_OUT = REGISTRY_DIR / "catalog.json"
+SELECTOR_OUT = REGISTRY_DIR / "selector.json"
 SCHEMA_VERSION = "0.10.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
@@ -984,6 +986,16 @@ def main():
         )
     )
 
+    provider_documents = {
+        provider: read_json(MODELS_DIR / f"{provider}.json", {"models": []})
+        for provider in PROVIDERS
+    }
+    selector_document = build_selector(
+        provider_documents=provider_documents,
+        generated_at=generated_at,
+    )
+    write_json(SELECTOR_OUT, selector_document)
+
     changes = changes[:MAX_CHANGE_HISTORY]
 
     write_json(
@@ -1046,6 +1058,12 @@ def main():
             "mistral_semantic_failures": len(mistral_semantic_failures),
             "meta_semantic_failures": len(meta_semantic_failures),
             "meta_semantic_verified": len(meta_verified),
+            "selector_records": selector_document["counts"]["total"],
+            "selector_default_include": selector_document["counts"]["include"],
+            "selector_include_with_warning": selector_document["counts"]["include_with_warning"],
+            "selector_specialized": selector_document["counts"]["specialized"],
+            "selector_excluded": selector_document["counts"]["exclude"],
+            "selector_stale": selector_document["counts"]["stale"],
         },
     )
 
