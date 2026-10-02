@@ -57,6 +57,7 @@ Cette politique ne choisit jamais automatiquement « le meilleur » modèle. Ell
 - `registry/traceability.json` — schéma public du manifeste de validation et politique de confidentialité associée ;
 - `registry/comparison.json` — politique déterministe de comparaison entre deux manifestes de validation ;
 - `registry/replay.json` — politique de replay permettant d'évaluer si une ancienne validation doit être rejouée totalement ou seulement sur certains contrôles ;
+- `registry/migration.json` — politique conservatrice de migration d'un prompt depuis un modèle obsolète ou remplacé vers une cible actuelle vérifiée ;
 - `registry/models/*.json` — fiches détaillées par fournisseur.
 
 ## Sécurité
@@ -227,3 +228,26 @@ Le replay peut aboutir à :
 Un changement du corpus de benchmark seul n'invalide pas un prompt si le benchmark actuel passe toujours. De même, une modification de la politique de traçabilité seule ne déclenche pas une revalidation du contenu.
 
 Lorsque le texte du prompt n'est pas disponible, Aurora peut identifier précisément les contrôles à rejouer mais ne doit jamais fabriquer leur nouveau résultat.
+
+
+## Migration automatique des prompts
+
+`registry/migration.json` décrit la politique utilisée par Aurora lorsqu'un prompt cible un modèle deprecated, retired, stale, absent du selector courant, ou lorsqu'une migration est explicitement demandée.
+
+La migration est séparée en deux étapes :
+
+1. **Plan déterministe** : Aurora identifie les contraintes connues du prompt et filtre les modèles actuellement vérifiés par contexte, sortie maximale, capacités, modalités et contraintes tarifaires explicites.
+2. **Adaptation sémantique** : une fois une cible établie, Aurora adapte le prompt avec la guidance actuelle du fournisseur, puis relance le runtime acceptance et génère un nouveau manifeste.
+
+La sélection automatique est volontairement restrictive. Aurora ne choisit une cible que lorsqu'un remplacement documenté et compatible existe, ou lorsqu'un seul candidat éligible subsiste après les filtres durs. Si plusieurs modèles restent compatibles, si une capacité importante est inconnue ou si les exigences du prompt sont incomplètes, le statut devient `needs_review`.
+
+La migration privilégie le même fournisseur. Un passage inter-fournisseurs exige soit une demande de l'utilisateur, soit une validation explicite lorsqu'aucune cible compatible du fournisseur courant n'est disponible. Les modèles `exclude` et `stale` ne sont jamais proposés ; les modèles `specialized` ne sont admissibles que si leur mode de déploiement correspond explicitement au besoin.
+
+Aucun score global opaque n'est utilisé pour choisir « le meilleur » modèle. Les filtres sont factuels et les cas ambigus restent visibles.
+
+Après migration, Aurora doit :
+- conserver le prompt original par défaut ;
+- exécuter l'opération `adapt` ;
+- appliquer le runtime acceptance ;
+- générer un nouveau validation manifest ;
+- comparer l'ancien et le nouveau manifeste afin de rendre visibles les changements de cible, guidance et gate.
