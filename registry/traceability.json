@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-02T15:38:48Z",
+  "ready": true,
+  "policy_hash": "c378988845d8ca5fc0a4dc8f37631c38bfa4dba9625ac065930c6abc84ed9190",
+  "privacy": {
+    "persistence_default": "none",
+    "public_registry_contains_user_manifests": false,
+    "prompt_content_allowed_in_manifest": false,
+    "user_input_content_allowed_in_manifest": false,
+    "tool_output_content_allowed_in_manifest": false,
+    "secrets_allowed_in_manifest": false,
+    "prompt_fingerprint": {
+      "default": "disabled",
+      "algorithm_if_enabled": "sha256",
+      "scope": "local_manifest_only",
+      "warning": "A content hash can still be correlated when an attacker already knows or guesses the candidate content. Do not publish it automatically."
+    }
+  },
+  "manifest_schema": {
+    "required_fields": [
+      "schema_version",
+      "manifest_id",
+      "aurora_version",
+      "live_data_version",
+      "validated_at",
+      "operation",
+      "target",
+      "dependencies",
+      "contracts_applied",
+      "guidance_applied",
+      "release",
+      "repair_passes",
+      "unresolved",
+      "privacy"
+    ],
+    "operation_values": [
+      "create",
+      "optimize",
+      "adapt",
+      "agentic",
+      "multimodal",
+      "audit",
+      "evaluate"
+    ],
+    "gate_values": [
+      "PASS",
+      "NEEDS_REVIEW",
+      "FAIL"
+    ],
+    "target_fields": [
+      "provider_slug",
+      "model_key",
+      "verification_state",
+      "semantic_verified_at"
+    ],
+    "dependency_fields": [
+      "eval_spec_hash",
+      "golden_suite_hash",
+      "runtime_policy_hash",
+      "benchmark_corpus_hash",
+      "traceability_policy_hash"
+    ],
+    "release_fields": [
+      "eval_release_gate",
+      "golden_release_gate",
+      "final_release_gate"
+    ]
+  },
+  "provenance": {
+    "include_model_source_when_available": true,
+    "include_guidance_ids": true,
+    "include_guidance_source_hashes_when_available": true,
+    "include_contract_ids": true,
+    "include_validation_dependency_hashes": true,
+    "include_registry_generated_at": true
+  },
+  "behavior": {
+    "generate_for_substantive_runtime_acceptance": true,
+    "compact_user_display_default": true,
+    "detailed_manifest_on_request": true,
+    "never_upgrade_gate_due_to_missing_traceability": true,
+    "if_dependencies_mismatch": "NEEDS_REVIEW"
+  },
+  "example_manifest": {
+    "schema_version": "1.0.0",
+    "manifest_id": "vm_example_001",
+    "aurora_version": "0.50.0",
+    "live_data_version": "0.16.0",
+    "validated_at": "2026-10-02T00:00:00Z",
+    "operation": "adapt",
+    "target": {
+      "provider_slug": "openai",
+      "model_key": "example-model",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T00:00:00Z"
+    },
+    "dependencies": {
+      "eval_spec_hash": "example",
+      "golden_suite_hash": "example",
+      "runtime_policy_hash": "example",
+      "benchmark_corpus_hash": "example",
+      "traceability_policy_hash": "example"
+    },
+    "contracts_applied": [
+      "adapt.cross_provider"
+    ],
+    "guidance_applied": [],
+    "release": {
+      "eval_release_gate": "PASS",
+      "golden_release_gate": "PASS",
+      "final_release_gate": "PASS"
+    },
+    "repair_passes": 0,
+    "unresolved": [],
+    "privacy": {
+      "prompt_content_included": false,
+      "persisted": false,
+      "prompt_fingerprint_included": false
+    }
+  }
+}
