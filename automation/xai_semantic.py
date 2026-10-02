@@ -300,8 +300,8 @@ def parse_xai_pricing_page(
     money_pat = r"\$([0-9]+(?:\.[0-9]+)?)"
 
     long_pattern = re.compile(
-        rf"(?P<model>{model_pat})"
-        rf"(?:Long context\s*[≥>=]+\s*(?P<threshold>{context_pat})\s*tokens)?\s*"
+        rf"(?P<model>{model_pat})\s+"
+        rf"(?:Long context\s*[≥>=]+\s*(?P<threshold>{context_pat})\s*tokens\s+)?"
         rf"(?P<context>{context_pat})\s+"
         rf"{money_pat}\s+{money_pat}\s+{money_pat}\s+"
         rf"{money_pat}\s+{money_pat}\s+{money_pat}",
