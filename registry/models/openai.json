@@ -1,10 +1,200 @@
 {
   "schema_version": "0.2.0",
   "provider": "openai",
-  "generated_at": "2026-10-02T11:26:55Z",
+  "generated_at": "2026-10-02T11:28:53Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic adapter found this candidate during the current refresh. It does not prove API availability or product availability.",
     "verification_state": "Only records explicitly marked verified may be used as authoritative semantic model facts."
   },
-  "models": []
+  "models": [
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-4o",
+      "display_name": "gpt-4o",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models"
+      ],
+      "source_hashes": {
+        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.6",
+      "display_name": "gpt-5.6",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models"
+      ],
+      "source_hashes": {
+        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-6",
+      "display_name": "gpt-6",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models"
+      ],
+      "source_hashes": {
+        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-6-astra",
+      "display_name": "gpt-6-astra",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models"
+      ],
+      "source_hashes": {
+        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-6-luna",
+      "display_name": "gpt-6-luna",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models"
+      ],
+      "source_hashes": {
+        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-6.1",
+      "display_name": "gpt-6.1",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models"
+      ],
+      "source_hashes": {
+        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-6.1-sol",
+      "display_name": "gpt-6.1-sol",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models"
+      ],
+      "source_hashes": {
+        "openai-models": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    }
+  ]
 }

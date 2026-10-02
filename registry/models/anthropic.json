@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "provider": "anthropic",
-  "generated_at": "2026-10-02T11:26:55Z",
+  "generated_at": "2026-10-02T11:28:53Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic adapter found this candidate during the current refresh. It does not prove API availability or product availability.",
     "verification_state": "Only records explicitly marked verified may be used as authoritative semantic model facts."
@@ -9,16 +9,772 @@
   "models": [
     {
       "provider_slug": "anthropic",
-      "model_key": "claude-api",
-      "display_name": "claude-api",
+      "model_key": "claude-fable-5",
+      "display_name": "claude-fable-5",
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-fable-5-1",
+      "display_name": "claude-fable-5-1",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-fable-5-1-mythos-5-1-system-card",
+      "display_name": "claude-fable-5-1-mythos-5-1-system-card",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-fable-and-mythos-5-1",
+      "display_name": "claude-fable-and-mythos-5-1",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-haiku-3",
+      "display_name": "claude-haiku-3",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-haiku-3-5",
+      "display_name": "claude-haiku-3-5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-haiku-4-5",
+      "display_name": "claude-haiku-4-5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-haiku-4-5-20251001",
+      "display_name": "claude-haiku-4-5-20251001",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-haiku-4-5-20251001-v1",
+      "display_name": "claude-haiku-4-5-20251001-v1",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-haiku-4-5-system-card",
+      "display_name": "claude-haiku-4-5-system-card",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-3",
+      "display_name": "claude-opus-3",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-4",
+      "display_name": "claude-opus-4",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-4-1",
+      "display_name": "claude-opus-4-1",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-4-5",
+      "display_name": "claude-opus-4-5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-4-6",
+      "display_name": "claude-opus-4-6",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-4-7",
+      "display_name": "claude-opus-4-7",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-4-8",
+      "display_name": "claude-opus-4-8",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-5",
+      "display_name": "claude-opus-5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-5-5",
+      "display_name": "claude-opus-5-5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-5-5-system-card",
+      "display_name": "claude-opus-5-5-system-card",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-sonnet-3-5",
+      "display_name": "claude-sonnet-3-5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-sonnet-3-7",
+      "display_name": "claude-sonnet-3-7",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-sonnet-4",
+      "display_name": "claude-sonnet-4",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-sonnet-4-5",
+      "display_name": "claude-sonnet-4-5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-sonnet-4-6",
+      "display_name": "claude-sonnet-4-6",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-sonnet-5",
+      "display_name": "claude-sonnet-5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-sonnet-5-5",
+      "display_name": "claude-sonnet-5-5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-sonnet-5-5-system-card",
+      "display_name": "claude-sonnet-5-5-system-card",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-api",
+      "display_name": "claude-api",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "anthropic-models"
       ],
@@ -39,13 +795,13 @@
       "model_key": "claude-api-skill",
       "display_name": "claude-api-skill",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "anthropic-models"
       ],
@@ -66,13 +822,13 @@
       "model_key": "claude-code",
       "display_name": "claude-code",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "anthropic-models"
       ],
@@ -93,283 +849,13 @@
       "model_key": "claude-code-analytics-api",
       "display_name": "claude-code-analytics-api",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-fable-5",
-      "display_name": "claude-fable-5",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-fable-5-1",
-      "display_name": "claude-fable-5-1",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-fable-5-1-mythos-5-1-system-card",
-      "display_name": "claude-fable-5-1-mythos-5-1-system-card",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-fable-and-mythos-5-1",
-      "display_name": "claude-fable-and-mythos-5-1",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-haiku-3",
-      "display_name": "claude-haiku-3",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-haiku-3-5",
-      "display_name": "claude-haiku-3-5",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-haiku-4-5",
-      "display_name": "claude-haiku-4-5",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-haiku-4-5-20251001",
-      "display_name": "claude-haiku-4-5-20251001",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-haiku-4-5-20251001-v1",
-      "display_name": "claude-haiku-4-5-20251001-v1",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-haiku-4-5-system-card",
-      "display_name": "claude-haiku-4-5-system-card",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "anthropic-models"
       ],
@@ -390,13 +876,13 @@
       "model_key": "claude-in-amazon-bedrock",
       "display_name": "claude-in-amazon-bedrock",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "anthropic-models"
       ],
@@ -417,13 +903,13 @@
       "model_key": "claude-in-microsoft-foundry",
       "display_name": "claude-in-microsoft-foundry",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "anthropic-models"
       ],
@@ -444,13 +930,13 @@
       "model_key": "claude-on-amazon-bedrock-legacy",
       "display_name": "claude-on-amazon-bedrock-legacy",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "anthropic-models"
       ],
@@ -471,283 +957,13 @@
       "model_key": "claude-on-vertex-ai",
       "display_name": "claude-on-vertex-ai",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-opus-3",
-      "display_name": "claude-opus-3",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-opus-4",
-      "display_name": "claude-opus-4",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-opus-4-1",
-      "display_name": "claude-opus-4-1",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-opus-4-5",
-      "display_name": "claude-opus-4-5",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-opus-4-6",
-      "display_name": "claude-opus-4-6",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-opus-4-7",
-      "display_name": "claude-opus-4-7",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-opus-4-8",
-      "display_name": "claude-opus-4-8",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-opus-5",
-      "display_name": "claude-opus-5",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-opus-5-5",
-      "display_name": "claude-opus-5-5",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-opus-5-5-system-card",
-      "display_name": "claude-opus-5-5-system-card",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "anthropic-models"
       ],
@@ -768,13 +984,13 @@
       "model_key": "claude-platform-on-aws",
       "display_name": "claude-platform-on-aws",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "anthropic-models"
       ],
@@ -795,13 +1011,13 @@
       "model_key": "claude-platform-on-aws-iam-actions",
       "display_name": "claude-platform-on-aws-iam-actions",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "anthropic-models"
       ],
@@ -822,229 +1038,13 @@
       "model_key": "claude-prompting-best-practices",
       "display_name": "claude-prompting-best-practices",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-sonnet-3-5",
-      "display_name": "claude-sonnet-3-5",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-sonnet-3-7",
-      "display_name": "claude-sonnet-3-7",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-sonnet-4",
-      "display_name": "claude-sonnet-4",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-sonnet-4-5",
-      "display_name": "claude-sonnet-4-5",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-sonnet-4-6",
-      "display_name": "claude-sonnet-4-6",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-sonnet-5",
-      "display_name": "claude-sonnet-5",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-sonnet-5-5",
-      "display_name": "claude-sonnet-5-5",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "anthropic-models"
-      ],
-      "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
-      ],
-      "source_hashes": {
-        "anthropic-models": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "anthropic",
-      "model_key": "claude-sonnet-5-5-system-card",
-      "display_name": "claude-sonnet-5-5-system-card",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "anthropic-models"
       ],

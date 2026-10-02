@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "provider": "mistral",
-  "generated_at": "2026-10-02T11:26:55Z",
+  "generated_at": "2026-10-02T11:28:53Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic adapter found this candidate during the current refresh. It does not prove API availability or product availability.",
     "verification_state": "Only records explicitly marked verified may be used as authoritative semantic model facts."
@@ -17,7 +17,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -44,7 +44,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -71,7 +71,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -98,7 +98,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -125,7 +125,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -152,7 +152,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -179,7 +179,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -206,7 +206,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -233,7 +233,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -260,7 +260,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -287,7 +287,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -314,7 +314,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -341,7 +341,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -368,7 +368,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -395,7 +395,466 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral",
+      "display_name": "devstral",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-2-25-12",
+      "display_name": "devstral-2-25-12",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-2507",
+      "display_name": "devstral-2507",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-2512",
+      "display_name": "devstral-2512",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-medium-1-0-25-07",
+      "display_name": "devstral-medium-1-0-25-07",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-medium-2507",
+      "display_name": "devstral-medium-2507",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-small-1-0-25-05",
+      "display_name": "devstral-small-1-0-25-05",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-small-1-1-25-07",
+      "display_name": "devstral-small-1-1-25-07",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-small-2-25-12",
+      "display_name": "devstral-small-2-25-12",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-small-2505",
+      "display_name": "devstral-small-2505",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-small-2507",
+      "display_name": "devstral-small-2507",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-small-2512",
+      "display_name": "devstral-small-2512",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "labs-devstral-small-2512",
+      "display_name": "labs-devstral-small-2512",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "labs-leanstral-1-5",
+      "display_name": "labs-leanstral-1-5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "labs-leanstral-2603",
+      "display_name": "labs-leanstral-2603",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "labs-mistral-small-creative",
+      "display_name": "labs-mistral-small-creative",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "labs-models",
+      "display_name": "labs-models",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -422,7 +881,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -449,7 +908,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -476,7 +935,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -503,7 +962,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -530,7 +989,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -557,7 +1016,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -584,7 +1043,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -611,7 +1070,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -638,7 +1097,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -665,7 +1124,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -692,7 +1151,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -719,7 +1178,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -746,7 +1205,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -773,7 +1232,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -800,7 +1259,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -827,7 +1286,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -854,7 +1313,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -881,7 +1340,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -908,7 +1367,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -935,7 +1394,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -962,7 +1421,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -989,7 +1448,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1016,7 +1475,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1043,7 +1502,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1070,7 +1529,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1097,7 +1556,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1124,7 +1583,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1151,7 +1610,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1178,7 +1637,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1205,7 +1664,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1232,7 +1691,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1259,7 +1718,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1286,7 +1745,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1313,7 +1772,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1340,7 +1799,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1367,7 +1826,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1394,7 +1853,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1421,7 +1880,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1448,7 +1907,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1475,7 +1934,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1502,7 +1961,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1529,7 +1988,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1548,15 +2007,15 @@
     },
     {
       "provider_slug": "mistral",
-      "model_key": "mistral-nemo-12b-24-07",
-      "display_name": "mistral-nemo-12b-24-07",
+      "model_key": "mistral-ocr-2503",
+      "display_name": "mistral-ocr-2503",
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1575,15 +2034,285 @@
     },
     {
       "provider_slug": "mistral",
-      "model_key": "mistral-nemo-2407",
-      "display_name": "mistral-nemo-2407",
+      "model_key": "mistral-ocr-2505",
+      "display_name": "mistral-ocr-2505",
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-4-0",
+      "display_name": "mistral-ocr-4-0",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-batch_ocr",
+      "display_name": "mistral-ocr-batch_ocr",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-data_extraction",
+      "display_name": "mistral-ocr-data_extraction",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-document_understanding",
+      "display_name": "mistral-ocr-document_understanding",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-documentchunking-readme",
+      "display_name": "mistral-ocr-documentchunking-readme",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-extractor",
+      "display_name": "mistral-ocr-extractor",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-hcls-ocr_hcls",
+      "display_name": "mistral-ocr-hcls-ocr_hcls",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-product_datasheet_analysis-product_datasheet_analysis",
+      "display_name": "mistral-ocr-product_datasheet_analysis-product_datasheet_analysis",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-structured_ocr",
+      "display_name": "mistral-ocr-structured_ocr",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-tool_usage",
+      "display_name": "mistral-ocr-tool_usage",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1610,7 +2339,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1637,7 +2366,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1664,7 +2393,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1691,7 +2420,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1718,7 +2447,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1745,7 +2474,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1772,7 +2501,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1799,7 +2528,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1826,7 +2555,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1853,7 +2582,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1880,7 +2609,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1907,7 +2636,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1934,7 +2663,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1961,7 +2690,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1988,7 +2717,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2007,15 +2736,15 @@
     },
     {
       "provider_slug": "mistral",
-      "model_key": "ocr-2-25-05",
-      "display_name": "ocr-2-25-05",
+      "model_key": "open-codestral-mamba",
+      "display_name": "open-codestral-mamba",
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2034,15 +2763,15 @@
     },
     {
       "provider_slug": "mistral",
-      "model_key": "ocr-25-03",
-      "display_name": "ocr-25-03",
+      "model_key": "open-mistral-7b",
+      "display_name": "open-mistral-7b",
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2061,15 +2790,15 @@
     },
     {
       "provider_slug": "mistral",
-      "model_key": "ocr-2503",
-      "display_name": "ocr-2503",
+      "model_key": "open-mistral-nemo-2407",
+      "display_name": "open-mistral-nemo-2407",
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2088,15 +2817,15 @@
     },
     {
       "provider_slug": "mistral",
-      "model_key": "ocr-2505",
-      "display_name": "ocr-2505",
+      "model_key": "open-mixtral-8x22b",
+      "display_name": "open-mixtral-8x22b",
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2115,501 +2844,15 @@
     },
     {
       "provider_slug": "mistral",
-      "model_key": "ocr-3-25-12",
-      "display_name": "ocr-3-25-12",
+      "model_key": "open-mixtral-8x7b",
+      "display_name": "open-mixtral-8x7b",
       "kind": "model",
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-4-0",
-      "display_name": "ocr-4-0",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-4-1",
-      "display_name": "ocr-4-1",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-at-scale",
-      "display_name": "ocr-at-scale",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-batch_ocr",
-      "display_name": "ocr-batch_ocr",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-data_extraction",
-      "display_name": "ocr-data_extraction",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-document_understanding",
-      "display_name": "ocr-document_understanding",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-documentchunking-readme",
-      "display_name": "ocr-documentchunking-readme",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-extractor",
-      "display_name": "ocr-extractor",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-hcls-ocr_hcls",
-      "display_name": "ocr-hcls-ocr_hcls",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-images",
-      "display_name": "ocr-images",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-images-and-pdfs",
-      "display_name": "ocr-images-and-pdfs",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-models",
-      "display_name": "ocr-models",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-pdfs",
-      "display_name": "ocr-pdfs",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-playground",
-      "display_name": "ocr-playground",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-product_datasheet_analysis-product_datasheet_analysis",
-      "display_name": "ocr-product_datasheet_analysis-product_datasheet_analysis",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-rate-limits",
-      "display_name": "ocr-rate-limits",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-structured_ocr",
-      "display_name": "ocr-structured_ocr",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
-      "source_keys": [
-        "mistral-models"
-      ],
-      "source_urls": [
-        "https://docs.mistral.ai/models"
-      ],
-      "source_hashes": {
-        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "mistral",
-      "model_key": "ocr-tool_usage",
-      "display_name": "ocr-tool_usage",
-      "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "first_discovered_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2636,7 +2879,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2663,7 +2906,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2690,7 +2933,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2717,7 +2960,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2744,7 +2987,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2771,7 +3014,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2798,7 +3041,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2825,7 +3068,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2852,7 +3095,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2879,7 +3122,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2906,7 +3149,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2933,7 +3176,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2960,7 +3203,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -2987,7 +3230,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -3014,7 +3257,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -3041,8 +3284,683 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-nemo-12b-24-07",
+      "display_name": "mistral-nemo-12b-24-07",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-nemo-2407",
+      "display_name": "mistral-nemo-2407",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-2-25-05",
+      "display_name": "ocr-2-25-05",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-25-03",
+      "display_name": "ocr-25-03",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-2503",
+      "display_name": "ocr-2503",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-2505",
+      "display_name": "ocr-2505",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-3-25-12",
+      "display_name": "ocr-3-25-12",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-4-0",
+      "display_name": "ocr-4-0",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-4-1",
+      "display_name": "ocr-4-1",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-at-scale",
+      "display_name": "ocr-at-scale",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-batch_ocr",
+      "display_name": "ocr-batch_ocr",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-data_extraction",
+      "display_name": "ocr-data_extraction",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-document_understanding",
+      "display_name": "ocr-document_understanding",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-documentchunking-readme",
+      "display_name": "ocr-documentchunking-readme",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-extractor",
+      "display_name": "ocr-extractor",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-hcls-ocr_hcls",
+      "display_name": "ocr-hcls-ocr_hcls",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-images",
+      "display_name": "ocr-images",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-images-and-pdfs",
+      "display_name": "ocr-images-and-pdfs",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-models",
+      "display_name": "ocr-models",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-pdfs",
+      "display_name": "ocr-pdfs",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-playground",
+      "display_name": "ocr-playground",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-product_datasheet_analysis-product_datasheet_analysis",
+      "display_name": "ocr-product_datasheet_analysis-product_datasheet_analysis",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-rate-limits",
+      "display_name": "ocr-rate-limits",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-structured_ocr",
+      "display_name": "ocr-structured_ocr",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models"
+      ],
+      "source_hashes": {
+        "mistral-models": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ocr-tool_usage",
+      "display_name": "ocr-tool_usage",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "mistral-models"
       ],

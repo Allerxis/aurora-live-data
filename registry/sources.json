@@ -1,6 +1,6 @@
 {
   "schema_version": "0.2.0",
-  "generated_at": "2026-10-02T11:26:55Z",
+  "generated_at": "2026-10-02T11:28:53Z",
   "sources": [
     {
       "source_key": "anthropic-models",
@@ -9,9 +9,9 @@
       "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
       "final_url": "https://platform.claude.com/docs/en/models/overview",
       "freshness_hours": 24,
-      "last_checked_at": "2026-10-02T11:26:55Z",
-      "last_changed_at": "2026-10-02T11:26:55Z",
-      "content_hash": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92",
+      "last_checked_at": "2026-10-02T11:28:53Z",
+      "last_changed_at": "2026-10-02T11:28:53Z",
+      "content_hash": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817",
       "http_status": 200,
       "is_reachable": true,
       "is_fresh": true,
@@ -19,7 +19,7 @@
       "last_modified": null,
       "content_type": "text/html; charset=utf-8",
       "error": null,
-      "discovered_model_candidates": 39
+      "discovered_model_candidates": 28
     },
     {
       "source_key": "google-deprecations",
@@ -28,9 +28,9 @@
       "url": "https://ai.google.dev/gemini-api/docs/deprecations",
       "final_url": "https://ai.google.dev/gemini-api/docs/deprecations",
       "freshness_hours": 24,
-      "last_checked_at": "2026-10-02T11:26:55Z",
-      "last_changed_at": "2026-10-02T11:26:55Z",
-      "content_hash": "8443c70d06e406d065759e53fd7dc55a0e865339b6bd130c32d9f6a14cd1224c",
+      "last_checked_at": "2026-10-02T11:28:53Z",
+      "last_changed_at": "2026-10-02T11:28:53Z",
+      "content_hash": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5",
       "http_status": 200,
       "is_reachable": true,
       "is_fresh": true,
@@ -47,9 +47,9 @@
       "url": "https://ai.google.dev/gemini-api/docs/models",
       "final_url": "https://ai.google.dev/gemini-api/docs/models",
       "freshness_hours": 24,
-      "last_checked_at": "2026-10-02T11:26:55Z",
-      "last_changed_at": "2026-10-02T11:26:55Z",
-      "content_hash": "640c1078347915d4d26cb95885b08fbfb2ea897972cbce1047b3148a4e510d4e",
+      "last_checked_at": "2026-10-02T11:28:53Z",
+      "last_changed_at": "2026-10-02T11:28:53Z",
+      "content_hash": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
       "http_status": 200,
       "is_reachable": true,
       "is_fresh": true,
@@ -62,13 +62,13 @@
     {
       "source_key": "meta-llama",
       "provider_slug": "meta",
-      "label": "Meta Llama documentation",
-      "url": "https://ai.meta.com/llama/get-started/",
-      "final_url": "https://dev.meta.ai/",
+      "label": "Meta Llama model downloads",
+      "url": "https://ai.meta.com/resources/models-and-libraries/llama-downloads/",
+      "final_url": "https://dev.meta.ai/ai",
       "freshness_hours": 72,
-      "last_checked_at": "2026-10-02T11:26:55Z",
-      "last_changed_at": "2026-10-02T11:26:55Z",
-      "content_hash": "2236d740e953d9d161b1b73a5fa1b366804801831d3593fcaf4144dbeee41f3c",
+      "last_checked_at": "2026-10-02T11:28:53Z",
+      "last_changed_at": "2026-10-02T11:28:53Z",
+      "content_hash": "8b54664693cf23f2f327c5d8db35bc30db40afcd7d8da8f155d6485886d4dcc7",
       "http_status": 200,
       "is_reachable": true,
       "is_fresh": true,
@@ -85,7 +85,7 @@
       "url": "https://docs.mistral.ai/models",
       "final_url": "https://docs.mistral.ai/models",
       "freshness_hours": 48,
-      "last_checked_at": "2026-10-02T11:26:55Z",
+      "last_checked_at": "2026-10-02T11:28:53Z",
       "last_changed_at": "2026-10-02T11:26:55Z",
       "content_hash": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556",
       "http_status": 200,
@@ -95,7 +95,7 @@
       "last_modified": null,
       "content_type": "text/html; charset=utf-8",
       "error": null,
-      "discovered_model_candidates": 113
+      "discovered_model_candidates": 122
     },
     {
       "source_key": "openai-models",
@@ -104,7 +104,7 @@
       "url": "https://developers.openai.com/api/docs/models",
       "final_url": "https://developers.openai.com/api/docs/models",
       "freshness_hours": 24,
-      "last_checked_at": "2026-10-02T11:26:55Z",
+      "last_checked_at": "2026-10-02T11:28:53Z",
       "last_changed_at": "2026-10-02T11:26:55Z",
       "content_hash": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2",
       "http_status": 200,
@@ -114,7 +114,7 @@
       "last_modified": null,
       "content_type": "text/html",
       "error": null,
-      "discovered_model_candidates": 0
+      "discovered_model_candidates": 7
     },
     {
       "source_key": "xai-models",
@@ -123,9 +123,9 @@
       "url": "https://docs.x.ai/developers/models",
       "final_url": "https://docs.x.ai/developers/models",
       "freshness_hours": 48,
-      "last_checked_at": "2026-10-02T11:26:55Z",
-      "last_changed_at": "2026-10-02T11:26:55Z",
-      "content_hash": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001",
+      "last_checked_at": "2026-10-02T11:28:53Z",
+      "last_changed_at": "2026-10-02T11:28:53Z",
+      "content_hash": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59",
       "http_status": 200,
       "is_reachable": true,
       "is_fresh": true,
@@ -133,7 +133,7 @@
       "last_modified": null,
       "content_type": "text/html; charset=utf-8",
       "error": null,
-      "discovered_model_candidates": 61
+      "discovered_model_candidates": 39
     }
   ]
 }

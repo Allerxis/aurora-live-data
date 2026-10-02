@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "provider": "xai",
-  "generated_at": "2026-10-02T11:26:55Z",
+  "generated_at": "2026-10-02T11:28:53Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic adapter found this candidate during the current refresh. It does not prove API availability or product availability.",
     "verification_state": "Only records explicitly marked verified may be used as authoritative semantic model facts."
@@ -17,7 +17,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -26,7 +26,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -44,7 +44,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -53,7 +53,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -71,7 +71,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -80,7 +80,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -98,7 +98,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -107,7 +107,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -125,7 +125,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -134,7 +134,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -152,7 +152,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -161,7 +161,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -179,7 +179,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -188,7 +188,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -206,7 +206,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -215,7 +215,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -233,7 +233,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -242,7 +242,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -260,7 +260,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -269,7 +269,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -287,7 +287,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -296,7 +296,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -314,7 +314,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -323,7 +323,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -341,7 +341,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -350,7 +350,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -368,7 +368,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -377,7 +377,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -395,7 +395,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -404,7 +404,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -422,7 +422,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -431,7 +431,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -449,7 +449,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -458,7 +458,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -476,7 +476,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -485,7 +485,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -503,7 +503,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -512,7 +512,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -530,7 +530,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -539,7 +539,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -557,7 +557,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -566,7 +566,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -584,7 +584,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -593,7 +593,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -611,7 +611,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -620,7 +620,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -638,7 +638,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -647,7 +647,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -665,7 +665,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -674,7 +674,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -692,7 +692,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -701,7 +701,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -719,7 +719,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -728,7 +728,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -746,7 +746,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -755,7 +755,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -773,7 +773,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -782,7 +782,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -800,7 +800,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -809,7 +809,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -827,7 +827,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -836,7 +836,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -854,7 +854,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -863,7 +863,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -881,7 +881,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -890,7 +890,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -908,7 +908,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -917,7 +917,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -935,7 +935,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -944,7 +944,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -962,7 +962,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -971,7 +971,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -989,7 +989,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -998,7 +998,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -1016,7 +1016,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -1025,7 +1025,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -1043,7 +1043,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:28:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -1052,7 +1052,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+        "xai-models": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59"
       },
       "facts": {},
       "notes": [
@@ -1065,13 +1065,13 @@
       "model_key": "grok-build-0.1",
       "display_name": "grok-build-0.1",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1092,13 +1092,13 @@
       "model_key": "grok-build-latest",
       "display_name": "grok-build-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1119,13 +1119,13 @@
       "model_key": "grok-code-fast",
       "display_name": "grok-code-fast",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1146,13 +1146,13 @@
       "model_key": "grok-code-fast-1",
       "display_name": "grok-code-fast-1",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1173,13 +1173,13 @@
       "model_key": "grok-code-fast-1-0825",
       "display_name": "grok-code-fast-1-0825",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1200,13 +1200,13 @@
       "model_key": "grok-imagine-image",
       "display_name": "grok-imagine-image",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1227,13 +1227,13 @@
       "model_key": "grok-imagine-image-2.0",
       "display_name": "grok-imagine-image-2.0",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1254,13 +1254,13 @@
       "model_key": "grok-imagine-image-2026-03-02",
       "display_name": "grok-imagine-image-2026-03-02",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1281,13 +1281,13 @@
       "model_key": "grok-imagine-image-pro",
       "display_name": "grok-imagine-image-pro",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1308,13 +1308,13 @@
       "model_key": "grok-imagine-image-quality",
       "display_name": "grok-imagine-image-quality",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1335,13 +1335,13 @@
       "model_key": "grok-imagine-image-quality-20260403",
       "display_name": "grok-imagine-image-quality-20260403",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1362,13 +1362,13 @@
       "model_key": "grok-imagine-image-quality-latest",
       "display_name": "grok-imagine-image-quality-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1389,13 +1389,13 @@
       "model_key": "grok-imagine-video",
       "display_name": "grok-imagine-video",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1416,13 +1416,13 @@
       "model_key": "grok-imagine-video-1.5",
       "display_name": "grok-imagine-video-1.5",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1443,13 +1443,13 @@
       "model_key": "grok-imagine-video-1.5-2026-05-30",
       "display_name": "grok-imagine-video-1.5-2026-05-30",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1470,13 +1470,13 @@
       "model_key": "grok-imagine-video-1.5-lite",
       "display_name": "grok-imagine-video-1.5-lite",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1497,13 +1497,13 @@
       "model_key": "grok-imagine-video-1.5-preview",
       "display_name": "grok-imagine-video-1.5-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1524,13 +1524,13 @@
       "model_key": "grok-tts",
       "display_name": "grok-tts",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1551,13 +1551,13 @@
       "model_key": "grok-voice-latest",
       "display_name": "grok-voice-latest",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1578,13 +1578,13 @@
       "model_key": "grok-voice-think-fast-2.0",
       "display_name": "grok-voice-think-fast-2.0",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1605,13 +1605,13 @@
       "model_key": "grok-voice-transcribe-1.0",
       "display_name": "grok-voice-transcribe-1.0",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
@@ -1632,13 +1632,13 @@
       "model_key": "grok-voice-transcribe-2.0",
       "display_name": "grok-voice-transcribe-2.0",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
+      "discovery_state": "historical_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
-      "present_in_current_sources": true,
+      "present_in_current_sources": false,
       "first_discovered_at": "2026-10-02T11:26:55Z",
       "last_seen_at": "2026-10-02T11:26:55Z",
-      "missing_since": null,
+      "missing_since": "2026-10-02T11:28:53Z",
       "source_keys": [
         "xai-models"
       ],
