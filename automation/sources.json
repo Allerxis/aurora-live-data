@@ -104,6 +104,13 @@
       "label": "Mistral Labs models",
       "url": "https://docs.mistral.ai/inference/labs",
       "freshness_hours": 48
+    },
+    {
+      "source_key": "meta-llama4-model-card",
+      "provider_slug": "meta",
+      "label": "Meta Llama 4 official model card",
+      "url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
+      "freshness_hours": 72
     }
   ]
 }
