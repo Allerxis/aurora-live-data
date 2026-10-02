@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1.0",
+  "providers": [
+    {
+      "slug": "openai",
+      "name": "OpenAI",
+      "official_url": "https://openai.com/"
+    },
+    {
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "official_url": "https://www.anthropic.com/"
+    },
+    {
+      "slug": "google",
+      "name": "Google",
+      "official_url": "https://ai.google.dev/"
+    },
+    {
+      "slug": "mistral",
+      "name": "Mistral AI",
+      "official_url": "https://mistral.ai/"
+    },
+    {
+      "slug": "xai",
+      "name": "xAI",
+      "official_url": "https://x.ai/"
+    },
+    {
+      "slug": "meta",
+      "name": "Meta",
+      "official_url": "https://ai.meta.com/"
+    }
+  ]
+}
