@@ -55,6 +55,16 @@ def _date(raw: str | None) -> str | None:
     return raw
 
 
+def _clean_data_type(value: str) -> str:
+    value = re.sub(
+        r"\s+(?:token_auto|handyman|speed|calendar_month|id_card|save|123)$",
+        "",
+        value.strip(),
+        flags=re.I,
+    )
+    return value.strip().lower()
+
+
 def _section(text: str, start: str, ends: tuple[str, ...]) -> str:
     matches = list(re.finditer(re.escape(start), text, re.I))
     if not matches:
@@ -140,14 +150,14 @@ def parse_google_model_page(
         m = re.search(r"Inputs?\s+(.+?)\s+Outputs?\s+(.+)$", data_section, re.I | re.S)
         if m:
             input_types = [
-                x.strip().lower()
+                _clean_data_type(x)
                 for x in re.split(r",|\band\b", m.group(1), flags=re.I)
-                if x.strip()
+                if _clean_data_type(x)
             ]
             output_types = [
-                x.strip().lower()
+                _clean_data_type(x)
                 for x in re.split(r",|\band\b", m.group(2), flags=re.I)
-                if x.strip()
+                if _clean_data_type(x)
             ]
 
     capabilities_section = _section(
