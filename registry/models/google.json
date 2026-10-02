@@ -1,7 +1,7 @@
 {
   "schema_version": "0.4.0",
   "provider": "google",
-  "generated_at": "2026-10-02T11:50:28Z",
+  "generated_at": "2026-10-02T11:54:27Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -15,9 +15,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -49,9 +50,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -80,9 +82,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -114,9 +117,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -145,9 +149,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -176,9 +181,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -210,9 +216,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -241,9 +248,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -275,9 +283,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -306,9 +315,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -337,9 +347,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -368,9 +379,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -399,9 +411,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -430,9 +443,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -464,9 +478,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -498,9 +513,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -532,9 +548,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -563,9 +580,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -597,9 +615,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -628,9 +647,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -662,9 +682,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -693,9 +714,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -724,9 +746,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -755,9 +778,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -789,9 +813,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -823,9 +848,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -854,9 +880,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -885,9 +912,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -916,9 +944,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -950,9 +979,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -984,9 +1014,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1018,9 +1049,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1049,9 +1081,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1083,9 +1116,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1117,9 +1151,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1148,9 +1183,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1182,9 +1218,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1213,9 +1250,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1247,9 +1285,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1281,9 +1320,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1315,9 +1355,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1349,9 +1390,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1383,9 +1425,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1417,9 +1460,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1451,9 +1495,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1485,9 +1530,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1519,9 +1565,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1553,9 +1600,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1587,9 +1635,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1621,9 +1670,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1655,9 +1705,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1689,9 +1740,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1723,9 +1775,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1757,9 +1810,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1791,9 +1845,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1822,9 +1877,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1853,9 +1909,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1884,9 +1941,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1915,9 +1973,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1946,9 +2005,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1977,9 +2037,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2011,9 +2072,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2042,9 +2104,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2076,9 +2139,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2110,9 +2174,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2141,9 +2206,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2172,9 +2238,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2203,9 +2270,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2234,9 +2302,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2265,9 +2334,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2296,9 +2366,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2327,9 +2398,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2358,9 +2430,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2389,9 +2462,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2420,9 +2494,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2451,9 +2526,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2482,9 +2558,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2513,9 +2590,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2547,9 +2625,10 @@
       "discovery_state": "discovered_unverified",
       "verification_state": "unverified",
       "lifecycle_status": "unknown",
+      "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:50:28Z",
+      "last_seen_at": "2026-10-02T11:54:27Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",

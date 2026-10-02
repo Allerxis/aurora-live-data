@@ -1,7 +1,387 @@
 {
   "schema_version": "0.4.0",
-  "generated_at": "2026-10-02T11:50:28Z",
+  "generated_at": "2026-10-02T11:54:27Z",
   "changes": [
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-sonnet-5-5",
+      "change_type": "semantic_changed",
+      "previous_hash": "29efe1138e1e4b6e359d9d1a113d44ab2b9bc247388692a1f0c6ea05632f2b3f",
+      "new_hash": "acbe81699f1460befeb8671dd991cfaa1f50ab18f0799b0e170a4989f2708983",
+      "source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-sonnet-5",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-sonnet-5",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "a9843bfa207cb730622c4f1de93da24517531e1e1a61f932dda7e248e6cc48b8",
+      "source_url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-sonnet-4-6",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-sonnet-4-6",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "82c418ab77edb150237e09188ca61c6e8c8bdde23139ecf7e86961d41f87d605",
+      "source_url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-sonnet-4-5-20250929",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-sonnet-4-5-20250929",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "e87cd93e25fdb4dee883a8208c77ba9e25f5d7370d1bef7401bca5cd5cadf853",
+      "source_url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-sonnet-4-20250514",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-5-5",
+      "change_type": "semantic_changed",
+      "previous_hash": "02b0fb191e3990bdad51f36a8484a2bda8eb924e7a39a8b278d5b076539a2535",
+      "new_hash": "1c251741dbfa7363d470a9878740f0abb77749dda4cc18c70c32291d0848354b",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-5",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-5",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "f960dce434b62b38e1cf7340f1a85d5dc9bb367486041dbc222d0b6def87f206",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-5/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-4-8",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-4-8",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "aeea08077741ad05dd6f223d72d4870575f1e287e5aa5942ce8f9d04c5d80b0a",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-4-8/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-4-7",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-4-7",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "28e529cde1df170cc343dc1eedbb5abd5248c4a78f97bc097110fd05915bf5dd",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-4-7/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-4-6",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-4-6",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "b6e7d8a72871e0cbd6d3d03e418ca8e61737437bf683d18433fa0394f392a7b7",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-4-5-20251101",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-4-5-20251101",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "f8fa94112ae1d96e6d8d839a915cb2a7530af044e8ea4b72193729a57cd567c1",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-4-20250514",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-4-1-20250805",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-mythos-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-mythos-5-1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-mythos-5-1",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "4b41fec7c3e30ad6f52121ef3de5f091fdc786c981defa756a606ea3a0ea0afe",
+      "source_url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-mythos-5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-mythos-5",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "0971470fe992e39964fe93c207b2518b200db05e31273c2673593f27817c40e2",
+      "source_url": "https://platform.claude.com/docs/en/models/mythos-5/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-fable-5",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-fable-5",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "56e5de846f582b4e47df77dbed281bea413dc38ad5126f17caa137c268ba2f0c",
+      "source_url": "https://platform.claude.com/docs/en/models/fable-5/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-3-sonnet-20240229",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-3-opus-20240229",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-3-haiku-20240307",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-3-7-sonnet-20250219",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-3-5-sonnet-20241022",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-3-5-sonnet-20240620",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-3-5-haiku-20241022",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-2.1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-2.0",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:54:27Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-deprecations",
+      "change_type": "source_initialized",
+      "previous_hash": null,
+      "new_hash": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3",
+      "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "summary": "Official source initialized in Aurora Live Data."
+    },
     {
       "observed_at": "2026-10-02T11:50:28Z",
       "entity_type": "model_semantics",
