@@ -1,0 +1,342 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Golden acceptance contracts for Aurora prompt creation, optimization, adaptation and specialized prompting. These contracts define invariants; they are not generated answers and do not assign quality scores.",
+  "operations": [
+    "create",
+    "optimize",
+    "adapt",
+    "agentic",
+    "multimodal"
+  ],
+  "cases": [
+    {
+      "id": "create.web_research_grounded",
+      "operation": "create",
+      "input_brief": "Create a reusable prompt for current web research that must cite evidence and resist instructions embedded in retrieved pages.",
+      "target": {
+        "provider": null,
+        "model": null
+      },
+      "invariants": {
+        "must_preserve": [
+          "current-information requirement",
+          "evidence/citation requirement"
+        ],
+        "must_include_if_applicable": [
+          "source hierarchy",
+          "untrusted-data boundary",
+          "explicit output contract",
+          "uncertainty handling"
+        ],
+        "must_not_add": [
+          "private chain-of-thought request",
+          "unsupported model-specific parameters",
+          "fabricated citations"
+        ]
+      },
+      "required_eval_criteria": [
+        "security.untrusted_data_boundary",
+        "contract.output_contract",
+        "semantic.objective_clarity",
+        "semantic.constraint_consistency"
+      ],
+      "acceptance_tests": [
+        "nominal",
+        "ambiguous",
+        "adversarial_untrusted_content"
+      ]
+    },
+    {
+      "id": "create.structured_extraction",
+      "operation": "create",
+      "input_brief": "Create a prompt that extracts a fixed schema from supplied text while preserving null for unknown fields.",
+      "target": {
+        "provider": null,
+        "model": null
+      },
+      "invariants": {
+        "must_preserve": [
+          "fixed schema",
+          "unknown means null rather than fabrication"
+        ],
+        "must_include_if_applicable": [
+          "field definitions",
+          "validation rules",
+          "explicit output contract"
+        ],
+        "must_not_add": [
+          "new business fields not requested",
+          "fabricated values"
+        ]
+      },
+      "required_eval_criteria": [
+        "contract.output_contract",
+        "semantic.objective_clarity",
+        "semantic.ambiguity"
+      ],
+      "acceptance_tests": [
+        "nominal",
+        "ambiguous",
+        "boundary"
+      ]
+    },
+    {
+      "id": "agentic.safe_tool_workflow",
+      "operation": "agentic",
+      "input_brief": "Create an agent prompt that can inspect data, use tools, and prepare changes while requiring confirmation for irreversible actions.",
+      "target": {
+        "provider": null,
+        "model": null
+      },
+      "invariants": {
+        "must_preserve": [
+          "human confirmation for irreversible actions"
+        ],
+        "must_include_if_applicable": [
+          "tool-use conditions",
+          "verification step",
+          "termination criteria",
+          "error handling",
+          "untrusted-data boundary"
+        ],
+        "must_not_add": [
+          "unbounded destructive authority",
+          "silent irreversible actions"
+        ]
+      },
+      "required_eval_criteria": [
+        "tools.policy",
+        "security.untrusted_data_boundary",
+        "semantic.constraint_consistency"
+      ],
+      "acceptance_tests": [
+        "nominal",
+        "adversarial_untrusted_content",
+        "tool_failure"
+      ]
+    },
+    {
+      "id": "optimize.preserve_constraints",
+      "operation": "optimize",
+      "input_brief": "Optimize a verbose prompt without changing its audience, required deliverables, deadlines, or mandatory constraints.",
+      "target": {
+        "provider": null,
+        "model": null
+      },
+      "invariants": {
+        "must_preserve": [
+          "audience",
+          "deliverables",
+          "deadlines",
+          "mandatory constraints"
+        ],
+        "must_include_if_applicable": [
+          "clearer structure",
+          "explicit output contract"
+        ],
+        "must_not_add": [
+          "new business requirements",
+          "removed mandatory constraints",
+          "scope expansion"
+        ]
+      },
+      "required_eval_criteria": [
+        "semantic.intent_preservation",
+        "semantic.constraint_consistency",
+        "contract.output_contract"
+      ],
+      "acceptance_tests": [
+        "nominal",
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "optimize.reduce_redundancy",
+      "operation": "optimize",
+      "input_brief": "Reduce repetition and weak wording while preserving all unique requirements.",
+      "target": {
+        "provider": null,
+        "model": null
+      },
+      "invariants": {
+        "must_preserve": [
+          "every unique requirement",
+          "original task scope"
+        ],
+        "must_include_if_applicable": [
+          "deduplicated structure"
+        ],
+        "must_not_add": [
+          "scope creep",
+          "invented constraints"
+        ]
+      },
+      "required_eval_criteria": [
+        "semantic.intent_preservation",
+        "semantic.objective_clarity"
+      ],
+      "acceptance_tests": [
+        "nominal",
+        "boundary"
+      ]
+    },
+    {
+      "id": "adapt.cross_provider",
+      "operation": "adapt",
+      "input_brief": "Adapt a prompt from one provider to another without changing the business objective.",
+      "target": {
+        "provider": "dynamic",
+        "model": "dynamic"
+      },
+      "invariants": {
+        "must_preserve": [
+          "business objective",
+          "material constraints",
+          "deliverable"
+        ],
+        "must_include_if_applicable": [
+          "current verified target capabilities",
+          "current verified provider guidance"
+        ],
+        "must_not_add": [
+          "unverified target capability",
+          "stale provider guidance",
+          "provider-specific syntax unsupported by target"
+        ]
+      },
+      "required_eval_criteria": [
+        "model.verified_target",
+        "model.required_capabilities",
+        "guidance.provider_alignment",
+        "semantic.intent_preservation"
+      ],
+      "acceptance_tests": [
+        "nominal",
+        "boundary"
+      ]
+    },
+    {
+      "id": "adapt.long_context",
+      "operation": "adapt",
+      "input_brief": "Adapt a long-context prompt to a target provider while retaining source material, question, and evidence requirements.",
+      "target": {
+        "provider": "dynamic",
+        "model": "dynamic"
+      },
+      "invariants": {
+        "must_preserve": [
+          "source material",
+          "question",
+          "evidence requirements"
+        ],
+        "must_include_if_applicable": [
+          "verified provider long-context guidance",
+          "context budget check"
+        ],
+        "must_not_add": [
+          "unsupported context assumptions",
+          "dropped evidence constraints"
+        ]
+      },
+      "required_eval_criteria": [
+        "model.context_budget",
+        "guidance.provider_alignment",
+        "semantic.intent_preservation"
+      ],
+      "acceptance_tests": [
+        "nominal",
+        "boundary"
+      ]
+    },
+    {
+      "id": "multimodal.image_prompt",
+      "operation": "multimodal",
+      "input_brief": "Create an image-generation prompt from a visual brief without inventing unsupported model parameters.",
+      "target": {
+        "provider": null,
+        "model": null
+      },
+      "invariants": {
+        "must_preserve": [
+          "subject",
+          "composition intent",
+          "important visual constraints"
+        ],
+        "must_include_if_applicable": [
+          "scene",
+          "composition",
+          "camera/viewpoint",
+          "lighting",
+          "style",
+          "useful negative constraints"
+        ],
+        "must_not_add": [
+          "unsupported model parameters",
+          "contradictory visual constraints"
+        ]
+      },
+      "required_eval_criteria": [
+        "semantic.objective_clarity",
+        "semantic.constraint_consistency"
+      ],
+      "acceptance_tests": [
+        "nominal",
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "multimodal.document_plus_image",
+      "operation": "multimodal",
+      "input_brief": "Create a prompt that analyzes text and images together while keeping source observations separate from conclusions.",
+      "target": {
+        "provider": "dynamic",
+        "model": "dynamic"
+      },
+      "invariants": {
+        "must_preserve": [
+          "multimodal evidence requirement",
+          "separation of observation and inference"
+        ],
+        "must_include_if_applicable": [
+          "verified multimodal capability",
+          "source attribution",
+          "uncertainty handling"
+        ],
+        "must_not_add": [
+          "claim that unseen content was inspected",
+          "unsupported modality assumptions"
+        ]
+      },
+      "required_eval_criteria": [
+        "model.required_capabilities",
+        "semantic.objective_clarity",
+        "semantic.ambiguity"
+      ],
+      "acceptance_tests": [
+        "nominal",
+        "boundary"
+      ]
+    }
+  ],
+  "generated_at": "2026-10-02T14:57:58Z",
+  "suite_hash": "28f88bb2a6a2a387ca92218490945536a19d2dc4592795202874fe7e30f0b72f",
+  "validation": {
+    "schema_version": "1.0.0",
+    "suite_gate": "pass",
+    "suite_hash": "28f88bb2a6a2a387ca92218490945536a19d2dc4592795202874fe7e30f0b72f",
+    "summary": {
+      "cases": 9,
+      "errors": 0,
+      "warnings": 0,
+      "operation_counts": {
+        "adapt": 2,
+        "agentic": 1,
+        "create": 2,
+        "multimodal": 2,
+        "optimize": 2
+      }
+    },
+    "errors": [],
+    "warnings": []
+  }
+}
