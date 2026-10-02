@@ -63,9 +63,9 @@ def _get_dot_path(obj: Any, path: str) -> tuple[Any, bool]:
 
 
 def _explicit_supported(value: Any) -> bool | None:
-    if value in SUPPORTED_TRUE:
+    if value is True:
         return True
-    if value in SUPPORTED_FALSE:
+    if value is False:
         return False
     if isinstance(value, str):
         normalized = value.strip().lower()
