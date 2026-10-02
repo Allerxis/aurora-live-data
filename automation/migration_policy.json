@@ -62,7 +62,9 @@
       "only warning/specialized candidates remain and user intent does not establish acceptance",
       "cross-provider migration would be required without prior user authorization"
     ],
-    "never_use_global_quality_score": true
+    "never_use_global_quality_score": true,
+    "tie_behavior": "needs_review",
+    "selection_basis": "verified hard constraints and documented replacement evidence only"
   },
   "migration_flow": [
     "inspect_source_target",
