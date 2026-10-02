@@ -97,6 +97,20 @@ class ManifestCompareTests(unittest.TestCase):
             )
         )
 
+    def test_semantic_hash_change_is_target_change(self):
+        a = manifest()
+        b = manifest(manifest_id="vm_b")
+        a["target"]["semantic_hash"] = "model-a"
+        b["target"]["semantic_hash"] = "model-b"
+        result = compare_manifests(a, b)
+        self.assertTrue(
+            any(
+                x["type"] == "target_changed"
+                and x["path"] == "target.semantic_hash"
+                for x in result["changes"]
+            )
+        )
+
     def test_contract_added_and_removed(self):
         result = compare_manifests(
             manifest(contracts=["adapt.cross_provider"]),
