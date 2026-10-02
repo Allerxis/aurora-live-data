@@ -10,7 +10,7 @@
     {
       "source_key": "anthropic-models",
       "provider_slug": "anthropic",
-      "label": "Claude Models overview",
+      "label": "Claude Platform models overview",
       "url": "https://platform.claude.com/docs/en/models/overview",
       "freshness_hours": 24
     },
