@@ -98,6 +98,7 @@ def compare_manifests(
         "verification_state",
         "semantic_verified_at",
         "semantic_source_url",
+        "semantic_hash",
     )
     for field in target_fields:
         if old_target.get(field) != new_target.get(field):
