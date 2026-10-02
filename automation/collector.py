@@ -247,11 +247,6 @@ def verify_google_candidates(candidates: dict, generated_at: str):
     failures = {}
 
     for model_id, candidate in sorted(candidates.items()):
-        # Semantic detail pages are only attempted for models seen on Google's
-        # main model catalog. Deprecation-only IDs still receive lifecycle data.
-        if "google-models" not in candidate.get("source_keys", []):
-            continue
-
         detail_url = f"https://ai.google.dev/gemini-api/docs/models/{model_id}"
         try:
             result = fetch(detail_url)
