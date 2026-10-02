@@ -1,7 +1,447 @@
 {
   "schema_version": "0.3.0",
-  "generated_at": "2026-10-02T11:38:09Z",
+  "generated_at": "2026-10-02T11:39:24Z",
   "changes": [
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:o4-mini-deep-research",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:o4-mini-deep-research",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "476519ba42c637ed9575ddb60b1f8965dfab515c32773981c76318eb3da875c7",
+      "source_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:o4-mini",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:o4-mini",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "291e436a094850cdb95d9ca179f4eb7160ec0aa1f95c4cac435ccb6ddd751c05",
+      "source_url": "https://developers.openai.com/api/docs/models/o4-mini",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:o3-pro",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:o3-pro",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "770efcf3eb479987f10c247d20950c91d41fa547ea0c3ed910db3d0ba713fbe8",
+      "source_url": "https://developers.openai.com/api/docs/models/o3-pro",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:o3-mini",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:o3-mini",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "670e7b2dfe1f46cdd8d689284025ca2b211e9225743f281dfa2d49aea45d84cd",
+      "source_url": "https://developers.openai.com/api/docs/models/o3-mini",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:o3-deep-research",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:o3-deep-research",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "7625e766e42d6ac6104ecb1a32bfd2bd3097fe364095b968a7a1136a565313fb",
+      "source_url": "https://developers.openai.com/api/docs/models/o3-deep-research",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:o1-pro",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:o1-pro",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "223a039c29c94c6b204bf3beaac4ec43fead6f21436b64f1fe1649f0759c8126",
+      "source_url": "https://developers.openai.com/api/docs/models/o1-pro",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:o1-mini",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:o1-mini",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "7bd840dafd80be3c69e42a4adabe31adae5ce4348f0bff9885e066a7daa5fb57",
+      "source_url": "https://developers.openai.com/api/docs/models/o1-mini",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-5.5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-5.5",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "9f1481b993b1ecbe24828b0bbd7d5b0e17fc72107e2a800cc0f54f42318f5b7b",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.5",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-5.4-class",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-5.4",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-5.4",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "c51049cafd4168c4a6dde7c36b2e540779ce9fd44425fdfdf9792a0ffd1ef15a",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.4",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-5.3-codex",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-5.3-codex",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "f93d9c19accae18a33f6320868e39c9591339339a5d5c79546cdb827304df840",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-5.3",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-5.2-codex",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-5.2-codex",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "cbaaee553bd6dfde98ceda0ee3d209ead54a161e8b2d77d428d4faee2cbdf2b4",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-5.2",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-5.2",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "f1892b38acddb70a95699a268534a8645c65d42f4f965071389d7c4ef4275782",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.2",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-5.1-codex-max",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-5.1-codex-max",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "0dba42271f3701f75ddcbb38087e97b50abe7667a968e81cba69b755a49f7d6c",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-5.1-codex",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-5.1-codex",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "6df2b7926b79a94b8bf30b6cc8e794f78dc3520335eeff7439f52a6b2737763e",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-5.1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-5.1",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "4b95e1de1f6869e145e635a3e209112aa3e436a3c5429e45a74b5ac83baff9c0",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-5-codex",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-5-codex",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "feb970ecfbbbec7a46ec1ddc6215de2ee1c16fac89afeb3fde933efd217813fa",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-5",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "53a69244f9647bf240f026b8c45965b28678067865059b6c2731473fe78ac594",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-4.5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-4.1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-4.1",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "ed6ae80a8814e0d56265f172f8b379116bbcfe8beae3897a15670d7356287d84",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4.1",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-4",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-4",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "c19564e9070b0a8596c499b1d4f502086d0eddc1558aba048ff1e177f7122354",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-4",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-3.5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-3",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:39:24Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "source_initialized",
+      "previous_hash": null,
+      "new_hash": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Official source initialized in Aurora Live Data."
+    },
     {
       "observed_at": "2026-10-02T11:38:09Z",
       "entity_type": "model_semantics",

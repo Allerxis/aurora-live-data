@@ -1,6 +1,6 @@
 {
   "schema_version": "0.3.0",
-  "generated_at": "2026-10-02T11:38:09Z",
+  "generated_at": "2026-10-02T11:39:24Z",
   "warning": "Discovery is not semantic verification. Use only records whose verification_state is verified_official_detail as authoritative for facts such as context, pricing, modalities, endpoints, features or tools.",
   "models": [
     {
@@ -13,7 +13,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -44,7 +44,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -75,7 +75,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -106,7 +106,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -137,7 +137,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -1086,7 +1086,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1120,7 +1120,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1151,7 +1151,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1185,7 +1185,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1216,7 +1216,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1247,7 +1247,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1281,7 +1281,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1312,7 +1312,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1346,7 +1346,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1377,7 +1377,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1408,7 +1408,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1439,7 +1439,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1470,7 +1470,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1501,7 +1501,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1535,7 +1535,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1569,7 +1569,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1603,7 +1603,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1634,7 +1634,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1668,7 +1668,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1699,7 +1699,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1733,7 +1733,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1764,7 +1764,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1795,7 +1795,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1826,7 +1826,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1860,7 +1860,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1894,7 +1894,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1925,7 +1925,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1956,7 +1956,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1987,7 +1987,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2021,7 +2021,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2055,7 +2055,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2089,7 +2089,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2120,7 +2120,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2154,7 +2154,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2188,7 +2188,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2219,7 +2219,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2253,7 +2253,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2284,7 +2284,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2318,7 +2318,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2352,7 +2352,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2386,7 +2386,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2420,7 +2420,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2454,7 +2454,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2488,7 +2488,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2522,7 +2522,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2556,7 +2556,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2590,7 +2590,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2624,7 +2624,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2658,7 +2658,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2692,7 +2692,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2726,7 +2726,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2760,7 +2760,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2794,7 +2794,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2828,7 +2828,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2862,7 +2862,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2893,7 +2893,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2924,7 +2924,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2955,7 +2955,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2986,7 +2986,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -3017,7 +3017,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3048,7 +3048,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3082,7 +3082,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3113,7 +3113,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3147,7 +3147,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3181,7 +3181,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3212,7 +3212,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3243,7 +3243,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -3274,7 +3274,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3305,7 +3305,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3336,7 +3336,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3367,7 +3367,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3398,7 +3398,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3429,7 +3429,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3460,7 +3460,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3491,7 +3491,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3522,7 +3522,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3553,7 +3553,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3584,7 +3584,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3618,7 +3618,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4669,7 +4669,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -4700,7 +4700,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -4731,7 +4731,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -4762,7 +4762,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -4793,7 +4793,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -4824,7 +4824,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -4855,7 +4855,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -4886,7 +4886,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -4917,7 +4917,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -4948,7 +4948,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -4979,7 +4979,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5010,7 +5010,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5041,7 +5041,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5072,7 +5072,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5103,7 +5103,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5134,7 +5134,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5165,7 +5165,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5196,7 +5196,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5227,7 +5227,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5258,7 +5258,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5289,7 +5289,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5320,7 +5320,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5351,7 +5351,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5382,7 +5382,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5413,7 +5413,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5444,7 +5444,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5475,7 +5475,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5506,7 +5506,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5537,7 +5537,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5568,7 +5568,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5599,7 +5599,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5630,7 +5630,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5661,7 +5661,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5692,7 +5692,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5723,7 +5723,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5754,7 +5754,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5785,7 +5785,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5816,7 +5816,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5847,7 +5847,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5878,7 +5878,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5909,7 +5909,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5940,7 +5940,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -5971,7 +5971,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -6002,7 +6002,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -6033,7 +6033,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -9215,6 +9215,253 @@
     },
     {
       "provider_slug": "openai",
+      "model_key": "gpt-3",
+      "display_name": "gpt-3",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-3.5",
+      "display_name": "gpt-3.5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-4",
+      "display_name": "gpt-4",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4",
+      "semantic_hash": "c19564e9070b0a8596c499b1d4f502086d0eddc1558aba048ff1e177f7122354",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-4",
+        "context_window_tokens": 8192,
+        "max_output_tokens": 8192,
+        "knowledge_cutoff": "2023-12-01",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 30.0,
+          "cached_input": null,
+          "cache_writes": null,
+          "output": 60.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "not_supported",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": false,
+          "structured_outputs": false,
+          "fine_tuning": true
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-4.1",
+      "display_name": "gpt-4.1",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4.1",
+      "semantic_hash": "ed6ae80a8814e0d56265f172f8b379116bbcfe8beae3897a15670d7356287d84",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-4.1",
+        "context_window_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "knowledge_cutoff": "2024-06-01",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 2.0,
+          "cached_input": 0.5,
+          "cache_writes": null,
+          "output": 8.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": true
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-4.5",
+      "display_name": "gpt-4.5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
       "model_key": "gpt-4o",
       "display_name": "gpt-4o",
       "kind": "model",
@@ -9223,18 +9470,21 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
-        "openai-models"
+        "openai-models",
+        "openai-models-all"
       ],
       "source_urls": [
-        "https://developers.openai.com/api/docs/models"
+        "https://developers.openai.com/api/docs/models",
+        "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
+        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410",
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T11:38:09Z",
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4o",
       "semantic_hash": "bb6f6aa4709138157254d69f394b670c6140b27187004faa05a207ff498f8ff8",
       "semantic_error": null,
@@ -9292,6 +9542,860 @@
     },
     {
       "provider_slug": "openai",
+      "model_key": "gpt-5",
+      "display_name": "gpt-5",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5",
+      "semantic_hash": "53a69244f9647bf240f026b8c45965b28678067865059b6c2731473fe78ac594",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-5",
+        "context_window_tokens": 400000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2024-09-30",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.25,
+          "cached_input": 0.125,
+          "cache_writes": null,
+          "output": 10.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5-codex",
+      "display_name": "gpt-5-codex",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
+      "semantic_hash": "feb970ecfbbbec7a46ec1ddc6215de2ee1c16fac89afeb3fde933efd217813fa",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
+        "context_window_tokens": 400000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2024-09-30",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.25,
+          "cached_input": 0.125,
+          "cache_writes": null,
+          "output": 10.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.1",
+      "display_name": "gpt-5.1",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1",
+      "semantic_hash": "4b95e1de1f6869e145e635a3e209112aa3e436a3c5429e45a74b5ac83baff9c0",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1",
+        "context_window_tokens": 400000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2024-09-30",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.25,
+          "cached_input": 0.125,
+          "cache_writes": null,
+          "output": 10.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.1-codex",
+      "display_name": "gpt-5.1-codex",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
+      "semantic_hash": "6df2b7926b79a94b8bf30b6cc8e794f78dc3520335eeff7439f52a6b2737763e",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
+        "context_window_tokens": 400000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2024-09-30",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.25,
+          "cached_input": 0.125,
+          "cache_writes": null,
+          "output": 10.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.1-codex-max",
+      "display_name": "gpt-5.1-codex-max",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
+      "semantic_hash": "0dba42271f3701f75ddcbb38087e97b50abe7667a968e81cba69b755a49f7d6c",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
+        "context_window_tokens": 400000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2024-09-30",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.25,
+          "cached_input": 0.125,
+          "cache_writes": null,
+          "output": 10.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.2",
+      "display_name": "gpt-5.2",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.2",
+      "semantic_hash": "f1892b38acddb70a95699a268534a8645c65d42f4f965071389d7c4ef4275782",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-5.2",
+        "context_window_tokens": 400000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-08-31",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.75,
+          "cached_input": 0.175,
+          "cache_writes": null,
+          "output": 14.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.2-codex",
+      "display_name": "gpt-5.2-codex",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
+      "semantic_hash": "cbaaee553bd6dfde98ceda0ee3d209ead54a161e8b2d77d428d4faee2cbdf2b4",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
+        "context_window_tokens": 400000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-08-31",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.75,
+          "cached_input": 0.175,
+          "cache_writes": null,
+          "output": 14.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.3",
+      "display_name": "gpt-5.3",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.3-codex",
+      "display_name": "gpt-5.3-codex",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
+      "semantic_hash": "f93d9c19accae18a33f6320868e39c9591339339a5d5c79546cdb827304df840",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
+        "context_window_tokens": 400000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-08-31",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.75,
+          "cached_input": 0.175,
+          "cache_writes": null,
+          "output": 14.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.4",
+      "display_name": "gpt-5.4",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.4",
+      "semantic_hash": "c51049cafd4168c4a6dde7c36b2e540779ce9fd44425fdfdf9792a0ffd1ef15a",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-5.4",
+        "context_window_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-08-31",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 2.5,
+          "cached_input": 0.25,
+          "cache_writes": null,
+          "output": 15.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {
+          "web_search": true,
+          "file_search": true,
+          "image_generation": true,
+          "code_interpreter": true,
+          "hosted_shell": true,
+          "apply_patch": true,
+          "skills": true,
+          "computer_use": true,
+          "mcp": true,
+          "tool_search": true
+        },
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.4-class",
+      "display_name": "gpt-5.4-class",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.5",
+      "display_name": "gpt-5.5",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.5",
+      "semantic_hash": "9f1481b993b1ecbe24828b0bbd7d5b0e17fc72107e2a800cc0f54f42318f5b7b",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/gpt-5.5",
+        "context_window_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "knowledge_cutoff": "2025-12-01",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 5.0,
+          "cached_input": 0.5,
+          "cache_writes": null,
+          "output": 30.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {
+          "web_search": true,
+          "file_search": true,
+          "image_generation": true,
+          "code_interpreter": true,
+          "hosted_shell": true,
+          "apply_patch": true,
+          "skills": true,
+          "computer_use": true,
+          "mcp": true,
+          "tool_search": true
+        },
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
       "model_key": "gpt-5.6",
       "display_name": "gpt-5.6",
       "kind": "model",
@@ -9300,16 +10404,19 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
-        "openai-models"
+        "openai-models",
+        "openai-models-all"
       ],
       "source_urls": [
-        "https://developers.openai.com/api/docs/models"
+        "https://developers.openai.com/api/docs/models",
+        "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
+        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410",
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -9331,16 +10438,19 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
-        "openai-models"
+        "openai-models",
+        "openai-models-all"
       ],
       "source_urls": [
-        "https://developers.openai.com/api/docs/models"
+        "https://developers.openai.com/api/docs/models",
+        "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
+        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410",
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -9362,7 +10472,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -9373,7 +10483,7 @@
       "source_hashes": {
         "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
-      "semantic_verified_at": "2026-10-02T11:38:09Z",
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
       "semantic_hash": "64d8c49edf133d583214e31dbbab62dff9c774cb8a2671fa0706df61871f8ba4",
       "semantic_error": null,
@@ -9456,7 +10566,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -9467,7 +10577,7 @@
       "source_hashes": {
         "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
-      "semantic_verified_at": "2026-10-02T11:38:09Z",
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
       "semantic_hash": "5e0cba6586ce3545a6b040e33659b86893e9b40700d2f2bfd2a6f27e2c279304",
       "semantic_error": null,
@@ -9551,16 +10661,19 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
-        "openai-models"
+        "openai-models",
+        "openai-models-all"
       ],
       "source_urls": [
-        "https://developers.openai.com/api/docs/models"
+        "https://developers.openai.com/api/docs/models",
+        "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
+        "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410",
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -9582,7 +10695,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -9593,7 +10706,7 @@
       "source_hashes": {
         "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
-      "semantic_verified_at": "2026-10-02T11:38:09Z",
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
       "semantic_hash": "34bffc19500033a69ef2caf13f82fab56f333702fb9f0893d13725b4cfc49cfb",
       "semantic_error": null,
@@ -9667,6 +10780,545 @@
       ]
     },
     {
+      "provider_slug": "openai",
+      "model_key": "o1-mini",
+      "display_name": "o1-mini",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o1-mini",
+      "semantic_hash": "7bd840dafd80be3c69e42a4adabe31adae5ce4348f0bff9885e066a7daa5fb57",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/o1-mini",
+        "context_window_tokens": 128000,
+        "max_output_tokens": 65536,
+        "knowledge_cutoff": "2023-10-01",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.1,
+          "cached_input": 0.55,
+          "cache_writes": null,
+          "output": 4.4
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "not_supported",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": false,
+          "structured_outputs": false,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "o1-pro",
+      "display_name": "o1-pro",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o1-pro",
+      "semantic_hash": "223a039c29c94c6b204bf3beaac4ec43fead6f21436b64f1fe1649f0759c8126",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/o1-pro",
+        "context_window_tokens": 200000,
+        "max_output_tokens": 100000,
+        "knowledge_cutoff": "2023-10-01",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 150.0,
+          "cached_input": null,
+          "cache_writes": null,
+          "output": 600.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": false,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "o3-deep-research",
+      "display_name": "o3-deep-research",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-deep-research",
+      "semantic_hash": "7625e766e42d6ac6104ecb1a32bfd2bd3097fe364095b968a7a1136a565313fb",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/o3-deep-research",
+        "context_window_tokens": 200000,
+        "max_output_tokens": 100000,
+        "knowledge_cutoff": "2024-06-01",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 10.0,
+          "cached_input": 2.5,
+          "cache_writes": null,
+          "output": 40.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": false,
+          "structured_outputs": false,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "o3-mini",
+      "display_name": "o3-mini",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-mini",
+      "semantic_hash": "670e7b2dfe1f46cdd8d689284025ca2b211e9225743f281dfa2d49aea45d84cd",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/o3-mini",
+        "context_window_tokens": 200000,
+        "max_output_tokens": 100000,
+        "knowledge_cutoff": "2023-10-01",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.1,
+          "cached_input": 0.55,
+          "cache_writes": null,
+          "output": 4.4
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "not_supported",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "o3-pro",
+      "display_name": "o3-pro",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-pro",
+      "semantic_hash": "770efcf3eb479987f10c247d20950c91d41fa547ea0c3ed910db3d0ba713fbe8",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/o3-pro",
+        "context_window_tokens": 200000,
+        "max_output_tokens": 100000,
+        "knowledge_cutoff": "2024-06-01",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 20.0,
+          "cached_input": null,
+          "cache_writes": null,
+          "output": 80.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": false,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "o4-mini",
+      "display_name": "o4-mini",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o4-mini",
+      "semantic_hash": "291e436a094850cdb95d9ca179f4eb7160ec0aa1f95c4cac435ccb6ddd751c05",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/o4-mini",
+        "context_window_tokens": 200000,
+        "max_output_tokens": 100000,
+        "knowledge_cutoff": "2024-06-01",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.1,
+          "cached_input": 0.275,
+          "cache_writes": null,
+          "output": 4.4
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": true
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "o4-mini-deep-research",
+      "display_name": "o4-mini-deep-research",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:39:24Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
+      "missing_since": null,
+      "source_keys": [
+        "openai-models-all"
+      ],
+      "source_urls": [
+        "https://developers.openai.com/api/docs/models/all"
+      ],
+      "source_hashes": {
+        "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
+      },
+      "semantic_verified_at": "2026-10-02T11:39:24Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
+      "semantic_hash": "476519ba42c637ed9575ddb60b1f8965dfab515c32773981c76318eb3da875c7",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
+        "context_window_tokens": 200000,
+        "max_output_tokens": 100000,
+        "knowledge_cutoff": "2024-06-01",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 2.0,
+          "cached_input": 0.5,
+          "cache_writes": null,
+          "output": 8.0
+        },
+        "modalities": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        },
+        "endpoints": [
+          "v1/assistants",
+          "v1/audio/speech",
+          "v1/audio/transcriptions",
+          "v1/audio/translations",
+          "v1/batch",
+          "v1/chat/completions",
+          "v1/completions",
+          "v1/embeddings",
+          "v1/fine-tuning",
+          "v1/images/edits",
+          "v1/images/generations",
+          "v1/live/sessions",
+          "v1/moderations",
+          "v1/realtime",
+          "v1/realtime/transcription_sessions",
+          "v1/realtime/translations",
+          "v1/responses",
+          "v1/videos"
+        ],
+        "features": {
+          "streaming": true,
+          "function_calling": false,
+          "structured_outputs": false,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
       "provider_slug": "xai",
       "model_key": "grok-4.20",
       "display_name": "grok-4.20",
@@ -9676,7 +11328,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -9707,7 +11359,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:38:09Z",
+      "last_seen_at": "2026-10-02T11:39:24Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
