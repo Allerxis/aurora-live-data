@@ -75,7 +75,15 @@ def detail_slug_candidates(model_id: str) -> list[str]:
     if core_without_snapshot != core:
         slugs.append(core_without_snapshot)
 
-    # Some model pages are family pages without a snapshot suffix.
+    # Older IDs place the generation before the family:
+    # claude-3-5-sonnet-20241022 -> sonnet-3-5
+    legacy = re.fullmatch(
+        r"(\\d+(?:-\\d+)?)-(opus|sonnet|haiku)",
+        core_without_snapshot,
+    )
+    if legacy:
+        slugs.append(f"{legacy.group(2)}-{legacy.group(1)}")
+
     return list(dict.fromkeys(slugs))
 
 
@@ -323,3 +331,22 @@ def parse_anthropic_lifecycle_page(
         }
 
     return rows
+
+
+def extract_current_anthropic_model_ids(text: str) -> list[str]:
+    """
+    Extract current Claude API IDs and aliases only from the Compare models block.
+    This avoids treating historical IDs elsewhere on the page as current lineup.
+    """
+    m = re.search(
+        r"\\bCompare models\\b(.+?)\\bUsing the Models API\\b",
+        text,
+        re.I | re.S,
+    )
+    section = m.group(1) if m else text
+    ids = re.findall(
+        r"\\bclaude-(?:fable|opus|sonnet|haiku)-[a-z0-9-]+\\b",
+        section,
+        re.I,
+    )
+    return sorted(set(x.lower() for x in ids))
