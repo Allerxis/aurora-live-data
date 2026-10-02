@@ -48,6 +48,13 @@
       "label": "Meta Llama model downloads",
       "url": "https://ai.meta.com/resources/models-and-libraries/llama-downloads/",
       "freshness_hours": 72
+    },
+    {
+      "source_key": "meta-llama-docs",
+      "provider_slug": "meta",
+      "label": "Meta Llama documentation",
+      "url": "https://ai.meta.com/llama/get-started/",
+      "freshness_hours": 72
     }
   ]
 }
