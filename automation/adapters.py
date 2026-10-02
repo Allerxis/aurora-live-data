@@ -66,24 +66,40 @@ def discover_xai(text: str) -> list[Candidate]:
     return _unique(Candidate(x.lower(), x.lower()) for x in raw)
 
 def discover_mistral(text: str) -> list[Candidate]:
-    # API-like identifiers only; avoids docs/package names such as *-readme or code-interpreter examples.
+    # API-like identifiers across current generation-based and older date-based
+    # naming schemes. Documentation/package artefacts are filtered explicitly.
     patterns = [
-        r"\bmistral-(?:large|medium|small)(?:-\d{4}|-latest)?\b",
-        r"\bmistral-(?:ocr|saba|embed)(?:-\d{4}|-latest)?\b",
-        r"\bministral-(?:3b|8b|14b|[0-9]+)(?:-\d{4}|-latest)?\b",
-        r"\bcodestral(?:-mamba)?(?:-\d{4}|-latest)?\b",
-        r"\bvoxtral-(?:mini|small)(?:-(?:transcribe|realtime|latest|\d{4})){0,3}\b",
-        r"\bdevstral(?:-(?:small|medium))?(?:-\d{4}|-latest)?\b",
-        r"\bmagistral-(?:small|medium)(?:-\d{4}|-latest)?\b",
-        r"\bpixtral-(?:large|12b)(?:-\d{4}|-latest)?\b",
-        r"\bopen-mistral-[a-z0-9]+(?:-[a-z0-9]+){0,2}\b",
-        r"\bopen-mixtral-[a-z0-9x]+(?:-[a-z0-9]+){0,2}\b",
-        r"\blabs-(?:leanstral|mistral-small-creative|devstral-small)(?:-[a-z0-9]+){0,3}\b",
+        r"\bmistral-(?:large|medium|small)(?:-[a-z0-9]+){0,4}\b",
+        r"\bmistral-(?:ocr|saba|embed|moderation)(?:-[a-z0-9]+){0,4}\b",
+        r"\bministral-(?:[a-z0-9]+-?){1,4}\b",
+        r"\bcodestral(?:-[a-z0-9]+){0,4}\b",
+        r"\bvoxtral-(?:mini|small|tts)(?:-[a-z0-9]+){0,4}\b",
+        r"\bdevstral(?:-[a-z0-9]+){0,4}\b",
+        r"\bmagistral-(?:small|medium)(?:-[a-z0-9]+){0,4}\b",
+        r"\bpixtral-(?:large|12b)(?:-[a-z0-9]+){0,4}\b",
+        r"\bopen-mistral-[a-z0-9]+(?:-[a-z0-9]+){0,3}\b",
+        r"\bopen-mixtral-[a-z0-9x]+(?:-[a-z0-9]+){0,3}\b",
+        r"\blabs-(?:leanstral|mistral-small-creative|devstral-small)(?:-[a-z0-9]+){0,4}\b",
     ]
     raw = []
     for pattern in patterns:
         raw.extend(_tokens(text, pattern))
-    return _unique(Candidate(x.lower(), x.lower()) for x in raw)
+
+    blocked_fragments = (
+        "code-interpreter",
+        "-readme",
+        "-python",
+        "-javascript",
+        "-typescript",
+        "-example",
+        "-docs",
+    )
+    cleaned = [
+        x.lower()
+        for x in raw
+        if not any(fragment in x.lower() for fragment in blocked_fragments)
+    ]
+    return _unique(Candidate(x, x) for x in cleaned)
 
 def discover_meta(text: str) -> list[Candidate]:
     patterns = [
