@@ -18,11 +18,13 @@ from mistral_semantic import extract_mistral_detail_urls, parse_mistral_model_pa
 from meta_semantic import parse_llama4_model_card
 from selector_view import build_selector
 from guidance_view import build_guidance
+from golden_suite import validate_golden_suite
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
 GUIDANCE_RULES_FILE = ROOT / "automation" / "guidance_rules.json"
 EVAL_SPEC_FILE = ROOT / "automation" / "eval_spec.json"
+GOLDEN_CASES_FILE = ROOT / "automation" / "golden_cases.json"
 REGISTRY_DIR = ROOT / "registry"
 MODELS_DIR = REGISTRY_DIR / "models"
 SOURCES_OUT = REGISTRY_DIR / "sources.json"
@@ -32,7 +34,8 @@ CATALOG_OUT = REGISTRY_DIR / "catalog.json"
 SELECTOR_OUT = REGISTRY_DIR / "selector.json"
 GUIDANCE_OUT = REGISTRY_DIR / "guidance.json"
 EVALS_OUT = REGISTRY_DIR / "evals.json"
-SCHEMA_VERSION = "0.13.0"
+GOLDEN_OUT = REGISTRY_DIR / "golden.json"
+SCHEMA_VERSION = "0.14.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -69,7 +72,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.13 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.14 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
@@ -1026,6 +1029,17 @@ def main():
     eval_document["spec_hash"] = stable_hash(eval_spec_document)
     write_json(EVALS_OUT, eval_document)
 
+    golden_cases_document = read_json(
+        GOLDEN_CASES_FILE,
+        {"cases": []},
+    )
+    golden_validation = validate_golden_suite(golden_cases_document)
+    golden_document = dict(golden_cases_document)
+    golden_document["generated_at"] = generated_at
+    golden_document["suite_hash"] = golden_validation["suite_hash"]
+    golden_document["validation"] = golden_validation
+    write_json(GOLDEN_OUT, golden_document)
+
     changes = changes[:MAX_CHANGE_HISTORY]
 
     write_json(
@@ -1101,6 +1115,11 @@ def main():
             "eval_criteria": len(eval_document.get("criteria", [])),
             "eval_test_case_templates": len(eval_document.get("test_case_templates", [])),
             "eval_spec_hash": eval_document.get("spec_hash"),
+            "golden_suite_gate": golden_validation.get("suite_gate"),
+            "golden_cases": golden_validation.get("summary", {}).get("cases"),
+            "golden_errors": golden_validation.get("summary", {}).get("errors"),
+            "golden_warnings": golden_validation.get("summary", {}).get("warnings"),
+            "golden_suite_hash": golden_validation.get("suite_hash"),
         },
     )
 
