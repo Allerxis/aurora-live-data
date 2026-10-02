@@ -19,12 +19,14 @@ from meta_semantic import parse_llama4_model_card
 from selector_view import build_selector
 from guidance_view import build_guidance
 from golden_suite import validate_golden_suite
+from runtime_acceptance import build_runtime_document
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
 GUIDANCE_RULES_FILE = ROOT / "automation" / "guidance_rules.json"
 EVAL_SPEC_FILE = ROOT / "automation" / "eval_spec.json"
 GOLDEN_CASES_FILE = ROOT / "automation" / "golden_cases.json"
+RUNTIME_POLICY_FILE = ROOT / "automation" / "runtime_policy.json"
 REGISTRY_DIR = ROOT / "registry"
 MODELS_DIR = REGISTRY_DIR / "models"
 SOURCES_OUT = REGISTRY_DIR / "sources.json"
@@ -35,7 +37,8 @@ SELECTOR_OUT = REGISTRY_DIR / "selector.json"
 GUIDANCE_OUT = REGISTRY_DIR / "guidance.json"
 EVALS_OUT = REGISTRY_DIR / "evals.json"
 GOLDEN_OUT = REGISTRY_DIR / "golden.json"
-SCHEMA_VERSION = "0.14.0"
+RUNTIME_OUT = REGISTRY_DIR / "runtime.json"
+SCHEMA_VERSION = "0.15.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -72,7 +75,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.14 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.15 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
@@ -1040,6 +1043,23 @@ def main():
     golden_document["validation"] = golden_validation
     write_json(GOLDEN_OUT, golden_document)
 
+    runtime_policy_document = read_json(
+        RUNTIME_POLICY_FILE,
+        {},
+    )
+    benchmark_document = read_json(
+        REGISTRY_DIR / "benchmarks.json",
+        {},
+    )
+    runtime_document = build_runtime_document(
+        policy=runtime_policy_document,
+        eval_document=eval_document,
+        golden_document=golden_document,
+        benchmark_document=benchmark_document,
+        generated_at=generated_at,
+    )
+    write_json(RUNTIME_OUT, runtime_document)
+
     changes = changes[:MAX_CHANGE_HISTORY]
 
     write_json(
@@ -1120,6 +1140,10 @@ def main():
             "golden_errors": golden_validation.get("summary", {}).get("errors"),
             "golden_warnings": golden_validation.get("summary", {}).get("warnings"),
             "golden_suite_hash": golden_validation.get("suite_hash"),
+            "runtime_acceptance_ready": runtime_document.get("ready"),
+            "runtime_policy_gate": runtime_document.get("validation", {}).get("suite_gate"),
+            "runtime_policy_hash": runtime_document.get("validation", {}).get("policy_hash"),
+            "runtime_operations": runtime_document.get("validation", {}).get("summary", {}).get("operations"),
         },
     )
 
