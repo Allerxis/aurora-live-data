@@ -1,7 +1,52 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-10-02T11:25:34Z",
+  "generated_at": "2026-10-02T11:25:46Z",
   "changes": [
+    {
+      "observed_at": "2026-10-02T11:25:46Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama",
+      "change_type": "content_changed",
+      "previous_hash": "53abe73147ff44fa85d4dcfbf24ce57fc3c325266ee7498e904873fc7faa11d0",
+      "new_hash": "14240eb65b60ad6dc250e34035b2a73d51a620bacf0500a46134d1c357e9e1b9",
+      "source_url": "https://ai.meta.com/llama/get-started/"
+    },
+    {
+      "observed_at": "2026-10-02T11:25:46Z",
+      "entity_type": "source",
+      "entity_key": "xai-models",
+      "change_type": "content_changed",
+      "previous_hash": "0b6887462af11bbb8d172b48addf288719343ae2b1f797e5eb8a7d226c1bd1e0",
+      "new_hash": "e13607744a3cf0c73ba929dc52340a42db1ed4777c0907488f676337985583f6",
+      "source_url": "https://docs.x.ai/developers/models"
+    },
+    {
+      "observed_at": "2026-10-02T11:25:46Z",
+      "entity_type": "source",
+      "entity_key": "google-deprecations",
+      "change_type": "source_initialized",
+      "previous_hash": null,
+      "new_hash": "1ce19265b95e1366525588454dfb7402f634742c56868190ac8d079cb58f3f29",
+      "source_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+    },
+    {
+      "observed_at": "2026-10-02T11:25:46Z",
+      "entity_type": "source",
+      "entity_key": "google-models",
+      "change_type": "content_changed",
+      "previous_hash": "5cc3e8b4dd14c4166bc99a5f8251c3b2769879fe4a829afa583c90572b8bdf7e",
+      "new_hash": "471c4784e4de9a26efb367705c7d837a45146466b52f4898c68db78809bede06",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models"
+    },
+    {
+      "observed_at": "2026-10-02T11:25:46Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-models",
+      "change_type": "content_changed",
+      "previous_hash": "a3dfab641e640f3900b445a27bf0ef73227446dc070e51207712188ad02eeade",
+      "new_hash": "11aa4727516bc92200597cb349be971a93c4d4d413b1dd655603564d1fd3f18e",
+      "source_url": "https://docs.anthropic.com/en/docs/about-claude/models/overview"
+    },
     {
       "observed_at": "2026-10-02T11:25:34Z",
       "entity_type": "source",
