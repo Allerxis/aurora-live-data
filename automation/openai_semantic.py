@@ -65,9 +65,12 @@ def _supported_state(text: str, label: str) -> bool | None:
 
 
 def _section(text: str, start: str, ends: tuple[str, ...]) -> str:
-    start_match = re.search(rf"\b{re.escape(start)}\b", text, re.I)
-    if not start_match:
+    # Model pages include global navigation that may repeat headings such as
+    # "Features" and "Tools". The model-spec block is the last occurrence.
+    matches = list(re.finditer(rf"\b{re.escape(start)}\b", text, re.I))
+    if not matches:
         return ""
+    start_match = matches[-1]
     tail = text[start_match.end():]
     positions = []
     for end in ends:
