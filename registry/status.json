@@ -1,11 +1,11 @@
 {
   "schema_version": "0.2.0",
   "service": "Aurora Live Data",
-  "generated_at": "2026-10-02T11:28:53Z",
+  "generated_at": "2026-10-02T11:31:36Z",
   "healthy": true,
-  "sources_total": 7,
-  "sources_reachable": 7,
-  "sources_fresh": 7,
-  "model_candidates_present": 312,
-  "model_candidates_historical": 58
+  "sources_total": 8,
+  "sources_reachable": 8,
+  "sources_fresh": 8,
+  "model_candidates_present": 247,
+  "model_candidates_historical": 138
 }

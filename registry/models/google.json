@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "provider": "google",
-  "generated_at": "2026-10-02T11:28:53Z",
+  "generated_at": "2026-10-02T11:31:36Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic adapter found this candidate during the current refresh. It does not prove API availability or product availability.",
     "verification_state": "Only records explicitly marked verified may be used as authoritative semantic model facts."
@@ -17,7 +17,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -28,8 +28,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -47,7 +47,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -56,7 +56,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -74,7 +74,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -85,8 +85,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -104,7 +104,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -113,7 +113,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -131,7 +131,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -140,7 +140,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -158,7 +158,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -169,8 +169,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -188,7 +188,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -197,7 +197,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -215,7 +215,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -226,8 +226,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -245,7 +245,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -254,7 +254,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -272,7 +272,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -281,7 +281,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -299,7 +299,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -308,7 +308,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -326,7 +326,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -335,7 +335,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -353,7 +353,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -362,7 +362,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -380,7 +380,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -391,8 +391,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -410,7 +410,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -421,8 +421,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -440,7 +440,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -451,8 +451,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -470,7 +470,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -479,7 +479,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -497,7 +497,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -508,8 +508,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -527,7 +527,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -536,7 +536,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -554,7 +554,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -565,8 +565,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -584,7 +584,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -593,7 +593,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -611,7 +611,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -620,7 +620,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -638,7 +638,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -647,7 +647,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -665,7 +665,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -676,8 +676,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -695,7 +695,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -706,8 +706,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -725,7 +725,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -734,7 +734,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -752,7 +752,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -761,7 +761,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -779,7 +779,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -788,7 +788,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -806,7 +806,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -817,8 +817,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -836,7 +836,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -847,8 +847,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -866,7 +866,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -877,8 +877,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -896,7 +896,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -905,7 +905,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -923,7 +923,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -934,8 +934,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -953,7 +953,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -964,8 +964,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -983,7 +983,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -992,7 +992,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1010,7 +1010,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1021,8 +1021,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1040,7 +1040,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1049,7 +1049,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1067,7 +1067,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1078,8 +1078,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1097,7 +1097,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1108,8 +1108,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1127,7 +1127,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1138,8 +1138,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1157,7 +1157,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1168,8 +1168,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1187,7 +1187,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1198,8 +1198,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1217,7 +1217,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1228,8 +1228,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1247,7 +1247,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1258,8 +1258,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1277,7 +1277,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1288,8 +1288,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1307,7 +1307,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1318,8 +1318,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1337,7 +1337,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1348,8 +1348,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1367,7 +1367,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1378,8 +1378,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1397,7 +1397,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1408,8 +1408,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1427,7 +1427,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1438,8 +1438,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1457,7 +1457,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1468,8 +1468,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1487,7 +1487,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1498,8 +1498,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1517,7 +1517,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1528,8 +1528,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1547,7 +1547,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1558,8 +1558,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1577,7 +1577,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1586,7 +1586,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1604,7 +1604,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1613,7 +1613,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1631,7 +1631,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1640,7 +1640,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1658,7 +1658,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1667,7 +1667,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1685,7 +1685,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1694,7 +1694,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1712,7 +1712,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1721,7 +1721,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1739,7 +1739,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1748,7 +1748,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1766,7 +1766,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1775,7 +1775,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1793,7 +1793,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1802,7 +1802,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1820,7 +1820,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1829,7 +1829,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1847,7 +1847,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1856,7 +1856,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1874,7 +1874,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1883,7 +1883,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1901,7 +1901,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1910,7 +1910,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -1928,7 +1928,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1939,8 +1939,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1958,7 +1958,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1969,8 +1969,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -1988,7 +1988,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1999,8 +1999,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2018,7 +2018,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2027,7 +2027,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2045,7 +2045,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2054,7 +2054,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2072,7 +2072,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2083,8 +2083,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2102,7 +2102,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2111,7 +2111,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2129,7 +2129,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2138,7 +2138,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2156,7 +2156,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2165,7 +2165,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2183,7 +2183,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2192,7 +2192,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2210,7 +2210,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2219,7 +2219,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2237,7 +2237,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2246,7 +2246,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2264,7 +2264,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2273,7 +2273,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2291,7 +2291,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2300,7 +2300,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2318,7 +2318,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2327,7 +2327,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2345,7 +2345,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2354,7 +2354,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2372,7 +2372,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2383,8 +2383,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2402,7 +2402,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2411,7 +2411,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2429,7 +2429,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2438,7 +2438,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2456,7 +2456,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2465,7 +2465,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2483,7 +2483,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2492,7 +2492,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2510,7 +2510,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2519,7 +2519,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2537,7 +2537,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2546,7 +2546,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2564,7 +2564,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2573,7 +2573,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2591,7 +2591,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2600,7 +2600,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2618,7 +2618,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2627,7 +2627,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2645,7 +2645,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2654,7 +2654,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2672,7 +2672,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2681,7 +2681,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2699,7 +2699,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2708,7 +2708,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2726,7 +2726,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2737,8 +2737,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2756,7 +2756,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2765,7 +2765,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2783,7 +2783,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2794,8 +2794,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2813,7 +2813,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2824,8 +2824,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2843,7 +2843,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2852,7 +2852,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2870,7 +2870,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2879,7 +2879,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2897,7 +2897,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2906,7 +2906,7 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751"
       },
       "facts": {},
       "notes": [
@@ -2924,7 +2924,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2933,7 +2933,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2951,7 +2951,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2960,7 +2960,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -2978,7 +2978,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2987,7 +2987,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -3005,7 +3005,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3014,7 +3014,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -3032,7 +3032,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3041,7 +3041,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -3059,7 +3059,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3068,7 +3068,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -3086,7 +3086,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3095,7 +3095,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -3113,7 +3113,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3122,7 +3122,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -3140,7 +3140,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3149,7 +3149,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -3167,7 +3167,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3176,7 +3176,7 @@
         "https://ai.google.dev/gemini-api/docs/deprecations"
       ],
       "source_hashes": {
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -3194,7 +3194,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3205,8 +3205,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
@@ -3224,7 +3224,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:28:53Z",
+      "last_seen_at": "2026-10-02T11:31:36Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3235,8 +3235,8 @@
         "https://ai.google.dev/gemini-api/docs/models"
       ],
       "source_hashes": {
-        "google-models": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-        "google-deprecations": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5"
+        "google-models": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+        "google-deprecations": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3"
       },
       "facts": {},
       "notes": [
