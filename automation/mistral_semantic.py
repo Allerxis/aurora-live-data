@@ -111,13 +111,30 @@ def parse_mistral_model_page(
     )
     context = _int_value(context_m.group(1)) if context_m else None
 
-    # Model cards expose the release stage close to the release date.
-    stage_m = re.search(
-        r"\b(GA|Public Preview|Labs|Deprecated|Retired)\b",
+    # Global navigation contains words such as "Labs". Use the last lifecycle
+    # marker immediately preceding the exact API ID, which belongs to the card.
+    id_match = re.search(
+        rf"(?<![a-z0-9._-]){re.escape(model_id)}(?![a-z0-9._-])",
         text,
         re.I,
     )
-    stage = stage_m.group(1) if stage_m else None
+    stage = None
+    if id_match:
+        prefix = text[max(0, id_match.start() - 1200):id_match.start()]
+        stage_matches = list(re.finditer(
+            r"\b(GA|Public Preview|Labs|Deprecated|Retired)\b",
+            prefix,
+            re.I,
+        ))
+        if stage_matches:
+            raw_stage = stage_matches[-1].group(1)
+            stage = {
+                "ga": "GA",
+                "public preview": "Public Preview",
+                "labs": "Labs",
+                "deprecated": "Deprecated",
+                "retired": "Retired",
+            }.get(raw_stage.lower(), raw_stage)
 
     version_m = re.search(r"\bv([0-9]+(?:\.[0-9]+)+)\b", text, re.I)
     release_m = re.search(
@@ -198,7 +215,7 @@ def parse_mistral_pricing_page(
         r"Ministral\s+[0-9]+\s+(?:14B|8B|3B)|"
         r"Codestral(?:\s+Embed)?|"
         r"Z\.ai\s+GLM\s+[0-9]+(?:\.[0-9]+)?"
-        r")\s+"
+        r")\s+[^$]{0,48}"
         r"\$(?P<input>[0-9.]+)\s+"
         r"\$(?P<cached>[0-9.]+)\s+"
         r"\$(?P<output>[0-9.]+)",
