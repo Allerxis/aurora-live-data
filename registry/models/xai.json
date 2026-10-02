@@ -1,6 +1,1658 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "provider": "xai",
-  "generated_at": null,
-  "models": []
+  "generated_at": "2026-10-02T11:26:55Z",
+  "semantics": {
+    "present_in_current_sources": "True means the deterministic adapter found this candidate during the current refresh. It does not prove API availability or product availability.",
+    "verification_state": "Only records explicitly marked verified may be used as authoritative semantic model facts."
+  },
+  "models": [
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20",
+      "display_name": "grok-4.20",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-0309",
+      "display_name": "grok-4.20-0309",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-0309-non-reasoning",
+      "display_name": "grok-4.20-0309-non-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-0309-reasoning",
+      "display_name": "grok-4.20-0309-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-beta",
+      "display_name": "grok-4.20-beta",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-beta-0309",
+      "display_name": "grok-4.20-beta-0309",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-beta-0309-non-reasoning",
+      "display_name": "grok-4.20-beta-0309-non-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-beta-0309-reasoning",
+      "display_name": "grok-4.20-beta-0309-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-beta-latest",
+      "display_name": "grok-4.20-beta-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-beta-latest-non-reasoning",
+      "display_name": "grok-4.20-beta-latest-non-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-beta-latest-reasoning",
+      "display_name": "grok-4.20-beta-latest-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-beta-non-reasoning",
+      "display_name": "grok-4.20-beta-non-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-beta-reasoning",
+      "display_name": "grok-4.20-beta-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-experimental-beta-0304",
+      "display_name": "grok-4.20-experimental-beta-0304",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-experimental-beta-0304-non-reasoning",
+      "display_name": "grok-4.20-experimental-beta-0304-non-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-experimental-beta-0304-reasoning",
+      "display_name": "grok-4.20-experimental-beta-0304-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-experimental-beta-latest",
+      "display_name": "grok-4.20-experimental-beta-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-experimental-beta-non-reasoning-latest",
+      "display_name": "grok-4.20-experimental-beta-non-reasoning-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-experimental-beta-reasoning-latest",
+      "display_name": "grok-4.20-experimental-beta-reasoning-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-multi-agent",
+      "display_name": "grok-4.20-multi-agent",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-multi-agent-0309",
+      "display_name": "grok-4.20-multi-agent-0309",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-multi-agent-beta-0309",
+      "display_name": "grok-4.20-multi-agent-beta-0309",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-multi-agent-beta-latest",
+      "display_name": "grok-4.20-multi-agent-beta-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-multi-agent-experimental-beta-0304",
+      "display_name": "grok-4.20-multi-agent-experimental-beta-0304",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-multi-agent-experimental-beta-latest",
+      "display_name": "grok-4.20-multi-agent-experimental-beta-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-multi-agent-latest",
+      "display_name": "grok-4.20-multi-agent-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-non-reasoning",
+      "display_name": "grok-4.20-non-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-non-reasoning-gv2",
+      "display_name": "grok-4.20-non-reasoning-gv2",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-non-reasoning-latest",
+      "display_name": "grok-4.20-non-reasoning-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-reasoning",
+      "display_name": "grok-4.20-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-reasoning-gv2",
+      "display_name": "grok-4.20-reasoning-gv2",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-reasoning-latest",
+      "display_name": "grok-4.20-reasoning-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.3",
+      "display_name": "grok-4.3",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.3-latest",
+      "display_name": "grok-4.3-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.5",
+      "display_name": "grok-4.5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.5-latest",
+      "display_name": "grok-4.5-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.6",
+      "display_name": "grok-4.6",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.7",
+      "display_name": "grok-4.7",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-47",
+      "display_name": "grok-47",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-build-0.1",
+      "display_name": "grok-build-0.1",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-build-latest",
+      "display_name": "grok-build-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-code-fast",
+      "display_name": "grok-code-fast",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-code-fast-1",
+      "display_name": "grok-code-fast-1",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-code-fast-1-0825",
+      "display_name": "grok-code-fast-1-0825",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-imagine-image",
+      "display_name": "grok-imagine-image",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-imagine-image-2.0",
+      "display_name": "grok-imagine-image-2.0",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-imagine-image-2026-03-02",
+      "display_name": "grok-imagine-image-2026-03-02",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-imagine-image-pro",
+      "display_name": "grok-imagine-image-pro",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-imagine-image-quality",
+      "display_name": "grok-imagine-image-quality",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-imagine-image-quality-20260403",
+      "display_name": "grok-imagine-image-quality-20260403",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-imagine-image-quality-latest",
+      "display_name": "grok-imagine-image-quality-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-imagine-video",
+      "display_name": "grok-imagine-video",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-imagine-video-1.5",
+      "display_name": "grok-imagine-video-1.5",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-imagine-video-1.5-2026-05-30",
+      "display_name": "grok-imagine-video-1.5-2026-05-30",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-imagine-video-1.5-lite",
+      "display_name": "grok-imagine-video-1.5-lite",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-imagine-video-1.5-preview",
+      "display_name": "grok-imagine-video-1.5-preview",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-tts",
+      "display_name": "grok-tts",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-voice-latest",
+      "display_name": "grok-voice-latest",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-voice-think-fast-2.0",
+      "display_name": "grok-voice-think-fast-2.0",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-voice-transcribe-1.0",
+      "display_name": "grok-voice-transcribe-1.0",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-voice-transcribe-2.0",
+      "display_name": "grok-voice-transcribe-2.0",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T11:26:55Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-models"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/models"
+      ],
+      "source_hashes": {
+        "xai-models": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001"
+      },
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    }
+  ]
 }

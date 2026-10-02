@@ -1,6 +1,10 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "provider": "openai",
-  "generated_at": null,
+  "generated_at": "2026-10-02T11:26:55Z",
+  "semantics": {
+    "present_in_current_sources": "True means the deterministic adapter found this candidate during the current refresh. It does not prove API availability or product availability.",
+    "verification_state": "Only records explicitly marked verified may be used as authoritative semantic model facts."
+  },
   "models": []
 }

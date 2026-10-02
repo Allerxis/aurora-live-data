@@ -1,7 +1,3367 @@
 {
-  "schema_version": "0.1.0",
-  "generated_at": "2026-10-02T11:25:46Z",
+  "schema_version": "0.2.0",
+  "generated_at": "2026-10-02T11:26:55Z",
   "changes": [
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "meta:llama-guard-4",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-voice-transcribe-2.0",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-voice-transcribe-1.0",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-voice-think-fast-2.0",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-voice-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-tts",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-imagine-video-1.5-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-imagine-video-1.5-lite",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-imagine-video-1.5-2026-05-30",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-imagine-video-1.5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-imagine-video",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-imagine-image-quality-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-imagine-image-quality-20260403",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-imagine-image-quality",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-imagine-image-pro",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-imagine-image-2026-03-02",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-imagine-image-2.0",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-imagine-image",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-code-fast-1-0825",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-code-fast-1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-code-fast",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-build-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-build-0.1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-47",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.7",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.6",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.5-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.3-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.3",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-reasoning-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-reasoning-gv2",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-non-reasoning-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-non-reasoning-gv2",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-non-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-multi-agent-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-multi-agent-experimental-beta-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-multi-agent-experimental-beta-0304",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-multi-agent-beta-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-multi-agent-beta-0309",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-multi-agent-0309",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-multi-agent",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-experimental-beta-reasoning-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-experimental-beta-non-reasoning-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-experimental-beta-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-experimental-beta-0304-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-experimental-beta-0304-non-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-experimental-beta-0304",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-beta-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-beta-non-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-beta-latest-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-beta-latest-non-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-beta-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-beta-0309-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-beta-0309-non-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-beta-0309",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-beta",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-0309-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-0309-non-reasoning",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-0309",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:voxtral.svg",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:voxtral-tts-26-03",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:voxtral-small-25-07",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:voxtral-mini-transcribe-realtime-26-02",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:voxtral-mini-transcribe-26-02",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:voxtral-mini-transcribe-25-07",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:voxtral-mini-2507",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:voxtral-mini-25-07",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:voxtral",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:pixtral-large-2411",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:pixtral-large-24-11",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:pixtral-large",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:pixtral-12b-2409",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:pixtral-12b-24-09",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:pixtral-12b",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:pixtral",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-tool_usage",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-structured_ocr",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-rate-limits",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-product_datasheet_analysis-product_datasheet_analysis",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-playground",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-pdfs",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-models",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-images-and-pdfs",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-images",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-hcls-ocr_hcls",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-extractor",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-documentchunking-readme",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-document_understanding",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-data_extraction",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-batch_ocr",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-at-scale",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-4-1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-4-0",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-3-25-12",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-2505",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-2503",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-25-03",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ocr-2-25-05",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-creative-25-12",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-creative",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-4-0-26-03",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-3-2-25-06",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-3-1-25-03",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-3-0-25-01",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-2506",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-2503",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-2501",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-2409",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-2402",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-2-0-24-09",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-1-0-24-02",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-saba-2502",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-saba-25-02",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-nemo-2407",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-nemo-12b-24-07",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-medium-3-5-26-04",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-medium-3-25-05",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-medium-3-1-25-08",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-medium-3",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-medium-2508",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-medium-2505",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-medium-2312",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-medium-1-0-23-12",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-large-3-25-12",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-large-2411",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-large-2407",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-large-2402",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-large-2-1-24-11",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-large-2-0-24-07",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-large-1-0-24-02",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-large",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-embeddings-embeddings",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-embeddings-dequantization",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-embeddings-code_embedding",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-embedder",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-embed-23-12",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-embed",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ministral-8b-2410",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ministral-8b-24-1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ministral-3b-2410",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ministral-3b-24-1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ministral-3-8b-25-12",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ministral-3-3b-25-12",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:ministral-3-14b-25-12",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:magistral-small-2509",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:magistral-small-2507",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:magistral-small-2506",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:magistral-small-1-2-25-09",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:magistral-small-1-1-25-07",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:magistral-small-1-0-25-06",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:magistral-medium-2509",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:magistral-medium-2507",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:magistral-medium-2506",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:magistral-medium-1-2-25-09",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:magistral-medium-1-1-25-07",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:magistral-medium-1-0-25-06",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:magistral",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral_embed.svg",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral.svg",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral-mamba-7b-0-1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral-mamba",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral-embed-25-05",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral-embed",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral-code-interpreter-python-readme",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral-code-interpreter-python-codestral_code_interpreter",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral-code-interpreter-js-readme",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral-2501",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral-25-08",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral-25-01",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral-2405",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral-24-05",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:codestral",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.1-lite-generate-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.1-generate-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.1-fast-generate-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.0-generate-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.0-generate-001",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.0-fast-generate-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.0-fast-generate-001",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-2.0-generate-001",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-4.0-ultra-generate-preview-06-06",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-4.0-ultra-generate-001",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-4.0-generate-preview-06-06",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-4.0-generate-001",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-4.0-generate",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-4.0-fast-generate-001",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-3.0-generate-002",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-robotics-er-2-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-robotics-er-1.6-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-robotics-er-1.5-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-omni-1.1-flash",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-model-row",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-model-name",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-model-grid-compact",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-model-details",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-model-desc",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-live-2.5-flash-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-icon-card-small",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-flash-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-embedding-exp-03-07",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-embedding-exp",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-embedding-2-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-embedding-2",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-embedding-001",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-centered-model-grid",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-card-centered",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-table-font-color",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-supported",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-resources-footer",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-resource-item",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-recommended",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-not-supported",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-new",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-model-table-grid",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-model-table",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-model-font",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-model-button",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-logo.svg",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-hovercard-button",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-hovercard",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-header-with-cta",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-experimental",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-elevation-3dp",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-elevation-1dp",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-cta-link",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-card-width",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-card-title",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-card-overview.with-links",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-card-overview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-card-description-cta",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-card-description",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-card-bulletpoints",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api-card",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-api",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.8-live-extended-thinking",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.8-live",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.8-flash-tts",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.8-flash-lite-tts",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.8-flash",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.7-flash",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.6-flash",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.5-transcribe-live",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.5-transcribe",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.5-live-translate-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.5-flash-lite",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.5-flash",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-pro-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-tts-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-live-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-lite-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-lite-image",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-lite",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-image-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-image",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3-pro-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3-pro-image-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3-pro-image",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3-flash-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-pro-preview-tts",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-pro-preview-06-05",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-pro-preview-05-06",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-pro-preview-03-25",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-pro",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-preview-tts",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-preview-09-25",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-preview-09-2025",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-preview-05-20",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-native-audio-preview-12-2025",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-lite-preview-09-2025",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-lite",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-image-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-image",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-computer-use-preview-10-2025",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-preview-image-generation",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-live-001",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-lite-preview-02-05",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-lite-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-lite-001",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-lite",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-001",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:deep-research-preview-04-2026",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:deep-research-max-preview-04-2026",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:antigravity-preview-09-2026",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:antigravity-preview-05-2026",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:antigravity",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-sonnet-5-5-system-card",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-sonnet-5-5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-sonnet-5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-sonnet-4-6",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-sonnet-4-5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-sonnet-4",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-sonnet-3-7",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-sonnet-3-5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-prompting-best-practices",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-platform-on-aws-iam-actions",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-platform-on-aws",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-5-5-system-card",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-5-5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-4-8",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-4-7",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-4-6",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-4-5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-4-1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-4",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-3",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-on-vertex-ai",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-on-amazon-bedrock-legacy",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-in-microsoft-foundry",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-in-amazon-bedrock",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-haiku-4-5-system-card",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-haiku-4-5-20251001-v1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-haiku-4-5-20251001",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-haiku-4-5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-haiku-3-5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-haiku-3",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-fable-and-mythos-5-1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-fable-5-1-mythos-5-1-system-card",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-fable-5-1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-fable-5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-code-analytics-api",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-code",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-api-skill",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-api",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama",
+      "change_type": "content_changed",
+      "previous_hash": "14240eb65b60ad6dc250e34035b2a73d51a620bacf0500a46134d1c357e9e1b9",
+      "new_hash": "2236d740e953d9d161b1b73a5fa1b366804801831d3593fcaf4144dbeee41f3c",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "source",
+      "entity_key": "xai-models",
+      "change_type": "content_changed",
+      "previous_hash": "e13607744a3cf0c73ba929dc52340a42db1ed4777c0907488f676337985583f6",
+      "new_hash": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001",
+      "source_url": "https://docs.x.ai/developers/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "source",
+      "entity_key": "mistral-models",
+      "change_type": "content_changed",
+      "previous_hash": "45723c183a80b754422ba4edd06749be0f48fc4d25c8dba3f764c6226c04ee75",
+      "new_hash": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556",
+      "source_url": "https://docs.mistral.ai/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "source",
+      "entity_key": "google-deprecations",
+      "change_type": "content_changed",
+      "previous_hash": "1ce19265b95e1366525588454dfb7402f634742c56868190ac8d079cb58f3f29",
+      "new_hash": "8443c70d06e406d065759e53fd7dc55a0e865339b6bd130c32d9f6a14cd1224c",
+      "source_url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "source",
+      "entity_key": "google-models",
+      "change_type": "content_changed",
+      "previous_hash": "471c4784e4de9a26efb367705c7d837a45146466b52f4898c68db78809bede06",
+      "new_hash": "640c1078347915d4d26cb95885b08fbfb2ea897972cbce1047b3148a4e510d4e",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-models",
+      "change_type": "content_changed",
+      "previous_hash": "11aa4727516bc92200597cb349be971a93c4d4d413b1dd655603564d1fd3f18e",
+      "new_hash": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92",
+      "source_url": "https://platform.claude.com/docs/en/models/overview",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-02T11:26:55Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "51517b520d44fedf9f65a5271b15487cca8159a8f8b2ade30a41c287512c63d5",
+      "new_hash": "2768c2143f011381c39aed4537f6cdaa99a28ccd7bf027c8b949f663ffd6ccc2",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-02T11:25:46Z",
       "entity_type": "source",
