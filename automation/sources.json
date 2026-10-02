@@ -83,6 +83,27 @@
       "label": "xAI API pricing",
       "url": "https://docs.x.ai/developers/pricing",
       "freshness_hours": 24
+    },
+    {
+      "source_key": "mistral-pricing",
+      "provider_slug": "mistral",
+      "label": "Mistral API pricing",
+      "url": "https://docs.mistral.ai/inference/pricing",
+      "freshness_hours": 24
+    },
+    {
+      "source_key": "mistral-lifecycle",
+      "provider_slug": "mistral",
+      "label": "Mistral model lifecycle policy",
+      "url": "https://docs.mistral.ai/inference/model-lifecycle",
+      "freshness_hours": 72
+    },
+    {
+      "source_key": "mistral-labs",
+      "provider_slug": "mistral",
+      "label": "Mistral Labs models",
+      "url": "https://docs.mistral.ai/inference/labs",
+      "freshness_hours": 48
     }
   ]
 }
