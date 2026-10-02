@@ -1,7 +1,677 @@
 {
-  "schema_version": "0.6.0",
-  "generated_at": "2026-10-02T12:09:24Z",
+  "schema_version": "0.8.0",
+  "generated_at": "2026-10-02T12:16:33Z",
   "changes": [
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "xai:grok-4.7",
+      "change_type": "semantic_changed",
+      "previous_hash": "fa1902bd810e005ef12ed5a29da08f324d4a5a37b9506e2744cc482d9fc27069",
+      "new_hash": "a57bdaad06256b6a8c48669a66d4b0371bf5e75a142fa2c2a46ff249830c7f46",
+      "source_url": "https://docs.x.ai/developers/models/grok-4.7",
+      "summary": "Verified semantic facts changed on the official xAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.6",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "xai:grok-4.6",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "c6dcbe28bee0a349b1748d00e59115b1b62606e56cfbb8d84f3c6eb34f51dda4",
+      "source_url": "https://docs.x.ai/developers/models/grok-4.6",
+      "summary": "Deterministic facts were verified from the official xAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.5",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "xai:grok-4.5",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "3e2d0af19fde93300bb19b2918a36cb588419a749b4843d4b7cb71ffb70b9860",
+      "source_url": "https://docs.x.ai/developers/models/grok-4.5",
+      "summary": "Deterministic facts were verified from the official xAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "xai:grok-4.3",
+      "change_type": "semantic_changed",
+      "previous_hash": "45e9b3e74e47fc9c2d8fe811208419c7d4d256344e9f052444606a9a43e942ac",
+      "new_hash": "a8466d17a38fb3de478796f9f2185deab55c54aac583969427e28e1fe22fd2db",
+      "source_url": "https://docs.x.ai/developers/models/grok-4.3",
+      "summary": "Verified semantic facts changed on the official xAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-multi-agent-0309",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "xai:grok-4.20-multi-agent-0309",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "d168288697c75244d73645550e14edd27cf712335f78bea999fc002ceb187492",
+      "source_url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309",
+      "summary": "Deterministic facts were verified from the official xAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-0309-reasoning",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "xai:grok-4.20-0309-reasoning",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "c4179c3c5bb0e140e11a4d77fb2dcc27ab78ca30258af1018495520b3814a74a",
+      "source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
+      "summary": "Deterministic facts were verified from the official xAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "xai:grok-4.20-0309-non-reasoning",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "xai:grok-4.20-0309-non-reasoning",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "a890aa239e0de3e9db5557bbe7ce03f5754b70801dd4222903150c74e1d5a315",
+      "source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning",
+      "summary": "Deterministic facts were verified from the official xAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-ocr",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:voxtral-mini-2507",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "e8b42ed4d5a27433056afe701f28ac96ebe1446b0b5dcd7a151fee39df29d152",
+      "source_url": "https://docs.mistral.ai/models/voxtral-mini-25-07",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:pixtral-large-2411",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "e814129cc584c2a2070a4f83b052acd12a8e38eb784349d776c5f828a6a6d101",
+      "source_url": "https://docs.mistral.ai/models/pixtral-large-24-11",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:pixtral-12b-2409",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "efae38987b2b63e082f65c0508b97794a4e703851347204a76708166ee07bb19",
+      "source_url": "https://docs.mistral.ai/models/pixtral-12b-24-09",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:open-mixtral-8x7b",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "dd6f825edc992d1b7e411dcb9a107caf396321260e7b3cfef83e273fdff34503",
+      "source_url": "https://docs.mistral.ai/models/mixtral-8x7b-0-1",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:open-mixtral-8x22b",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "3f729397c93326640d29c7a99c5b6c95dc8f4c4670eaa95a141139ae226798a6",
+      "source_url": "https://docs.mistral.ai/models/mixtral-8x22b-0-1-0-3",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:open-mistral-nemo-2407",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "9e56e359e22a6eddaf341073c5ae1760beefd6be77b536acdcce4693d9c233f9",
+      "source_url": "https://docs.mistral.ai/models/mistral-nemo-12b-24-07",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:open-mistral-7b",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "0ea75a4c68263cbcd8ae7e264948d5561a3ce8a850cad3e803f3f70c06abaf28",
+      "source_url": "https://docs.mistral.ai/models/mistral-7b-0-2",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-small-creative",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-small-2506",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "79e3cd98bc568f2d79181fa81fcbad0606aadf04e0c9017a44fa4f3fc21b5cc3",
+      "source_url": "https://docs.mistral.ai/models/mistral-small-3-2-25-06",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-small-2503",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "433cbef3f3e7c022a427de613436ae4e9fb210b7f0d612a30ed394049f6139c5",
+      "source_url": "https://docs.mistral.ai/models/mistral-small-3-1-25-03",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-small-2501",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "414fd0ad6ca3fa3e93d71993eae39fa4840b797b45d1d2b02d1e208197a24a0c",
+      "source_url": "https://docs.mistral.ai/models/mistral-small-3-0-25-01",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-small-2409",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "e2ace633c16eb568c279182b39e78500d347ae137bc2a9a6ff44975148ebc812",
+      "source_url": "https://docs.mistral.ai/models/mistral-small-2-0-24-09",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-small-2402",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "9ab8ee2e800e8d78365c7df05496226357298c14622fbe1325d15417c491c8be",
+      "source_url": "https://docs.mistral.ai/models/mistral-small-1-0-24-02",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-saba-2502",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "88fd45e41585db740ed59140a7b1dd9e555adbda97554c253584081e2d2b631f",
+      "source_url": "https://docs.mistral.ai/models/mistral-saba-25-02",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-ocr-4-0",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-ocr-4-0",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "54def2a40c61ff4091529aedb45054927ac00cdd3b90633f444212fac1ae89bf",
+      "source_url": "https://docs.mistral.ai/models/ocr-4-0",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-ocr-2505",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "964c022c1cd300e38f0f9c879ccb518d50ab77f40ac8dada87b7a65992eca632",
+      "source_url": "https://docs.mistral.ai/models/ocr-2-25-05",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-moderation-2411",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-moderation-2411",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "5ef95fbef3596459cb01b62ccf02f5ed6dabf3d8a24abf8e81d5ef4fc0df783c",
+      "source_url": "https://docs.mistral.ai/models/mistral-moderation-24-11",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-medium-latest",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-medium-3-5",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-medium-3-5",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "0eea34d5388e61fe1d8bee0aa3ee983d27fc83faf72a2d7405905f32e8f85286",
+      "source_url": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-medium-3",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-medium-2508",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "c6e1aa2111549fc5a924e317152e5c987da34cb90e5d23aed7a692c1bc454288",
+      "source_url": "https://docs.mistral.ai/models/mistral-medium-3-1-25-08",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-medium-2505",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "5c517d36f0d81db68b8ce0edf2ee12b5873832a9fdd1195e29ff707b1275c9be",
+      "source_url": "https://docs.mistral.ai/models/mistral-medium-3-25-05",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-medium-2312",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "182e48d67be7c2fb84624012464765326ef786277ceae96b4638d33ed8cbce24",
+      "source_url": "https://docs.mistral.ai/models/mistral-medium-1-0-23-12",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-large-2411",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "8588cbb96315e577be6d364ed32976541f79f78f379c8b38b9dbba4562f0148a",
+      "source_url": "https://docs.mistral.ai/models/mistral-large-2-1-24-11",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-large-2407",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "09072e7c0cf18fb1d2ac60525447a004a58340e1e404165250c769beda98c503",
+      "source_url": "https://docs.mistral.ai/models/mistral-large-2-0-24-07",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-large-2402",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "2e9523c91c709c13159cc5e322ee8244ee427e5392b9626e81ee74af735bbe46",
+      "source_url": "https://docs.mistral.ai/models/mistral-large-1-0-24-02",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:ministral-8b-2410",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "79897dc85c135607ff999ca80f54da5de5f1ef92ef0a122fc59beee2fbab135a",
+      "source_url": "https://docs.mistral.ai/models/ministral-8b-24-1",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:ministral-3b-2410",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "4b87a3ceb8db4b210c769181c122125f3c8cbaf4af44385a546af8db68e32d5a",
+      "source_url": "https://docs.mistral.ai/models/ministral-3b-24-1",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:magistral-small-2509",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "3ce335c605ecc8bfd1a1de5ca9c36a3fc5601ebf49c9d02dc99ba1aea7728c01",
+      "source_url": "https://docs.mistral.ai/models/magistral-small-1-2-25-09",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:magistral-small-2507",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "0868d3466f4c1c6a9bb9b7dd54b196aef9356b9b25b413a90f54b04803f7a596",
+      "source_url": "https://docs.mistral.ai/models/magistral-small-1-1-25-07",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:magistral-small-2506",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "71319ef9fc74cea5603b6eee29696e91c9b69c8b577c5909f8722ffe6a0924e0",
+      "source_url": "https://docs.mistral.ai/models/magistral-small-1-0-25-06",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:magistral-medium-2509",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "6950646f9528472a71352c83f5927fde08fef847b920cd978361870586d7830b",
+      "source_url": "https://docs.mistral.ai/models/magistral-medium-1-2-25-09",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:magistral-medium-2507",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "192c4055099e85e7376c3651e90e3cd6cd4a0eecaa52a95e7f4ac86f2cb2cf76",
+      "source_url": "https://docs.mistral.ai/models/magistral-medium-1-1-25-07",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:magistral-medium-2506",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "c66450b13e24c7742d8f17360dfd0245ae92ee0d036107da57c3ac1a97ebb54b",
+      "source_url": "https://docs.mistral.ai/models/magistral-medium-1-0-25-06",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:labs-mistral-small-creative",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "e0be964af86f510c64651b4442a782d197dc8bccd81ba75895a055f8e6b2d67b",
+      "source_url": "https://docs.mistral.ai/models/mistral-small-creative-25-12",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:labs-leanstral-2603",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "f26081b37857000d5f025b8202fd10a5542f402c7a023ffcfd4a1ad3ecfc998b",
+      "source_url": "https://docs.mistral.ai/models/leanstral-26-03",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:labs-leanstral-1-5",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "1e866a2de0bacea54e8ba1d2c6357f1f7b0ea3c8c9b9a7ce021316b77d080236",
+      "source_url": "https://docs.mistral.ai/models/leanstral-1-5",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:labs-devstral-small-2512",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "8052a229336726b77a28c2635439539b9a50bfbb1c8f29d3f6716bbe27b0dcd4",
+      "source_url": "https://docs.mistral.ai/models/devstral-small-2-25-12",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:devstral-small-2507",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "3048c1b6e24f92c360ef6d9a392a26f3b6f7693943ec8e80bd55fbfccd372d88",
+      "source_url": "https://docs.mistral.ai/models/devstral-small-1-1-25-07",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:devstral-small-2505",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "a5b98aff24ff28fe99d60e53bdcd6f0f01c8ff4c3ccd95896f34daebf3fb710f",
+      "source_url": "https://docs.mistral.ai/models/devstral-small-1-0-25-05",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:devstral-medium-2507",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "d9f72d61a410aca6dbce3d9b47704eb81e55e09499f7666318ccdff830852872",
+      "source_url": "https://docs.mistral.ai/models/devstral-medium-1-0-25-07",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:devstral-2512",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "cba084c8760834dc5db5349d4b756276e45c064ad53881376328c4136e7ccb33",
+      "source_url": "https://docs.mistral.ai/models/devstral-2-25-12",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:devstral",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "cba084c8760834dc5db5349d4b756276e45c064ad53881376328c4136e7ccb33",
+      "source_url": "https://docs.mistral.ai/models/devstral-2-25-12",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:codestral-2501",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "d58c8249d41408201baf22dc03cc46c5f8b40fe538ae2c79b74071c52e371955",
+      "source_url": "https://docs.mistral.ai/models/codestral-25-01",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:codestral-2405",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "710693a7912beeb89dde073fe38f4dece348f870535a5a3a42116c9ab19d3f64",
+      "source_url": "https://docs.mistral.ai/models/codestral-24-05",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:codestral",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "710693a7912beeb89dde073fe38f4dece348f870535a5a3a42116c9ab19d3f64",
+      "source_url": "https://docs.mistral.ai/models/codestral-24-05",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "source",
+      "entity_key": "mistral-labs",
+      "change_type": "source_initialized",
+      "previous_hash": null,
+      "new_hash": "cccc99c0c55c1fc6430d840b3c46fcb4a2dccb60ba840dad6bfacc3876955580",
+      "source_url": "https://docs.mistral.ai/inference/labs",
+      "summary": "Official source initialized in Aurora Live Data."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "source",
+      "entity_key": "mistral-lifecycle",
+      "change_type": "source_initialized",
+      "previous_hash": null,
+      "new_hash": "b3276be6bf65abba300cf2f921e05d1098ed2d4ec3625248bbd1b97af6491100",
+      "source_url": "https://docs.mistral.ai/inference/model-lifecycle",
+      "summary": "Official source initialized in Aurora Live Data."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "source",
+      "entity_key": "mistral-pricing",
+      "change_type": "source_initialized",
+      "previous_hash": null,
+      "new_hash": "84a48f786473b14d74e0bce68dfb94bb487f3b9dcce932e8c72c261cb08a996c",
+      "source_url": "https://docs.mistral.ai/inference/pricing",
+      "summary": "Official source initialized in Aurora Live Data."
+    },
+    {
+      "observed_at": "2026-10-02T12:16:33Z",
+      "entity_type": "source",
+      "entity_key": "xai-pricing",
+      "change_type": "source_initialized",
+      "previous_hash": null,
+      "new_hash": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b",
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "summary": "Official source initialized in Aurora Live Data."
+    },
     {
       "observed_at": "2026-10-02T12:09:24Z",
       "entity_type": "model_semantics",

@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.6.0",
+  "schema_version": "0.8.0",
   "provider": "xai",
-  "generated_at": "2026-10-02T12:09:24Z",
+  "generated_at": "2026-10-02T12:16:33Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -24,7 +24,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -62,7 +62,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -100,7 +100,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -138,7 +138,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -176,7 +176,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -214,7 +214,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -246,7 +246,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -269,6 +269,195 @@
     },
     {
       "provider_slug": "xai",
+      "model_key": "grok-4.20-0309-non-reasoning",
+      "display_name": "grok-4.20-0309-non-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-pricing"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/pricing"
+      ],
+      "source_hashes": {
+        "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b"
+      },
+      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning",
+      "semantic_hash": "a890aa239e0de3e9db5557bbe7ce03f5754b70801dd4222903150c74e1d5a315",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning",
+        "context_window_tokens": 1000000,
+        "modalities_raw": "Text, Image Text",
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "context_window_tokens": 1000000,
+          "long_context_threshold_tokens": 200000,
+          "short_context": {
+            "input": 1.25,
+            "cached_input": 0.2,
+            "output": 2.5
+          },
+          "long_context": {
+            "input": 2.5,
+            "cached_input": 0.4,
+            "output": 5.0
+          },
+          "source_url": "https://docs.x.ai/developers/pricing"
+        },
+        "batch_api": true,
+        "reasoning": {
+          "supported": null,
+          "efforts": [],
+          "default": null
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-0309-reasoning",
+      "display_name": "grok-4.20-0309-reasoning",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-pricing"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/pricing"
+      ],
+      "source_hashes": {
+        "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b"
+      },
+      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
+      "semantic_hash": "c4179c3c5bb0e140e11a4d77fb2dcc27ab78ca30258af1018495520b3814a74a",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
+        "context_window_tokens": 1000000,
+        "modalities_raw": "Text, Image Text",
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "context_window_tokens": 1000000,
+          "long_context_threshold_tokens": 200000,
+          "short_context": {
+            "input": 1.25,
+            "cached_input": 0.2,
+            "output": 2.5
+          },
+          "long_context": {
+            "input": 2.5,
+            "cached_input": 0.4,
+            "output": 5.0
+          },
+          "source_url": "https://docs.x.ai/developers/pricing"
+        },
+        "batch_api": true,
+        "reasoning": {
+          "supported": null,
+          "efforts": [],
+          "default": null
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-multi-agent-0309",
+      "display_name": "grok-4.20-multi-agent-0309",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-pricing"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/pricing"
+      ],
+      "source_hashes": {
+        "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b"
+      },
+      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309",
+      "semantic_hash": "d168288697c75244d73645550e14edd27cf712335f78bea999fc002ceb187492",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309",
+        "context_window_tokens": 1000000,
+        "modalities_raw": "Text, Image Text",
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "context_window_tokens": 1000000,
+          "long_context_threshold_tokens": 200000,
+          "short_context": {
+            "input": 1.25,
+            "cached_input": 0.2,
+            "output": 2.5
+          },
+          "long_context": {
+            "input": 2.5,
+            "cached_input": 0.4,
+            "output": 5.0
+          },
+          "source_url": "https://docs.x.ai/developers/pricing"
+        },
+        "batch_api": true,
+        "reasoning": {
+          "supported": null,
+          "efforts": [],
+          "default": null
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "xai",
       "model_key": "grok-4.3",
       "display_name": "grok-4.3",
       "kind": "model",
@@ -278,20 +467,23 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
       "missing_since": null,
       "source_keys": [
+        "xai-pricing",
         "xai-retirement-2026-05"
       ],
       "source_urls": [
-        "https://docs.x.ai/developers/migration/may-15-retirement"
+        "https://docs.x.ai/developers/migration/may-15-retirement",
+        "https://docs.x.ai/developers/pricing"
       ],
       "source_hashes": {
-        "xai-retirement-2026-05": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719"
+        "xai-retirement-2026-05": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719",
+        "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b"
       },
-      "semantic_verified_at": "2026-10-02T12:09:24Z",
+      "semantic_verified_at": "2026-10-02T12:16:33Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.3",
-      "semantic_hash": "45e9b3e74e47fc9c2d8fe811208419c7d4d256344e9f052444606a9a43e942ac",
+      "semantic_hash": "a8466d17a38fb3de478796f9f2185deab55c54aac583969427e28e1fe22fd2db",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.x.ai/developers/models/grok-4.3",
@@ -304,9 +496,19 @@
         },
         "pricing": {
           "unit": "USD_per_1M_tokens",
-          "input": null,
-          "cached_input": null,
-          "output": null
+          "context_window_tokens": 1000000,
+          "long_context_threshold_tokens": 200000,
+          "short_context": {
+            "input": 1.25,
+            "cached_input": 0.2,
+            "output": 2.5
+          },
+          "long_context": {
+            "input": 2.5,
+            "cached_input": 0.4,
+            "output": 5.0
+          },
+          "source_url": "https://docs.x.ai/developers/pricing"
         },
         "batch_api": true,
         "reasoning": {
@@ -328,6 +530,142 @@
     },
     {
       "provider_slug": "xai",
+      "model_key": "grok-4.5",
+      "display_name": "grok-4.5",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-pricing"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/pricing"
+      ],
+      "source_hashes": {
+        "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b"
+      },
+      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.5",
+      "semantic_hash": "3e2d0af19fde93300bb19b2918a36cb588419a749b4843d4b7cb71ffb70b9860",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.x.ai/developers/models/grok-4.5",
+        "context_window_tokens": 500000,
+        "modalities_raw": "Text, Image Text",
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "context_window_tokens": 500000,
+          "long_context_threshold_tokens": 200000,
+          "short_context": {
+            "input": 2.0,
+            "cached_input": 0.3,
+            "output": 6.0
+          },
+          "long_context": {
+            "input": 4.0,
+            "cached_input": 0.6,
+            "output": 12.0
+          },
+          "source_url": "https://docs.x.ai/developers/pricing"
+        },
+        "batch_api": false,
+        "reasoning": {
+          "supported": true,
+          "efforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+          ],
+          "default": "high"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.6",
+      "display_name": "grok-4.6",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
+      "missing_since": null,
+      "source_keys": [
+        "xai-pricing"
+      ],
+      "source_urls": [
+        "https://docs.x.ai/developers/pricing"
+      ],
+      "source_hashes": {
+        "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b"
+      },
+      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.6",
+      "semantic_hash": "c6dcbe28bee0a349b1748d00e59115b1b62606e56cfbb8d84f3c6eb34f51dda4",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.x.ai/developers/models/grok-4.6",
+        "context_window_tokens": 500000,
+        "modalities_raw": "Text, Image Text",
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "context_window_tokens": 500000,
+          "long_context_threshold_tokens": 200000,
+          "short_context": {
+            "input": 2.0,
+            "cached_input": 0.5,
+            "output": 6.0
+          },
+          "long_context": {
+            "input": 4.0,
+            "cached_input": 1.0,
+            "output": 12.0
+          },
+          "source_url": "https://docs.x.ai/developers/pricing"
+        },
+        "batch_api": false,
+        "reasoning": {
+          "supported": true,
+          "efforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+          ],
+          "default": "high"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "xai",
       "model_key": "grok-4.7",
       "display_name": "grok-4.7",
       "kind": "model",
@@ -337,23 +675,26 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:09:24Z",
+      "last_seen_at": "2026-10-02T12:16:33Z",
       "missing_since": null,
       "source_keys": [
         "xai-models",
+        "xai-pricing",
         "xai-retirement-2026-05"
       ],
       "source_urls": [
         "https://docs.x.ai/developers/migration/may-15-retirement",
-        "https://docs.x.ai/developers/models"
+        "https://docs.x.ai/developers/models",
+        "https://docs.x.ai/developers/pricing"
       ],
       "source_hashes": {
         "xai-models": "2886c4293f25d0ba75f7a636e166efa42a64ec759d4da19600535beedd324251",
-        "xai-retirement-2026-05": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719"
+        "xai-retirement-2026-05": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719",
+        "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b"
       },
-      "semantic_verified_at": "2026-10-02T12:09:24Z",
+      "semantic_verified_at": "2026-10-02T12:16:33Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.7",
-      "semantic_hash": "fa1902bd810e005ef12ed5a29da08f324d4a5a37b9506e2744cc482d9fc27069",
+      "semantic_hash": "a57bdaad06256b6a8c48669a66d4b0371bf5e75a142fa2c2a46ff249830c7f46",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.x.ai/developers/models/grok-4.7",
@@ -366,9 +707,19 @@
         },
         "pricing": {
           "unit": "USD_per_1M_tokens",
-          "input": null,
-          "cached_input": null,
-          "output": null
+          "context_window_tokens": 500000,
+          "long_context_threshold_tokens": 200000,
+          "short_context": {
+            "input": 2.0,
+            "cached_input": 0.5,
+            "output": 6.0
+          },
+          "long_context": {
+            "input": 4.0,
+            "cached_input": 1.0,
+            "output": 12.0
+          },
+          "source_url": "https://docs.x.ai/developers/pricing"
         },
         "batch_api": false,
         "reasoning": {
@@ -393,60 +744,6 @@
       "provider_slug": "xai",
       "model_key": "grok-4.20-0309",
       "display_name": "grok-4.20-0309",
-      "kind": "model",
-      "discovery_state": "historical_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": false,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": "2026-10-02T11:36:55Z",
-      "source_keys": [
-        "xai-models"
-      ],
-      "source_urls": [
-        "https://docs.x.ai/developers/models"
-      ],
-      "source_hashes": {
-        "xai-models": "b39923df68865174f2e3cabc93c96b0215d259729dc63b61a0f71ee53769601c"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "xai",
-      "model_key": "grok-4.20-0309-non-reasoning",
-      "display_name": "grok-4.20-0309-non-reasoning",
-      "kind": "model",
-      "discovery_state": "historical_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": false,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": "2026-10-02T11:36:55Z",
-      "source_keys": [
-        "xai-models"
-      ],
-      "source_urls": [
-        "https://docs.x.ai/developers/models"
-      ],
-      "source_hashes": {
-        "xai-models": "b39923df68865174f2e3cabc93c96b0215d259729dc63b61a0f71ee53769601c"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "xai",
-      "model_key": "grok-4.20-0309-reasoning",
-      "display_name": "grok-4.20-0309-reasoning",
       "kind": "model",
       "discovery_state": "historical_unverified",
       "verification_state": "unverified",
@@ -904,33 +1201,6 @@
     },
     {
       "provider_slug": "xai",
-      "model_key": "grok-4.20-multi-agent-0309",
-      "display_name": "grok-4.20-multi-agent-0309",
-      "kind": "model",
-      "discovery_state": "historical_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": false,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": "2026-10-02T11:36:55Z",
-      "source_keys": [
-        "xai-models"
-      ],
-      "source_urls": [
-        "https://docs.x.ai/developers/models"
-      ],
-      "source_hashes": {
-        "xai-models": "b39923df68865174f2e3cabc93c96b0215d259729dc63b61a0f71ee53769601c"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "xai",
       "model_key": "grok-4.20-multi-agent-beta-0309",
       "display_name": "grok-4.20-multi-agent-beta-0309",
       "kind": "model",
@@ -1255,62 +1525,8 @@
     },
     {
       "provider_slug": "xai",
-      "model_key": "grok-4.5",
-      "display_name": "grok-4.5",
-      "kind": "model",
-      "discovery_state": "historical_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": false,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": "2026-10-02T11:36:55Z",
-      "source_keys": [
-        "xai-models"
-      ],
-      "source_urls": [
-        "https://docs.x.ai/developers/models"
-      ],
-      "source_hashes": {
-        "xai-models": "b39923df68865174f2e3cabc93c96b0215d259729dc63b61a0f71ee53769601c"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "xai",
       "model_key": "grok-4.5-latest",
       "display_name": "grok-4.5-latest",
-      "kind": "model",
-      "discovery_state": "historical_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
-      "present_in_current_sources": false,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:35:43Z",
-      "missing_since": "2026-10-02T11:36:55Z",
-      "source_keys": [
-        "xai-models"
-      ],
-      "source_urls": [
-        "https://docs.x.ai/developers/models"
-      ],
-      "source_hashes": {
-        "xai-models": "b39923df68865174f2e3cabc93c96b0215d259729dc63b61a0f71ee53769601c"
-      },
-      "facts": {},
-      "notes": [
-        "Automatically discovered from official provider documentation.",
-        "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
-      ]
-    },
-    {
-      "provider_slug": "xai",
-      "model_key": "grok-4.6",
-      "display_name": "grok-4.6",
       "kind": "model",
       "discovery_state": "historical_unverified",
       "verification_state": "unverified",
