@@ -11,6 +11,7 @@ from pathlib import Path
 
 from adapters import discover
 from openai_semantic import parse_openai_model_page
+from anthropic_semantic import detail_slug_candidates, parse_anthropic_model_page
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
@@ -20,7 +21,7 @@ SOURCES_OUT = REGISTRY_DIR / "sources.json"
 STATUS_OUT = REGISTRY_DIR / "status.json"
 CHANGES_OUT = REGISTRY_DIR / "changes.json"
 CATALOG_OUT = REGISTRY_DIR / "catalog.json"
-SCHEMA_VERSION = "0.3.0"
+SCHEMA_VERSION = "0.4.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -57,7 +58,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.3 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.4 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
@@ -177,6 +178,65 @@ def verify_openai_candidates(candidates: dict, generated_at: str):
         except Exception as exc:
             failures[model_id] = f"{type(exc).__name__}: {exc}"
             print(f"[semantic-error] openai:{model_id}: {exc}")
+
+    return verified, failures
+
+
+def verify_anthropic_candidates(candidates: dict, generated_at: str):
+    verified = {}
+    failures = {}
+
+    for model_id in sorted(candidates):
+        last_error = None
+
+        for slug in detail_slug_candidates(model_id):
+            detail_url = f"https://platform.claude.com/docs/en/models/{slug}/overview"
+            try:
+                result = fetch(detail_url)
+                final_url = result["final_url"].rstrip("/")
+                expected_suffix = f"/docs/en/models/{slug}/overview"
+
+                if not final_url.endswith(expected_suffix):
+                    raise RuntimeError(
+                        f"unexpected redirect to {result['final_url']}"
+                    )
+
+                normalized = normalize_html(result["body"])
+                text = normalized.decode("utf-8", errors="replace")
+                facts = parse_anthropic_model_page(
+                    model_id=model_id,
+                    text=text,
+                    source_url=result["final_url"],
+                )
+                if not facts:
+                    raise RuntimeError(
+                        "detail page did not expose required deterministic fields"
+                    )
+
+                semantic_hash = stable_hash(facts)
+                verified[model_id] = {
+                    "facts": facts,
+                    "semantic_hash": semantic_hash,
+                    "semantic_verified_at": generated_at,
+                    "semantic_source_url": result["final_url"],
+                }
+                print(
+                    f"[semantic-ok] anthropic:{model_id}: "
+                    f"context={facts.get('context_window_tokens')}, "
+                    f"output={facts.get('max_output_tokens')}"
+                )
+                last_error = None
+                break
+
+            except Exception as exc:
+                last_error = f"{type(exc).__name__}: {exc}"
+
+        if model_id not in verified:
+            failures[model_id] = last_error or "No matching official detail page"
+            print(
+                f"[semantic-error] anthropic:{model_id}: "
+                f"{failures[model_id]}"
+            )
 
     return verified, failures
 
@@ -330,6 +390,10 @@ def main():
         discovered.get("openai", {}),
         generated_at,
     )
+    anthropic_verified, anthropic_semantic_failures = verify_anthropic_candidates(
+        discovered.get("anthropic", {}),
+        generated_at,
+    )
 
     all_catalog_models = []
     present_total = 0
@@ -348,17 +412,22 @@ def main():
             verification_state = prev.get(
                 "verification_state", "unverified"
             )
+            lifecycle_status = prev.get("lifecycle_status", "unknown")
             facts = prev.get("facts", {})
             semantic_verified_at = prev.get("semantic_verified_at")
             semantic_source_url = prev.get("semantic_source_url")
             semantic_hash = prev.get("semantic_hash")
             semantic_error = None
 
-            semantic = (
-                openai_verified.get(model_key)
-                if provider == "openai"
-                else None
-            )
+            if provider == "openai":
+                semantic = openai_verified.get(model_key)
+                semantic_failure = openai_semantic_failures.get(model_key)
+            elif provider == "anthropic":
+                semantic = anthropic_verified.get(model_key)
+                semantic_failure = anthropic_semantic_failures.get(model_key)
+            else:
+                semantic = None
+                semantic_failure = None
 
             if semantic:
                 new_semantic_hash = semantic["semantic_hash"]
@@ -370,6 +439,17 @@ def main():
                 semantic_source_url = semantic["semantic_source_url"]
                 verification_state = "verified_official_detail"
                 semantic_verified_total += 1
+
+                if provider == "anthropic":
+                    lifecycle_status = (
+                        facts.get("lifecycle", {}).get("status")
+                        or lifecycle_status
+                    )
+
+                provider_label = {
+                    "openai": "OpenAI",
+                    "anthropic": "Anthropic",
+                }.get(provider, provider)
 
                 if not old_semantic_hash:
                     add_change(
@@ -383,7 +463,7 @@ def main():
                         source_url=semantic_source_url,
                         summary=(
                             "Deterministic facts were verified from the official "
-                            "OpenAI model detail page."
+                            f"{provider_label} model detail page."
                         ),
                     )
                 elif old_semantic_hash != new_semantic_hash:
@@ -398,12 +478,12 @@ def main():
                         source_url=semantic_source_url,
                         summary=(
                             "Verified semantic facts changed on the official "
-                            "OpenAI model detail page."
+                            f"{provider_label} model detail page."
                         ),
                     )
 
-            elif provider == "openai":
-                semantic_error = openai_semantic_failures.get(model_key)
+            elif provider in ("openai", "anthropic"):
+                semantic_error = semantic_failure
                 if verification_state == "verified_official_detail":
                     verification_state = "verified_official_detail_stale"
 
@@ -418,9 +498,7 @@ def main():
                     else "discovered_unverified"
                 ),
                 "verification_state": verification_state,
-                "lifecycle_status": prev.get(
-                    "lifecycle_status", "unknown"
-                ),
+                "lifecycle_status": lifecycle_status,
                 "present_in_current_sources": True,
                 "first_discovered_at": (
                     prev.get("first_discovered_at") or generated_at
@@ -580,6 +658,7 @@ def main():
             "model_candidates_historical": retained_missing_total,
             "semantic_models_verified": semantic_verified_total,
             "openai_semantic_failures": len(openai_semantic_failures),
+            "anthropic_semantic_failures": len(anthropic_semantic_failures),
         },
     )
 
