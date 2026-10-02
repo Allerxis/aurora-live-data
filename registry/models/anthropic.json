@@ -1,7 +1,7 @@
 {
   "schema_version": "0.10.0",
   "provider": "anthropic",
-  "generated_at": "2026-10-02T12:27:02Z",
+  "generated_at": "2026-10-02T13:51:56Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -18,7 +18,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -50,7 +50,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -93,7 +93,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -125,7 +125,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -157,7 +157,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -200,7 +200,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -243,7 +243,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -275,7 +275,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -307,7 +307,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -350,7 +350,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -361,9 +361,9 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/fable-5/overview",
-      "semantic_hash": "56e5de846f582b4e47df77dbed281bea413dc38ad5126f17caa137c268ba2f0c",
+      "semantic_hash": "04457c7f7e76b340013cc4db95ad596cebc57582d3da69a9efe77938a44a647b",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/fable-5/overview",
@@ -381,7 +381,7 @@
         "thinking": "Adaptive (always on)",
         "default_effort": "high",
         "comparative_latency": null,
-        "input_output": "Text and images → text Reliable knowledge cutoff Jan",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2026-01",
         "training_data_cutoff": "2026-01",
         "lifecycle": {
@@ -431,7 +431,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -445,9 +445,9 @@
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca",
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
-      "semantic_hash": "9a6958f04a01b7a7f6087bf383ca1bb52e66abfc7b68b8c6f7fae24479ecbe13",
+      "semantic_hash": "bbcf5103f938bd0fdcec7d0cafe7431116dc4622a93c301ffc88ee8166d59486",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
@@ -465,7 +465,7 @@
         "thinking": "Adaptive (always on)",
         "default_effort": "high",
         "comparative_latency": "Slower",
-        "input_output": "Text and images → text Reliable knowledge cutoff Jun",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2026-06",
         "training_data_cutoff": "2026-06",
         "lifecycle": {
@@ -504,7 +504,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -515,9 +515,9 @@
       "source_hashes": {
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
-      "semantic_hash": "d0ec80a1cfc99483a222f6e9e7850cb507676a2abded42c06dfa3d43fdd5e317",
+      "semantic_hash": "a2b974342abccd5f83c37654b670d897cb95b56472921e80dbf9c03967132839",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
@@ -535,7 +535,7 @@
         "thinking": "Extended",
         "default_effort": "Not supported",
         "comparative_latency": "Fastest",
-        "input_output": "Text and images → text Reliable knowledge cutoff Feb",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2025-02",
         "training_data_cutoff": "2025-07",
         "lifecycle": {
@@ -585,7 +585,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -599,9 +599,9 @@
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca",
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
-      "semantic_hash": "d0ec80a1cfc99483a222f6e9e7850cb507676a2abded42c06dfa3d43fdd5e317",
+      "semantic_hash": "a2b974342abccd5f83c37654b670d897cb95b56472921e80dbf9c03967132839",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
@@ -619,7 +619,7 @@
         "thinking": "Extended",
         "default_effort": "Not supported",
         "comparative_latency": "Fastest",
-        "input_output": "Text and images → text Reliable knowledge cutoff Feb",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2025-02",
         "training_data_cutoff": "2025-07",
         "lifecycle": {
@@ -669,7 +669,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -680,9 +680,9 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/mythos-5/overview",
-      "semantic_hash": "0971470fe992e39964fe93c207b2518b200db05e31273c2673593f27817c40e2",
+      "semantic_hash": "42398d6bbb2d00eb32289b58d23f7ee3da057294f1307c3b69e8588889418120",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/mythos-5/overview",
@@ -700,7 +700,7 @@
         "thinking": "Adaptive (always on)",
         "default_effort": "high",
         "comparative_latency": null,
-        "input_output": "Text and images → text Reliable knowledge cutoff Jan",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2026-01",
         "training_data_cutoff": "2026-01",
         "lifecycle": {
@@ -748,7 +748,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -759,9 +759,9 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
-      "semantic_hash": "4b41fec7c3e30ad6f52121ef3de5f091fdc786c981defa756a606ea3a0ea0afe",
+      "semantic_hash": "1776f076ad34e6af8f040c003404864ed483533794545a7b43db86ce43f18f72",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
@@ -779,7 +779,7 @@
         "thinking": "Adaptive (always on)",
         "default_effort": "high",
         "comparative_latency": "Slower",
-        "input_output": "Text and images → text Reliable knowledge cutoff Jun",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2026-06",
         "training_data_cutoff": "2026-06",
         "lifecycle": {
@@ -827,7 +827,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -870,7 +870,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -913,7 +913,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -956,7 +956,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -967,9 +967,9 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
-      "semantic_hash": "f8fa94112ae1d96e6d8d839a915cb2a7530af044e8ea4b72193729a57cd567c1",
+      "semantic_hash": "2cc5ec494bb11a7710751516439273c1030ee73ee1fc242d413e8ecbf9459cc2",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
@@ -987,7 +987,7 @@
         "thinking": "Extended",
         "default_effort": "high",
         "comparative_latency": null,
-        "input_output": "Text and images → text Reliable knowledge cutoff May",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2025-05",
         "training_data_cutoff": "2025-08",
         "lifecycle": {
@@ -1036,7 +1036,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1047,9 +1047,9 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
-      "semantic_hash": "b6e7d8a72871e0cbd6d3d03e418ca8e61737437bf683d18433fa0394f392a7b7",
+      "semantic_hash": "680ba82e7bbdcea8a6df16d16ed77fc62af177b0e7180e5a4111f4b3b8ce08b6",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
@@ -1067,7 +1067,7 @@
         "thinking": "Adaptive",
         "default_effort": "high",
         "comparative_latency": null,
-        "input_output": "Text and images → text Reliable knowledge cutoff May",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2025-05",
         "training_data_cutoff": "2025-08",
         "lifecycle": {
@@ -1116,7 +1116,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1127,9 +1127,9 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-7/overview",
-      "semantic_hash": "28e529cde1df170cc343dc1eedbb5abd5248c4a78f97bc097110fd05915bf5dd",
+      "semantic_hash": "782f6473353ec2c38f0580c47bf8be8b65e1aa8d756134ae24686a7e3e32af95",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/opus-4-7/overview",
@@ -1147,7 +1147,7 @@
         "thinking": "Adaptive",
         "default_effort": "high",
         "comparative_latency": null,
-        "input_output": "Text and images → text Reliable knowledge cutoff Jan",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2026-01",
         "training_data_cutoff": "2026-01",
         "lifecycle": {
@@ -1197,7 +1197,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1208,9 +1208,9 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-8/overview",
-      "semantic_hash": "aeea08077741ad05dd6f223d72d4870575f1e287e5aa5942ce8f9d04c5d80b0a",
+      "semantic_hash": "e6ae3f080d4938ec8e555d71456f3986c5ee51c69ca713bffa1a865e38a6b62c",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/opus-4-8/overview",
@@ -1228,7 +1228,7 @@
         "thinking": "Adaptive",
         "default_effort": "high",
         "comparative_latency": null,
-        "input_output": "Text and images → text Reliable knowledge cutoff Jan",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2026-01",
         "training_data_cutoff": "2026-01",
         "lifecycle": {
@@ -1278,7 +1278,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1289,9 +1289,9 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-5/overview",
-      "semantic_hash": "f960dce434b62b38e1cf7340f1a85d5dc9bb367486041dbc222d0b6def87f206",
+      "semantic_hash": "e58676d09b9d82a8fb43697b7f335e211f1ff290ba59ff8abf2c3ecd56d624b5",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/opus-5/overview",
@@ -1309,7 +1309,7 @@
         "thinking": "Adaptive",
         "default_effort": "high",
         "comparative_latency": null,
-        "input_output": "Text and images → text Reliable knowledge cutoff May",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2026-05",
         "training_data_cutoff": "2026-05",
         "lifecycle": {
@@ -1359,7 +1359,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1373,9 +1373,9 @@
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca",
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
-      "semantic_hash": "1c251741dbfa7363d470a9878740f0abb77749dda4cc18c70c32291d0848354b",
+      "semantic_hash": "3a63f02f33a4e71b1df4ae5ba21873300a4b80e0e8bd8b889a934558c1584302",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
@@ -1393,7 +1393,7 @@
         "thinking": "Adaptive (always on)",
         "default_effort": "medium",
         "comparative_latency": "Moderate",
-        "input_output": "Text and images → text Reliable knowledge cutoff Jun",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2026-06",
         "training_data_cutoff": "2026-06",
         "lifecycle": {
@@ -1443,7 +1443,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1486,7 +1486,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1497,9 +1497,9 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview",
-      "semantic_hash": "e87cd93e25fdb4dee883a8208c77ba9e25f5d7370d1bef7401bca5cd5cadf853",
+      "semantic_hash": "0da326c76e3d2de6d41ff0a778469d42c803218e85e25955ce1ac11bff000909",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview",
@@ -1517,7 +1517,7 @@
         "thinking": "Extended",
         "default_effort": "Not supported",
         "comparative_latency": null,
-        "input_output": "Text and images → text Reliable knowledge cutoff Jan",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2025-01",
         "training_data_cutoff": "2025-07",
         "lifecycle": {
@@ -1566,7 +1566,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1577,9 +1577,9 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
-      "semantic_hash": "82c418ab77edb150237e09188ca61c6e8c8bdde23139ecf7e86961d41f87d605",
+      "semantic_hash": "ea96f654d4470f7b706e00100b97b6e176b8cee864bff444940db89879fbc17b",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
@@ -1597,7 +1597,7 @@
         "thinking": "Adaptive",
         "default_effort": "high",
         "comparative_latency": null,
-        "input_output": "Text and images → text Reliable knowledge cutoff Aug",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2025-08",
         "training_data_cutoff": "2026-01",
         "lifecycle": {
@@ -1646,7 +1646,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1657,9 +1657,9 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
-      "semantic_hash": "a9843bfa207cb730622c4f1de93da24517531e1e1a61f932dda7e248e6cc48b8",
+      "semantic_hash": "5ccb9efc106eff79387d87aa8aacd09cb7fa940d943ad03bbdd4bb2d9303512d",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
@@ -1677,7 +1677,7 @@
         "thinking": "Adaptive",
         "default_effort": "high",
         "comparative_latency": null,
-        "input_output": "Text and images → text Reliable knowledge cutoff Jan",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2026-01",
         "training_data_cutoff": "2026-01",
         "lifecycle": {
@@ -1727,7 +1727,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1741,9 +1741,9 @@
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca",
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
-      "semantic_hash": "acbe81699f1460befeb8671dd991cfaa1f50ab18f0799b0e170a4989f2708983",
+      "semantic_hash": "cd19b087a164575164040c6b9a06dcd9e22fdc5b9b10b634c768a4b323f17221",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
@@ -1761,7 +1761,7 @@
         "thinking": "Adaptive",
         "default_effort": "high",
         "comparative_latency": "Fast",
-        "input_output": "Text and images → text Reliable knowledge cutoff Jun",
+        "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2026-06",
         "training_data_cutoff": "2026-06",
         "lifecycle": {

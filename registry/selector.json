@@ -1,0 +1,5962 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-02T13:51:56Z",
+  "purpose": "Compact cross-provider view for model selection. It contains only semantically verified or previously verified records.",
+  "policy": {
+    "include": "Suitable for normal factual comparison, subject to task-specific constraints.",
+    "include_with_warning": "May be compared, but lifecycle/stage caveats must be surfaced.",
+    "specialized": "Use only when the task explicitly fits the distribution or deployment mode.",
+    "exclude": "Do not propose by default; retained for legacy/deprecation context.",
+    "stale": "Do not treat facts as current until revalidated."
+  },
+  "counts": {
+    "total": 153,
+    "include": 44,
+    "include_with_warning": 67,
+    "specialized": 2,
+    "exclude": 40,
+    "stale": 0
+  },
+  "models": [
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-fable-5",
+      "display_name": "claude-fable-5",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/fable-5/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2026-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 10.0,
+        "output": 50.0,
+        "cache_write_5m": 12.5,
+        "cache_write_1h": 20.0,
+        "cache_read": 1.0
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Adaptive (always on)",
+        "default_effort": "high"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-fable-5-1",
+      "display_name": "claude-fable-5-1",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2026-06",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 10.0,
+        "output": 50.0,
+        "cache_write_5m": 12.5,
+        "cache_write_1h": 20.0,
+        "cache_read": 0.25
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Adaptive (always on)",
+        "default_effort": "high"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-haiku-4-5",
+      "display_name": "claude-haiku-4-5",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "lifecycle_status": "Active (latest)",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 200000,
+      "max_output_tokens": 64000,
+      "knowledge_cutoff": "2025-02",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.0,
+        "output": 5.0,
+        "cache_write_5m": 1.25,
+        "cache_write_1h": 2.0,
+        "cache_read": 0.1
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Extended",
+        "default_effort": "Not supported"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-haiku-4-5-20251001",
+      "display_name": "claude-haiku-4-5-20251001",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 200000,
+      "max_output_tokens": 64000,
+      "knowledge_cutoff": "2025-02",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.0,
+        "output": 5.0,
+        "cache_write_5m": 1.25,
+        "cache_write_1h": 2.0,
+        "cache_read": 0.1
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Extended",
+        "default_effort": "Not supported"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-mythos-5",
+      "display_name": "claude-mythos-5",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/mythos-5/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2026-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 10.0,
+        "output": 50.0,
+        "cache_write_5m": 12.5,
+        "cache_write_1h": 20.0,
+        "cache_read": 1.0
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Adaptive (always on)",
+        "default_effort": "high"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-mythos-5-1",
+      "display_name": "claude-mythos-5-1",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2026-06",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 10.0,
+        "output": 50.0,
+        "cache_write_5m": 12.5,
+        "cache_write_1h": 20.0,
+        "cache_read": 0.25
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Adaptive (always on)",
+        "default_effort": "high"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-4-5-20251101",
+      "display_name": "claude-opus-4-5-20251101",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 200000,
+      "max_output_tokens": 64000,
+      "knowledge_cutoff": "2025-05",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 5.0,
+        "output": 25.0,
+        "cache_write_5m": 6.25,
+        "cache_write_1h": 10.0,
+        "cache_read": 0.5
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Extended",
+        "default_effort": "high"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-4-6",
+      "display_name": "claude-opus-4-6",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2025-05",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 5.0,
+        "output": 25.0,
+        "cache_write_5m": 6.25,
+        "cache_write_1h": 10.0,
+        "cache_read": 0.5
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Adaptive",
+        "default_effort": "high"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-4-7",
+      "display_name": "claude-opus-4-7",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-7/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2026-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 5.0,
+        "output": 25.0,
+        "cache_write_5m": 6.25,
+        "cache_write_1h": 10.0,
+        "cache_read": 0.5
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Adaptive",
+        "default_effort": "high"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-4-8",
+      "display_name": "claude-opus-4-8",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-8/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2026-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 5.0,
+        "output": 25.0,
+        "cache_write_5m": 6.25,
+        "cache_write_1h": 10.0,
+        "cache_read": 0.5
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Adaptive",
+        "default_effort": "high"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-5",
+      "display_name": "claude-opus-5",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-5/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2026-05",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 5.0,
+        "output": 25.0,
+        "cache_write_5m": 6.25,
+        "cache_write_1h": 10.0,
+        "cache_read": 0.5
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Adaptive",
+        "default_effort": "high"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-opus-5-5",
+      "display_name": "claude-opus-5-5",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2026-06",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 4.0,
+        "output": 20.0,
+        "cache_write_5m": 5.0,
+        "cache_write_1h": 8.0,
+        "cache_read": 0.2
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Adaptive (always on)",
+        "default_effort": "medium"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-sonnet-4-6",
+      "display_name": "claude-sonnet-4-6",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2025-08",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 3.0,
+        "output": 15.0,
+        "cache_write_5m": 3.75,
+        "cache_write_1h": 6.0,
+        "cache_read": 0.3
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Adaptive",
+        "default_effort": "high"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-sonnet-5",
+      "display_name": "claude-sonnet-5",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2026-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 2.0,
+        "output": 10.0,
+        "cache_write_5m": 2.5,
+        "cache_write_1h": 4.0,
+        "cache_read": 0.2
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Adaptive",
+        "default_effort": "high"
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-sonnet-5-5",
+      "display_name": "claude-sonnet-5-5",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+      "lifecycle_status": "Active",
+      "usage_state": "active",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2026-06",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 2.0,
+        "output": 10.0,
+        "cache_write_5m": 2.5,
+        "cache_write_1h": 4.0,
+        "cache_read": 0.2
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Adaptive",
+        "default_effort": "high"
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "antigravity-preview-05-2026",
+      "display_name": "antigravity-preview-05-2026",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-05-2026",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": null,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {},
+        "consumption_options": {}
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "antigravity-preview-09-2026",
+      "display_name": "antigravity-preview-09-2026",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-09-2026",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": null,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {},
+        "consumption_options": {}
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "deep-research-max-preview-04-2026",
+      "display_name": "deep-research-max-preview-04-2026",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": null,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf",
+          "audio",
+          "video"
+        ],
+        "output": [
+          "text (cited reports)",
+          "images"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {},
+        "consumption_options": {}
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "deep-research-preview-04-2026",
+      "display_name": "deep-research-preview-04-2026",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-preview-04-2026",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": null,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf",
+          "audio",
+          "video"
+        ],
+        "output": [
+          "text (cited reports)",
+          "images"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {},
+        "consumption_options": {}
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-2.0-flash",
+      "display_name": "gemini-2.0-flash",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 8192,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "audio",
+          "images",
+          "video",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Not supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-2.0-flash-lite",
+      "display_name": "gemini-2.0-flash-lite",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash-lite",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 8192,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "audio",
+          "images",
+          "video",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Supported",
+          "thinking": "Not Supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-2.5-computer-use-preview-10-2025",
+      "display_name": "gemini-2.5-computer-use-preview-10-2025",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-computer-use-preview-10-2025",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": 64000,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "image",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {},
+        "consumption_options": {}
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-2.5-flash",
+      "display_name": "gemini-2.5-flash",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "images",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-2.5-flash-image",
+      "display_name": "gemini-2.5-flash-image",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 65536,
+      "max_output_tokens": 32768,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "image",
+          "text"
+        ],
+        "output": [
+          "image",
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-2.5-flash-lite",
+      "display_name": "gemini-2.5-flash-lite",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-2.5-flash-lite-preview-09-2025",
+      "display_name": "gemini-2.5-flash-lite-preview-09-2025",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite-preview-09-2025",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "display_name": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 131072,
+      "max_output_tokens": 8192,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "audio",
+          "video",
+          "text"
+        ],
+        "output": [
+          "audio",
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-2.5-flash-preview-09-2025",
+      "display_name": "gemini-2.5-flash-preview-09-2025",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-09-2025",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "images",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-2.5-flash-preview-tts",
+      "display_name": "gemini-2.5-flash-preview-tts",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 8192,
+      "max_output_tokens": 16384,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not Supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-2.5-pro",
+      "display_name": "gemini-2.5-pro",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "audio",
+          "images",
+          "video",
+          "text",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-2.5-pro-preview-tts",
+      "display_name": "gemini-2.5-pro-preview-tts",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro-preview-tts",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 8192,
+      "max_output_tokens": 16384,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not Supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3-flash-preview",
+      "display_name": "gemini-3-flash-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3-pro-image",
+      "display_name": "gemini-3-pro-image",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 65536,
+      "max_output_tokens": 32768,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "image",
+          "text"
+        ],
+        "output": [
+          "image",
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3-pro-preview",
+      "display_name": "gemini-3-pro-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-preview",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Not supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.1-flash-image",
+      "display_name": "gemini-3.1-flash-image",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 131072,
+      "max_output_tokens": 32768,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "pdf"
+        ],
+        "output": [
+          "image",
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.1-flash-lite",
+      "display_name": "gemini-3.1-flash-lite",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Not supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.1-flash-lite-image",
+      "display_name": "gemini-3.1-flash-lite-image",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 65536,
+      "max_output_tokens": 4096,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "pdf"
+        ],
+        "output": [
+          "image",
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Supported (minimal and high)",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.1-flash-lite-preview",
+      "display_name": "gemini-3.1-flash-lite-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Not supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.1-flash-live-preview",
+      "display_name": "gemini-3.1-flash-live-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 131072,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "images",
+          "audio",
+          "video"
+        ],
+        "output": [
+          "text",
+          "audio"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {},
+        "consumption_options": {
+          "batch_api": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.1-flash-tts-preview",
+      "display_name": "gemini-3.1-flash-tts-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 8192,
+      "max_output_tokens": 16384,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not Supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.1-pro-preview",
+      "display_name": "gemini-3.1-pro-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Supported (AI Studio only)",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.5-flash",
+      "display_name": "gemini-3.5-flash",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported (Preview)",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.5-flash-lite",
+      "display_name": "gemini-3.5-flash-lite",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported (Preview)",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.5-live-translate-preview",
+      "display_name": "gemini-3.5-live-translate-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-live-translate-preview",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 131072,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "audio (speech)"
+        ],
+        "output": [
+          "audio (translated speech)",
+          "text (transcript)"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.5-transcribe",
+      "display_name": "gemini-3.5-transcribe",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": null,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "audio (up to 1 hour)"
+        ],
+        "output": [
+          "text",
+          "word annotations token_auto audio"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "image_generation": "Not supported",
+          "thinking": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.6-flash",
+      "display_name": "gemini-3.6-flash",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported (Preview)",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.7-flash",
+      "display_name": "gemini-3.7-flash",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported (Preview)",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported (low, medium, high)",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.8-flash",
+      "display_name": "gemini-3.8-flash",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported (Preview)",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported (low, medium, high)",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.8-flash-lite-tts",
+      "display_name": "gemini-3.8-flash-lite-tts",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-lite-tts",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 8192,
+      "max_output_tokens": 16384,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.8-flash-tts",
+      "display_name": "gemini-3.8-flash-tts",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 8192,
+      "max_output_tokens": 16384,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.8-live",
+      "display_name": "gemini-3.8-live",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 131072,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "images",
+          "audio",
+          "video"
+        ],
+        "output": [
+          "text",
+          "audio"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Supported (interleaved reasoning)",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-3.8-live-extended-thinking",
+      "display_name": "gemini-3.8-live-extended-thinking",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 131072,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "images",
+          "audio",
+          "video"
+        ],
+        "output": [
+          "text",
+          "audio"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Supported (Async only)",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-embedding-001",
+      "display_name": "gemini-embedding-001",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 2048,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text embeddings"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {},
+        "consumption_options": {}
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-embedding-2",
+      "display_name": "gemini-embedding-2",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 8192,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text embeddings"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {},
+        "consumption_options": {}
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-embedding-2-preview",
+      "display_name": "gemini-embedding-2-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2-preview",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 8192,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text embeddings"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {},
+        "consumption_options": {}
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-robotics-er-1.5-preview",
+      "display_name": "gemini-robotics-er-1.5-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.5-preview",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "images",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Not supported",
+          "code_execution": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-robotics-er-1.6-preview",
+      "display_name": "gemini-robotics-er-1.6-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 131072,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "images",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Supported",
+          "priority_inference": "Supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "gemini-robotics-er-2-preview",
+      "display_name": "gemini-robotics-er-2-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-preview",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 131072,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "images",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "computer_use": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "lyria-3-clip-preview",
+      "display_name": "lyria-3-clip-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-clip-preview",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 131072,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "audio (mp3)",
+          "text (lyrics)"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "lyria-3-pro-preview",
+      "display_name": "lyria-3-pro-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-pro-preview",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 131072,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "audio (mp3)",
+          "text (lyrics)"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "lyria-3.5",
+      "display_name": "lyria-3.5",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3.5",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": 131072,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "audio (mp3)",
+          "text (lyrics)"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {
+          "audio_generation": "Supported",
+          "caching": "Not supported",
+          "code_execution": "Not supported",
+          "file_search": "Not supported",
+          "function_calling": "Not supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Not supported",
+          "structured_outputs": "Not supported",
+          "thinking": "Not supported",
+          "url_context": "Not supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        }
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "lyria-realtime-exp",
+      "display_name": "lyria-realtime-exp",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-realtime-exp",
+      "lifecycle_status": "no_shutdown_announced",
+      "usage_state": "no_shutdown_announced",
+      "default_policy": "include",
+      "present_in_current_sources": true,
+      "context_window_tokens": null,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text (weighted prompts)"
+        ],
+        "output": [
+          "audio (raw 16-bit pcm) token_auto streaming"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {},
+        "consumption_options": {}
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "veo-2.0-generate-001",
+      "display_name": "veo-2.0-generate-001",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/veo-2.0-generate-001",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": null,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {},
+        "consumption_options": {}
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "veo-3.1-generate-preview",
+      "display_name": "veo-3.1-generate-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-generate-preview",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": null,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video with audio"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {},
+        "consumption_options": {}
+      }
+    },
+    {
+      "provider_slug": "google",
+      "model_key": "veo-3.1-lite-generate-preview",
+      "display_name": "veo-3.1-lite-generate-preview",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-lite-generate-preview",
+      "lifecycle_status": "shutdown_announced",
+      "usage_state": "transition_watch",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": null,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video with audio"
+        ]
+      },
+      "capabilities": {
+        "capabilities": {},
+        "consumption_options": {}
+      }
+    },
+    {
+      "provider_slug": "meta",
+      "model_key": "llama-4-maverick",
+      "display_name": "Llama 4 Maverick",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
+      "lifecycle_status": "unknown",
+      "usage_state": "open_weight",
+      "default_policy": "specialized",
+      "present_in_current_sources": true,
+      "context_window_tokens": 2380000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "2024-08",
+      "pricing": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": {
+        "distribution": "open_weight",
+        "architecture": "mixture_of_experts"
+      }
+    },
+    {
+      "provider_slug": "meta",
+      "model_key": "llama-4-scout",
+      "display_name": "Llama 4 Scout",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
+      "lifecycle_status": "unknown",
+      "usage_state": "open_weight",
+      "default_policy": "specialized",
+      "present_in_current_sources": true,
+      "context_window_tokens": 5000000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "2024-08",
+      "pricing": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": {
+        "distribution": "open_weight",
+        "architecture": "mixture_of_experts"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "codestral",
+      "display_name": "codestral",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/codestral-24-05",
+      "lifecycle_status": "Labs",
+      "usage_state": "labs",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 32000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.3,
+        "cached_input": 0.03,
+        "output": 0.9,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {},
+        "endpoints": [],
+        "release_stage": null
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "codestral-2508",
+      "display_name": "codestral-2508",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/codestral-25-08",
+      "lifecycle_status": "GA",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.3,
+        "cached_input": 0.03,
+        "output": 0.9,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "predicted_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations",
+          "/v1/fim/completions"
+        ],
+        "release_stage": "GA"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "codestral-embed-2505",
+      "display_name": "codestral-embed-2505",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/codestral-embed-25-05",
+      "lifecycle_status": "GA",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 8000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/embeddings"
+        ],
+        "release_stage": "GA"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral",
+      "display_name": "devstral",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/devstral-2-25-12",
+      "lifecycle_status": "Labs",
+      "usage_state": "labs",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 256000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.5,
+        "cached_input": 0.15,
+        "output": 7.5,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": null
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "labs-mistral-small-creative",
+      "display_name": "labs-mistral-small-creative",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-creative-25-12",
+      "lifecycle_status": "Labs",
+      "usage_state": "labs",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 32000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.15,
+        "cached_input": 0.015,
+        "output": 0.15,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Labs"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ministral-14b-2512",
+      "display_name": "ministral-14b-2512",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ministral-3-14b-25-12",
+      "lifecycle_status": "GA",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 256000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "GA"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ministral-3b-2512",
+      "display_name": "ministral-3b-2512",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ministral-3-3b-25-12",
+      "lifecycle_status": "GA",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 256000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.1,
+        "cached_input": 0.01,
+        "output": 0.1,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "GA"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ministral-8b-2512",
+      "display_name": "ministral-8b-2512",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ministral-3-8b-25-12",
+      "lifecycle_status": "GA",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 256000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.15,
+        "cached_input": 0.015,
+        "output": 0.15,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "GA"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-embed-2312",
+      "display_name": "mistral-embed-2312",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-embed-23-12",
+      "lifecycle_status": "GA",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 8000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.4,
+        "cached_input": 0.14,
+        "output": 4.4,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/embeddings"
+        ],
+        "release_stage": "GA"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-large-2512",
+      "display_name": "mistral-large-2512",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-large-3-25-12",
+      "lifecycle_status": "GA",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 256000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.5,
+        "cached_input": 0.05,
+        "output": 1.5,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "agents_conversations": true,
+          "built_in_tools": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/agents",
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "GA"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-medium-3-5",
+      "display_name": "mistral-medium-3-5",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
+      "lifecycle_status": "GA",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 256000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.5,
+        "cached_input": 0.15,
+        "output": 7.5,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "agents_conversations": true,
+          "built_in_tools": true,
+          "structured_outputs": true,
+          "predicted_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/agents",
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "GA"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-moderation-2603",
+      "display_name": "mistral-moderation-2603",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-moderation-26-03",
+      "lifecycle_status": "GA",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.4,
+        "cached_input": 0.14,
+        "output": 4.4,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/moderations"
+        ],
+        "release_stage": "GA"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-2512",
+      "display_name": "mistral-ocr-2512",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ocr-3-25-12",
+      "lifecycle_status": "GA",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": null,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.4,
+        "cached_input": 0.14,
+        "output": 4.4,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/ocr"
+        ],
+        "release_stage": "GA"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-4-1",
+      "display_name": "mistral-ocr-4-1",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ocr-4-1",
+      "lifecycle_status": "GA",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": null,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.4,
+        "cached_input": 0.14,
+        "output": 4.4,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/ocr"
+        ],
+        "release_stage": "GA"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-small-2603",
+      "display_name": "mistral-small-2603",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-4-0-26-03",
+      "lifecycle_status": "GA",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 256000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.15,
+        "cached_input": 0.015,
+        "output": 0.6,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "agents_conversations": true,
+          "built_in_tools": true,
+          "structured_outputs": true,
+          "predicted_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/agents",
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "GA"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "voxtral-small-2507",
+      "display_name": "voxtral-small-2507",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/voxtral-small-25-07",
+      "lifecycle_status": "GA",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 32000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.4,
+        "cached_input": 0.14,
+        "output": 4.4,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "GA"
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-4",
+      "display_name": "gpt-4",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 8192,
+      "max_output_tokens": 8192,
+      "knowledge_cutoff": "2023-12-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 30.0,
+        "cached_input": null,
+        "cache_writes": null,
+        "output": 60.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "not_supported",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": false,
+          "structured_outputs": false,
+          "fine_tuning": true
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-4.1",
+      "display_name": "gpt-4.1",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4.1",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1047576,
+      "max_output_tokens": 32768,
+      "knowledge_cutoff": "2024-06-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 2.0,
+        "cached_input": 0.5,
+        "cache_writes": null,
+        "output": 8.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": true
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-4o",
+      "display_name": "gpt-4o",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4o",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": 16384,
+      "knowledge_cutoff": "2023-10-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 2.5,
+        "cached_input": 1.25,
+        "cache_writes": null,
+        "output": 10.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": true
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5",
+      "display_name": "gpt-5",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 400000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2024-09-30",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.25,
+        "cached_input": 0.125,
+        "cache_writes": null,
+        "output": 10.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5-codex",
+      "display_name": "gpt-5-codex",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 400000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2024-09-30",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.25,
+        "cached_input": 0.125,
+        "cache_writes": null,
+        "output": 10.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.1",
+      "display_name": "gpt-5.1",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 400000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2024-09-30",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.25,
+        "cached_input": 0.125,
+        "cache_writes": null,
+        "output": 10.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.1-codex",
+      "display_name": "gpt-5.1-codex",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 400000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2024-09-30",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.25,
+        "cached_input": 0.125,
+        "cache_writes": null,
+        "output": 10.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.1-codex-max",
+      "display_name": "gpt-5.1-codex-max",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 400000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2024-09-30",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.25,
+        "cached_input": 0.125,
+        "cache_writes": null,
+        "output": 10.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.2",
+      "display_name": "gpt-5.2",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.2",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 400000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2025-08-31",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.75,
+        "cached_input": 0.175,
+        "cache_writes": null,
+        "output": 14.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.2-codex",
+      "display_name": "gpt-5.2-codex",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 400000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2025-08-31",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.75,
+        "cached_input": 0.175,
+        "cache_writes": null,
+        "output": 14.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.3-codex",
+      "display_name": "gpt-5.3-codex",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 400000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2025-08-31",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.75,
+        "cached_input": 0.175,
+        "cache_writes": null,
+        "output": 14.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.4",
+      "display_name": "gpt-5.4",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.4",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1050000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2025-08-31",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 2.5,
+        "cached_input": 0.25,
+        "cache_writes": null,
+        "output": 15.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {
+          "web_search": true,
+          "file_search": true,
+          "image_generation": true,
+          "code_interpreter": true,
+          "hosted_shell": true,
+          "apply_patch": true,
+          "skills": true,
+          "computer_use": true,
+          "mcp": true,
+          "tool_search": true
+        },
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-5.5",
+      "display_name": "gpt-5.5",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.5",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1050000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2025-12-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 5.0,
+        "cached_input": 0.5,
+        "cache_writes": null,
+        "output": 30.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {
+          "web_search": true,
+          "file_search": true,
+          "image_generation": true,
+          "code_interpreter": true,
+          "hosted_shell": true,
+          "apply_patch": true,
+          "skills": true,
+          "computer_use": true,
+          "mcp": true,
+          "tool_search": true
+        },
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-6-astra",
+      "display_name": "gpt-6-astra",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1050000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2026-04-30",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 10.0,
+        "cached_input": 1.0,
+        "cache_writes": 12.5,
+        "output": 50.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {
+          "web_search": true,
+          "file_search": true,
+          "image_generation": true,
+          "code_interpreter": true,
+          "hosted_shell": true,
+          "apply_patch": true,
+          "skills": true,
+          "computer_use": true,
+          "mcp": true,
+          "tool_search": true
+        },
+        "reasoning_efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-6-luna",
+      "display_name": "gpt-6-luna",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1050000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2026-05-18",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.1,
+        "cached_input": 0.01,
+        "cache_writes": 0.125,
+        "output": 0.5
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {
+          "web_search": true,
+          "file_search": true,
+          "image_generation": true,
+          "code_interpreter": true,
+          "hosted_shell": true,
+          "apply_patch": true,
+          "skills": true,
+          "computer_use": true,
+          "mcp": true,
+          "tool_search": true
+        },
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "gpt-6.1-sol",
+      "display_name": "gpt-6.1-sol",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1050000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2026-04-30",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 2.0,
+        "cached_input": 0.1,
+        "cache_writes": 2.5,
+        "output": 10.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {
+          "web_search": true,
+          "file_search": true,
+          "image_generation": true,
+          "code_interpreter": true,
+          "hosted_shell": true,
+          "apply_patch": true,
+          "skills": true,
+          "computer_use": true,
+          "mcp": true,
+          "tool_search": true
+        },
+        "reasoning_efforts": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "o1-mini",
+      "display_name": "o1-mini",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o1-mini",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": 65536,
+      "knowledge_cutoff": "2023-10-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.1,
+        "cached_input": 0.55,
+        "cache_writes": null,
+        "output": 4.4
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "not_supported",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": false,
+          "structured_outputs": false,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "o1-pro",
+      "display_name": "o1-pro",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o1-pro",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 200000,
+      "max_output_tokens": 100000,
+      "knowledge_cutoff": "2023-10-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 150.0,
+        "cached_input": null,
+        "cache_writes": null,
+        "output": 600.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": false,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "o3-deep-research",
+      "display_name": "o3-deep-research",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-deep-research",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 200000,
+      "max_output_tokens": 100000,
+      "knowledge_cutoff": "2024-06-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 10.0,
+        "cached_input": 2.5,
+        "cache_writes": null,
+        "output": 40.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": false,
+          "structured_outputs": false,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "o3-mini",
+      "display_name": "o3-mini",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-mini",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 200000,
+      "max_output_tokens": 100000,
+      "knowledge_cutoff": "2023-10-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.1,
+        "cached_input": 0.55,
+        "cache_writes": null,
+        "output": 4.4
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "not_supported",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "o3-pro",
+      "display_name": "o3-pro",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-pro",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 200000,
+      "max_output_tokens": 100000,
+      "knowledge_cutoff": "2024-06-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 20.0,
+        "cached_input": null,
+        "cache_writes": null,
+        "output": 80.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": false,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "o4-mini",
+      "display_name": "o4-mini",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o4-mini",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 200000,
+      "max_output_tokens": 100000,
+      "knowledge_cutoff": "2024-06-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.1,
+        "cached_input": 0.275,
+        "cache_writes": null,
+        "output": 4.4
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "fine_tuning": true
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "openai",
+      "model_key": "o4-mini-deep-research",
+      "display_name": "o4-mini-deep-research",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 200000,
+      "max_output_tokens": 100000,
+      "knowledge_cutoff": "2024-06-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 2.0,
+        "cached_input": 0.5,
+        "cache_writes": null,
+        "output": 8.0
+      },
+      "modalities": {
+        "states": {
+          "text": "input_and_output",
+          "image": "input_only",
+          "audio": "not_supported",
+          "video": "not_supported"
+        }
+      },
+      "capabilities": {
+        "features": {
+          "streaming": true,
+          "function_calling": false,
+          "structured_outputs": false,
+          "fine_tuning": false
+        },
+        "tools": {},
+        "reasoning_efforts": []
+      }
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-0309-non-reasoning",
+      "display_name": "grok-4.20-0309-non-reasoning",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.25,
+        "cached_input": 0.2,
+        "output": 2.5,
+        "pricing_scope": "short_context",
+        "long_context": {
+          "input": 2.5,
+          "cached_input": 0.4,
+          "output": 5.0
+        },
+        "long_context_threshold_tokens": 200000
+      },
+      "modalities": {
+        "raw": "Text, Image Text"
+      },
+      "capabilities": {
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "reasoning": {
+          "supported": null,
+          "efforts": [],
+          "default": null
+        },
+        "batch_api": true
+      }
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-0309-reasoning",
+      "display_name": "grok-4.20-0309-reasoning",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.25,
+        "cached_input": 0.2,
+        "output": 2.5,
+        "pricing_scope": "short_context",
+        "long_context": {
+          "input": 2.5,
+          "cached_input": 0.4,
+          "output": 5.0
+        },
+        "long_context_threshold_tokens": 200000
+      },
+      "modalities": {
+        "raw": "Text, Image Text"
+      },
+      "capabilities": {
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "reasoning": {
+          "supported": null,
+          "efforts": [],
+          "default": null
+        },
+        "batch_api": true
+      }
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.20-multi-agent-0309",
+      "display_name": "grok-4.20-multi-agent-0309",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.25,
+        "cached_input": 0.2,
+        "output": 2.5,
+        "pricing_scope": "short_context",
+        "long_context": {
+          "input": 2.5,
+          "cached_input": 0.4,
+          "output": 5.0
+        },
+        "long_context_threshold_tokens": 200000
+      },
+      "modalities": {
+        "raw": "Text, Image Text"
+      },
+      "capabilities": {
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "reasoning": {
+          "supported": null,
+          "efforts": [],
+          "default": null
+        },
+        "batch_api": true
+      }
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.3",
+      "display_name": "grok-4.3",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.3",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 1000000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.25,
+        "cached_input": 0.2,
+        "output": 2.5,
+        "pricing_scope": "short_context",
+        "long_context": {
+          "input": 2.5,
+          "cached_input": 0.4,
+          "output": 5.0
+        },
+        "long_context_threshold_tokens": 200000
+      },
+      "modalities": {
+        "raw": "Text, Image Text"
+      },
+      "capabilities": {
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "reasoning": {
+          "supported": true,
+          "efforts": [
+            "none",
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+          ],
+          "default": "low"
+        },
+        "batch_api": true
+      }
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.5",
+      "display_name": "grok-4.5",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.5",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 500000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 2.0,
+        "cached_input": 0.3,
+        "output": 6.0,
+        "pricing_scope": "short_context",
+        "long_context": {
+          "input": 4.0,
+          "cached_input": 0.6,
+          "output": 12.0
+        },
+        "long_context_threshold_tokens": 200000
+      },
+      "modalities": {
+        "raw": "Text, Image Text"
+      },
+      "capabilities": {
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "reasoning": {
+          "supported": true,
+          "efforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+          ],
+          "default": "high"
+        },
+        "batch_api": false
+      }
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.6",
+      "display_name": "grok-4.6",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.6",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 500000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 2.0,
+        "cached_input": 0.5,
+        "output": 6.0,
+        "pricing_scope": "short_context",
+        "long_context": {
+          "input": 4.0,
+          "cached_input": 1.0,
+          "output": 12.0
+        },
+        "long_context_threshold_tokens": 200000
+      },
+      "modalities": {
+        "raw": "Text, Image Text"
+      },
+      "capabilities": {
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "reasoning": {
+          "supported": true,
+          "efforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+          ],
+          "default": "high"
+        },
+        "batch_api": false
+      }
+    },
+    {
+      "provider_slug": "xai",
+      "model_key": "grok-4.7",
+      "display_name": "grok-4.7",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.7",
+      "lifecycle_status": "unknown",
+      "usage_state": "verified_lifecycle_unknown",
+      "default_policy": "include_with_warning",
+      "present_in_current_sources": true,
+      "context_window_tokens": 500000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": "2026-05",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 2.0,
+        "cached_input": 0.5,
+        "output": 6.0,
+        "pricing_scope": "short_context",
+        "long_context": {
+          "input": 4.0,
+          "cached_input": 1.0,
+          "output": 12.0
+        },
+        "long_context_threshold_tokens": 200000
+      },
+      "modalities": {
+        "raw": "Text, Image Text"
+      },
+      "capabilities": {
+        "capabilities": {
+          "function_calling": true,
+          "structured_outputs": true,
+          "reasoning": true
+        },
+        "reasoning": {
+          "supported": true,
+          "efforts": [
+            "low",
+            "medium",
+            "high",
+            "xhigh"
+          ],
+          "default": "high"
+        },
+        "batch_api": false
+      }
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-sonnet-4-5-20250929",
+      "display_name": "claude-sonnet-4-5-20250929",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 200000,
+      "max_output_tokens": 64000,
+      "knowledge_cutoff": "2025-01",
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 3.0,
+        "output": 15.0,
+        "cache_write_5m": 3.75,
+        "cache_write_1h": 6.0,
+        "cache_read": 0.3
+      },
+      "modalities": {
+        "raw": "Text and images → text"
+      },
+      "capabilities": {
+        "thinking": "Extended",
+        "default_effort": "Not supported"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "codestral-2405",
+      "display_name": "codestral-2405",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/codestral-24-05",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 32000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.3,
+        "cached_input": 0.03,
+        "output": 0.9,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {},
+        "endpoints": [],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "codestral-2501",
+      "display_name": "codestral-2501",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/codestral-25-01",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.3,
+        "cached_input": 0.03,
+        "output": 0.9,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "predicted_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations",
+          "/v1/fim/completions"
+        ],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-2512",
+      "display_name": "devstral-2512",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/devstral-2-25-12",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 256000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.5,
+        "cached_input": 0.15,
+        "output": 7.5,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-medium-2507",
+      "display_name": "devstral-medium-2507",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/devstral-medium-1-0-25-07",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.5,
+        "cached_input": 0.15,
+        "output": 7.5,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-small-2505",
+      "display_name": "devstral-small-2505",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/devstral-small-1-0-25-05",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.5,
+        "cached_input": 0.15,
+        "output": 7.5,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "devstral-small-2507",
+      "display_name": "devstral-small-2507",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/devstral-small-1-1-25-07",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.15,
+        "cached_input": 0.015,
+        "output": 0.6,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "labs-devstral-small-2512",
+      "display_name": "labs-devstral-small-2512",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/devstral-small-2-25-12",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 256000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.5,
+        "cached_input": 0.15,
+        "output": 7.5,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "labs-leanstral-1-5",
+      "display_name": "labs-leanstral-1-5",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/leanstral-1-5",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 256000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.4,
+        "cached_input": 0.14,
+        "output": 4.4,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "agents_conversations": true,
+          "structured_outputs": true
+        },
+        "endpoints": [
+          "/v1/agents",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "labs-leanstral-2603",
+      "display_name": "labs-leanstral-2603",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/leanstral-26-03",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 256000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.4,
+        "cached_input": 0.14,
+        "output": 4.4,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "agents_conversations": true,
+          "structured_outputs": true
+        },
+        "endpoints": [
+          "/v1/agents",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "magistral-medium-2506",
+      "display_name": "magistral-medium-2506",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/magistral-medium-1-0-25-06",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 40000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.5,
+        "cached_input": 0.15,
+        "output": 7.5,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "document_qna": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "magistral-medium-2507",
+      "display_name": "magistral-medium-2507",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/magistral-medium-1-1-25-07",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 40000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.5,
+        "cached_input": 0.15,
+        "output": 7.5,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "document_qna": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "magistral-medium-2509",
+      "display_name": "magistral-medium-2509",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/magistral-medium-1-2-25-09",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.5,
+        "cached_input": 0.15,
+        "output": 7.5,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "document_qna": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "magistral-small-2506",
+      "display_name": "magistral-small-2506",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/magistral-small-1-0-25-06",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 40000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.15,
+        "cached_input": 0.015,
+        "output": 0.6,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "document_qna": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "magistral-small-2507",
+      "display_name": "magistral-small-2507",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/magistral-small-1-1-25-07",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 40000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.15,
+        "cached_input": 0.015,
+        "output": 0.6,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "document_qna": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "magistral-small-2509",
+      "display_name": "magistral-small-2509",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/magistral-small-1-2-25-09",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.15,
+        "cached_input": 0.015,
+        "output": 0.6,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "document_qna": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ministral-3b-2410",
+      "display_name": "ministral-3b-2410",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ministral-3b-24-1",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.1,
+        "cached_input": 0.01,
+        "output": 0.1,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ministral-8b-2410",
+      "display_name": "ministral-8b-2410",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ministral-8b-24-1",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.15,
+        "cached_input": 0.015,
+        "output": 0.15,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-large-2402",
+      "display_name": "mistral-large-2402",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-large-1-0-24-02",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 32000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {},
+      "capabilities": {
+        "features": {},
+        "endpoints": [],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-large-2407",
+      "display_name": "mistral-large-2407",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-large-2-0-24-07",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {},
+      "capabilities": {
+        "features": {},
+        "endpoints": [],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-large-2411",
+      "display_name": "mistral-large-2411",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-large-2-1-24-11",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "predicted_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-medium-2312",
+      "display_name": "mistral-medium-2312",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-medium-1-0-23-12",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 32000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {},
+      "capabilities": {
+        "features": {},
+        "endpoints": [],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-medium-2505",
+      "display_name": "mistral-medium-2505",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-medium-3-25-05",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "agents_conversations": true,
+          "built_in_tools": true,
+          "structured_outputs": true,
+          "predicted_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/agents",
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-medium-2508",
+      "display_name": "mistral-medium-2508",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-medium-3-1-25-08",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "agents_conversations": true,
+          "built_in_tools": true,
+          "structured_outputs": true,
+          "predicted_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/agents",
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-moderation-2411",
+      "display_name": "mistral-moderation-2411",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-moderation-24-11",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 8000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.4,
+        "cached_input": 0.14,
+        "output": 4.4,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/moderations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-2505",
+      "display_name": "mistral-ocr-2505",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ocr-2-25-05",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": null,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.4,
+        "cached_input": 0.14,
+        "output": 4.4,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/ocr"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-4-0",
+      "display_name": "mistral-ocr-4-0",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ocr-4-0",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": null,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.4,
+        "cached_input": 0.14,
+        "output": 4.4,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/ocr"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-saba-2502",
+      "display_name": "mistral-saba-2502",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-saba-25-02",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 32000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.15,
+        "cached_input": 0.015,
+        "output": 0.6,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {},
+        "endpoints": [],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-small-2402",
+      "display_name": "mistral-small-2402",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-1-0-24-02",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 32000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {},
+      "capabilities": {
+        "features": {},
+        "endpoints": [],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-small-2409",
+      "display_name": "mistral-small-2409",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-2-0-24-09",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 32000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-small-2501",
+      "display_name": "mistral-small-2501",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-3-0-25-01",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 32000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "agents_conversations": true,
+          "built_in_tools": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/agents",
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-small-2503",
+      "display_name": "mistral-small-2503",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-3-1-25-03",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "agents_conversations": true,
+          "built_in_tools": true,
+          "structured_outputs": true,
+          "predicted_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/agents",
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-small-2506",
+      "display_name": "mistral-small-2506",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-3-2-25-06",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": null,
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "agents_conversations": true,
+          "built_in_tools": true,
+          "structured_outputs": true,
+          "predicted_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/agents",
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "open-mistral-7b",
+      "display_name": "open-mistral-7b",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-7b-0-2",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 32000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.15,
+        "cached_input": 0.015,
+        "output": 0.15,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {},
+        "endpoints": [],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "open-mistral-nemo-2407",
+      "display_name": "open-mistral-nemo-2407",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-nemo-12b-24-07",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.15,
+        "cached_input": 0.015,
+        "output": 0.15,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "open-mixtral-8x22b",
+      "display_name": "open-mixtral-8x22b",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mixtral-8x22b-0-1-0-3",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 64000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.15,
+        "cached_input": 0.015,
+        "output": 0.6,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {},
+        "endpoints": [],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "open-mixtral-8x7b",
+      "display_name": "open-mixtral-8x7b",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mixtral-8x7b-0-1",
+      "lifecycle_status": "Retired",
+      "usage_state": "retired",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 32000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.15,
+        "cached_input": 0.015,
+        "output": 0.6,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {},
+        "endpoints": [],
+        "release_stage": "Retired"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "pixtral-12b-2409",
+      "display_name": "pixtral-12b-2409",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/pixtral-12b-24-09",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 0.2,
+        "cached_input": 0.02,
+        "output": 0.2,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "pixtral-large-2411",
+      "display_name": "pixtral-large-2411",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/pixtral-large-24-11",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 128000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.5,
+        "cached_input": 0.15,
+        "output": 7.5,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "predicted_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "voxtral-mini-2507",
+      "display_name": "voxtral-mini-2507",
+      "verification_state": "verified_official_detail",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/voxtral-mini-25-07",
+      "lifecycle_status": "Deprecated",
+      "usage_state": "deprecated",
+      "default_policy": "exclude",
+      "present_in_current_sources": true,
+      "context_window_tokens": 32000,
+      "max_output_tokens": null,
+      "knowledge_cutoff": null,
+      "pricing": {
+        "unit": "USD_per_1M_tokens",
+        "input": 1.4,
+        "cached_input": 0.14,
+        "output": 4.4,
+        "source_url": "https://docs.mistral.ai/inference/pricing"
+      },
+      "modalities": {},
+      "capabilities": {
+        "features": {
+          "chat_completion": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "release_stage": "Deprecated"
+      }
+    }
+  ]
+}

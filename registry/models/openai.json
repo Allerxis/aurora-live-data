@@ -1,7 +1,7 @@
 {
   "schema_version": "0.10.0",
   "provider": "openai",
-  "generated_at": "2026-10-02T12:27:02Z",
+  "generated_at": "2026-10-02T13:51:56Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -18,7 +18,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -50,7 +50,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -82,7 +82,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -93,9 +93,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4",
-      "semantic_hash": "c19564e9070b0a8596c499b1d4f502086d0eddc1558aba048ff1e177f7122354",
+      "semantic_hash": "2c6cf03e1043e7363a1cdc0e72604030415f4cf11ddd1e1f1835f0b05b0baa86",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-4",
@@ -115,7 +115,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -135,6 +136,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": false,
@@ -160,7 +162,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -171,9 +173,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4.1",
-      "semantic_hash": "ed6ae80a8814e0d56265f172f8b379116bbcfe8beae3897a15670d7356287d84",
+      "semantic_hash": "db23027fb55c34149661214de52337fbf12c1f769d552ce053dc69167962a216",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-4.1",
@@ -193,7 +195,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -213,6 +216,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -238,7 +242,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -270,7 +274,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models",
@@ -284,9 +288,9 @@
         "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410",
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4o",
-      "semantic_hash": "bb6f6aa4709138157254d69f394b670c6140b27187004faa05a207ff498f8ff8",
+      "semantic_hash": "2ef6e00cab01237baa42fe1632438d3cd2dc0b9a7b95920beb0111151c4ad29d",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-4o",
@@ -306,7 +310,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -326,6 +331,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -351,7 +357,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -362,9 +368,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5",
-      "semantic_hash": "53a69244f9647bf240f026b8c45965b28678067865059b6c2731473fe78ac594",
+      "semantic_hash": "3cfe223ffbfa1a46beab279ecc7ab18953c491290aa43c4fb933de124ac7154e",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-5",
@@ -384,7 +390,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -404,6 +411,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -429,7 +437,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -440,9 +448,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
-      "semantic_hash": "feb970ecfbbbec7a46ec1ddc6215de2ee1c16fac89afeb3fde933efd217813fa",
+      "semantic_hash": "696cf219332a5987e175b055290c68f0e2a11e9ada641941a7365913ccf6b20a",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
@@ -462,7 +470,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -482,6 +491,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -507,7 +517,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -518,9 +528,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1",
-      "semantic_hash": "4b95e1de1f6869e145e635a3e209112aa3e436a3c5429e45a74b5ac83baff9c0",
+      "semantic_hash": "9f2dc23a25fa3e0c683c90c78b44e2a9639319b6b9aef85c6100a5c7964382bb",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1",
@@ -540,7 +550,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -560,6 +571,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -585,7 +597,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -596,9 +608,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
-      "semantic_hash": "6df2b7926b79a94b8bf30b6cc8e794f78dc3520335eeff7439f52a6b2737763e",
+      "semantic_hash": "876214dade9fffc49408c6e3da83d1da7cd0a540682a0f58c660770852e5907f",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
@@ -618,7 +630,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -638,6 +651,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -663,7 +677,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -674,9 +688,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
-      "semantic_hash": "0dba42271f3701f75ddcbb38087e97b50abe7667a968e81cba69b755a49f7d6c",
+      "semantic_hash": "686c2baba0841d5578c938730bbbf68d1d3f75d967c22bd8fdeadf089b78e584",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
@@ -696,7 +710,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -716,6 +731,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -741,7 +757,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -752,9 +768,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.2",
-      "semantic_hash": "f1892b38acddb70a95699a268534a8645c65d42f4f965071389d7c4ef4275782",
+      "semantic_hash": "b2b574c988df5d0069249d40ed8653d3986040e7270990e35f71757040fe6b8c",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-5.2",
@@ -774,7 +790,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -794,6 +811,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -819,7 +837,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -830,9 +848,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
-      "semantic_hash": "cbaaee553bd6dfde98ceda0ee3d209ead54a161e8b2d77d428d4faee2cbdf2b4",
+      "semantic_hash": "5d88e080ab3eaf262a110b92c34ac582fd1b69e0709631a42b3502833ac580eb",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
@@ -852,7 +870,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -872,6 +891,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -897,7 +917,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -929,7 +949,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -940,9 +960,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
-      "semantic_hash": "f93d9c19accae18a33f6320868e39c9591339339a5d5c79546cdb827304df840",
+      "semantic_hash": "88af5d48af88c15c47539f9738a2f210e1ba23f4d9ec3c68f1943887775f5a7e",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
@@ -962,7 +982,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -982,6 +1003,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -1007,7 +1029,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -1018,9 +1040,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.4",
-      "semantic_hash": "c51049cafd4168c4a6dde7c36b2e540779ce9fd44425fdfdf9792a0ffd1ef15a",
+      "semantic_hash": "706609eda37e87578aa50108d30efb51d62e3c70dfd3cef2d7cccd8ed15deb77",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-5.4",
@@ -1040,7 +1062,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -1060,6 +1083,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -1096,7 +1120,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -1128,7 +1152,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -1139,9 +1163,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.5",
-      "semantic_hash": "9f1481b993b1ecbe24828b0bbd7d5b0e17fc72107e2a800cc0f54f42318f5b7b",
+      "semantic_hash": "fb9e58805006f08ca3f2201a5ac131dde8a4164a4b052652e54e32e9268f8b7b",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-5.5",
@@ -1161,7 +1185,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -1181,6 +1206,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -1217,7 +1243,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models",
@@ -1252,7 +1278,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models",
@@ -1287,7 +1313,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -1298,9 +1324,9 @@
       "source_hashes": {
         "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
-      "semantic_hash": "64d8c49edf133d583214e31dbbab62dff9c774cb8a2671fa0706df61871f8ba4",
+      "semantic_hash": "63ca52debe9600dc67a91dd43002dc7036dcc41f0e9bfd5c4514e8ccea5b55ad",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
@@ -1320,7 +1346,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -1340,6 +1367,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -1382,7 +1410,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -1393,9 +1421,9 @@
       "source_hashes": {
         "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
-      "semantic_hash": "5e0cba6586ce3545a6b040e33659b86893e9b40700d2f2bfd2a6f27e2c279304",
+      "semantic_hash": "024cab3076bc4883df425d1e9c25954b8eeef3de35fe3d4d46f1833233e3eb8d",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
@@ -1415,7 +1443,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -1435,6 +1464,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -1478,7 +1508,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models",
@@ -1513,7 +1543,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -1524,9 +1554,9 @@
       "source_hashes": {
         "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
-      "semantic_hash": "34bffc19500033a69ef2caf13f82fab56f333702fb9f0893d13725b4cfc49cfb",
+      "semantic_hash": "35b3e755b5f37c4422a10690ab3f5181b076511330315444c84a59f46354806a",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
@@ -1546,7 +1576,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -1566,6 +1597,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -1608,7 +1640,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -1619,9 +1651,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o1-mini",
-      "semantic_hash": "7bd840dafd80be3c69e42a4adabe31adae5ce4348f0bff9885e066a7daa5fb57",
+      "semantic_hash": "381a73308ae589cee46ec24c8793c43f8ae8a48c15ea5f22dc290e03d97e5c7b",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/o1-mini",
@@ -1641,7 +1673,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -1661,6 +1694,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": false,
@@ -1686,7 +1720,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -1697,9 +1731,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o1-pro",
-      "semantic_hash": "223a039c29c94c6b204bf3beaac4ec43fead6f21436b64f1fe1649f0759c8126",
+      "semantic_hash": "d14371c622a4f95125958a9b9dc19cd3bac4a5dc435f97f675ac77c0404f7623",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/o1-pro",
@@ -1719,7 +1753,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -1739,6 +1774,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": false,
           "function_calling": true,
@@ -1764,7 +1800,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -1775,9 +1811,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-deep-research",
-      "semantic_hash": "7625e766e42d6ac6104ecb1a32bfd2bd3097fe364095b968a7a1136a565313fb",
+      "semantic_hash": "2f7e876b97264dccaca065c6d3680585bb6c6f844d28d6736f482bf655e6adb4",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/o3-deep-research",
@@ -1797,7 +1833,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -1817,6 +1854,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": false,
@@ -1842,7 +1880,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -1853,9 +1891,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-mini",
-      "semantic_hash": "670e7b2dfe1f46cdd8d689284025ca2b211e9225743f281dfa2d49aea45d84cd",
+      "semantic_hash": "340de7072026eceab4dbec7b56a569848e6278eac4700c50c5feda7dac074af1",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/o3-mini",
@@ -1875,7 +1913,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -1895,6 +1934,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -1920,7 +1960,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -1931,9 +1971,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-pro",
-      "semantic_hash": "770efcf3eb479987f10c247d20950c91d41fa547ea0c3ed910db3d0ba713fbe8",
+      "semantic_hash": "1976da34152efdec5ca72e4d5b56bd9c8bdbb8c3ecc0c0e5b4029dd77824a3bb",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/o3-pro",
@@ -1953,7 +1993,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -1973,6 +2014,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": false,
           "function_calling": true,
@@ -1998,7 +2040,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -2009,9 +2051,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o4-mini",
-      "semantic_hash": "291e436a094850cdb95d9ca179f4eb7160ec0aa1f95c4cac435ccb6ddd751c05",
+      "semantic_hash": "a4b10f2ae532863ea51c8f22c6caca5cd8eae42772754a284ab6018ae6acfdab",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/o4-mini",
@@ -2031,7 +2073,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -2051,6 +2094,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": true,
@@ -2076,7 +2120,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T13:51:56Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -2087,9 +2131,9 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_verified_at": "2026-10-02T13:51:56Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
-      "semantic_hash": "476519ba42c637ed9575ddb60b1f8965dfab515c32773981c76318eb3da875c7",
+      "semantic_hash": "807147ea883c25e25ca3f3dea4380c0f91cb68df858e370b84702aa2e5fc22d2",
       "semantic_error": null,
       "facts": {
         "source_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
@@ -2109,7 +2153,8 @@
           "audio": "not_supported",
           "video": "not_supported"
         },
-        "endpoints": [
+        "endpoints": null,
+        "endpoint_matrix_paths": [
           "v1/assistants",
           "v1/audio/speech",
           "v1/audio/transcriptions",
@@ -2129,6 +2174,7 @@
           "v1/responses",
           "v1/videos"
         ],
+        "endpoint_matrix_qualified": false,
         "features": {
           "streaming": true,
           "function_calling": false,
