@@ -28,6 +28,7 @@ class MistralSemanticParserTests(unittest.TestCase):
 
     def test_model_card(self):
         text = """
+        Navigation Models Pricing Model lifecycle policy Labs Prompting Sampling
         March 16, 2026
         GA Apache 2.0 v26.03
         Mistral Small 4
@@ -83,7 +84,7 @@ class MistralSemanticParserTests(unittest.TestCase):
         Model Input Cached input Output
         Mistral Large 3 $0.5 $0.05 $1.5
         Mistral Medium 3.5 $1.5 $0.15 $7.5
-        Mistral Small 4 $0.15 $0.015 $0.6
+        Mistral Small 4 ↗ $0.15 $0.015 $0.6
         Ministral 3 14B $0.2 $0.02 $0.2
         Codestral $0.3 $0.03 $0.9
         """
