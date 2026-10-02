@@ -87,6 +87,7 @@ class AnthropicSemanticParserTests(unittest.TestCase):
         self.assertEqual(facts["pricing"]["cache_read"], 0.2)
         self.assertEqual(facts["thinking"], "Adaptive (always on)")
         self.assertEqual(facts["default_effort"], "medium")
+        self.assertEqual(facts["input_output"], "Text and images → text")
         self.assertEqual(facts["reliable_knowledge_cutoff"], "2026-06")
         self.assertEqual(facts["training_data_cutoff"], "2026-06")
         self.assertEqual(facts["lifecycle"]["status"], "Active (latest)")
