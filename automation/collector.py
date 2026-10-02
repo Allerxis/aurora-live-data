@@ -13,7 +13,7 @@ from adapters import discover
 from openai_semantic import parse_openai_model_page
 from anthropic_semantic import detail_slug_candidates, parse_anthropic_model_page, parse_anthropic_lifecycle_page
 from google_semantic import parse_google_model_page, parse_google_lifecycle_page
-from xai_semantic import parse_xai_model_page, parse_xai_knowledge_cutoffs, parse_xai_retirement_page
+from xai_semantic import parse_xai_model_page, parse_xai_knowledge_cutoffs, parse_xai_pricing_page, parse_xai_retirement_page
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
@@ -23,7 +23,7 @@ SOURCES_OUT = REGISTRY_DIR / "sources.json"
 STATUS_OUT = REGISTRY_DIR / "status.json"
 CHANGES_OUT = REGISTRY_DIR / "changes.json"
 CATALOG_OUT = REGISTRY_DIR / "catalog.json"
-SCHEMA_VERSION = "0.6.0"
+SCHEMA_VERSION = "0.7.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -60,7 +60,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.6 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.7 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
@@ -541,6 +541,27 @@ def main():
                 xai_verified[model_key]["facts"]
             )
 
+    xai_pricing = {}
+    xai_pricing_source = source_texts.get("xai-pricing")
+    if xai_pricing_source:
+        xai_pricing = parse_xai_pricing_page(
+            xai_pricing_source["text"],
+            xai_pricing_source["final_url"],
+        )
+
+    # Pricing is maintained on a canonical xAI pricing page. Merge it only into
+    # models whose detail pages were independently verified.
+    for model_key, pricing in xai_pricing.items():
+        if model_key in xai_verified:
+            xai_verified[model_key]["facts"]["pricing"] = pricing
+            if not xai_verified[model_key]["facts"].get("context_window_tokens"):
+                xai_verified[model_key]["facts"]["context_window_tokens"] = pricing.get(
+                    "context_window_tokens"
+                )
+            xai_verified[model_key]["semantic_hash"] = stable_hash(
+                xai_verified[model_key]["facts"]
+            )
+
     xai_retirements = {}
     xai_retirement_source = source_texts.get("xai-retirement-2026-05")
     if xai_retirement_source:
@@ -845,6 +866,7 @@ def main():
             "google_lifecycle_rows": len(google_lifecycle),
             "xai_semantic_failures": len(xai_semantic_failures),
             "xai_knowledge_cutoff_rows": len(xai_cutoffs),
+            "xai_pricing_rows": len(xai_pricing),
             "xai_retirement_rows": len(xai_retirements),
         },
     )
