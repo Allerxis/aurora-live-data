@@ -266,13 +266,12 @@ def parse_google_lifecycle_page(
     date_pattern = r"(?:[A-Z][a-z]+(?:\s+\d{1,2},)?\s+\d{4})"
     shutdown_pattern = rf"(?:No shutdown date announced|{date_pattern})"
 
-    # Rows are flattened by normalize_html. The replacement is optional and
-    # limited to a single model identifier to avoid consuming the next row.
+    # Rows are flattened by normalize_html. Parse the model/release/shutdown
+    # triple without consuming any following model identifier.
     pattern = re.compile(
         rf"(?P<model>{model_pattern})\s+"
         rf"(?P<release>{date_pattern})?\s*"
-        rf"(?P<shutdown>{shutdown_pattern})"
-        rf"(?:\s+(?P<replacement>{model_pattern}))?",
+        rf"(?P<shutdown>{shutdown_pattern})",
         re.I,
     )
 
@@ -280,7 +279,21 @@ def parse_google_lifecycle_page(
         model_id = m.group("model").lower()
         shutdown_raw = m.group("shutdown")
         release_raw = m.group("release")
-        replacement = m.group("replacement")
+
+        replacement = None
+        tail = text[m.end():]
+        candidate = re.match(rf"\s+({model_pattern})", tail, re.I)
+        if candidate:
+            after_candidate = tail[candidate.end():]
+            # If the candidate is immediately followed by a release date or a
+            # shutdown phrase, it is the next table row, not a replacement.
+            starts_new_row = re.match(
+                rf"\s*(?:{date_pattern}|No shutdown date announced)",
+                after_candidate,
+                re.I,
+            )
+            if not starts_new_row:
+                replacement = candidate.group(1).lower()
 
         rows[model_id] = {
             "release_date": _date(release_raw) if release_raw and "," in release_raw else _month_year(release_raw),
@@ -290,7 +303,7 @@ def parse_google_lifecycle_page(
                 else _date(shutdown_raw)
             ),
             "shutdown_announced": shutdown_raw.lower() != "no shutdown date announced",
-            "recommended_replacement": replacement.lower() if replacement else None,
+            "recommended_replacement": replacement,
             "date_semantics": "earliest_possible_shutdown_date",
             "source_url": source_url,
         }
