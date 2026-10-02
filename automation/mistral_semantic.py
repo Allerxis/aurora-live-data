@@ -113,7 +113,7 @@ def parse_mistral_model_page(
 
     # Model cards expose the release stage close to the release date.
     stage_m = re.search(
-        r"\b(GA|Public Preview|Labs)\b",
+        r"\b(GA|Public Preview|Labs|Deprecated|Retired)\b",
         text,
         re.I,
     )
@@ -173,6 +173,7 @@ def parse_mistral_model_page(
         "features": features,
         "endpoints": endpoints,
         "displayed_price_values_usd_per_1M_tokens": displayed_prices,
+        "pricing_key": infer_mistral_pricing_key(model_id, text),
     }
 
 
