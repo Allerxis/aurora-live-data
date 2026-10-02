@@ -24,28 +24,36 @@ const defaultPolicySchema = z.enum([
 
 const handler = createMcpHandler(
   (server) => {
-    server.tool(
+    server.registerTool(
       'get_status',
-      'Read Aurora Live Data health, freshness, coverage counters, validation gates, and policy hashes. Use this first for volatile Aurora model or prompt-engineering questions.',
-      {},
+      {
+        title: 'Get Aurora Live Data status',
+        description:
+          'Read Aurora Live Data health, freshness, coverage counters, validation gates, and policy hashes. Use this first for volatile Aurora model or prompt-engineering questions.',
+        inputSchema: z.object({}),
+      },
       async () => {
         const status = await fetchRegistry('status.json');
         return jsonText(status);
       },
     );
 
-    server.tool(
+    server.registerTool(
       'find_models',
-      'Search the current verified Aurora model selector. Missing or null facts mean unknown, never unsupported. Use only constraints that materially matter to the user task.',
       {
-        provider_slug: providerSchema.optional(),
-        query: z.string().optional(),
-        default_policies: z.array(defaultPolicySchema).optional(),
-        min_context_tokens: z.number().int().positive().optional(),
-        min_output_tokens: z.number().int().positive().optional(),
-        required_capabilities: z.array(z.string()).optional(),
-        only_current_verified: z.boolean().default(true),
-        limit: z.number().int().min(1).max(50).default(20),
+        title: 'Find verified AI models',
+        description:
+          'Search the current verified Aurora model selector. Missing or null facts mean unknown, never unsupported. Use only constraints that materially matter to the user task.',
+        inputSchema: z.object({
+          provider_slug: providerSchema.optional(),
+          query: z.string().optional(),
+          default_policies: z.array(defaultPolicySchema).optional(),
+          min_context_tokens: z.number().int().positive().optional(),
+          min_output_tokens: z.number().int().positive().optional(),
+          required_capabilities: z.array(z.string()).optional(),
+          only_current_verified: z.boolean().default(true),
+          limit: z.number().int().min(1).max(50).default(20),
+        }),
       },
       async ({
         provider_slug,
@@ -150,12 +158,16 @@ const handler = createMcpHandler(
       },
     );
 
-    server.tool(
+    server.registerTool(
       'get_model',
-      'Get the current Aurora selector record and official-source detail record for one exact provider/model pair.',
       {
-        provider_slug: providerSchema,
-        model_key: z.string().min(1),
+        title: 'Get verified model details',
+        description:
+          'Get the current Aurora selector record and official-source detail record for one exact provider/model pair.',
+        inputSchema: z.object({
+          provider_slug: providerSchema,
+          model_key: z.string().min(1),
+        }),
       },
       async ({ provider_slug, model_key }) => {
         const [selector, details] = await Promise.all([
@@ -195,14 +207,18 @@ const handler = createMcpHandler(
       },
     );
 
-    server.tool(
+    server.registerTool(
       'get_guidance',
-      'Read current provider prompting guidance verified against official documentation. Stale and unverified rules are excluded by default.',
       {
-        provider_slug: z
-          .enum(['openai', 'anthropic', 'google', 'mistral', 'xai'])
-          .optional(),
-        only_current_verified: z.boolean().default(true),
+        title: 'Get verified provider guidance',
+        description:
+          'Read current provider prompting guidance verified against official documentation. Stale and unverified rules are excluded by default.',
+        inputSchema: z.object({
+          provider_slug: z
+            .enum(['openai', 'anthropic', 'google', 'mistral', 'xai'])
+            .optional(),
+          only_current_verified: z.boolean().default(true),
+        }),
       },
       async ({ provider_slug, only_current_verified }) => {
         const guidance = await fetchRegistry<{
@@ -238,26 +254,21 @@ const handler = createMcpHandler(
       },
     );
 
-    server.tool(
+    server.registerTool(
       'get_validation_policy',
-      'Read one current Aurora validation/lifecycle policy document: evals, benchmarks, golden, runtime, traceability, comparison, replay, or migration.',
       {
-        name: policySchema,
+        title: 'Get Aurora validation policy',
+        description:
+          'Read one current Aurora validation/lifecycle policy document: evals, benchmarks, golden, runtime, traceability, comparison, replay, or migration.',
+        inputSchema: z.object({
+          name: policySchema,
+        }),
       },
       async ({ name }) => {
         const document = await fetchRegistry(`${name}.json`);
         return jsonText(document);
       },
     );
-  },
-  {
-    serverInfo: {
-      name: 'aurora-live-data',
-      version: '1.0.0',
-    },
-  },
-  {
-    basePath: '/api',
   },
 );
 
