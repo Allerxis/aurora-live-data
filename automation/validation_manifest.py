@@ -110,6 +110,7 @@ def create_validation_manifest(
         "verification_state": None,
         "semantic_verified_at": None,
         "semantic_source_url": None,
+        "semantic_hash": None,
     }
     if target:
         for key in safe_target:
@@ -127,7 +128,7 @@ def create_validation_manifest(
         })
 
     manifest = {
-        "schema_version": "1.0.0",
+        "schema_version": "1.1.0",
         "manifest_id": None,
         "aurora_version": aurora_version,
         "live_data_version": live_data_status.get("schema_version"),
