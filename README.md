@@ -55,6 +55,7 @@ Cette politique ne choisit jamais automatiquement « le meilleur » modèle. Ell
 - `registry/golden.json` — contrats d'acceptation de référence pour création, optimisation, adaptation, agentic et multimodal ;
 - `registry/runtime.json` — politique d'acceptation appliquée juste avant livraison d'un prompt substantiel ;
 - `registry/traceability.json` — schéma public du manifeste de validation et politique de confidentialité associée ;
+- `registry/comparison.json` — politique déterministe de comparaison entre deux manifestes de validation ;
 - `registry/models/*.json` — fiches détaillées par fournisseur.
 
 ## Sécurité
@@ -174,3 +175,27 @@ Par défaut :
 Un fingerprint SHA-256 du prompt peut être généré localement uniquement sur demande explicite. Il n'est jamais publié automatiquement, car un hash peut encore être corrélé si le contenu candidat est déjà connu ou facilement devinable.
 
 Cette couche permet de reproduire le contexte de validation sans transformer Aurora Live Data en journal des prompts utilisateurs.
+
+
+## Comparaison des validations
+
+`registry/comparison.json` décrit comment Aurora compare deux manifestes de validation sans stocker leur historique dans le dépôt public.
+
+La comparaison peut détecter :
+- un changement de version Aurora ou Aurora Live Data ;
+- un changement de fournisseur/modèle cible ou de son état de vérification ;
+- une modification des hashes d'evals, golden, runtime, benchmark ou traceability ;
+- l'ajout ou le retrait d'un contrat golden ;
+- l'ajout, le retrait ou la révision d'une règle de guidance ;
+- une transition du release gate vers un état plus restrictif ou moins restrictif ;
+- un changement du nombre de passes de réparation ;
+- l'apparition ou la résolution d'éléments `unresolved` ;
+- une identité de prompt `same` / `different` uniquement lorsque les deux manifestes possèdent explicitement un fingerprint SHA-256.
+
+### Limites d'interprétation
+
+Un changement de version ou de hash ne prouve pas qu'un prompt est meilleur ou moins bon. Il signifie seulement que l'environnement de validation a changé.
+
+En l'absence de fingerprints dans les deux manifestes, Aurora doit retourner `prompt_identity=unknown`. Elle ne doit jamais inférer que le texte du prompt a changé à partir d'un changement de modèle, de guidance ou de release gate.
+
+Aucun historique utilisateur n'est publié automatiquement. Les comparaisons portent uniquement sur les manifestes que l'utilisateur fournit ou qui sont déjà présents dans la conversation courante.
