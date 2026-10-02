@@ -231,7 +231,7 @@ def parse_anthropic_model_page(
     availability_match = re.search(
         r"\bPlatforms\b\s+(.+?)(?:\bGood to know\b|\bResources\b)",
         text,
-        re.I,
+        re.I | re.S,
     )
     if availability_match:
         available_text = availability_match.group(1)
@@ -239,6 +239,17 @@ def parse_anthropic_model_page(
             p for p in platform_names
             if re.search(re.escape(p), available_text, re.I)
         ]
+
+    id_to_platform = {
+        "claude_api": "Claude API",
+        "amazon_bedrock": "Amazon Bedrock",
+        "google_cloud": "Google Cloud",
+        "microsoft_foundry": "Microsoft Foundry",
+        "claude_platform_aws": "Claude Platform on AWS",
+    }
+    for key, platform in id_to_platform.items():
+        if key in ids and platform not in platforms:
+            platforms.append(platform)
 
     return {
         "source_url": source_url,
