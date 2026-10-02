@@ -34,8 +34,14 @@ jobs:
       - name: Run registry regression tests
         run: python -m unittest discover -s automation -p 'test_*.py'
 
+      - name: Run Aurora regression benchmark
+        run: python automation/run_benchmarks.py --check
+
       - name: Refresh official source observations
         run: python automation/collector.py
+
+      - name: Publish benchmark report
+        run: python automation/run_benchmarks.py --check --write registry/benchmarks.json --status registry/status.json
 
       - name: Publish registry atomically
         shell: bash
@@ -54,7 +60,9 @@ jobs:
               echo "Remote configuration changed; regenerating from latest main (attempt $attempt)."
               git reset --hard origin/main
               python -m unittest discover -s automation -p 'test_*.py'
+              python automation/run_benchmarks.py --check
               python automation/collector.py
+              python automation/run_benchmarks.py --check --write registry/benchmarks.json --status registry/status.json
             fi
 
             if git diff --quiet -- registry/; then
