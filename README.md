@@ -56,6 +56,7 @@ Cette politique ne choisit jamais automatiquement « le meilleur » modèle. Ell
 - `registry/runtime.json` — politique d'acceptation appliquée juste avant livraison d'un prompt substantiel ;
 - `registry/traceability.json` — schéma public du manifeste de validation et politique de confidentialité associée ;
 - `registry/comparison.json` — politique déterministe de comparaison entre deux manifestes de validation ;
+- `registry/replay.json` — politique de replay permettant d'évaluer si une ancienne validation doit être rejouée totalement ou seulement sur certains contrôles ;
 - `registry/models/*.json` — fiches détaillées par fournisseur.
 
 ## Sécurité
@@ -199,3 +200,30 @@ Un changement de version ou de hash ne prouve pas qu'un prompt est meilleur ou m
 En l'absence de fingerprints dans les deux manifestes, Aurora doit retourner `prompt_identity=unknown`. Elle ne doit jamais inférer que le texte du prompt a changé à partir d'un changement de modèle, de guidance ou de release gate.
 
 Aucun historique utilisateur n'est publié automatiquement. Les comparaisons portent uniquement sur les manifestes que l'utilisateur fournit ou qui sont déjà présents dans la conversation courante.
+
+
+## Replay et revalidation sélective
+
+`registry/replay.json` permet à Aurora d'évaluer un ancien manifeste par rapport à l'état actuel du registre sans refaire automatiquement toute la validation.
+
+Le replay compare notamment :
+- le contrat d'evals ;
+- la golden suite ;
+- la politique runtime ;
+- l'état du benchmark ;
+- le hash sémantique du modèle cible ;
+- les hashes des règles de guidance réellement utilisées ;
+- l'état de santé actuel du registre.
+
+Les nouveaux manifestes enregistrent le `semantic_hash` du modèle cible. Cela permet de distinguer une simple nouvelle date de vérification d'une modification réelle des faits structurés du modèle.
+
+Le replay peut aboutir à :
+- `current` : aucune dépendance pertinente pour le prompt n'a changé ;
+- `selective_revalidation_required` : seuls certains contrôles doivent être rejoués ;
+- `full_revalidation_required` : les contrats centraux ont suffisamment changé pour justifier un nouveau runtime complet ;
+- `blocked` : l'environnement actuel n'est pas suffisamment sain pour produire une nouvelle validation fiable ;
+- `different_prompt` : deux fingerprints explicites prouvent que le prompt actuel n'est pas celui du manifeste historique.
+
+Un changement du corpus de benchmark seul n'invalide pas un prompt si le benchmark actuel passe toujours. De même, une modification de la politique de traçabilité seule ne déclenche pas une revalidation du contenu.
+
+Lorsque le texte du prompt n'est pas disponible, Aurora peut identifier précisément les contrôles à rejouer mais ne doit jamais fabriquer leur nouveau résultat.
