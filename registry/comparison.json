@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-02T18:43:10Z",
+  "ready": true,
+  "policy_hash": "c4e9c1020017663fed3127a350c5649fd8c951f95f6578c5da36f6e5cc0d51d7",
+  "storage": {
+    "persistence_default": "none",
+    "public_registry_contains_comparison_history": false,
+    "compare_user_supplied_manifests_only": true,
+    "prompt_content_required": false,
+    "prompt_fingerprint_required": false
+  },
+  "comparability": {
+    "same_schema_preferred": true,
+    "different_schema_behavior": "partial_comparison",
+    "missing_field_behavior": "unknown_not_equal_to_false",
+    "prompt_fingerprint_behavior": "compare_only_when_present_in_both"
+  },
+  "dimensions": [
+    "aurora_version",
+    "live_data_version",
+    "operation",
+    "target",
+    "dependencies",
+    "contracts_applied",
+    "guidance_applied",
+    "release",
+    "repair_passes",
+    "unresolved",
+    "prompt_fingerprint_sha256"
+  ],
+  "change_types": {
+    "version_changed": "Aurora or Live Data version changed.",
+    "target_changed": "Provider/model target or verification metadata changed.",
+    "dependency_changed": "One or more validation dependency hashes changed.",
+    "contract_added": "A golden contract is newly applied.",
+    "contract_removed": "A previously applied golden contract is no longer applied.",
+    "guidance_added": "A provider guidance rule is newly applied.",
+    "guidance_removed": "A previously applied provider guidance rule is no longer applied.",
+    "guidance_revision_changed": "The same guidance rule is present but its verification/source hash changed.",
+    "gate_more_restrictive": "The final release gate moved from PASS toward NEEDS_REVIEW or FAIL, or from NEEDS_REVIEW to FAIL.",
+    "gate_less_restrictive": "The final release gate moved from FAIL toward NEEDS_REVIEW or PASS, or from NEEDS_REVIEW to PASS.",
+    "gate_unchanged": "The final release gate did not change.",
+    "repair_count_changed": "The number of repair passes changed.",
+    "unresolved_added": "A new unresolved validation item appears.",
+    "unresolved_removed": "A previously unresolved validation item is absent.",
+    "fingerprint_changed": "Both optional prompt fingerprints exist and differ.",
+    "fingerprint_unchanged": "Both optional prompt fingerprints exist and match."
+  },
+  "interpretation_rules": [
+    "Do not infer prompt quality from a version change alone.",
+    "Do not infer that the prompt text changed when fingerprints are absent.",
+    "A changed dependency hash means the validation environment changed, not necessarily the prompt.",
+    "A stricter or looser release gate is a change in validation outcome, not a global quality score.",
+    "Missing metadata remains unknown and must not be coerced to false or unchanged."
+  ],
+  "output": {
+    "required_fields": [
+      "schema_version",
+      "comparison_id",
+      "from_manifest_id",
+      "to_manifest_id",
+      "comparable",
+      "coverage",
+      "changes",
+      "release_transition",
+      "prompt_identity",
+      "summary"
+    ],
+    "coverage_values": [
+      "full",
+      "partial"
+    ],
+    "prompt_identity_values": [
+      "same",
+      "different",
+      "unknown"
+    ]
+  }
+}
