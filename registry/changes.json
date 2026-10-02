@@ -1,7 +1,497 @@
 {
   "schema_version": "0.5.0",
-  "generated_at": "2026-10-02T11:59:00Z",
+  "generated_at": "2026-10-02T12:02:12Z",
   "changes": [
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:veo-3.1-lite-generate-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "607ee14cc00273a2eba39d41bc58623ee340f70cf9ecb9b62aead2bddd583aa0",
+      "new_hash": "eda9851c85c7187d672d7ea73797027e89560014b17e447e7862389c4487fa28",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-lite-generate-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:veo-3.1-generate-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "adbc8bd594cf995e0708fca032ab35163935f3eb7316a45a2fbdf60a7b69dd80",
+      "new_hash": "6ef95ca41aecc903f2b654d3891b8b0771652f12325a4bf8f5d18dd6a2bd7ff4",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-generate-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:veo-2.0-generate-001",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "5e215039aa76173a435effed0f8c778122e798d45a8408327f7862e7e1f94157",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/veo-2.0-generate-001",
+      "summary": "Deterministic facts were verified from the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:lyria-3.5",
+      "change_type": "semantic_changed",
+      "previous_hash": "aaf39b3146f5e990aac85125bbae10924a5a20fe2f528f72e5f054737f791c0c",
+      "new_hash": "f18da7e0fdf634b92170564d097a7aa713d99e88996f7870393eda6e0e3e0154",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3.5",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:lyria-3-pro-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "b85ca3b84b217ec8b85f3d18fc0c68edd03506a8f42d56c6316b81978861569c",
+      "new_hash": "f49bc4042941638f8ded5a4817e1f8aa36f2f4b3e978011c4954e02f2ad7096d",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-pro-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:lyria-3-clip-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "504a4443468e7171b107b6033f1d05a1ceaf9800fc69ef634fbe663c965568b4",
+      "new_hash": "06824f108722fcdb6aa43b77f698d51f05ecc7cabef4d713f6a30341e999560b",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-clip-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-robotics-er-2-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "824c330bceef3196c764d7b263cce68ac99c856d2c4e577587a8fd99d5d94a76",
+      "new_hash": "6d703abf3ac17c3e5e3577d4cc7e23bfd2d017723555299d45a7bbefc0be239b",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-robotics-er-1.6-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "911e54b4b7cebfa57645f500336a22f8cf4f174f809a49268877da48f9ac568b",
+      "new_hash": "3c0ba4063b0b89b2722514c0ea5fd7a0c1cb0fd3550bc1524e6d8c80b3ae87d9",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-robotics-er-1.5-preview",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "428bf4dec4d99a824b0204329738c496cba95798ce2444edd0c29c4091100f0c",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.5-preview",
+      "summary": "Deterministic facts were verified from the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-embedding-2-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "15cd54684b4febf95faee09daaf8641b6daf961f433be5c4507e04d2421a9b79",
+      "new_hash": "9b10c0db8bb859b8d1f0ed0b4e4467b1d2b76038492492704ff34e11c22e7604",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-embedding-2",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "11355aa17f5898f3a95b0245f41de38ff39056bc5f56438cd67c745b2e9d6733",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
+      "summary": "Deterministic facts were verified from the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-embedding-001",
+      "change_type": "semantic_changed",
+      "previous_hash": "befc6acdf731f5a5a36bcb32840bab3b93bf8bcbf7db7aed9a898ed056c9cecd",
+      "new_hash": "ffc5ed8b2b7fd232b39301d444e5644e9d4b0d1b7dfb55fed9afa0f52e9e1932",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.8-live-extended-thinking",
+      "change_type": "semantic_changed",
+      "previous_hash": "34a705414f460a8e9513dfdc6103c6a3ea3b2e327edb1af26945271917867960",
+      "new_hash": "191c32e94d09afb65a0c71fa8e2c9ebbce52675693bd113b4f8a342350c1de38",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.8-live",
+      "change_type": "semantic_changed",
+      "previous_hash": "7a7a6e9d11306a51996aefdc9a94c4131e986825982e2456fcf68677de51f620",
+      "new_hash": "34a7141393f512f8366fc40c39fa908962252f704bbdf7b90af827d89c65d760",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.8-flash-tts",
+      "change_type": "semantic_changed",
+      "previous_hash": "210995b70fbb759a10053de395425d2f3a6aa11cde9bdce0af28ed4053f8a83c",
+      "new_hash": "2c8e6532a488b17fdd2d1006517425058d751f3f2338e9c8580f5bf338a3f8d7",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.8-flash-lite-tts",
+      "change_type": "semantic_changed",
+      "previous_hash": "c92bff10304c0eb9ddc24480485a7431fe7f52a497db5a0657f50426726d9493",
+      "new_hash": "81ef1dc6381500c3c4f3f66171e8de99ce4bf42e8358ed4d07348b5bbc149e74",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-lite-tts",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.8-flash",
+      "change_type": "semantic_changed",
+      "previous_hash": "6af43f58a51d2c6e1562bfb46759583a3768b7ed493de86577fadd146e962f84",
+      "new_hash": "e85bce5ff96996beab0a3f78a6bb4611f52f6b8838171e9271d3fa0d07456b62",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.7-flash",
+      "change_type": "semantic_changed",
+      "previous_hash": "dd69a1ffc1528f873b406bfa4e92ef7013fe8dd398390ab5ad99721df9012ac0",
+      "new_hash": "f5fd0d409d772783976590ffbb1d4858b349d8a6f6dfe4dcd86cc22ad70d007e",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.6-flash",
+      "change_type": "semantic_changed",
+      "previous_hash": "ded6e56c541589a6bb3938434be559f1afac88e74714fb7abc69dc889d2ddd47",
+      "new_hash": "2f15eb668b34ae64950cbe73c625b623bac4133b3ed1bf0c30afbb95605eef1c",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.5-live-translate-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "59419f5be26bef11739dc93e8356415afd6d8cbc32102e1029808ed7b0d9085d",
+      "new_hash": "a182ad8f038f94a9bf5c1bad022ef8ee35de19aec1d511bd0d1e781af699211f",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-live-translate-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.5-flash-lite",
+      "change_type": "semantic_changed",
+      "previous_hash": "d5b544dc2cc378a15b6eb0ddf988b9caae4f6a665d07c940751b05a32b45f8b8",
+      "new_hash": "07f4bdcd90c5d08a6f954cc467284c5c832612f1e81b0032a5425ff6d4c91b04",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.5-flash",
+      "change_type": "semantic_changed",
+      "previous_hash": "e2a40650c2a5a19e172b74dc120e8ede9d278aaad0f8ffe837070a98eddf46b1",
+      "new_hash": "8dae719813d9a687ca52b078bcb1ffbf3741286de60f96db7a5d28e46fa67b9b",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.1-pro-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "2f521cde28a44419ebd463e91a90f2b3d75f4608f4676240eb4ae039be695e31",
+      "new_hash": "8b7bfd20c758587ce4b237be828b72664a545e49dd44a7428e4dc93413b0e210",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.1-flash-tts-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "645f450b42d529a5adbfa469c4fe04f71795dd7b3f3b32fd28e924e006ef312b",
+      "new_hash": "1f5fe64fe9df8fbe21be3e25afba3169833a125bbe8e8b911c1c11279d6d98c2",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.1-flash-live-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "133ed3f6b4fd30ba63dc271ca86ea0b60b78dfa5195078d3e1838f34ae2b63c6",
+      "new_hash": "016de0a1392c83434a01316106e4ee13d30249c38c647d40997008d84f0916cf",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.1-flash-lite-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "504349f2a5ca1b99065f1d6f6305673ab93d9dcaf3008d4a07f707a0d2a5405b",
+      "new_hash": "d105e84e343904571d3163a6c85df1c72690e5d3399e527850a6610e9776b9f1",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.1-flash-lite-image",
+      "change_type": "semantic_changed",
+      "previous_hash": "f79d1a98875175c3ea8b28993b874f6e4a76fd6ed3546d2d224d16abc8ed6a9c",
+      "new_hash": "a25d0cdea8ad4e9c8c4caa631e3009431a6305b1bf959e9bf11ebb456cb4487f",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.1-flash-lite",
+      "change_type": "semantic_changed",
+      "previous_hash": "9d2bcbdfd091e92ffe0666d0fc1dffb38a7901a766aaf74e7bcae42c45705d65",
+      "new_hash": "ae7956ff1cab935da1edcb7fe1e2f6c347239a694d0358ed8714b4ddb8c9776e",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3.1-flash-image",
+      "change_type": "semantic_changed",
+      "previous_hash": "0f8bb7bae48ec3f6ebde4d60069f8fc64cd293c6e1f81f6061f6b81cb566fe69",
+      "new_hash": "93279d98b74bbb348dbbcedad8abf6963062f69fe8e1c4bda332195009aafaf4",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3-pro-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "04102abe8c0e2ac8003b8a4aeb6bea985881ad1735bbdff249db133cd8ca8ac1",
+      "new_hash": "2fbfbbcfb842201ccd3f8da9157fb5a906e5c4cf6300f522f32cac3a0572d995",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3-pro-image",
+      "change_type": "semantic_changed",
+      "previous_hash": "0ba2b9bec5714c061e6da6a5ccd6a5e0aa10b43459e0c98ad96f77b215b89827",
+      "new_hash": "f75982ec3a202137a5a2709035e3cf892f87782f89ea5f93e0d1d40d45fce804",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-3-flash-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "14dd39d5f176afc5babea7896b55fc23266e7a1ac0f3b8a2c81864ea89848e3e",
+      "new_hash": "2cdf063cb3c6520fdd6a8eb6b4d8a219a1da3af701506f4f0f730c672e07f232",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-2.5-pro-preview-tts",
+      "change_type": "semantic_changed",
+      "previous_hash": "0d408a6e7fbb73c92ef11174895b0369359b2e2388bbfb8ab949b6e8502d7fd2",
+      "new_hash": "b76d0843a56ac65dc8e5382b35a5232cbd77ccfa6449cc6261f86585578e7769",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro-preview-tts",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-2.5-pro",
+      "change_type": "semantic_changed",
+      "previous_hash": "43de147aae3553d273d606b8f2ac327be7b006eb362d27331dc7b832b9ab6069",
+      "new_hash": "6a200a1576b1800638de96cd6dcea53bfd227fe044dce4228d4b71178af4e694",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-2.5-flash-preview-tts",
+      "change_type": "semantic_changed",
+      "previous_hash": "bc1a5d6d1ba2ed8da30b50e84ce612ff7ec590015f5ed0d3be84e95627dfd9ac",
+      "new_hash": "90487dcf4e0d31577bde7deb0e3898a299941ec538c06d4d89e7c384414e4df9",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-2.5-flash-preview-09-2025",
+      "change_type": "semantic_changed",
+      "previous_hash": "8bdd71f24b5d0f51060bf1c2fb813ac8b1d256c97df84d58210ecfe5819807a9",
+      "new_hash": "26dbea920471f583adc94fefc6731299cb3ab2b8df180eafec77a06fcd083977",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-09-2025",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-2.5-flash-native-audio-preview-12-2025",
+      "change_type": "semantic_changed",
+      "previous_hash": "172c9a628cb5ce31349d6e59897b4fe41f8bde72696bfd1278d4fe283ea1a88e",
+      "new_hash": "7eb8552a37052d93d89685c0c3071f8851a9b0b86ff5271cd581d2c39d467a50",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-2.5-flash-lite-preview-09-2025",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "e900ae72e2a7cf7e42037a28a44b2716cd39a71a51a52e8c1fbc7d7194452544",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite-preview-09-2025",
+      "summary": "Deterministic facts were verified from the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-2.5-flash-lite",
+      "change_type": "semantic_changed",
+      "previous_hash": "10c5f3a8db32fdcb09daa24736bb6ffb211f80e4e8b421bce4318ff04e2b8365",
+      "new_hash": "dbfd64c97f6606b3ac911a38db27177c6a26715017222a8fb2374f5d5ba9da23",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-2.5-flash-image",
+      "change_type": "semantic_changed",
+      "previous_hash": "5089fb4b3e71bae7c3fb845dfa946789ce2c4e455d1552abf5c2c278bd2457fd",
+      "new_hash": "1d6aebd8f1ca77fb5bbf5a3cb0148a39ba0232bef14c6f01c448714b1610405e",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-2.5-flash",
+      "change_type": "semantic_changed",
+      "previous_hash": "b49b9b347616372f367684d1d922ab5730d7b6156e7807f525d5bf81a36f58ff",
+      "new_hash": "18af87126aa17ccbf8fb009d1f815c4d69bad83923037065f15202cf2444680e",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-2.5-computer-use-preview-10-2025",
+      "change_type": "semantic_changed",
+      "previous_hash": "73367fa0d8005613290f612d8b33e0b544e3af57ffe4606c9b6c2b1910df2f89",
+      "new_hash": "b5647553d69aa6501e00a2b11aa11caa4c594e54002848317cbc7024f2bd4a34",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-computer-use-preview-10-2025",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-2.0-flash-lite",
+      "change_type": "semantic_changed",
+      "previous_hash": "39d823b890f2f12163b7307796c685f898d5ea3fcae5f932907aca5d82a04c7a",
+      "new_hash": "85b58fb373aa1bdb4bdf407402f30326e69cee9824e79137912ebea4ce852fec",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash-lite",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-2.0-flash",
+      "change_type": "semantic_changed",
+      "previous_hash": "7c805f5affc401eba641453e50012709bd89d66cdbee2420caffb9a6a5b79628",
+      "new_hash": "53e15c55ade8fe976b7d4bf8c1bf6516d87234175ae21dc986c6ae044ddb458f",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:deep-research-preview-04-2026",
+      "change_type": "semantic_changed",
+      "previous_hash": "09162bdaad11ab61ad4b589def36415b948c63a3b987bb60c60912daa718318d",
+      "new_hash": "b15744b380fb9722d7b13a68bbdbd900c84b818e9f0b88b92074aca1a60c5fda",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-preview-04-2026",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:deep-research-max-preview-04-2026",
+      "change_type": "semantic_changed",
+      "previous_hash": "f303670cb2d07e79db4d21c5b7423bc071b687c310a9a45d2b77e96d04e0eb0e",
+      "new_hash": "dbefcf8fc17b87729dd4aa9a9f19b536115fb6e78e256f4b0e19267e427f754b",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:antigravity-preview-09-2026",
+      "change_type": "semantic_changed",
+      "previous_hash": "ce383e419d047b53fcc60c050629ff70f0c927e7db33feaab3b903023e5b3463",
+      "new_hash": "066d6af5b6d9c5f921c4a6693baeea4e77b01bf8835f3293e6bbd5433d1b26a5",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-09-2026",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:antigravity-preview-05-2026",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "39c5d2dd225804e590c6386a5932ad4ffcd91fdab9def8e1b7d5ba2365b8e28c",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-05-2026",
+      "summary": "Deterministic facts were verified from the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T12:02:12Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "32379c6e22a181e2662ad42006e08ae192b2391a103e0748c555581c240b434d",
+      "new_hash": "118dd11a458ece568889e02f37f36dc14461d0e05eeece5f34b5091cd19c4f9b",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-02T11:59:00Z",
       "entity_type": "model_semantics",

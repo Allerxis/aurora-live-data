@@ -1,7 +1,7 @@
 {
   "schema_version": "0.5.0",
   "provider": "google",
-  "generated_at": "2026-10-02T11:59:00Z",
+  "generated_at": "2026-10-02T12:02:12Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -18,7 +18,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -47,8 +47,8 @@
       "model_key": "antigravity-preview-05-2026",
       "display_name": "antigravity-preview-05-2026",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "shutdown_announced",
       "lifecycle": {
         "release_date": "2026-05-19",
@@ -60,7 +60,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -71,11 +71,31 @@
       "source_hashes": {
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-05-2026",
+      "semantic_hash": "39c5d2dd225804e590c6386a5932ad4ffcd91fdab9def8e1b7d5ba2365b8e28c",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-05-2026",
+        "model_codes": [],
+        "input_types": [
+          "text",
+          "image"
+        ],
+        "output_types": [
+          "text"
+        ],
+        "input_token_limit": null,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {},
+        "consumption_options": {},
+        "versions": {
+          "preview": "antigravity-preview-05-2026"
+        },
+        "latest_update": "2026-05"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -99,7 +119,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -113,9 +133,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-09-2026",
-      "semantic_hash": "ce383e419d047b53fcc60c050629ff70f0c927e7db33feaab3b903023e5b3463",
+      "semantic_hash": "066d6af5b6d9c5f921c4a6693baeea4e77b01bf8835f3293e6bbd5433d1b26a5",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-09-2026",
@@ -125,7 +145,7 @@
           "image"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": null,
         "output_token_limit": 65536,
@@ -154,7 +174,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -165,9 +185,9 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026",
-      "semantic_hash": "f303670cb2d07e79db4d21c5b7423bc071b687c310a9a45d2b77e96d04e0eb0e",
+      "semantic_hash": "dbefcf8fc17b87729dd4aa9a9f19b536115fb6e78e256f4b0e19267e427f754b",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026",
@@ -181,7 +201,7 @@
         ],
         "output_types": [
           "text (cited reports)",
-          "images token_auto"
+          "images"
         ],
         "input_token_limit": null,
         "output_token_limit": 65536,
@@ -210,7 +230,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -221,9 +241,9 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-preview-04-2026",
-      "semantic_hash": "09162bdaad11ab61ad4b589def36415b948c63a3b987bb60c60912daa718318d",
+      "semantic_hash": "b15744b380fb9722d7b13a68bbdbd900c84b818e9f0b88b92074aca1a60c5fda",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-preview-04-2026",
@@ -237,7 +257,7 @@
         ],
         "output_types": [
           "text (cited reports)",
-          "images token_auto"
+          "images"
         ],
         "input_token_limit": null,
         "output_token_limit": 65536,
@@ -273,7 +293,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -287,9 +307,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash",
-      "semantic_hash": "7c805f5affc401eba641453e50012709bd89d66cdbee2420caffb9a6a5b79628",
+      "semantic_hash": "53e15c55ade8fe976b7d4bf8c1bf6516d87234175ae21dc986c6ae044ddb458f",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash",
@@ -303,7 +323,7 @@
           "text"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 8192,
@@ -353,7 +373,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -367,7 +387,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -392,7 +412,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -406,9 +426,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash-lite",
-      "semantic_hash": "39d823b890f2f12163b7307796c685f898d5ea3fcae5f932907aca5d82a04c7a",
+      "semantic_hash": "85b58fb373aa1bdb4bdf407402f30326e69cee9824e79137912ebea4ce852fec",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash-lite",
@@ -422,7 +442,7 @@
           "text"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 8192,
@@ -473,7 +493,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -487,7 +507,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -512,7 +532,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -526,7 +546,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -551,7 +571,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -565,7 +585,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -590,7 +610,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -604,7 +624,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -629,7 +649,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -643,7 +663,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -668,7 +688,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -682,9 +702,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-computer-use-preview-10-2025",
-      "semantic_hash": "73367fa0d8005613290f612d8b33e0b544e3af57ffe4606c9b6c2b1910df2f89",
+      "semantic_hash": "b5647553d69aa6501e00a2b11aa11caa4c594e54002848317cbc7024f2bd4a34",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-computer-use-preview-10-2025",
@@ -696,7 +716,7 @@
           "text"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 128000,
         "output_token_limit": 64000,
@@ -730,7 +750,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -744,9 +764,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
-      "semantic_hash": "b49b9b347616372f367684d1d922ab5730d7b6156e7807f525d5bf81a36f58ff",
+      "semantic_hash": "18af87126aa17ccbf8fb009d1f815c4d69bad83923037065f15202cf2444680e",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
@@ -760,7 +780,7 @@
           "audio"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -813,7 +833,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -827,9 +847,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image",
-      "semantic_hash": "5089fb4b3e71bae7c3fb845dfa946789ce2c4e455d1552abf5c2c278bd2457fd",
+      "semantic_hash": "1d6aebd8f1ca77fb5bbf5a3cb0148a39ba0232bef14c6f01c448714b1610405e",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image",
@@ -842,7 +862,7 @@
         ],
         "output_types": [
           "image",
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 65536,
         "output_token_limit": 32768,
@@ -895,7 +915,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -909,7 +929,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -934,7 +954,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -948,9 +968,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
-      "semantic_hash": "10c5f3a8db32fdcb09daa24736bb6ffb211f80e4e8b421bce4318ff04e2b8365",
+      "semantic_hash": "dbfd64c97f6606b3ac911a38db27177c6a26715017222a8fb2374f5d5ba9da23",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
@@ -965,7 +985,7 @@
           "pdf"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -1005,8 +1025,8 @@
       "model_key": "gemini-2.5-flash-lite-preview-09-2025",
       "display_name": "gemini-2.5-flash-lite-preview-09-2025",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "shutdown_announced",
       "lifecycle": {
         "release_date": "2025-09-25",
@@ -1018,7 +1038,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1029,11 +1049,53 @@
       "source_hashes": {
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite-preview-09-2025",
+      "semantic_hash": "e900ae72e2a7cf7e42037a28a44b2716cd39a71a51a52e8c1fbc7d7194452544",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite-preview-09-2025",
+        "model_codes": [
+          "gemini-2.5-flash-lite-preview-09-2025"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Supported",
+          "code_execution": "Supported",
+          "file_search": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {
+          "stable": "gemini-2.5-flash-lite"
+        },
+        "latest_update": "2025-09"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -1057,7 +1119,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1071,9 +1133,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
-      "semantic_hash": "172c9a628cb5ce31349d6e59897b4fe41f8bde72696bfd1278d4fe283ea1a88e",
+      "semantic_hash": "7eb8552a37052d93d89685c0c3071f8851a9b0b86ff5271cd581d2c39d467a50",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
@@ -1087,7 +1149,7 @@
         ],
         "output_types": [
           "audio",
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 131072,
         "output_token_limit": 8192,
@@ -1140,7 +1202,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1154,7 +1216,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1172,7 +1234,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -1183,9 +1245,9 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-09-2025",
-      "semantic_hash": "8bdd71f24b5d0f51060bf1c2fb813ac8b1d256c97df84d58210ecfe5819807a9",
+      "semantic_hash": "26dbea920471f583adc94fefc6731299cb3ab2b8df180eafec77a06fcd083977",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-09-2025",
@@ -1199,7 +1261,7 @@
           "audio"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -1252,7 +1314,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1266,7 +1328,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1291,7 +1353,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1305,9 +1367,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
-      "semantic_hash": "bc1a5d6d1ba2ed8da30b50e84ce612ff7ec590015f5ed0d3be84e95627dfd9ac",
+      "semantic_hash": "90487dcf4e0d31577bde7deb0e3898a299941ec538c06d4d89e7c384414e4df9",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
@@ -1318,7 +1380,7 @@
           "text"
         ],
         "output_types": [
-          "audio token_auto"
+          "audio"
         ],
         "input_token_limit": 8192,
         "output_token_limit": 16384,
@@ -1369,7 +1431,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1383,9 +1445,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro",
-      "semantic_hash": "43de147aae3553d273d606b8f2ac327be7b006eb362d27331dc7b832b9ab6069",
+      "semantic_hash": "6a200a1576b1800638de96cd6dcea53bfd227fe044dce4228d4b71178af4e694",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro",
@@ -1400,7 +1462,7 @@
           "pdf"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -1453,7 +1515,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1467,7 +1529,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1492,7 +1554,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1506,7 +1568,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1531,7 +1593,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1545,7 +1607,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1570,7 +1632,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1584,9 +1646,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro-preview-tts",
-      "semantic_hash": "0d408a6e7fbb73c92ef11174895b0369359b2e2388bbfb8ab949b6e8502d7fd2",
+      "semantic_hash": "b76d0843a56ac65dc8e5382b35a5232cbd77ccfa6449cc6261f86585578e7769",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro-preview-tts",
@@ -1597,7 +1659,7 @@
           "text"
         ],
         "output_types": [
-          "audio token_auto"
+          "audio"
         ],
         "input_token_limit": 8192,
         "output_token_limit": 16384,
@@ -1648,7 +1710,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1662,9 +1724,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
-      "semantic_hash": "14dd39d5f176afc5babea7896b55fc23266e7a1ac0f3b8a2c81864ea89848e3e",
+      "semantic_hash": "2cdf063cb3c6520fdd6a8eb6b4d8a219a1da3af701506f4f0f730c672e07f232",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
@@ -1679,7 +1741,7 @@
           "pdf"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -1733,7 +1795,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1747,9 +1809,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image",
-      "semantic_hash": "0ba2b9bec5714c061e6da6a5ccd6a5e0aa10b43459e0c98ad96f77b215b89827",
+      "semantic_hash": "f75982ec3a202137a5a2709035e3cf892f87782f89ea5f93e0d1d40d45fce804",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image",
@@ -1762,7 +1824,7 @@
         ],
         "output_types": [
           "image",
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 65536,
         "output_token_limit": 32768,
@@ -1815,7 +1877,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -1829,7 +1891,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1854,7 +1916,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1868,9 +1930,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-preview",
-      "semantic_hash": "04102abe8c0e2ac8003b8a4aeb6bea985881ad1735bbdff249db133cd8ca8ac1",
+      "semantic_hash": "2fbfbbcfb842201ccd3f8da9157fb5a906e5c4cf6300f522f32cac3a0572d995",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-preview",
@@ -1885,7 +1947,7 @@
           "pdf"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -1937,7 +1999,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -1951,9 +2013,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image",
-      "semantic_hash": "0f8bb7bae48ec3f6ebde4d60069f8fc64cd293c6e1f81f6061f6b81cb566fe69",
+      "semantic_hash": "93279d98b74bbb348dbbcedad8abf6963062f69fe8e1c4bda332195009aafaf4",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image",
@@ -1968,7 +2030,7 @@
         ],
         "output_types": [
           "image",
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 131072,
         "output_token_limit": 32768,
@@ -2021,7 +2083,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2035,7 +2097,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -2060,7 +2122,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2074,9 +2136,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
-      "semantic_hash": "9d2bcbdfd091e92ffe0666d0fc1dffb38a7901a766aaf74e7bcae42c45705d65",
+      "semantic_hash": "ae7956ff1cab935da1edcb7fe1e2f6c347239a694d0358ed8714b4ddb8c9776e",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
@@ -2091,7 +2153,7 @@
           "pdf"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -2138,7 +2200,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2149,9 +2211,9 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image",
-      "semantic_hash": "f79d1a98875175c3ea8b28993b874f6e4a76fd6ed3546d2d224d16abc8ed6a9c",
+      "semantic_hash": "a25d0cdea8ad4e9c8c4caa631e3009431a6305b1bf959e9bf11ebb456cb4487f",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image",
@@ -2166,7 +2228,7 @@
         ],
         "output_types": [
           "image",
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 65536,
         "output_token_limit": 4096,
@@ -2219,7 +2281,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2233,9 +2295,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
-      "semantic_hash": "504349f2a5ca1b99065f1d6f6305673ab93d9dcaf3008d4a07f707a0d2a5405b",
+      "semantic_hash": "d105e84e343904571d3163a6c85df1c72690e5d3399e527850a6610e9776b9f1",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
@@ -2250,7 +2312,7 @@
           "pdf"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -2302,7 +2364,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2316,9 +2378,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview",
-      "semantic_hash": "133ed3f6b4fd30ba63dc271ca86ea0b60b78dfa5195078d3e1838f34ae2b63c6",
+      "semantic_hash": "016de0a1392c83434a01316106e4ee13d30249c38c647d40997008d84f0916cf",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview",
@@ -2333,7 +2395,7 @@
         ],
         "output_types": [
           "text",
-          "audio token_auto"
+          "audio"
         ],
         "input_token_limit": 131072,
         "output_token_limit": 65536,
@@ -2371,7 +2433,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2385,9 +2447,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview",
-      "semantic_hash": "645f450b42d529a5adbfa469c4fe04f71795dd7b3f3b32fd28e924e006ef312b",
+      "semantic_hash": "1f5fe64fe9df8fbe21be3e25afba3169833a125bbe8e8b911c1c11279d6d98c2",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview",
@@ -2398,7 +2460,7 @@
           "text"
         ],
         "output_types": [
-          "audio token_auto"
+          "audio"
         ],
         "input_token_limit": 8192,
         "output_token_limit": 16384,
@@ -2449,7 +2511,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2463,9 +2525,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
-      "semantic_hash": "2f521cde28a44419ebd463e91a90f2b3d75f4608f4676240eb4ae039be695e31",
+      "semantic_hash": "8b7bfd20c758587ce4b237be828b72664a545e49dd44a7428e4dc93413b0e210",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
@@ -2480,7 +2542,7 @@
           "pdf"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -2533,7 +2595,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2547,9 +2609,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash",
-      "semantic_hash": "e2a40650c2a5a19e172b74dc120e8ede9d278aaad0f8ffe837070a98eddf46b1",
+      "semantic_hash": "8dae719813d9a687ca52b078bcb1ffbf3741286de60f96db7a5d28e46fa67b9b",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash",
@@ -2564,7 +2626,7 @@
           "pdf"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -2619,7 +2681,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2633,9 +2695,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
-      "semantic_hash": "d5b544dc2cc378a15b6eb0ddf988b9caae4f6a665d07c940751b05a32b45f8b8",
+      "semantic_hash": "07f4bdcd90c5d08a6f954cc467284c5c832612f1e81b0032a5425ff6d4c91b04",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
@@ -2650,7 +2712,7 @@
           "pdf"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -2704,7 +2766,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2718,9 +2780,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-live-translate-preview",
-      "semantic_hash": "59419f5be26bef11739dc93e8356415afd6d8cbc32102e1029808ed7b0d9085d",
+      "semantic_hash": "a182ad8f038f94a9bf5c1bad022ef8ee35de19aec1d511bd0d1e781af699211f",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-live-translate-preview",
@@ -2732,7 +2794,7 @@
         ],
         "output_types": [
           "audio (translated speech)",
-          "text (transcript) token_auto"
+          "text (transcript)"
         ],
         "input_token_limit": 131072,
         "output_token_limit": 65536,
@@ -2785,7 +2847,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2799,7 +2861,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
       "semantic_hash": "87fff2c541eaecaff277e227cea3250aa8f944e380e2952a08292e5f50103160",
       "semantic_error": null,
@@ -2858,7 +2920,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2900,7 +2962,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2914,9 +2976,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
-      "semantic_hash": "ded6e56c541589a6bb3938434be559f1afac88e74714fb7abc69dc889d2ddd47",
+      "semantic_hash": "2f15eb668b34ae64950cbe73c625b623bac4133b3ed1bf0c30afbb95605eef1c",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
@@ -2931,7 +2993,7 @@
           "pdf"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -2985,7 +3047,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2999,9 +3061,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
-      "semantic_hash": "dd69a1ffc1528f873b406bfa4e92ef7013fe8dd398390ab5ad99721df9012ac0",
+      "semantic_hash": "f5fd0d409d772783976590ffbb1d4858b349d8a6f6dfe4dcd86cc22ad70d007e",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
@@ -3016,7 +3078,7 @@
           "pdf"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -3070,7 +3132,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3084,9 +3146,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
-      "semantic_hash": "6af43f58a51d2c6e1562bfb46759583a3768b7ed493de86577fadd146e962f84",
+      "semantic_hash": "e85bce5ff96996beab0a3f78a6bb4611f52f6b8838171e9271d3fa0d07456b62",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
@@ -3101,7 +3163,7 @@
           "pdf"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 1048576,
         "output_token_limit": 65536,
@@ -3155,7 +3217,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3169,9 +3231,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-lite-tts",
-      "semantic_hash": "c92bff10304c0eb9ddc24480485a7431fe7f52a497db5a0657f50426726d9493",
+      "semantic_hash": "81ef1dc6381500c3c4f3f66171e8de99ce4bf42e8358ed4d07348b5bbc149e74",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-lite-tts",
@@ -3182,7 +3244,7 @@
           "text"
         ],
         "output_types": [
-          "audio token_auto"
+          "audio"
         ],
         "input_token_limit": 8192,
         "output_token_limit": 16384,
@@ -3233,7 +3295,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3247,9 +3309,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts",
-      "semantic_hash": "210995b70fbb759a10053de395425d2f3a6aa11cde9bdce0af28ed4053f8a83c",
+      "semantic_hash": "2c8e6532a488b17fdd2d1006517425058d751f3f2338e9c8580f5bf338a3f8d7",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts",
@@ -3260,7 +3322,7 @@
           "text"
         ],
         "output_types": [
-          "audio token_auto"
+          "audio"
         ],
         "input_token_limit": 8192,
         "output_token_limit": 16384,
@@ -3311,7 +3373,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3325,9 +3387,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live",
-      "semantic_hash": "7a7a6e9d11306a51996aefdc9a94c4131e986825982e2456fcf68677de51f620",
+      "semantic_hash": "34a7141393f512f8366fc40c39fa908962252f704bbdf7b90af827d89c65d760",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live",
@@ -3342,7 +3404,7 @@
         ],
         "output_types": [
           "text",
-          "audio token_auto"
+          "audio"
         ],
         "input_token_limit": 131072,
         "output_token_limit": 65536,
@@ -3393,7 +3455,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3407,9 +3469,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking",
-      "semantic_hash": "34a705414f460a8e9513dfdc6103c6a3ea3b2e327edb1af26945271917867960",
+      "semantic_hash": "191c32e94d09afb65a0c71fa8e2c9ebbce52675693bd113b4f8a342350c1de38",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking",
@@ -3424,7 +3486,7 @@
         ],
         "output_types": [
           "text",
-          "audio token_auto"
+          "audio"
         ],
         "input_token_limit": 131072,
         "output_token_limit": 65536,
@@ -3475,7 +3537,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3489,9 +3551,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001",
-      "semantic_hash": "befc6acdf731f5a5a36bcb32840bab3b93bf8bcbf7db7aed9a898ed056c9cecd",
+      "semantic_hash": "ffc5ed8b2b7fd232b39301d444e5644e9d4b0d1b7dfb55fed9afa0f52e9e1932",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001",
@@ -3502,7 +3564,7 @@
           "text"
         ],
         "output_types": [
-          "text embeddings token_auto"
+          "text embeddings"
         ],
         "input_token_limit": 2048,
         "output_token_limit": null,
@@ -3525,8 +3587,8 @@
       "model_key": "gemini-embedding-2",
       "display_name": "gemini-embedding-2",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "no_shutdown_announced",
       "lifecycle": {
         "release_date": "2026-04-22",
@@ -3538,7 +3600,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3549,11 +3611,36 @@
       "source_hashes": {
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
+      "semantic_hash": "11355aa17f5898f3a95b0245f41de38ff39056bc5f56438cd67c745b2e9d6733",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
+        "model_codes": [
+          "gemini-embedding-2"
+        ],
+        "input_types": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output_types": [
+          "text embeddings"
+        ],
+        "input_token_limit": 8192,
+        "output_token_limit": null,
+        "output_dimension": "Flexible, supports: 128 - 3072, Recommended: 768, 1536, 3072 123",
+        "video_output_count": null,
+        "capabilities": {},
+        "consumption_options": {},
+        "versions": {
+          "stable": "gemini-embedding-2"
+        },
+        "latest_update": "2026-04"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -3570,7 +3657,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -3581,9 +3668,9 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2-preview",
-      "semantic_hash": "15cd54684b4febf95faee09daaf8641b6daf961f433be5c4507e04d2421a9b79",
+      "semantic_hash": "9b10c0db8bb859b8d1f0ed0b4e4467b1d2b76038492492704ff34e11c22e7604",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2-preview",
@@ -3598,7 +3685,7 @@
           "pdf"
         ],
         "output_types": [
-          "text embeddings token_auto"
+          "text embeddings"
         ],
         "input_token_limit": 8192,
         "output_token_limit": null,
@@ -3634,7 +3721,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3648,7 +3735,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -3673,7 +3760,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3687,7 +3774,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -3705,7 +3792,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -3744,7 +3831,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3758,7 +3845,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -3783,7 +3870,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3812,8 +3899,8 @@
       "model_key": "gemini-robotics-er-1.5-preview",
       "display_name": "gemini-robotics-er-1.5-preview",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "shutdown_announced",
       "lifecycle": {
         "release_date": "2025-09-25",
@@ -3825,7 +3912,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3836,11 +3923,51 @@
       "source_hashes": {
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.5-preview",
+      "semantic_hash": "428bf4dec4d99a824b0204329738c496cba95798ce2444edd0c29c4091100f0c",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.5-preview",
+        "model_codes": [
+          "gemini-robotics-er-1.5-preview"
+        ],
+        "input_types": [
+          "text",
+          "images",
+          "video",
+          "audio"
+        ],
+        "output_types": [
+          "text"
+        ],
+        "input_token_limit": 1048576,
+        "output_token_limit": 65536,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {
+          "audio_generation": "Not supported",
+          "caching": "Not supported",
+          "code_execution": "Supported",
+          "function_calling": "Supported",
+          "google_maps_grounding": "Not supported",
+          "image_generation": "Not supported",
+          "live_api": "Not supported",
+          "search_grounding": "Supported",
+          "structured_outputs": "Supported",
+          "thinking": "Supported",
+          "url_context": "Supported"
+        },
+        "consumption_options": {
+          "batch_api": "Not supported",
+          "flex_inference": "Not supported",
+          "priority_inference": "Not supported"
+        },
+        "versions": {
+          "preview": "gemini-robotics-er-1.5-preview"
+        },
+        "latest_update": "2025-09"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -3864,7 +3991,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3878,9 +4005,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview",
-      "semantic_hash": "911e54b4b7cebfa57645f500336a22f8cf4f174f809a49268877da48f9ac568b",
+      "semantic_hash": "3c0ba4063b0b89b2722514c0ea5fd7a0c1cb0fd3550bc1524e6d8c80b3ae87d9",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview",
@@ -3894,7 +4021,7 @@
           "audio"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 131072,
         "output_token_limit": 65536,
@@ -3941,7 +4068,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3955,9 +4082,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-preview",
-      "semantic_hash": "824c330bceef3196c764d7b263cce68ac99c856d2c4e577587a8fd99d5d94a76",
+      "semantic_hash": "6d703abf3ac17c3e5e3577d4cc7e23bfd2d017723555299d45a7bbefc0be239b",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-preview",
@@ -3971,7 +4098,7 @@
           "audio"
         ],
         "output_types": [
-          "text token_auto"
+          "text"
         ],
         "input_token_limit": 131072,
         "output_token_limit": 65536,
@@ -4025,7 +4152,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4039,7 +4166,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -4064,7 +4191,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4078,7 +4205,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -4096,7 +4223,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -4135,7 +4262,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4149,7 +4276,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -4174,7 +4301,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4188,7 +4315,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -4213,7 +4340,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4227,7 +4354,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -4252,7 +4379,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4266,7 +4393,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -4291,7 +4418,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:59:00Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4305,9 +4432,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-clip-preview",
-      "semantic_hash": "504a4443468e7171b107b6033f1d05a1ceaf9800fc69ef634fbe663c965568b4",
+      "semantic_hash": "06824f108722fcdb6aa43b77f698d51f05ecc7cabef4d713f6a30341e999560b",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-clip-preview",
@@ -4320,7 +4447,7 @@
         ],
         "output_types": [
           "audio (mp3)",
-          "text (lyrics) token_auto"
+          "text (lyrics)"
         ],
         "input_token_limit": 131072,
         "output_token_limit": null,
@@ -4373,7 +4500,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:59:00Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4387,9 +4514,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-pro-preview",
-      "semantic_hash": "b85ca3b84b217ec8b85f3d18fc0c68edd03506a8f42d56c6316b81978861569c",
+      "semantic_hash": "f49bc4042941638f8ded5a4817e1f8aa36f2f4b3e978011c4954e02f2ad7096d",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-pro-preview",
@@ -4402,7 +4529,7 @@
         ],
         "output_types": [
           "audio (mp3)",
-          "text (lyrics) token_auto"
+          "text (lyrics)"
         ],
         "input_token_limit": 131072,
         "output_token_limit": null,
@@ -4455,7 +4582,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:59:00Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4469,9 +4596,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3.5",
-      "semantic_hash": "aaf39b3146f5e990aac85125bbae10924a5a20fe2f528f72e5f054737f791c0c",
+      "semantic_hash": "f18da7e0fdf634b92170564d097a7aa713d99e88996f7870393eda6e0e3e0154",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3.5",
@@ -4484,7 +4611,7 @@
         ],
         "output_types": [
           "audio (mp3)",
-          "text (lyrics) token_auto"
+          "text (lyrics)"
         ],
         "input_token_limit": 131072,
         "output_token_limit": null,
@@ -4537,7 +4664,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:59:00Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4551,7 +4678,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-realtime-exp",
       "semantic_hash": "ceaf38100f943e0bb242b0ec49fda47445ede2b74438844c18a5d4413e801de1",
       "semantic_error": null,
@@ -4587,8 +4714,8 @@
       "model_key": "veo-2.0-generate-001",
       "display_name": "veo-2.0-generate-001",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
       "lifecycle_status": "shutdown_announced",
       "lifecycle": {
         "release_date": "2025-04-09",
@@ -4600,7 +4727,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4611,11 +4738,31 @@
       "source_hashes": {
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
+      "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/veo-2.0-generate-001",
+      "semantic_hash": "5e215039aa76173a435effed0f8c778122e798d45a8408327f7862e7e1f94157",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://ai.google.dev/gemini-api/docs/models/veo-2.0-generate-001",
+        "model_codes": [
+          "veo-2.0-generate-001"
+        ],
+        "input_types": [
+          "text",
+          "image"
+        ],
+        "output_types": [
+          "video"
+        ],
+        "input_token_limit": null,
+        "output_token_limit": null,
+        "output_dimension": null,
+        "video_output_count": null,
+        "capabilities": {},
+        "consumption_options": {},
+        "versions": {},
+        "latest_update": "2025-04"
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -4639,7 +4786,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4653,7 +4800,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -4678,7 +4825,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4692,7 +4839,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -4717,7 +4864,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4731,7 +4878,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -4756,7 +4903,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4770,7 +4917,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -4795,7 +4942,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4809,7 +4956,7 @@
       "semantic_verified_at": null,
       "semantic_source_url": null,
       "semantic_hash": null,
-      "semantic_error": null,
+      "semantic_error": "HTTPError: HTTP Error 404: Not Found",
       "facts": {},
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -4834,7 +4981,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4848,9 +4995,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-generate-preview",
-      "semantic_hash": "adbc8bd594cf995e0708fca032ab35163935f3eb7316a45a2fbdf60a7b69dd80",
+      "semantic_hash": "6ef95ca41aecc903f2b654d3891b8b0771652f12325a4bf8f5d18dd6a2bd7ff4",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-generate-preview",
@@ -4863,7 +5010,7 @@
           "image"
         ],
         "output_types": [
-          "video with audio token_auto"
+          "video with audio"
         ],
         "input_token_limit": null,
         "output_token_limit": null,
@@ -4897,7 +5044,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:59:00Z",
+      "last_seen_at": "2026-10-02T12:02:12Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4911,9 +5058,9 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T11:59:00Z",
+      "semantic_verified_at": "2026-10-02T12:02:12Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-lite-generate-preview",
-      "semantic_hash": "607ee14cc00273a2eba39d41bc58623ee340f70cf9ecb9b62aead2bddd583aa0",
+      "semantic_hash": "eda9851c85c7187d672d7ea73797027e89560014b17e447e7862389c4487fa28",
       "semantic_error": null,
       "facts": {
         "source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-lite-generate-preview",
@@ -4925,7 +5072,7 @@
           "image"
         ],
         "output_types": [
-          "video with audio token_auto"
+          "video with audio"
         ],
         "input_token_limit": null,
         "output_token_limit": null,
