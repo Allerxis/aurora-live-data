@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "provider": "anthropic",
-  "generated_at": "2026-10-02T11:31:36Z",
+  "generated_at": "2026-10-02T11:35:43Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic adapter found this candidate during the current refresh. It does not prove API availability or product availability.",
     "verification_state": "Only records explicitly marked verified may be used as authoritative semantic model facts."
@@ -17,7 +17,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -26,7 +26,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -44,7 +44,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -53,7 +53,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -71,7 +71,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -80,7 +80,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -98,7 +98,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -107,7 +107,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -125,7 +125,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -134,7 +134,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -152,7 +152,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -161,7 +161,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -179,7 +179,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -188,7 +188,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -206,7 +206,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -215,7 +215,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -233,7 +233,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -242,7 +242,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -260,7 +260,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -269,7 +269,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -287,7 +287,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -296,7 +296,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -314,7 +314,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -323,7 +323,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -341,7 +341,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -350,7 +350,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -368,7 +368,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -377,7 +377,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -395,7 +395,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -404,7 +404,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -422,7 +422,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -431,7 +431,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -449,7 +449,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -458,7 +458,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -476,7 +476,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -485,7 +485,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -503,7 +503,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -512,7 +512,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -530,7 +530,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -539,7 +539,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -557,7 +557,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -566,7 +566,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [
@@ -584,7 +584,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -593,7 +593,7 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c"
+        "anthropic-models": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d"
       },
       "facts": {},
       "notes": [

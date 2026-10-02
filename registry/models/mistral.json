@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "provider": "mistral",
-  "generated_at": "2026-10-02T11:31:36Z",
+  "generated_at": "2026-10-02T11:35:43Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic adapter found this candidate during the current refresh. It does not prove API availability or product availability.",
     "verification_state": "Only records explicitly marked verified may be used as authoritative semantic model facts."
@@ -17,7 +17,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -44,7 +44,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -71,7 +71,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -98,7 +98,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -125,7 +125,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -152,7 +152,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -179,7 +179,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -206,7 +206,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -233,7 +233,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -260,7 +260,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -287,7 +287,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -314,7 +314,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -341,7 +341,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -368,7 +368,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -395,7 +395,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -422,7 +422,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -449,7 +449,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -476,7 +476,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -503,7 +503,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -530,7 +530,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -557,7 +557,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -584,7 +584,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -611,7 +611,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -638,7 +638,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -665,7 +665,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -692,7 +692,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -719,7 +719,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -746,7 +746,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -773,7 +773,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -800,7 +800,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -827,7 +827,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -854,7 +854,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -881,7 +881,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -908,7 +908,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -935,7 +935,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -962,7 +962,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -989,7 +989,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1016,7 +1016,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1043,7 +1043,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1070,7 +1070,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1097,7 +1097,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1124,7 +1124,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1151,7 +1151,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1178,7 +1178,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1205,7 +1205,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1232,7 +1232,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1259,7 +1259,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1286,7 +1286,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1313,7 +1313,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1340,7 +1340,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1367,7 +1367,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1394,7 +1394,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1421,7 +1421,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1448,7 +1448,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1475,7 +1475,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1502,7 +1502,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1529,7 +1529,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1556,7 +1556,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1583,7 +1583,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1610,7 +1610,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1637,7 +1637,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1664,7 +1664,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1691,7 +1691,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:31:36Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"

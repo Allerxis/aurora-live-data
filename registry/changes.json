@@ -1,7 +1,57 @@
 {
   "schema_version": "0.2.0",
-  "generated_at": "2026-10-02T11:31:36Z",
+  "generated_at": "2026-10-02T11:35:43Z",
   "changes": [
+    {
+      "observed_at": "2026-10-02T11:35:43Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "c52728d18678ae86778d0467f865f561267964e709d825d43fb9328cd552454e",
+      "new_hash": "cc2700da0b5fdafad4f0155ce6e1823fc54cd685432cf5a10715f89595ea5f88",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-02T11:35:43Z",
+      "entity_type": "source",
+      "entity_key": "xai-models",
+      "change_type": "content_changed",
+      "previous_hash": "a8179554b1000c3e9e813f8ead611669305fb230c80afc71db4694a4f937e784",
+      "new_hash": "b39923df68865174f2e3cabc93c96b0215d259729dc63b61a0f71ee53769601c",
+      "source_url": "https://docs.x.ai/developers/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-02T11:35:43Z",
+      "entity_type": "source",
+      "entity_key": "google-deprecations",
+      "change_type": "content_changed",
+      "previous_hash": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3",
+      "new_hash": "45661cbc522e9d2df2391f266edc3804b92b518e614e7260770a81e52aa1ea1f",
+      "source_url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-02T11:35:43Z",
+      "entity_type": "source",
+      "entity_key": "google-models",
+      "change_type": "content_changed",
+      "previous_hash": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
+      "new_hash": "33fdcb62144dc565c4494aea8cac3b71785f2bd14cb808535ed1982f1cf1fd59",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-02T11:35:43Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-models",
+      "change_type": "content_changed",
+      "previous_hash": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c",
+      "new_hash": "4f6015dab5fee6b0f941c2f62c25c5462daca217126ede544e5ae3e0d4f42f0d",
+      "source_url": "https://platform.claude.com/docs/en/models/overview",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-02T11:31:36Z",
       "entity_type": "model_candidate",

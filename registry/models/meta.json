@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "provider": "meta",
-  "generated_at": "2026-10-02T11:31:36Z",
+  "generated_at": "2026-10-02T11:35:43Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic adapter found this candidate during the current refresh. It does not prove API availability or product availability.",
     "verification_state": "Only records explicitly marked verified may be used as authoritative semantic model facts."
@@ -17,7 +17,7 @@
       "lifecycle_status": "unknown",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:31:36Z",
+      "last_seen_at": "2026-10-02T11:35:43Z",
       "missing_since": null,
       "source_keys": [
         "meta-llama",
@@ -29,7 +29,7 @@
       ],
       "source_hashes": {
         "meta-llama": "8b54664693cf23f2f327c5d8db35bc30db40afcd7d8da8f155d6485886d4dcc7",
-        "meta-llama-docs": "c52728d18678ae86778d0467f865f561267964e709d825d43fb9328cd552454e"
+        "meta-llama-docs": "cc2700da0b5fdafad4f0155ce6e1823fc54cd685432cf5a10715f89595ea5f88"
       },
       "facts": {},
       "notes": [
