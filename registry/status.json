@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.11.0",
+  "schema_version": "0.12.0",
   "service": "Aurora Live Data",
-  "generated_at": "2026-10-02T14:00:02Z",
+  "generated_at": "2026-10-02T14:36:42Z",
   "healthy": true,
   "sources_total": 21,
   "sources_reachable": 21,
@@ -32,5 +32,8 @@
   "guidance_total": 13,
   "guidance_verified": 13,
   "guidance_stale": 0,
-  "guidance_unverified": 0
+  "guidance_unverified": 0,
+  "eval_criteria": 16,
+  "eval_test_case_templates": 5,
+  "eval_spec_hash": "34763d835c712846c5a367135d85e5480f4cc5c0f423fe5b2429157f731b7ee6"
 }

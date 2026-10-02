@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0.0",
+  "philosophy": {
+    "scoring": "No arbitrary numeric score. Each criterion resolves to pass, fail, needs_review, or not_applicable.",
+    "deterministic_first": "Use deterministic checks whenever the criterion can be grounded in prompt text, structured metadata, or verified model records.",
+    "semantic_limits": "Clarity, contradiction, intent preservation, and similar semantic properties require explicit review evidence rather than heuristic scoring.",
+    "fail_closed": "Missing capability evidence is needs_review, never silently treated as supported."
+  },
+  "severities": {
+    "blocker": "A confirmed failure prevents release of the prompt as-is.",
+    "error": "A confirmed defect should be corrected before release.",
+    "warning": "A material caveat should be reviewed or surfaced.",
+    "info": "Useful diagnostic context."
+  },
+  "criteria": [
+    {
+      "id": "safety.private_chain_of_thought",
+      "mode": "deterministic_text",
+      "severity": "blocker",
+      "description": "The prompt must not require disclosure of hidden/private chain-of-thought.",
+      "pass_condition": "No non-negated request for private chain-of-thought or hidden reasoning is detected."
+    },
+    {
+      "id": "quality.unresolved_markers",
+      "mode": "deterministic_text",
+      "severity": "error",
+      "description": "Release prompts should not contain accidental TODO/FIXME/TBD markers.",
+      "pass_condition": "No unresolved editorial marker is detected."
+    },
+    {
+      "id": "contract.variable_integrity",
+      "mode": "deterministic_metadata",
+      "severity": "error",
+      "description": "Template variables used by the prompt must match the declared variable contract.",
+      "pass_condition": "Every detected template variable is declared when a declared variable list is supplied."
+    },
+    {
+      "id": "model.verified_target",
+      "mode": "deterministic_registry",
+      "severity": "error",
+      "description": "A specified target model should have a current semantically verified registry record.",
+      "pass_condition": "Exact provider/model record exists with verified_official_detail."
+    },
+    {
+      "id": "model.lifecycle_policy",
+      "mode": "deterministic_registry",
+      "severity": "error",
+      "description": "The target model must not be excluded or stale under the verified selector policy.",
+      "pass_condition": "default_policy is include, include_with_warning, or specialized; warnings remain visible."
+    },
+    {
+      "id": "model.context_budget",
+      "mode": "deterministic_registry",
+      "severity": "error",
+      "description": "Estimated input must fit the verified context limit when both are known.",
+      "pass_condition": "estimated_input_tokens <= context_window_tokens."
+    },
+    {
+      "id": "model.output_budget",
+      "mode": "deterministic_registry",
+      "severity": "error",
+      "description": "Requested output must fit the verified max-output limit when both are known.",
+      "pass_condition": "requested_output_tokens <= max_output_tokens."
+    },
+    {
+      "id": "model.required_capabilities",
+      "mode": "deterministic_registry",
+      "severity": "error",
+      "description": "Explicitly required capabilities must be positively verified for the target model.",
+      "pass_condition": "Every required dot-path resolves to an explicit true/supported value."
+    },
+    {
+      "id": "tools.policy",
+      "mode": "structured_review",
+      "severity": "error",
+      "description": "Prompts that use tools must define when tools may be used and relevant confirmation/verification constraints.",
+      "pass_condition": "tool_policy_present=true when uses_tools=true."
+    },
+    {
+      "id": "security.untrusted_data_boundary",
+      "mode": "structured_review",
+      "severity": "blocker",
+      "description": "Prompts consuming untrusted external content must distinguish data from executable instructions.",
+      "pass_condition": "untrusted_data_policy_present=true when consumes_untrusted_data=true."
+    },
+    {
+      "id": "contract.output_contract",
+      "mode": "structured_review",
+      "severity": "error",
+      "description": "The expected output shape, content, and constraints should be explicit when the task requires a controlled deliverable.",
+      "pass_condition": "output_contract_present=true, or the review marks the criterion not_applicable with evidence."
+    },
+    {
+      "id": "semantic.objective_clarity",
+      "mode": "semantic_review",
+      "severity": "error",
+      "description": "The intended task and deliverable are sufficiently clear to execute without avoidable interpretation.",
+      "required_evidence": "Brief explanation identifying the objective and deliverable."
+    },
+    {
+      "id": "semantic.constraint_consistency",
+      "mode": "semantic_review",
+      "severity": "blocker",
+      "description": "Prompt constraints do not materially contradict one another.",
+      "required_evidence": "List any conflicting constraints, or state that none were found with a brief check."
+    },
+    {
+      "id": "semantic.intent_preservation",
+      "mode": "semantic_review",
+      "severity": "error",
+      "description": "For optimization/adaptation, the revised prompt preserves the user's original intent and material constraints.",
+      "required_evidence": "Compare original and revised intent/constraints; use not_applicable for a prompt created from scratch."
+    },
+    {
+      "id": "semantic.ambiguity",
+      "mode": "semantic_review",
+      "severity": "warning",
+      "description": "Material ambiguities are resolved, explicitly assumed, or surfaced to the user.",
+      "required_evidence": "Identify unresolved ambiguous terms or state why remaining ambiguity is harmless."
+    },
+    {
+      "id": "guidance.provider_alignment",
+      "mode": "registry_review",
+      "severity": "warning",
+      "description": "When a provider is specified, applicable verified guidance should be considered and stale/unverified guidance should not be treated as current.",
+      "pass_condition": "Applicable guidance entries are current or explicitly revalidated."
+    }
+  ],
+  "test_case_templates": [
+    {
+      "id": "nominal",
+      "purpose": "Normal representative input that should satisfy the prompt contract."
+    },
+    {
+      "id": "ambiguous",
+      "purpose": "Input with a material ambiguity to verify assumptions, clarification behavior, or graceful handling."
+    },
+    {
+      "id": "boundary",
+      "purpose": "Input near a relevant size, format, capability, or constraint boundary."
+    },
+    {
+      "id": "adversarial_untrusted_content",
+      "purpose": "Untrusted content containing instructions that conflict with the prompt, used to verify instruction/data separation.",
+      "conditional": "Use when the workflow consumes external or user-controlled content."
+    },
+    {
+      "id": "tool_failure",
+      "purpose": "Required tool is unavailable, errors, or returns incomplete data.",
+      "conditional": "Use when the prompt relies on tools."
+    }
+  ],
+  "release_gate": {
+    "fail": "Any blocker/error criterion with outcome=fail.",
+    "needs_review": "No fail, but at least one applicable criterion remains needs_review.",
+    "pass": "All applicable criteria are pass or not_applicable, and required semantic evidence is present."
+  },
+  "generated_at": "2026-10-02T14:36:42Z",
+  "spec_hash": "34763d835c712846c5a367135d85e5480f4cc5c0f423fe5b2429157f731b7ee6"
+}
