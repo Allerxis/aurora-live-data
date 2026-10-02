@@ -1,8 +1,8 @@
 {
-  "schema_version": "1.0.0",
-  "generated_at": "2026-10-02T18:43:10Z",
+  "schema_version": "1.1.0",
+  "generated_at": "2026-10-02T18:56:55Z",
   "ready": true,
-  "policy_hash": "c378988845d8ca5fc0a4dc8f37631c38bfa4dba9625ac065930c6abc84ed9190",
+  "policy_hash": "956cded9cab62da95ac0f44619bba2a29f173b6270db0555c1f9718ba8dc7bc2",
   "privacy": {
     "persistence_default": "none",
     "public_registry_contains_user_manifests": false,
@@ -52,7 +52,8 @@
       "provider_slug",
       "model_key",
       "verification_state",
-      "semantic_verified_at"
+      "semantic_verified_at",
+      "semantic_hash"
     ],
     "dependency_fields": [
       "eval_spec_hash",
@@ -83,7 +84,7 @@
     "if_dependencies_mismatch": "NEEDS_REVIEW"
   },
   "example_manifest": {
-    "schema_version": "1.0.0",
+    "schema_version": "1.1.0",
     "manifest_id": "vm_example_001",
     "aurora_version": "0.50.0",
     "live_data_version": "0.16.0",
@@ -93,7 +94,8 @@
       "provider_slug": "openai",
       "model_key": "example-model",
       "verification_state": "verified_official_detail",
-      "semantic_verified_at": "2026-10-02T00:00:00Z"
+      "semantic_verified_at": "2026-10-02T00:00:00Z",
+      "semantic_hash": "example"
     },
     "dependencies": {
       "eval_spec_hash": "example",
