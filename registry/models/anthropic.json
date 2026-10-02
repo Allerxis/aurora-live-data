@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.3.0",
+  "schema_version": "0.4.0",
   "provider": "anthropic",
-  "generated_at": "2026-10-02T11:49:43Z",
+  "generated_at": "2026-10-02T11:50:28Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -12,12 +12,12 @@
       "model_key": "claude-fable-5-1",
       "display_name": "claude-fable-5-1",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "Active (latest)",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:49:43Z",
+      "last_seen_at": "2026-10-02T11:50:28Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -28,11 +28,49 @@
       "source_hashes": {
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:50:28Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+      "semantic_hash": "9a6958f04a01b7a7f6087bf383ca1bb52e66abfc7b68b8c6f7fae24479ecbe13",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+        "context_window_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "max_output_batch_tokens": null,
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 10.0,
+          "output": 50.0,
+          "cache_write_5m": 12.5,
+          "cache_write_1h": 20.0,
+          "cache_read": 0.25
+        },
+        "thinking": "Adaptive (always on)",
+        "default_effort": "high",
+        "comparative_latency": "Slower",
+        "input_output": "Text and images → text Reliable knowledge cutoff Jun",
+        "reliable_knowledge_cutoff": "2026-06",
+        "training_data_cutoff": "2026-06",
+        "lifecycle": {
+          "status": "Active (latest)",
+          "released": "2026-09-01",
+          "retirement": "Not sooner than September 1, 2027"
+        },
+        "platform_ids": {
+          "claude_api": "claude-fable-5-1",
+          "amazon_bedrock": "anthropic.claude-fable-5-1",
+          "google_cloud": "claude-fable-5-1",
+          "microsoft_foundry": "claude-fable-5-1",
+          "claude_platform_aws": "claude-fable-5-1"
+        },
+        "platforms": [
+          "Claude API",
+          "Amazon Bedrock",
+          "Google Cloud",
+          "Microsoft Foundry",
+          "Claude Platform on AWS"
+        ]
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -43,12 +81,12 @@
       "model_key": "claude-haiku-4-5",
       "display_name": "claude-haiku-4-5",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "Active (latest)",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:49:43Z",
+      "last_seen_at": "2026-10-02T11:50:28Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -59,11 +97,49 @@
       "source_hashes": {
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:50:28Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "semantic_hash": "d0ec80a1cfc99483a222f6e9e7850cb507676a2abded42c06dfa3d43fdd5e317",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+        "context_window_tokens": 200000,
+        "max_output_tokens": 64000,
+        "max_output_batch_tokens": null,
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.0,
+          "output": 5.0,
+          "cache_write_5m": 1.25,
+          "cache_write_1h": 2.0,
+          "cache_read": 0.1
+        },
+        "thinking": "Extended",
+        "default_effort": "Not supported",
+        "comparative_latency": "Fastest",
+        "input_output": "Text and images → text Reliable knowledge cutoff Feb",
+        "reliable_knowledge_cutoff": "2025-02",
+        "training_data_cutoff": "2025-07",
+        "lifecycle": {
+          "status": "Active (latest)",
+          "released": "2025-10-15",
+          "retirement": "Not sooner than October 15, 2026"
+        },
+        "platform_ids": {
+          "claude_api": "claude-haiku-4-5-20251001",
+          "amazon_bedrock": "anthropic.claude-haiku-4-5",
+          "google_cloud": "claude-haiku-4-5@20251001",
+          "microsoft_foundry": "claude-haiku-4-5",
+          "claude_platform_aws": "claude-haiku-4-5"
+        },
+        "platforms": [
+          "Claude API",
+          "Amazon Bedrock",
+          "Google Cloud",
+          "Microsoft Foundry",
+          "Claude Platform on AWS"
+        ]
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -74,12 +150,12 @@
       "model_key": "claude-haiku-4-5-20251001",
       "display_name": "claude-haiku-4-5-20251001",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "Active (latest)",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:49:43Z",
+      "last_seen_at": "2026-10-02T11:50:28Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -90,11 +166,49 @@
       "source_hashes": {
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:50:28Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "semantic_hash": "d0ec80a1cfc99483a222f6e9e7850cb507676a2abded42c06dfa3d43fdd5e317",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+        "context_window_tokens": 200000,
+        "max_output_tokens": 64000,
+        "max_output_batch_tokens": null,
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.0,
+          "output": 5.0,
+          "cache_write_5m": 1.25,
+          "cache_write_1h": 2.0,
+          "cache_read": 0.1
+        },
+        "thinking": "Extended",
+        "default_effort": "Not supported",
+        "comparative_latency": "Fastest",
+        "input_output": "Text and images → text Reliable knowledge cutoff Feb",
+        "reliable_knowledge_cutoff": "2025-02",
+        "training_data_cutoff": "2025-07",
+        "lifecycle": {
+          "status": "Active (latest)",
+          "released": "2025-10-15",
+          "retirement": "Not sooner than October 15, 2026"
+        },
+        "platform_ids": {
+          "claude_api": "claude-haiku-4-5-20251001",
+          "amazon_bedrock": "anthropic.claude-haiku-4-5",
+          "google_cloud": "claude-haiku-4-5@20251001",
+          "microsoft_foundry": "claude-haiku-4-5",
+          "claude_platform_aws": "claude-haiku-4-5"
+        },
+        "platforms": [
+          "Claude API",
+          "Amazon Bedrock",
+          "Google Cloud",
+          "Microsoft Foundry",
+          "Claude Platform on AWS"
+        ]
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -105,12 +219,12 @@
       "model_key": "claude-opus-5-5",
       "display_name": "claude-opus-5-5",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "Active (latest)",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:49:43Z",
+      "last_seen_at": "2026-10-02T11:50:28Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -121,11 +235,49 @@
       "source_hashes": {
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:50:28Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+      "semantic_hash": "02b0fb191e3990bdad51f36a8484a2bda8eb924e7a39a8b278d5b076539a2535",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+        "context_window_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "max_output_batch_tokens": null,
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 4.0,
+          "output": 20.0,
+          "cache_write_5m": 5.0,
+          "cache_write_1h": 8.0,
+          "cache_read": 0.2
+        },
+        "thinking": "Adaptive (always on)",
+        "default_effort": "medium",
+        "comparative_latency": "Moderate",
+        "input_output": "Text and images → text Reliable knowledge cutoff Jun",
+        "reliable_knowledge_cutoff": "2026-06",
+        "training_data_cutoff": "2026-06",
+        "lifecycle": {
+          "status": "Active (latest)",
+          "released": "2026-09-22",
+          "retirement": "Not sooner than September 22, 2027"
+        },
+        "platform_ids": {
+          "claude_api": "claude-opus-5-5",
+          "amazon_bedrock": "anthropic.claude-opus-5-5",
+          "google_cloud": "claude-opus-5-5",
+          "microsoft_foundry": "claude-opus-5-5",
+          "claude_platform_aws": "claude-opus-5-5"
+        },
+        "platforms": [
+          "Claude API",
+          "Amazon Bedrock",
+          "Google Cloud",
+          "Microsoft Foundry",
+          "Claude Platform on AWS"
+        ]
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
@@ -136,12 +288,12 @@
       "model_key": "claude-sonnet-5-5",
       "display_name": "claude-sonnet-5-5",
       "kind": "model",
-      "discovery_state": "discovered_unverified",
-      "verification_state": "unverified",
-      "lifecycle_status": "unknown",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "Active (latest)",
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T11:49:43Z",
+      "last_seen_at": "2026-10-02T11:50:28Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -152,11 +304,49 @@
       "source_hashes": {
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca"
       },
-      "semantic_verified_at": null,
-      "semantic_source_url": null,
-      "semantic_hash": null,
+      "semantic_verified_at": "2026-10-02T11:50:28Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+      "semantic_hash": "29efe1138e1e4b6e359d9d1a113d44ab2b9bc247388692a1f0c6ea05632f2b3f",
       "semantic_error": null,
-      "facts": {},
+      "facts": {
+        "source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+        "context_window_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "max_output_batch_tokens": null,
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 2.0,
+          "output": 10.0,
+          "cache_write_5m": 2.5,
+          "cache_write_1h": 4.0,
+          "cache_read": 0.2
+        },
+        "thinking": "Adaptive",
+        "default_effort": "high",
+        "comparative_latency": "Fast",
+        "input_output": "Text and images → text Reliable knowledge cutoff Jun",
+        "reliable_knowledge_cutoff": "2026-06",
+        "training_data_cutoff": "2026-06",
+        "lifecycle": {
+          "status": "Active (latest)",
+          "released": "2026-09-28",
+          "retirement": "Not sooner than September 28, 2027"
+        },
+        "platform_ids": {
+          "claude_api": "claude-sonnet-5-5",
+          "amazon_bedrock": "anthropic.claude-sonnet-5-5",
+          "google_cloud": "claude-sonnet-5-5",
+          "microsoft_foundry": "claude-sonnet-5-5",
+          "claude_platform_aws": "claude-sonnet-5-5"
+        },
+        "platforms": [
+          "Claude API",
+          "Amazon Bedrock",
+          "Google Cloud",
+          "Microsoft Foundry",
+          "Claude Platform on AWS"
+        ]
+      },
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."

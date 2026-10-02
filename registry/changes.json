@@ -1,7 +1,57 @@
 {
-  "schema_version": "0.3.0",
-  "generated_at": "2026-10-02T11:49:43Z",
+  "schema_version": "0.4.0",
+  "generated_at": "2026-10-02T11:50:28Z",
   "changes": [
+    {
+      "observed_at": "2026-10-02T11:50:28Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-sonnet-5-5",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "29efe1138e1e4b6e359d9d1a113d44ab2b9bc247388692a1f0c6ea05632f2b3f",
+      "source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:50:28Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-5-5",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "02b0fb191e3990bdad51f36a8484a2bda8eb924e7a39a8b278d5b076539a2535",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:50:28Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-haiku-4-5-20251001",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "d0ec80a1cfc99483a222f6e9e7850cb507676a2abded42c06dfa3d43fdd5e317",
+      "source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:50:28Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-haiku-4-5",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "d0ec80a1cfc99483a222f6e9e7850cb507676a2abded42c06dfa3d43fdd5e317",
+      "source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-02T11:50:28Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-fable-5-1",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "9a6958f04a01b7a7f6087bf383ca1bb52e66abfc7b68b8c6f7fae24479ecbe13",
+      "source_url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
     {
       "observed_at": "2026-10-02T11:49:43Z",
       "entity_type": "source",

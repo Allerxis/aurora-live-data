@@ -1,13 +1,14 @@
 {
-  "schema_version": "0.3.0",
+  "schema_version": "0.4.0",
   "service": "Aurora Live Data",
-  "generated_at": "2026-10-02T11:49:43Z",
+  "generated_at": "2026-10-02T11:50:28Z",
   "healthy": true,
   "sources_total": 9,
   "sources_reachable": 9,
   "sources_fresh": 9,
   "model_candidates_present": 162,
   "model_candidates_historical": 247,
-  "semantic_models_verified": 23,
-  "openai_semantic_failures": 8
+  "semantic_models_verified": 28,
+  "openai_semantic_failures": 8,
+  "anthropic_semantic_failures": 0
 }
