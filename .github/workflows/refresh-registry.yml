@@ -31,6 +31,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Run adapter regression tests
+        run: python -m unittest automation/test_adapters.py
+
       - name: Refresh official source observations
         run: python automation/collector.py
 
@@ -45,4 +48,8 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add registry/
           git commit -m "chore: refresh Aurora live data"
+
+          # Another configuration commit may have landed while this run was executing.
+          # Rebase the generated registry commit before pushing instead of failing.
+          git pull --rebase origin main
           git push
