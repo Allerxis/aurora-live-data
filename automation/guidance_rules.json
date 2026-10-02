@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0.0",
+  "rules": [
+    {
+      "id": "openai.instruction_authority",
+      "provider_slug": "openai",
+      "category": "instruction_hierarchy",
+      "applicability": [
+        "api"
+      ],
+      "guidance": "Place stable application rules in developer/instructions-level content and keep end-user task input in user/input content; higher-authority developer instructions take precedence over user instructions.",
+      "source_key": "openai-prompt-engineering",
+      "evidence_patterns": [
+        "developer messages are instructions",
+        "prioritized ahead of.*user messages"
+      ]
+    },
+    {
+      "id": "openai.prompt_boundaries",
+      "provider_slug": "openai",
+      "category": "structure",
+      "applicability": [
+        "api"
+      ],
+      "guidance": "Use clear Markdown structure and/or XML-style tags to separate instructions from supporting context and other logical prompt sections.",
+      "source_key": "openai-prompt-engineering",
+      "evidence_patterns": [
+        "Markdown headers and lists",
+        "XML tags.*delineate"
+      ]
+    },
+    {
+      "id": "anthropic.clear_direct",
+      "provider_slug": "anthropic",
+      "category": "clarity",
+      "applicability": [
+        "current_claude_models"
+      ],
+      "guidance": "Use clear, explicit instructions and state the desired output format and constraints directly.",
+      "source_key": "anthropic-prompting-best-practices",
+      "evidence_patterns": [
+        "clear.*explicit instructions",
+        "desired output format.*constraints"
+      ]
+    },
+    {
+      "id": "anthropic.examples",
+      "provider_slug": "anthropic",
+      "category": "few_shot",
+      "applicability": [
+        "current_claude_models"
+      ],
+      "guidance": "Use relevant, diverse and structured examples when examples materially constrain behavior; Anthropic currently recommends 3–5 examples for best results.",
+      "source_key": "anthropic-prompting-best-practices",
+      "evidence_patterns": [
+        "examples are one of the most reliable",
+        "3.?5 examples"
+      ]
+    },
+    {
+      "id": "anthropic.xml_structure",
+      "provider_slug": "anthropic",
+      "category": "structure",
+      "applicability": [
+        "current_claude_models"
+      ],
+      "guidance": "For complex Claude prompts, use consistent descriptive XML tags to separate instructions, context, examples and variable inputs.",
+      "source_key": "anthropic-prompting-best-practices",
+      "evidence_patterns": [
+        "XML tags help Claude",
+        "consistent.*descriptive tag"
+      ]
+    },
+    {
+      "id": "anthropic.long_context_order",
+      "provider_slug": "anthropic",
+      "category": "long_context",
+      "applicability": [
+        "current_claude_models"
+      ],
+      "guidance": "For long-context Claude prompts, place long documents/data before the query and place the specific request near the end.",
+      "source_key": "anthropic-prompting-best-practices",
+      "evidence_patterns": [
+        "Put longform data at the top",
+        "Queries at the end"
+      ]
+    },
+    {
+      "id": "google.precise_direct",
+      "provider_slug": "google",
+      "category": "clarity",
+      "applicability": [
+        "gemini"
+      ],
+      "guidance": "Use precise, direct instructions and define ambiguous terms or parameters explicitly.",
+      "source_key": "google-prompting-strategies",
+      "evidence_patterns": [
+        "Be precise and direct",
+        "Define parameters"
+      ]
+    },
+    {
+      "id": "google.consistent_structure",
+      "provider_slug": "google",
+      "category": "structure",
+      "applicability": [
+        "gemini"
+      ],
+      "guidance": "Use one consistent delimiter scheme such as XML-style tags or Markdown headings to separate prompt sections.",
+      "source_key": "google-prompting-strategies",
+      "evidence_patterns": [
+        "Use consistent structure",
+        "XML-style tags.*Markdown headings"
+      ]
+    },
+    {
+      "id": "google.critical_instructions",
+      "provider_slug": "google",
+      "category": "instruction_hierarchy",
+      "applicability": [
+        "gemini"
+      ],
+      "guidance": "Place critical behavioral constraints, role definitions and output-format requirements in the system instruction or at the beginning of the user prompt.",
+      "source_key": "google-prompting-strategies",
+      "evidence_patterns": [
+        "Prioritize critical instructions",
+        "System Instruction.*beginning"
+      ]
+    },
+    {
+      "id": "google.long_context_order",
+      "provider_slug": "google",
+      "category": "long_context",
+      "applicability": [
+        "gemini"
+      ],
+      "guidance": "For large contexts, provide the context first and place the specific instructions/questions at the end, with an explicit transition anchoring the request to the preceding context.",
+      "source_key": "google-prompting-strategies",
+      "evidence_patterns": [
+        "Structure for long contexts",
+        "specific instructions or questions.*end",
+        "Anchor context"
+      ]
+    },
+    {
+      "id": "mistral.system_user_roles",
+      "provider_slug": "mistral",
+      "category": "instruction_hierarchy",
+      "applicability": [
+        "api"
+      ],
+      "guidance": "Use the system prompt for general context and behavioral instructions, and the user prompt for task-specific context or instructions.",
+      "source_key": "mistral-prompting",
+      "evidence_patterns": [
+        "system prompt.*beginning of the conversation",
+        "user prompt.*specific context or instructions"
+      ]
+    },
+    {
+      "id": "xai.cache_append_only",
+      "provider_slug": "xai",
+      "category": "conversation_architecture",
+      "applicability": [
+        "api",
+        "prompt_caching"
+      ],
+      "guidance": "For cache-efficient multi-turn Grok prompts, keep earlier messages unchanged and append new messages rather than editing, removing or reordering prior content.",
+      "source_key": "xai-prompt-caching-best-practices",
+      "evidence_patterns": [
+        "Never modify earlier messages",
+        "Only append new"
+      ]
+    },
+    {
+      "id": "xai.cache_frontload_static",
+      "provider_slug": "xai",
+      "category": "conversation_architecture",
+      "applicability": [
+        "api",
+        "prompt_caching"
+      ],
+      "guidance": "Front-load stable system instructions, few-shot examples and reference documents so they form a reusable prompt-cache prefix.",
+      "source_key": "xai-prompt-caching-best-practices",
+      "evidence_patterns": [
+        "Front-load static content",
+        "system prompts.*few-shot examples.*reference documents"
+      ]
+    }
+  ]
+}
