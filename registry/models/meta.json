@@ -1,7 +1,7 @@
 {
   "schema_version": "0.18.0",
   "provider": "meta",
-  "generated_at": "2026-10-02T18:56:55Z",
+  "generated_at": "2026-10-02T19:01:57Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -18,7 +18,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:27:02Z",
-      "last_seen_at": "2026-10-02T18:56:55Z",
+      "last_seen_at": "2026-10-02T19:01:57Z",
       "missing_since": null,
       "source_keys": [
         "meta-llama4-model-card"
@@ -50,7 +50,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:27:02Z",
-      "last_seen_at": "2026-10-02T18:56:55Z",
+      "last_seen_at": "2026-10-02T19:01:57Z",
       "missing_since": null,
       "source_keys": [
         "meta-llama4-model-card"
@@ -82,7 +82,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:27:02Z",
-      "last_seen_at": "2026-10-02T18:56:55Z",
+      "last_seen_at": "2026-10-02T19:01:57Z",
       "missing_since": null,
       "source_keys": [
         "meta-llama4-model-card"
@@ -114,7 +114,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:27:02Z",
-      "last_seen_at": "2026-10-02T18:56:55Z",
+      "last_seen_at": "2026-10-02T19:01:57Z",
       "missing_since": null,
       "source_keys": [
         "meta-llama4-model-card"
@@ -125,7 +125,7 @@
       "source_hashes": {
         "meta-llama4-model-card": "42dfefbdb3359ab94293b7a6aa5bb18d27c37579a8220544925bbec96c943734"
       },
-      "semantic_verified_at": "2026-10-02T18:56:55Z",
+      "semantic_verified_at": "2026-10-02T19:01:57Z",
       "semantic_source_url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
       "semantic_hash": "339259f5b1c223168c0377ce2ee46f2deb3a8ba9d147816bc928f0021601b55e",
       "semantic_error": null,
@@ -162,7 +162,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:27:02Z",
-      "last_seen_at": "2026-10-02T18:56:55Z",
+      "last_seen_at": "2026-10-02T19:01:57Z",
       "missing_since": null,
       "source_keys": [
         "meta-llama4-model-card"
@@ -173,7 +173,7 @@
       "source_hashes": {
         "meta-llama4-model-card": "42dfefbdb3359ab94293b7a6aa5bb18d27c37579a8220544925bbec96c943734"
       },
-      "semantic_verified_at": "2026-10-02T18:56:55Z",
+      "semantic_verified_at": "2026-10-02T19:01:57Z",
       "semantic_source_url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
       "semantic_hash": "af0ddf1b8353d4f871b44574b8b22d271bba0e6902894b7f449423d089451305",
       "semantic_error": null,
