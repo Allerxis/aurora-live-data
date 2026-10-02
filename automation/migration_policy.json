@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Conservative migration policy for prompts targeting deprecated, retired, stale, unavailable or user-replaced AI models.",
+  "storage": {
+    "persistence_default": "none",
+    "public_registry_contains_user_migrations": false,
+    "prompt_content_stored": false
+  },
+  "triggers": {
+    "automatic_detection": [
+      "source model default_policy is exclude",
+      "source model default_policy is stale",
+      "source model lifecycle indicates deprecated or retired",
+      "source model is absent from the current verified selector",
+      "user explicitly requests migration to another model/provider"
+    ],
+    "no_migration_needed": [
+      "source model remains verified and default_policy is include, unless the user explicitly requests a migration"
+    ]
+  },
+  "constraints": {
+    "required_before_automatic_target_selection": [
+      "provider/model source when known",
+      "required input/context budget when materially relevant",
+      "required output budget when materially relevant",
+      "required capabilities and modalities that are essential to the prompt"
+    ],
+    "unknown_is_not_supported": false,
+    "missing_is_unknown": true,
+    "preserve_user_intent": true,
+    "preserve_material_constraints": true,
+    "preserve_output_contract": true
+  },
+  "candidate_policy": {
+    "allowed_default_policies": [
+      "include",
+      "include_with_warning"
+    ],
+    "specialized_requires_explicit_fit": true,
+    "exclude_never_candidate": true,
+    "stale_never_candidate": true,
+    "same_provider_preferred": true,
+    "cross_provider_requires_user_request_or_no_viable_same_provider_candidate": true,
+    "warning_candidates_require_surface_warning": true
+  },
+  "filtering": {
+    "context": "Candidate context_window_tokens must meet required_context_tokens when supplied.",
+    "output": "Candidate max_output_tokens must meet required_output_tokens when supplied.",
+    "capabilities": "Every required capability must be explicitly verified as supported. Unknown capability evidence cannot silently pass.",
+    "modalities": "Every required modality must be positively compatible when modality requirements are supplied.",
+    "price": "Optional max input/output price constraints are hard filters when comparable normalized pricing is available."
+  },
+  "selection": {
+    "auto_select_when": [
+      "exactly one eligible candidate remains after all hard constraints",
+      "or a provider-documented replacement identifier is available and that replacement passes all hard constraints"
+    ],
+    "needs_review_when": [
+      "more than one eligible candidate remains without a documented replacement",
+      "a required constraint is missing",
+      "a required capability/modality is unknown",
+      "only warning/specialized candidates remain and user intent does not establish acceptance",
+      "cross-provider migration would be required without prior user authorization"
+    ],
+    "never_use_global_quality_score": true
+  },
+  "migration_flow": [
+    "inspect_source_target",
+    "determine_migration_trigger",
+    "extract_explicit_requirements",
+    "build_verified_candidate_pool",
+    "apply_hard_filters",
+    "resolve_target_or_needs_review",
+    "adapt_prompt_with_target_guidance",
+    "run_runtime_acceptance",
+    "generate_new_validation_manifest",
+    "compare_old_and_new_manifests"
+  ],
+  "statuses": {
+    "not_needed": "Current target remains verified and usable and no migration was requested.",
+    "plan_ready": "A migration target is uniquely established by verified evidence and declared constraints.",
+    "needs_review": "A safe automatic target cannot be uniquely established.",
+    "blocked": "Current registry/runtime health is insufficient for a trustworthy migration plan."
+  },
+  "output": {
+    "required_fields": [
+      "schema_version",
+      "migration_id",
+      "status",
+      "source_target",
+      "trigger",
+      "requirements",
+      "eligible_candidates",
+      "selected_target",
+      "warnings",
+      "required_actions"
+    ]
+  },
+  "post_migration": {
+    "operation": "adapt",
+    "require_runtime_acceptance": true,
+    "require_validation_manifest": true,
+    "require_manifest_comparison": true,
+    "preserve_original_prompt_by_default": true
+  }
+}
