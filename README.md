@@ -52,6 +52,7 @@ Cette politique ne choisit jamais automatiquement « le meilleur » modèle. Ell
 - `registry/guidance.json` — règles de prompting vérifiées contre les sources officielles suivies ;
 - `registry/evals.json` — contrat d'évaluation versionné et cas de test de référence ;
 - `registry/benchmarks.json` — résultat du corpus de régression Aurora exécuté dans CI ;
+- `registry/golden.json` — contrats d'acceptation de référence pour création, optimisation, adaptation, agentic et multimodal ;
 - `registry/models/*.json` — fiches détaillées par fournisseur.
 
 ## Sécurité
@@ -103,3 +104,19 @@ Chaque cas définit :
 Le runner `automation/run_benchmarks.py` compare les résultats réels aux attentes. GitHub Actions exécute ce benchmark avant chaque collecte. Une divergence bloque la publication du registre.
 
 Le rapport public `registry/benchmarks.json` contient les comptes de cas conformes/non conformes, le hash du corpus et le détail des attentes vérifiées. Ce rapport mesure la stabilité de la suite de régression ; il ne constitue pas une note de qualité globale d'un modèle ou d'un prompt.
+
+
+## Golden acceptance suite
+
+`registry/golden.json` définit des contrats d'acceptation pour les opérations propres à Aurora : création, optimisation, adaptation inter-modèles/fournisseurs, prompting agentique et multimodal.
+
+Un contrat golden ne contient pas une « bonne réponse » figée. Il décrit plutôt :
+- ce qui doit être conservé ;
+- ce qui doit être ajouté lorsque le contexte l'exige ;
+- ce qui ne doit pas être inventé ;
+- les critères d'eval obligatoires ;
+- les cas de test pertinents.
+
+Cette approche évite de comparer des formulations au mot près. Une optimisation peut donc être plus courte ou structurée différemment tout en restant conforme si elle préserve l'intention et les contraintes.
+
+Le validateur `automation/golden_suite.py` vérifie la cohérence du corpus. Les tests CI empêchent notamment une adaptation sans contrôle de conservation de l'intention ou un scénario agentique sans politique d'outils.
