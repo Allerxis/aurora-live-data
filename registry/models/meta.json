@@ -1,12 +1,204 @@
 {
-  "schema_version": "0.9.0",
+  "schema_version": "0.10.0",
   "provider": "meta",
-  "generated_at": "2026-10-02T12:21:05Z",
+  "generated_at": "2026-10-02T12:27:02Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
   },
   "models": [
+    {
+      "provider_slug": "meta",
+      "model_key": "llama-3-1-405b",
+      "display_name": "Llama 3.1 405B",
+      "kind": "llama",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T12:27:02Z",
+      "missing_since": null,
+      "source_keys": [
+        "meta-llama4-model-card"
+      ],
+      "source_urls": [
+        "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md"
+      ],
+      "source_hashes": {
+        "meta-llama4-model-card": "42dfefbdb3359ab94293b7a6aa5bb18d27c37579a8220544925bbec96c943734"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "No matching structured record in the official Meta model card",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "meta",
+      "model_key": "llama-3-1-70b",
+      "display_name": "Llama 3.1 70B",
+      "kind": "llama",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T12:27:02Z",
+      "missing_since": null,
+      "source_keys": [
+        "meta-llama4-model-card"
+      ],
+      "source_urls": [
+        "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md"
+      ],
+      "source_hashes": {
+        "meta-llama4-model-card": "42dfefbdb3359ab94293b7a6aa5bb18d27c37579a8220544925bbec96c943734"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "No matching structured record in the official Meta model card",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "meta",
+      "model_key": "llama-3-3-70b",
+      "display_name": "Llama 3.3 70B",
+      "kind": "llama",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T12:27:02Z",
+      "missing_since": null,
+      "source_keys": [
+        "meta-llama4-model-card"
+      ],
+      "source_urls": [
+        "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md"
+      ],
+      "source_hashes": {
+        "meta-llama4-model-card": "42dfefbdb3359ab94293b7a6aa5bb18d27c37579a8220544925bbec96c943734"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "No matching structured record in the official Meta model card",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "meta",
+      "model_key": "llama-4-maverick",
+      "display_name": "Llama 4 Maverick",
+      "kind": "llama",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T12:27:02Z",
+      "missing_since": null,
+      "source_keys": [
+        "meta-llama4-model-card"
+      ],
+      "source_urls": [
+        "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md"
+      ],
+      "source_hashes": {
+        "meta-llama4-model-card": "42dfefbdb3359ab94293b7a6aa5bb18d27c37579a8220544925bbec96c943734"
+      },
+      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_source_url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
+      "semantic_hash": "339259f5b1c223168c0377ce2ee46f2deb3a8ba9d147816bc928f0021601b55e",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
+        "display_name": "Llama 4 Maverick",
+        "distribution": "open_weight",
+        "developer": "Meta",
+        "architecture": "mixture_of_experts",
+        "input_modalities": null,
+        "output_modalities": null,
+        "context_window_tokens": 2380000,
+        "active_parameters": null,
+        "total_parameters": null,
+        "pretraining_token_count": null,
+        "knowledge_cutoff": "2024-08",
+        "released": null,
+        "hosted_api_availability": null,
+        "pricing": null
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "meta",
+      "model_key": "llama-4-scout",
+      "display_name": "Llama 4 Scout",
+      "kind": "llama",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:27:02Z",
+      "last_seen_at": "2026-10-02T12:27:02Z",
+      "missing_since": null,
+      "source_keys": [
+        "meta-llama4-model-card"
+      ],
+      "source_urls": [
+        "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md"
+      ],
+      "source_hashes": {
+        "meta-llama4-model-card": "42dfefbdb3359ab94293b7a6aa5bb18d27c37579a8220544925bbec96c943734"
+      },
+      "semantic_verified_at": "2026-10-02T12:27:02Z",
+      "semantic_source_url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
+      "semantic_hash": "af0ddf1b8353d4f871b44574b8b22d271bba0e6902894b7f449423d089451305",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
+        "display_name": "Llama 4 Scout",
+        "distribution": "open_weight",
+        "developer": "Meta",
+        "architecture": "mixture_of_experts",
+        "input_modalities": null,
+        "output_modalities": null,
+        "context_window_tokens": 5000000,
+        "active_parameters": null,
+        "total_parameters": null,
+        "pretraining_token_count": null,
+        "knowledge_cutoff": "2024-08",
+        "released": null,
+        "hosted_api_availability": null,
+        "pricing": null
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
     {
       "provider_slug": "meta",
       "model_key": "llama-guard-4",
