@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-02T15:13:54Z",
+  "ready": true,
+  "readiness_reasons": [],
+  "validation": {
+    "schema_version": "1.0.0",
+    "suite_gate": "pass",
+    "policy_hash": "d282f70f06be33a2fb0d1fc1bba8b290d025d20be110af422e26784ff12aef06",
+    "eval_spec_hash": "34763d835c712846c5a367135d85e5480f4cc5c0f423fe5b2429157f731b7ee6",
+    "golden_suite_hash": "28f88bb2a6a2a387ca92218490945536a19d2dc4592795202874fe7e30f0b72f",
+    "summary": {
+      "errors": 0,
+      "warnings": 0,
+      "operations": 5,
+      "contracts": 9
+    },
+    "errors": [],
+    "warnings": []
+  },
+  "dependencies": {
+    "eval_spec_hash": "34763d835c712846c5a367135d85e5480f4cc5c0f423fe5b2429157f731b7ee6",
+    "golden_suite_hash": "28f88bb2a6a2a387ca92218490945536a19d2dc4592795202874fe7e30f0b72f",
+    "benchmark_corpus_hash": "d12315748963034a8178ebd028fb8e64b8de8c63dc6c45bfd9de433d891ed102",
+    "benchmark_suite_gate": "pass"
+  },
+  "policy": {
+    "schema_version": "1.0.0",
+    "purpose": "Runtime acceptance policy applied by Aurora immediately before delivery of a substantive prompt.",
+    "activation": {
+      "default": "Apply to non-trivial, reusable, model-specific, agentic, multimodal, optimized or adapted prompts.",
+      "skip_only_when": [
+        "The change is a purely local wording edit with no semantic or structural impact.",
+        "The user explicitly requests raw draft output and accepts that it is unevaluated."
+      ]
+    },
+    "dependency_gate": {
+      "require_registry_healthy": true,
+      "require_eval_contract": true,
+      "require_golden_suite_pass": true,
+      "require_benchmark_suite_pass": true,
+      "stale_behavior": "needs_review"
+    },
+    "routing": {
+      "create": {
+        "baseline_contracts": [],
+        "selectors": [
+          {
+            "when": [
+              "web research",
+              "current information",
+              "citations",
+              "retrieved pages"
+            ],
+            "contracts": [
+              "create.web_research_grounded"
+            ]
+          },
+          {
+            "when": [
+              "structured extraction",
+              "schema extraction",
+              "fixed fields",
+              "null for unknown"
+            ],
+            "contracts": [
+              "create.structured_extraction"
+            ]
+          }
+        ],
+        "fallback": "eval_contract_only"
+      },
+      "optimize": {
+        "baseline_contracts": [
+          "optimize.preserve_constraints",
+          "optimize.reduce_redundancy"
+        ],
+        "selectors": [],
+        "fallback": "operation_baseline"
+      },
+      "adapt": {
+        "baseline_contracts": [
+          "adapt.cross_provider"
+        ],
+        "selectors": [
+          {
+            "when": [
+              "long context",
+              "large document",
+              "large context",
+              "many documents"
+            ],
+            "contracts": [
+              "adapt.long_context"
+            ]
+          }
+        ],
+        "fallback": "operation_baseline"
+      },
+      "agentic": {
+        "baseline_contracts": [
+          "agentic.safe_tool_workflow"
+        ],
+        "selectors": [],
+        "fallback": "operation_baseline"
+      },
+      "multimodal": {
+        "baseline_contracts": [],
+        "selectors": [
+          {
+            "when": [
+              "image generation",
+              "visual brief",
+              "generate image"
+            ],
+            "contracts": [
+              "multimodal.image_prompt"
+            ]
+          },
+          {
+            "when": [
+              "document and image",
+              "text and image",
+              "multimodal analysis"
+            ],
+            "contracts": [
+              "multimodal.document_plus_image"
+            ]
+          }
+        ],
+        "fallback": "eval_contract_only"
+      }
+    },
+    "execution": {
+      "max_repair_passes": 2,
+      "order": [
+        "draft",
+        "select_runtime_contracts",
+        "check_golden_invariants",
+        "run_eval_contract",
+        "run_applicable_acceptance_cases",
+        "repair_if_possible",
+        "re_evaluate",
+        "emit_release_gate"
+      ],
+      "golden_check_outcomes": [
+        "pass",
+        "fail",
+        "needs_review",
+        "not_applicable"
+      ],
+      "release_gate": {
+        "fail": "Any confirmed blocker/error eval failure or violated must_preserve/must_not_add golden invariant.",
+        "needs_review": "No confirmed release-blocking defect, but required evidence, model verification, provider guidance, or golden coverage is unresolved.",
+        "pass": "All applicable eval criteria and selected golden invariants are established."
+      },
+      "repair_policy": {
+        "fail": "Repair automatically when the repair preserves user intent and does not require new user information; then rerun acceptance.",
+        "needs_review": "Resolve from available evidence when possible. Otherwise preserve the prompt and expose the unresolved item.",
+        "pass": "Deliver without further repair."
+      }
+    },
+    "runtime_report": {
+      "required_fields": [
+        "operation",
+        "contracts_applied",
+        "coverage",
+        "eval_release_gate",
+        "golden_release_gate",
+        "final_release_gate",
+        "repair_passes",
+        "unresolved"
+      ],
+      "coverage_values": [
+        "exact",
+        "partial",
+        "operation_baseline",
+        "eval_only"
+      ],
+      "default_user_visibility": "compact",
+      "compact_format": "Aurora validation: <PASS|NEEDS_REVIEW|FAIL> — <short reason if not PASS>."
+    }
+  }
+}

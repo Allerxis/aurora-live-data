@@ -1,6 +1,6 @@
 {
-  "schema_version": "0.14.0",
-  "generated_at": "2026-10-02T14:57:58Z",
+  "schema_version": "0.15.0",
+  "generated_at": "2026-10-02T15:13:54Z",
   "warning": "Discovery is not semantic verification. Use only records whose verification_state is verified_official_detail as authoritative for facts such as context, pricing, modalities, endpoints, features or tools.",
   "models": [
     {
@@ -14,7 +14,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -46,7 +46,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -89,7 +89,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -121,7 +121,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -153,7 +153,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -196,7 +196,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -239,7 +239,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -271,7 +271,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -303,7 +303,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -346,7 +346,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -357,7 +357,7 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/fable-5/overview",
       "semantic_hash": "04457c7f7e76b340013cc4db95ad596cebc57582d3da69a9efe77938a44a647b",
       "semantic_error": null,
@@ -427,7 +427,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -441,7 +441,7 @@
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca",
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
       "semantic_hash": "bbcf5103f938bd0fdcec7d0cafe7431116dc4622a93c301ffc88ee8166d59486",
       "semantic_error": null,
@@ -500,7 +500,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-models"
@@ -511,7 +511,7 @@
       "source_hashes": {
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
       "semantic_hash": "a2b974342abccd5f83c37654b670d897cb95b56472921e80dbf9c03967132839",
       "semantic_error": null,
@@ -581,7 +581,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -595,7 +595,7 @@
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca",
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
       "semantic_hash": "a2b974342abccd5f83c37654b670d897cb95b56472921e80dbf9c03967132839",
       "semantic_error": null,
@@ -665,7 +665,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -676,7 +676,7 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/mythos-5/overview",
       "semantic_hash": "42398d6bbb2d00eb32289b58d23f7ee3da057294f1307c3b69e8588889418120",
       "semantic_error": null,
@@ -744,7 +744,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -755,7 +755,7 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
       "semantic_hash": "1776f076ad34e6af8f040c003404864ed483533794545a7b43db86ce43f18f72",
       "semantic_error": null,
@@ -823,7 +823,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -866,7 +866,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -909,7 +909,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -952,7 +952,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -963,7 +963,7 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
       "semantic_hash": "2cc5ec494bb11a7710751516439273c1030ee73ee1fc242d413e8ecbf9459cc2",
       "semantic_error": null,
@@ -1032,7 +1032,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1043,7 +1043,7 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
       "semantic_hash": "680ba82e7bbdcea8a6df16d16ed77fc62af177b0e7180e5a4111f4b3b8ce08b6",
       "semantic_error": null,
@@ -1112,7 +1112,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1123,7 +1123,7 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-7/overview",
       "semantic_hash": "782f6473353ec2c38f0580c47bf8be8b65e1aa8d756134ae24686a7e3e32af95",
       "semantic_error": null,
@@ -1193,7 +1193,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1207,7 +1207,7 @@
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3",
         "anthropic-prompting-best-practices": "d29b7a085177f2eb07e13f7ebecd16a90c734dab762a6de8bde6fa719fcdfe89"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-8/overview",
       "semantic_hash": "e6ae3f080d4938ec8e555d71456f3986c5ee51c69ca713bffa1a865e38a6b62c",
       "semantic_error": null,
@@ -1277,7 +1277,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1288,7 +1288,7 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-5/overview",
       "semantic_hash": "e58676d09b9d82a8fb43697b7f335e211f1ff290ba59ff8abf2c3ecd56d624b5",
       "semantic_error": null,
@@ -1358,7 +1358,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1375,7 +1375,7 @@
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3",
         "anthropic-prompting-best-practices": "d29b7a085177f2eb07e13f7ebecd16a90c734dab762a6de8bde6fa719fcdfe89"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
       "semantic_hash": "3a63f02f33a4e71b1df4ae5ba21873300a4b80e0e8bd8b889a934558c1584302",
       "semantic_error": null,
@@ -1445,7 +1445,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1488,7 +1488,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1502,7 +1502,7 @@
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3",
         "anthropic-prompting-best-practices": "d29b7a085177f2eb07e13f7ebecd16a90c734dab762a6de8bde6fa719fcdfe89"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview",
       "semantic_hash": "0da326c76e3d2de6d41ff0a778469d42c803218e85e25955ce1ac11bff000909",
       "semantic_error": null,
@@ -1571,7 +1571,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1582,7 +1582,7 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
       "semantic_hash": "ea96f654d4470f7b706e00100b97b6e176b8cee864bff444940db89879fbc17b",
       "semantic_error": null,
@@ -1651,7 +1651,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1662,7 +1662,7 @@
       "source_hashes": {
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
       "semantic_hash": "5ccb9efc106eff79387d87aa8aacd09cb7fa940d943ad03bbdd4bb2d9303512d",
       "semantic_error": null,
@@ -1732,7 +1732,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1746,7 +1746,7 @@
         "anthropic-models": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca",
         "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
       "semantic_hash": "cd19b087a164575164040c6b9a06dcd9e22fdc5b9b10b634c768a4b323f17221",
       "semantic_error": null,
@@ -2534,7 +2534,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2579,7 +2579,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2590,7 +2590,7 @@
       "source_hashes": {
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-05-2026",
       "semantic_hash": "39c5d2dd225804e590c6386a5932ad4ffcd91fdab9def8e1b7d5ba2365b8e28c",
       "semantic_error": null,
@@ -2638,7 +2638,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2652,7 +2652,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/antigravity-preview-09-2026",
       "semantic_hash": "066d6af5b6d9c5f921c4a6693baeea4e77b01bf8835f3293e6bbd5433d1b26a5",
       "semantic_error": null,
@@ -2693,7 +2693,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2704,7 +2704,7 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026",
       "semantic_hash": "dbefcf8fc17b87729dd4aa9a9f19b536115fb6e78e256f4b0e19267e427f754b",
       "semantic_error": null,
@@ -2749,7 +2749,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -2760,7 +2760,7 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/deep-research-preview-04-2026",
       "semantic_hash": "b15744b380fb9722d7b13a68bbdbd900c84b818e9f0b88b92074aca1a60c5fda",
       "semantic_error": null,
@@ -2812,7 +2812,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2826,7 +2826,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash",
       "semantic_hash": "53e15c55ade8fe976b7d4bf8c1bf6516d87234175ae21dc986c6ae044ddb458f",
       "semantic_error": null,
@@ -2892,7 +2892,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -2931,7 +2931,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -2945,7 +2945,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash-lite",
       "semantic_hash": "85b58fb373aa1bdb4bdf407402f30326e69cee9824e79137912ebea4ce852fec",
       "semantic_error": null,
@@ -3012,7 +3012,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3051,7 +3051,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3090,7 +3090,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3129,7 +3129,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3168,7 +3168,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3207,7 +3207,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3221,7 +3221,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-computer-use-preview-10-2025",
       "semantic_hash": "b5647553d69aa6501e00a2b11aa11caa4c594e54002848317cbc7024f2bd4a34",
       "semantic_error": null,
@@ -3269,7 +3269,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3286,7 +3286,7 @@
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a",
         "google-prompting-strategies": "1214cccab78afda1f2da27deb36711b66b8d5edfbe792afb31d1dc8a20412896"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
       "semantic_hash": "18af87126aa17ccbf8fb009d1f815c4d69bad83923037065f15202cf2444680e",
       "semantic_error": null,
@@ -3355,7 +3355,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3369,7 +3369,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-image",
       "semantic_hash": "1d6aebd8f1ca77fb5bbf5a3cb0148a39ba0232bef14c6f01c448714b1610405e",
       "semantic_error": null,
@@ -3437,7 +3437,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3476,7 +3476,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3490,7 +3490,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
       "semantic_hash": "dbfd64c97f6606b3ac911a38db27177c6a26715017222a8fb2374f5d5ba9da23",
       "semantic_error": null,
@@ -3560,7 +3560,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3571,7 +3571,7 @@
       "source_hashes": {
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite-preview-09-2025",
       "semantic_hash": "e900ae72e2a7cf7e42037a28a44b2716cd39a71a51a52e8c1fbc7d7194452544",
       "semantic_error": null,
@@ -3641,7 +3641,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3655,7 +3655,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
       "semantic_hash": "7eb8552a37052d93d89685c0c3071f8851a9b0b86ff5271cd581d2c39d467a50",
       "semantic_error": null,
@@ -3724,7 +3724,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3756,7 +3756,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -3767,7 +3767,7 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-09-2025",
       "semantic_hash": "26dbea920471f583adc94fefc6731299cb3ab2b8df180eafec77a06fcd083977",
       "semantic_error": null,
@@ -3836,7 +3836,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -3875,7 +3875,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3889,7 +3889,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
       "semantic_hash": "90487dcf4e0d31577bde7deb0e3898a299941ec538c06d4d89e7c384414e4df9",
       "semantic_error": null,
@@ -3953,7 +3953,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -3967,7 +3967,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro",
       "semantic_hash": "6a200a1576b1800638de96cd6dcea53bfd227fe044dce4228d4b71178af4e694",
       "semantic_error": null,
@@ -4037,7 +4037,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4076,7 +4076,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4115,7 +4115,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4154,7 +4154,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4168,7 +4168,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro-preview-tts",
       "semantic_hash": "b76d0843a56ac65dc8e5382b35a5232cbd77ccfa6449cc6261f86585578e7769",
       "semantic_error": null,
@@ -4232,7 +4232,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4246,7 +4246,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
       "semantic_hash": "2cdf063cb3c6520fdd6a8eb6b4d8a219a1da3af701506f4f0f730c672e07f232",
       "semantic_error": null,
@@ -4317,7 +4317,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4331,7 +4331,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image",
       "semantic_hash": "f75982ec3a202137a5a2709035e3cf892f87782f89ea5f93e0d1d40d45fce804",
       "semantic_error": null,
@@ -4399,7 +4399,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4438,7 +4438,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4452,7 +4452,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-preview",
       "semantic_hash": "2fbfbbcfb842201ccd3f8da9157fb5a906e5c4cf6300f522f32cac3a0572d995",
       "semantic_error": null,
@@ -4521,7 +4521,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4535,7 +4535,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image",
       "semantic_hash": "93279d98b74bbb348dbbcedad8abf6963062f69fe8e1c4bda332195009aafaf4",
       "semantic_error": null,
@@ -4605,7 +4605,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -4644,7 +4644,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4658,7 +4658,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
       "semantic_hash": "ae7956ff1cab935da1edcb7fe1e2f6c347239a694d0358ed8714b4ddb8c9776e",
       "semantic_error": null,
@@ -4722,7 +4722,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -4733,7 +4733,7 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image",
       "semantic_hash": "a25d0cdea8ad4e9c8c4caa631e3009431a6305b1bf959e9bf11ebb456cb4487f",
       "semantic_error": null,
@@ -4803,7 +4803,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4817,7 +4817,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview",
       "semantic_hash": "d105e84e343904571d3163a6c85df1c72690e5d3399e527850a6610e9776b9f1",
       "semantic_error": null,
@@ -4886,7 +4886,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4900,7 +4900,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview",
       "semantic_hash": "016de0a1392c83434a01316106e4ee13d30249c38c647d40997008d84f0916cf",
       "semantic_error": null,
@@ -4955,7 +4955,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -4969,7 +4969,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview",
       "semantic_hash": "1f5fe64fe9df8fbe21be3e25afba3169833a125bbe8e8b911c1c11279d6d98c2",
       "semantic_error": null,
@@ -5033,7 +5033,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -5047,7 +5047,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
       "semantic_hash": "8b7bfd20c758587ce4b237be828b72664a545e49dd44a7428e4dc93413b0e210",
       "semantic_error": null,
@@ -5117,7 +5117,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -5131,7 +5131,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash",
       "semantic_hash": "8dae719813d9a687ca52b078bcb1ffbf3741286de60f96db7a5d28e46fa67b9b",
       "semantic_error": null,
@@ -5203,7 +5203,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -5217,7 +5217,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
       "semantic_hash": "07f4bdcd90c5d08a6f954cc467284c5c832612f1e81b0032a5425ff6d4c91b04",
       "semantic_error": null,
@@ -5288,7 +5288,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -5302,7 +5302,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-live-translate-preview",
       "semantic_hash": "a182ad8f038f94a9bf5c1bad022ef8ee35de19aec1d511bd0d1e781af699211f",
       "semantic_error": null,
@@ -5369,7 +5369,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -5383,7 +5383,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe",
       "semantic_hash": "87fff2c541eaecaff277e227cea3250aa8f944e380e2952a08292e5f50103160",
       "semantic_error": null,
@@ -5442,7 +5442,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -5484,7 +5484,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -5498,7 +5498,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
       "semantic_hash": "2f15eb668b34ae64950cbe73c625b623bac4133b3ed1bf0c30afbb95605eef1c",
       "semantic_error": null,
@@ -5569,7 +5569,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -5583,7 +5583,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
       "semantic_hash": "f5fd0d409d772783976590ffbb1d4858b349d8a6f6dfe4dcd86cc22ad70d007e",
       "semantic_error": null,
@@ -5654,7 +5654,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -5668,7 +5668,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
       "semantic_hash": "e85bce5ff96996beab0a3f78a6bb4611f52f6b8838171e9271d3fa0d07456b62",
       "semantic_error": null,
@@ -5739,7 +5739,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -5753,7 +5753,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-lite-tts",
       "semantic_hash": "81ef1dc6381500c3c4f3f66171e8de99ce4bf42e8358ed4d07348b5bbc149e74",
       "semantic_error": null,
@@ -5817,7 +5817,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -5831,7 +5831,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts",
       "semantic_hash": "2c8e6532a488b17fdd2d1006517425058d751f3f2338e9c8580f5bf338a3f8d7",
       "semantic_error": null,
@@ -5895,7 +5895,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -5909,7 +5909,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live",
       "semantic_hash": "34a7141393f512f8366fc40c39fa908962252f704bbdf7b90af827d89c65d760",
       "semantic_error": null,
@@ -5977,7 +5977,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -5991,7 +5991,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking",
       "semantic_hash": "191c32e94d09afb65a0c71fa8e2c9ebbce52675693bd113b4f8a342350c1de38",
       "semantic_error": null,
@@ -6059,7 +6059,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -6073,7 +6073,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-001",
       "semantic_hash": "922617b5ffe1c014e1fe14efd9d3cc3fa7516c015b3727a2ca0487bcf98500be",
       "semantic_error": null,
@@ -6122,7 +6122,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -6133,7 +6133,7 @@
       "source_hashes": {
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2",
       "semantic_hash": "d12677182fbea1f92425566f50685e36cd7a104053e4890a2f663337bbeca260",
       "semantic_error": null,
@@ -6179,7 +6179,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -6190,7 +6190,7 @@
       "source_hashes": {
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2-preview",
       "semantic_hash": "9370a2f109b641061a7ccc1ef9e7b70a64945254f5f486f2257289250a40ae59",
       "semantic_error": null,
@@ -6243,7 +6243,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -6282,7 +6282,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -6314,7 +6314,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -6353,7 +6353,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -6392,7 +6392,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -6434,7 +6434,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -6445,7 +6445,7 @@
       "source_hashes": {
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.5-preview",
       "semantic_hash": "428bf4dec4d99a824b0204329738c496cba95798ce2444edd0c29c4091100f0c",
       "semantic_error": null,
@@ -6513,7 +6513,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -6527,7 +6527,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview",
       "semantic_hash": "3c0ba4063b0b89b2722514c0ea5fd7a0c1cb0fd3550bc1524e6d8c80b3ae87d9",
       "semantic_error": null,
@@ -6590,7 +6590,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -6604,7 +6604,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-preview",
       "semantic_hash": "6d703abf3ac17c3e5e3577d4cc7e23bfd2d017723555299d45a7bbefc0be239b",
       "semantic_error": null,
@@ -6674,7 +6674,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -6713,7 +6713,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -6745,7 +6745,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-models"
@@ -6784,7 +6784,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -6823,7 +6823,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -6862,7 +6862,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -6901,7 +6901,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -6940,7 +6940,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:59:00Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -6954,7 +6954,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-clip-preview",
       "semantic_hash": "06824f108722fcdb6aa43b77f698d51f05ecc7cabef4d713f6a30341e999560b",
       "semantic_error": null,
@@ -7022,7 +7022,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:59:00Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -7036,7 +7036,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3-pro-preview",
       "semantic_hash": "f49bc4042941638f8ded5a4817e1f8aa36f2f4b3e978011c4954e02f2ad7096d",
       "semantic_error": null,
@@ -7104,7 +7104,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:59:00Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -7118,7 +7118,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-3.5",
       "semantic_hash": "f18da7e0fdf634b92170564d097a7aa713d99e88996f7870393eda6e0e3e0154",
       "semantic_error": null,
@@ -7186,7 +7186,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:59:00Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -7200,7 +7200,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/lyria-realtime-exp",
       "semantic_hash": "ceaf38100f943e0bb242b0ec49fda47445ede2b74438844c18a5d4413e801de1",
       "semantic_error": null,
@@ -7249,7 +7249,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -7260,7 +7260,7 @@
       "source_hashes": {
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/veo-2.0-generate-001",
       "semantic_hash": "5e215039aa76173a435effed0f8c778122e798d45a8408327f7862e7e1f94157",
       "semantic_error": null,
@@ -7308,7 +7308,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -7347,7 +7347,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -7386,7 +7386,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -7425,7 +7425,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -7464,7 +7464,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations"
@@ -7503,7 +7503,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -7517,7 +7517,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-generate-preview",
       "semantic_hash": "6ef95ca41aecc903f2b654d3891b8b0771652f12325a4bf8f5d18dd6a2bd7ff4",
       "semantic_error": null,
@@ -7566,7 +7566,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "google-deprecations",
@@ -7580,7 +7580,7 @@
         "google-models": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
         "google-deprecations": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://ai.google.dev/gemini-api/docs/models/veo-3.1-lite-generate-preview",
       "semantic_hash": "eda9851c85c7187d672d7ea73797027e89560014b17e447e7862389c4487fa28",
       "semantic_error": null,
@@ -8608,7 +8608,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:27:02Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "meta-llama4-model-card"
@@ -8640,7 +8640,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:27:02Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "meta-llama4-model-card"
@@ -8672,7 +8672,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:27:02Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "meta-llama4-model-card"
@@ -8704,7 +8704,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:27:02Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "meta-llama4-model-card"
@@ -8715,7 +8715,7 @@
       "source_hashes": {
         "meta-llama4-model-card": "42dfefbdb3359ab94293b7a6aa5bb18d27c37579a8220544925bbec96c943734"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
       "semantic_hash": "339259f5b1c223168c0377ce2ee46f2deb3a8ba9d147816bc928f0021601b55e",
       "semantic_error": null,
@@ -8752,7 +8752,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:27:02Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "meta-llama4-model-card"
@@ -8763,7 +8763,7 @@
       "source_hashes": {
         "meta-llama4-model-card": "42dfefbdb3359ab94293b7a6aa5bb18d27c37579a8220544925bbec96c943734"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
       "semantic_hash": "af0ddf1b8353d4f871b44574b8b22d271bba0e6902894b7f449423d089451305",
       "semantic_error": null,
@@ -8830,7 +8830,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models",
@@ -8845,7 +8845,7 @@
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
         "mistral-pricing": "84a48f786473b14d74e0bce68dfb94bb487f3b9dcce932e8c72c261cb08a996c"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/codestral-24-05",
       "semantic_hash": "9716769719f8a8c37a110388ea5e82c8f2783badbf53b5767f41bae730b1a9ee",
       "semantic_error": null,
@@ -8883,7 +8883,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -8895,7 +8895,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/codestral-24-05",
       "semantic_hash": "80fcd7392d86efd2f9093841e73d3fb3fc8da553ac6c7a3b421e029ca3052ab5",
       "semantic_error": null,
@@ -8933,7 +8933,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -8945,7 +8945,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/codestral-25-01",
       "semantic_hash": "c41ec7b8de6cf4eabb20b28bfb42af28d1e62ff15c07eaca30149e0806241e2b",
       "semantic_error": null,
@@ -8996,7 +8996,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -9007,7 +9007,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/codestral-25-08",
       "semantic_hash": "d78acc6a20dff9d01541ebd4cc2e7cceba740f45be3cc575d9a032373b936d91",
       "semantic_error": null,
@@ -9058,7 +9058,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -9069,7 +9069,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/codestral-embed-25-05",
       "semantic_hash": "0405eafe5c8ae7369a8ec0110767cb703750f553cda91b7067d9e31377329f2f",
       "semantic_error": null,
@@ -9105,7 +9105,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -9137,7 +9137,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -9152,7 +9152,7 @@
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
         "mistral-labs": "cccc99c0c55c1fc6430d840b3c46fcb4a2dccb60ba840dad6bfacc3876955580"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/devstral-2-25-12",
       "semantic_hash": "e26fc453b7566cdd790d605324226522f688cca1d8b888f41a2308f41649bd67",
       "semantic_error": null,
@@ -9201,7 +9201,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -9213,7 +9213,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/devstral-2-25-12",
       "semantic_hash": "5f9e6de454fc0de40616d3256c27251532fe7082aa837e0068f410f691bd6b48",
       "semantic_error": null,
@@ -9262,7 +9262,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -9274,7 +9274,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/devstral-medium-1-0-25-07",
       "semantic_hash": "cfb879d9b300e09c8e2fd4d880afce7480e97ef66c4e66c383401d3a4ce8a3fd",
       "semantic_error": null,
@@ -9323,7 +9323,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -9335,7 +9335,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/devstral-small-1-0-25-05",
       "semantic_hash": "7394766749868821cf2b22560b8dadfeec835b6d66bdd525d0cef40b1ac8b3c2",
       "semantic_error": null,
@@ -9384,7 +9384,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -9396,7 +9396,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/devstral-small-1-1-25-07",
       "semantic_hash": "44c01d1c728d5bf0eaf499bc3e8f8c8f5c9f52513e582dcb15a6aa09ecb8aee0",
       "semantic_error": null,
@@ -9445,7 +9445,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -9480,7 +9480,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -9495,7 +9495,7 @@
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
         "mistral-labs": "cccc99c0c55c1fc6430d840b3c46fcb4a2dccb60ba840dad6bfacc3876955580"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/devstral-small-2-25-12",
       "semantic_hash": "36dc6dd35a1ea22fee14c71188b05d4bd95ee745b34b22f7e72fd5a00ad5f9fb",
       "semantic_error": null,
@@ -9544,7 +9544,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -9559,7 +9559,7 @@
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
         "mistral-labs": "cccc99c0c55c1fc6430d840b3c46fcb4a2dccb60ba840dad6bfacc3876955580"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/leanstral-1-5",
       "semantic_hash": "3405c38ace77c014cbeff37d7138d6b54798823aac8281b0f16ec357786976d8",
       "semantic_error": null,
@@ -9606,7 +9606,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -9621,7 +9621,7 @@
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
         "mistral-labs": "cccc99c0c55c1fc6430d840b3c46fcb4a2dccb60ba840dad6bfacc3876955580"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/leanstral-26-03",
       "semantic_hash": "c392e8c0f18c12b330fe38dd173ff19c1a2c92c9e4225fc8f014d6026cc2d1f2",
       "semantic_error": null,
@@ -9668,7 +9668,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -9683,7 +9683,7 @@
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
         "mistral-labs": "cccc99c0c55c1fc6430d840b3c46fcb4a2dccb60ba840dad6bfacc3876955580"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-creative-25-12",
       "semantic_hash": "49b9d68e3f3f2ce1d8f20537fd067c36ee704f49e65df79cb0bf89b588967da5",
       "semantic_error": null,
@@ -9731,7 +9731,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -9743,7 +9743,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/magistral-medium-1-0-25-06",
       "semantic_hash": "40c38b415b380ea03d3cea1c5826251e912c9690821f2c3bbcdebc7117da68b3",
       "semantic_error": null,
@@ -9790,7 +9790,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -9802,7 +9802,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/magistral-medium-1-1-25-07",
       "semantic_hash": "2673bf5b0dd33b77d8d417644cdb74f37c63240017de2c017650c064f2d54cb8",
       "semantic_error": null,
@@ -9849,7 +9849,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -9861,7 +9861,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/magistral-medium-1-2-25-09",
       "semantic_hash": "32b015fa8a28f4e894fbb0bbebfa64b97f8d55ed60fc991f46206657cfabfa14",
       "semantic_error": null,
@@ -9908,7 +9908,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -9920,7 +9920,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/magistral-small-1-0-25-06",
       "semantic_hash": "65c1bb9047a6432eae3c944c20535fed32a46e403ba97ee04f5b20408c310697",
       "semantic_error": null,
@@ -9967,7 +9967,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -9979,7 +9979,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/magistral-small-1-1-25-07",
       "semantic_hash": "cd8493416ef08b19f41ef6a8d8cd7d511ccbf4310c808a86e578aaf1be2df8db",
       "semantic_error": null,
@@ -10026,7 +10026,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10038,7 +10038,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/magistral-small-1-2-25-09",
       "semantic_hash": "4e0abcdcae015d3e2d51b1932409346d7de182ff0d7005923fa88e2969e6a81f",
       "semantic_error": null,
@@ -10085,7 +10085,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10096,7 +10096,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/ministral-3-14b-25-12",
       "semantic_hash": "dbf131a9191abe8f41f266be73bdaf76657fe80d2652e2fb34d860c78e68a0d8",
       "semantic_error": null,
@@ -10138,7 +10138,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10150,7 +10150,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/ministral-3b-24-1",
       "semantic_hash": "8b124cf53332ef68d852aa95bc1a4c4d94c2dafccb2c37e2af8749c5fd0958e2",
       "semantic_error": null,
@@ -10199,7 +10199,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10210,7 +10210,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/ministral-3-3b-25-12",
       "semantic_hash": "8eb12feabee21b89be7c53560b3ca4ab6ae72f3cd6aa20080e9441b65cd0fbdd",
       "semantic_error": null,
@@ -10259,7 +10259,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10271,7 +10271,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/ministral-8b-24-1",
       "semantic_hash": "3787b1884cb5ef85d75023e2f7ca0c30af51e12439e661c39175914b73783c60",
       "semantic_error": null,
@@ -10320,7 +10320,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10331,7 +10331,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/ministral-3-8b-25-12",
       "semantic_hash": "3bb727eadd8103432e963309949c2c10500dc0ee341bf8b127065094bb1dcd25",
       "semantic_error": null,
@@ -10380,7 +10380,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10391,7 +10391,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-embed-23-12",
       "semantic_hash": "cdc34495f3deafd8eab44ba68fb19282ce28aed2601dd446b15e816a1ae2dac8",
       "semantic_error": null,
@@ -10434,7 +10434,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10446,7 +10446,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-large-1-0-24-02",
       "semantic_hash": "97f33c401608833762417409fa680eac25139e9aa04a2c842b75dbe1dd2736bd",
       "semantic_error": null,
@@ -10477,7 +10477,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10489,7 +10489,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-large-2-0-24-07",
       "semantic_hash": "f1e7f0acac82f247c92dd26063ae98cd7b7d0c2297d38f3adc7b6a70e38b58b9",
       "semantic_error": null,
@@ -10520,7 +10520,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10532,7 +10532,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-large-2-1-24-11",
       "semantic_hash": "6859ea9029e4f93a190275751c293619e61dcb272153f0f1cc3be00891276e60",
       "semantic_error": null,
@@ -10575,7 +10575,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10586,7 +10586,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-large-3-25-12",
       "semantic_hash": "bd07b9ad10dd355d3fd149a53f222b15a743b6481df9fdb29be10cad7e39e66f",
       "semantic_error": null,
@@ -10638,7 +10638,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10650,7 +10650,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-medium-1-0-23-12",
       "semantic_hash": "8ea48b61958cbe703d8f67f273ef404d31c4dcdd8bfea4a73ecc7ee4d2262656",
       "semantic_error": null,
@@ -10681,7 +10681,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10693,7 +10693,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-medium-3-25-05",
       "semantic_hash": "f67c37416ad97fd49caaaaab5269526f7e1a2b34196233020b968332d83bf6de",
       "semantic_error": null,
@@ -10739,7 +10739,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10751,7 +10751,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-medium-3-1-25-08",
       "semantic_hash": "07b727f686586f3f7620f340a618dfefa220944a30daf7851267212e3e3571c0",
       "semantic_error": null,
@@ -10797,7 +10797,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-lifecycle"
@@ -10829,7 +10829,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:16:33Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-lifecycle"
@@ -10841,7 +10841,7 @@
       "source_hashes": {
         "mistral-lifecycle": "b3276be6bf65abba300cf2f921e05d1098ed2d4ec3625248bbd1b97af6491100"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
       "semantic_hash": "04baf97c3f1908898b7665f01a3000b0129b7ae5947facf2eada19232136305d",
       "semantic_error": null,
@@ -10894,7 +10894,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:16:33Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-lifecycle"
@@ -10926,7 +10926,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:16:33Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10938,7 +10938,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-moderation-24-11",
       "semantic_hash": "285a430eceb14a5af0421ca73f272e6a75e1f346330fc914015a9ed69cd69b27",
       "semantic_error": null,
@@ -10981,7 +10981,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -10992,7 +10992,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-moderation-26-03",
       "semantic_hash": "59bc1913cd17e9ecc3930fe7ca38c2afb7ae716f455a75421a048406c9d35a9c",
       "semantic_error": null,
@@ -11035,7 +11035,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11067,7 +11067,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11079,7 +11079,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/ocr-2-25-05",
       "semantic_hash": "1e7e1093d78f67139ab1cbec5e477e782b57d30fbc2b66633dd4cd1f6d64bb52",
       "semantic_error": null,
@@ -11122,7 +11122,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11133,7 +11133,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/ocr-3-25-12",
       "semantic_hash": "c8615808061f9832e3be731ff8874f6de9d7aaca2dc3d4d9c1b3a2fab1500074",
       "semantic_error": null,
@@ -11176,7 +11176,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11188,7 +11188,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/ocr-4-0",
       "semantic_hash": "cdfbb647da7307c6f1448b00503bcdf486b2e90572f5a7e20c833dae0cf227af",
       "semantic_error": null,
@@ -11231,7 +11231,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11242,7 +11242,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/ocr-4-1",
       "semantic_hash": "4490363606a5998caae960552ac19e581a2e92aa9e52bb5ff8bc6de214b75313",
       "semantic_error": null,
@@ -11285,7 +11285,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11297,7 +11297,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-saba-25-02",
       "semantic_hash": "2a879a88b327c154ba88f71eca2068ab7de3c2e3a8af95c87c07271064d56d61",
       "semantic_error": null,
@@ -11335,7 +11335,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11347,7 +11347,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-1-0-24-02",
       "semantic_hash": "e3039dbab3789e1078b54f311dd75675d044580feb9676295b2f4d0aca9262b4",
       "semantic_error": null,
@@ -11378,7 +11378,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11390,7 +11390,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-2-0-24-09",
       "semantic_hash": "d22dc75124e077939d1e4af4b309f05958241c3fce7c03e3c884395b040e2eba",
       "semantic_error": null,
@@ -11432,7 +11432,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11444,7 +11444,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-3-0-25-01",
       "semantic_hash": "6ee2e200c333e4061e8ce257b95f67e3df2f9d125d4913090ab02d850054e70c",
       "semantic_error": null,
@@ -11489,7 +11489,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11501,7 +11501,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-3-1-25-03",
       "semantic_hash": "a399476faa01baef1a5b8cbbf1af22c67339aeb4c57c00b8919a6f4c23aee654",
       "semantic_error": null,
@@ -11547,7 +11547,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11559,7 +11559,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-3-2-25-06",
       "semantic_hash": "30b143fa3e31859e3ea7a76ad7a1f8aa1e3b54d1f79230e138989b8b61309c7b",
       "semantic_error": null,
@@ -11605,7 +11605,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11616,7 +11616,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-4-0-26-03",
       "semantic_hash": "2a8cc046a5d8b50b1a5c210eeb2320d61e19e7f182697d09c8a6803558a259fe",
       "semantic_error": null,
@@ -11669,7 +11669,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -11704,7 +11704,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11716,7 +11716,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-7b-0-2",
       "semantic_hash": "ced69dac28745b96478744166e42836571c1a89a82ac126d62d73e735c5b817a",
       "semantic_error": null,
@@ -11754,7 +11754,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11766,7 +11766,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-nemo-12b-24-07",
       "semantic_hash": "3455c1db4fb20c6f3bef033adf4b71c536789cefd13438460d6bbbe91722d202",
       "semantic_error": null,
@@ -11815,7 +11815,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11827,7 +11827,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mixtral-8x22b-0-1-0-3",
       "semantic_hash": "b3033c2a6fa6c76bc7c3dde2041682c248d54abe24758f4817ee43537742df23",
       "semantic_error": null,
@@ -11865,7 +11865,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11877,7 +11877,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mixtral-8x7b-0-1",
       "semantic_hash": "6603ac8e3c3b7d79c171b72bb6fae3a9932651f19b5865e135b5071ffae4366a",
       "semantic_error": null,
@@ -11915,7 +11915,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11927,7 +11927,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/pixtral-12b-24-09",
       "semantic_hash": "8ccbf0c02da4b31b268bce0fc4a47a244af0cd2c56b0f7126d5a8182adf98450",
       "semantic_error": null,
@@ -11976,7 +11976,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -11988,7 +11988,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/pixtral-large-24-11",
       "semantic_hash": "2d29819ef4baf7346e0351241cce626b86dc6bfa2550d9877a408478731009c6",
       "semantic_error": null,
@@ -12038,7 +12038,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -12050,7 +12050,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/voxtral-mini-25-07",
       "semantic_hash": "ecdfb425d562e3a01d4f0f9ac834694185fc0932c92b6048bfef923dc77436cf",
       "semantic_error": null,
@@ -12098,7 +12098,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -12130,7 +12130,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -12162,7 +12162,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -12194,7 +12194,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:21:05Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -12205,7 +12205,7 @@
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.mistral.ai/models/voxtral-small-25-07",
       "semantic_hash": "99f2524eb3386068e825d20bc6dcb1ec986787236fef7292ae4673e953940c42",
       "semantic_error": null,
@@ -15396,7 +15396,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -15428,7 +15428,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -15460,7 +15460,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -15471,7 +15471,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4",
       "semantic_hash": "2c6cf03e1043e7363a1cdc0e72604030415f4cf11ddd1e1f1835f0b05b0baa86",
       "semantic_error": null,
@@ -15540,7 +15540,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all",
@@ -15554,7 +15554,7 @@
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1",
         "openai-prompt-engineering": "af5c75587c68f6ea037fb13ea59221e8da571596f1fcb51a741c8a97722afa8b"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4.1",
       "semantic_hash": "db23027fb55c34149661214de52337fbf12c1f769d552ce053dc69167962a216",
       "semantic_error": null,
@@ -15623,7 +15623,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T14:00:02Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-prompt-engineering"
@@ -15655,7 +15655,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -15687,7 +15687,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models",
@@ -15701,7 +15701,7 @@
         "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410",
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4o",
       "semantic_hash": "2ef6e00cab01237baa42fe1632438d3cd2dc0b9a7b95920beb0111151c4ad29d",
       "semantic_error": null,
@@ -15770,7 +15770,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all",
@@ -15784,7 +15784,7 @@
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1",
         "openai-prompt-engineering": "af5c75587c68f6ea037fb13ea59221e8da571596f1fcb51a741c8a97722afa8b"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5",
       "semantic_hash": "3cfe223ffbfa1a46beab279ecc7ab18953c491290aa43c4fb933de124ac7154e",
       "semantic_error": null,
@@ -15853,7 +15853,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -15864,7 +15864,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
       "semantic_hash": "696cf219332a5987e175b055290c68f0e2a11e9ada641941a7365913ccf6b20a",
       "semantic_error": null,
@@ -15933,7 +15933,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -15944,7 +15944,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1",
       "semantic_hash": "9f2dc23a25fa3e0c683c90c78b44e2a9639319b6b9aef85c6100a5c7964382bb",
       "semantic_error": null,
@@ -16013,7 +16013,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -16024,7 +16024,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
       "semantic_hash": "876214dade9fffc49408c6e3da83d1da7cd0a540682a0f58c660770852e5907f",
       "semantic_error": null,
@@ -16093,7 +16093,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -16104,7 +16104,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
       "semantic_hash": "686c2baba0841d5578c938730bbbf68d1d3f75d967c22bd8fdeadf089b78e584",
       "semantic_error": null,
@@ -16173,7 +16173,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -16184,7 +16184,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.2",
       "semantic_hash": "b2b574c988df5d0069249d40ed8653d3986040e7270990e35f71757040fe6b8c",
       "semantic_error": null,
@@ -16253,7 +16253,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -16264,7 +16264,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
       "semantic_hash": "5d88e080ab3eaf262a110b92c34ac582fd1b69e0709631a42b3502833ac580eb",
       "semantic_error": null,
@@ -16333,7 +16333,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -16365,7 +16365,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -16376,7 +16376,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
       "semantic_hash": "88af5d48af88c15c47539f9738a2f210e1ba23f4d9ec3c68f1943887775f5a7e",
       "semantic_error": null,
@@ -16445,7 +16445,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -16456,7 +16456,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.4",
       "semantic_hash": "706609eda37e87578aa50108d30efb51d62e3c70dfd3cef2d7cccd8ed15deb77",
       "semantic_error": null,
@@ -16536,7 +16536,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -16568,7 +16568,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all",
@@ -16582,7 +16582,7 @@
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1",
         "openai-prompt-engineering": "af5c75587c68f6ea037fb13ea59221e8da571596f1fcb51a741c8a97722afa8b"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.5",
       "semantic_hash": "fb9e58805006f08ca3f2201a5ac131dde8a4164a4b052652e54e32e9268f8b7b",
       "semantic_error": null,
@@ -16662,7 +16662,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models",
@@ -16697,7 +16697,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models",
@@ -16735,7 +16735,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models",
@@ -16749,7 +16749,7 @@
         "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410",
         "openai-prompt-engineering": "af5c75587c68f6ea037fb13ea59221e8da571596f1fcb51a741c8a97722afa8b"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
       "semantic_hash": "63ca52debe9600dc67a91dd43002dc7036dcc41f0e9bfd5c4514e8ccea5b55ad",
       "semantic_error": null,
@@ -16835,7 +16835,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -16846,7 +16846,7 @@
       "source_hashes": {
         "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
       "semantic_hash": "024cab3076bc4883df425d1e9c25954b8eeef3de35fe3d4d46f1833233e3eb8d",
       "semantic_error": null,
@@ -16933,7 +16933,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models",
@@ -16968,7 +16968,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -16979,7 +16979,7 @@
       "source_hashes": {
         "openai-models": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
       "semantic_hash": "35b3e755b5f37c4422a10690ab3f5181b076511330315444c84a59f46354806a",
       "semantic_error": null,
@@ -17065,7 +17065,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -17076,7 +17076,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o1-mini",
       "semantic_hash": "381a73308ae589cee46ec24c8793c43f8ae8a48c15ea5f22dc290e03d97e5c7b",
       "semantic_error": null,
@@ -17145,7 +17145,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -17156,7 +17156,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o1-pro",
       "semantic_hash": "d14371c622a4f95125958a9b9dc19cd3bac4a5dc435f97f675ac77c0404f7623",
       "semantic_error": null,
@@ -17225,7 +17225,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -17236,7 +17236,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-deep-research",
       "semantic_hash": "2f7e876b97264dccaca065c6d3680585bb6c6f844d28d6736f482bf655e6adb4",
       "semantic_error": null,
@@ -17305,7 +17305,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -17316,7 +17316,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-mini",
       "semantic_hash": "340de7072026eceab4dbec7b56a569848e6278eac4700c50c5feda7dac074af1",
       "semantic_error": null,
@@ -17385,7 +17385,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -17396,7 +17396,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-pro",
       "semantic_hash": "1976da34152efdec5ca72e4d5b56bd9c8bdbb8c3ecc0c0e5b4029dd77824a3bb",
       "semantic_error": null,
@@ -17465,7 +17465,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -17476,7 +17476,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o4-mini",
       "semantic_hash": "a4b10f2ae532863ea51c8f22c6caca5cd8eae42772754a284ab6018ae6acfdab",
       "semantic_error": null,
@@ -17545,7 +17545,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -17556,7 +17556,7 @@
       "source_hashes": {
         "openai-models-all": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
       "semantic_hash": "807147ea883c25e25ca3f3dea4380c0f91cb68df858e370b84702aa2e5fc22d2",
       "semantic_error": null,
@@ -17631,7 +17631,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -17669,7 +17669,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -17707,7 +17707,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -17745,7 +17745,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -17783,7 +17783,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -17821,7 +17821,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -17853,7 +17853,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -17885,7 +17885,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -17896,7 +17896,7 @@
       "source_hashes": {
         "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning",
       "semantic_hash": "a890aa239e0de3e9db5557bbe7ce03f5754b70801dd4222903150c74e1d5a315",
       "semantic_error": null,
@@ -17948,7 +17948,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -17959,7 +17959,7 @@
       "source_hashes": {
         "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
       "semantic_hash": "c4179c3c5bb0e140e11a4d77fb2dcc27ab78ca30258af1018495520b3814a74a",
       "semantic_error": null,
@@ -18011,7 +18011,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -18022,7 +18022,7 @@
       "source_hashes": {
         "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309",
       "semantic_hash": "d168288697c75244d73645550e14edd27cf712335f78bea999fc002ceb187492",
       "semantic_error": null,
@@ -18074,7 +18074,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing",
@@ -18088,7 +18088,7 @@
         "xai-retirement-2026-05": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719",
         "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.3",
       "semantic_hash": "a8466d17a38fb3de478796f9f2185deab55c54aac583969427e28e1fe22fd2db",
       "semantic_error": null,
@@ -18146,7 +18146,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -18157,7 +18157,7 @@
       "source_hashes": {
         "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.5",
       "semantic_hash": "3e2d0af19fde93300bb19b2918a36cb588419a749b4843d4b7cb71ffb70b9860",
       "semantic_error": null,
@@ -18214,7 +18214,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -18225,7 +18225,7 @@
       "source_hashes": {
         "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.6",
       "semantic_hash": "c6dcbe28bee0a349b1748d00e59115b1b62606e56cfbb8d84f3c6eb34f51dda4",
       "semantic_error": null,
@@ -18282,7 +18282,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T14:57:58Z",
+      "last_seen_at": "2026-10-02T15:13:54Z",
       "missing_since": null,
       "source_keys": [
         "xai-models",
@@ -18302,7 +18302,7 @@
         "xai-pricing": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b",
         "xai-prompt-caching-best-practices": "4d52eda54f0ea8ddb91304d0451ec190ebe62f50d6f9400081a7b154ae79b310"
       },
-      "semantic_verified_at": "2026-10-02T14:57:58Z",
+      "semantic_verified_at": "2026-10-02T15:13:54Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.7",
       "semantic_hash": "a57bdaad06256b6a8c48669a66d4b0371bf5e75a142fa2c2a46ff249830c7f46",
       "semantic_error": null,
