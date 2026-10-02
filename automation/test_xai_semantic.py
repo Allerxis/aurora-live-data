@@ -3,6 +3,7 @@ import unittest
 from automation.xai_semantic import (
     parse_xai_knowledge_cutoffs,
     parse_xai_model_page,
+    parse_xai_pricing_page,
     parse_xai_retirement_page,
 )
 
@@ -64,6 +65,25 @@ class XAISemanticParserTests(unittest.TestCase):
             "https://docs.x.ai/developers/models",
         )
         self.assertEqual(rows["grok-4.7"]["knowledge_cutoff"], "2026-05")
+
+    def test_pricing_table(self):
+        text = """
+        Model Context Short context Long context
+        Input Cached Output Input Cached Output
+        grok-4.6 Long context ≥ 200k tokens 500k $2.00 $0.50 $6.00 $4.00 $1.00 $12.00
+        grok-4.3 Long context ≥ 200k tokens 1M $1.25 $0.20 $2.50 $2.50 $0.40 $5.00
+        """
+        rows = parse_xai_pricing_page(
+            text,
+            "https://docs.x.ai/developers/pricing",
+        )
+        self.assertEqual(rows["grok-4.6"]["context_window_tokens"], 500_000)
+        self.assertEqual(rows["grok-4.6"]["long_context_threshold_tokens"], 200_000)
+        self.assertEqual(rows["grok-4.6"]["short_context"]["input"], 2.0)
+        self.assertEqual(rows["grok-4.6"]["short_context"]["cached_input"], 0.5)
+        self.assertEqual(rows["grok-4.6"]["short_context"]["output"], 6.0)
+        self.assertEqual(rows["grok-4.6"]["long_context"]["output"], 12.0)
+        self.assertEqual(rows["grok-4.3"]["short_context"]["input"], 1.25)
 
     def test_retirement_redirect(self):
         text = """
