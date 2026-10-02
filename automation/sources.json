@@ -55,6 +55,13 @@
       "label": "Meta Llama documentation",
       "url": "https://ai.meta.com/llama/get-started/",
       "freshness_hours": 72
+    },
+    {
+      "source_key": "openai-models-all",
+      "provider_slug": "openai",
+      "label": "OpenAI all models catalog",
+      "url": "https://developers.openai.com/api/docs/models/all",
+      "freshness_hours": 24
     }
   ]
 }
