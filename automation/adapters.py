@@ -25,39 +25,54 @@ def _tokens(text: str, pattern: str, flags: int = re.I) -> list[str]:
     return [m.group(0).strip(".,;:()[]{}<>\"'") for m in re.finditer(pattern, text, flags)]
 
 def discover_openai(text: str) -> list[Candidate]:
-    # API-style identifiers only. Human product names are deliberately not inferred here.
-    raw = _tokens(text, r"\b(?:gpt|o)[a-z0-9][a-z0-9._-]{1,80}\b")
-    blocked = {"openai", "output", "object"}
-    items = []
-    for token in raw:
-        low = token.lower()
-        if low in blocked or not (low.startswith("gpt-") or re.match(r"^o\d", low)):
-            continue
-        items.append(Candidate(low, low))
-    return _unique(items)
+    patterns = [
+        r"\bgpt-[0-9][a-z0-9]*(?:[._-][a-z0-9]+){0,10}\b",
+        r"\bo[1-9](?:[._-][a-z0-9]+){1,10}\b",
+    ]
+    raw = []
+    for pattern in patterns:
+        raw.extend(_tokens(text, pattern))
+    return _unique(Candidate(x.lower(), x.lower()) for x in raw)
 
 def discover_anthropic(text: str) -> list[Candidate]:
-    raw = _tokens(text, r"\bclaude-[a-z0-9][a-z0-9._-]{2,90}\b")
+    # Restrict discovery to Anthropic model families, excluding products such as Claude Code/API.
+    raw = _tokens(
+        text,
+        r"\bclaude-(?:opus|sonnet|haiku|fable|mythos)(?:-[a-z0-9]+){1,8}\b",
+    )
     return _unique(Candidate(x.lower(), x.lower()) for x in raw)
 
 def discover_google(text: str) -> list[Candidate]:
-    raw = _tokens(text, r"\b(?:gemini|imagen|veo)-[a-z0-9][a-z0-9._-]{2,100}\b")
-    extra = _tokens(text, r"\b(?:deep-research|antigravity|gemini-robotics)[a-z0-9._-]*\b")
-    return _unique(Candidate(x.lower(), x.lower()) for x in raw + extra)
+    patterns = [
+        r"\bgemini-[a-z0-9][a-z0-9._-]{2,100}\b",
+        r"\bimagen-[a-z0-9][a-z0-9._-]{2,100}\b",
+        r"\bveo-[a-z0-9][a-z0-9._-]{2,100}\b",
+        r"\bdeep-research(?:-[a-z0-9._-]+)?\b",
+        r"\bantigravity(?:-[a-z0-9._-]+)?\b",
+    ]
+    raw = []
+    for pattern in patterns:
+        raw.extend(_tokens(text, pattern))
+    return _unique(Candidate(x.lower(), x.lower()) for x in raw)
 
 def discover_xai(text: str) -> list[Candidate]:
-    raw = _tokens(text, r"\bgrok-[a-z0-9][a-z0-9._-]{1,90}\b")
+    raw = _tokens(
+        text,
+        r"\bgrok-[0-9][0-9a-z]*(?:[._-][a-z0-9]+){0,8}\b",
+    )
     return _unique(Candidate(x.lower(), x.lower()) for x in raw)
 
 def discover_mistral(text: str) -> list[Candidate]:
     patterns = [
-        r"\bmistral-(?:large|medium|small|nemo|saba|embed)[a-z0-9._-]*\b",
+        r"\bmistral-(?:large|medium|small|ocr|saba|embed)[a-z0-9._-]*\b",
         r"\bministral-[a-z0-9][a-z0-9._-]*\b",
         r"\bcodestral[a-z0-9._-]*\b",
         r"\bvoxtral[a-z0-9._-]*\b",
-        r"\bocr-[a-z0-9][a-z0-9._-]*\b",
-        r"\bpixtral[a-z0-9._-]*\b",
+        r"\bdevstral[a-z0-9._-]*\b",
         r"\bmagistral[a-z0-9._-]*\b",
+        r"\bpixtral[a-z0-9._-]*\b",
+        r"\bopen-(?:mistral|mixtral|codestral)[a-z0-9._-]*\b",
+        r"\blabs-[a-z0-9][a-z0-9._-]*\b",
     ]
     raw = []
     for pattern in patterns:
@@ -65,10 +80,10 @@ def discover_mistral(text: str) -> list[Candidate]:
     return _unique(Candidate(x.lower(), x.lower()) for x in raw)
 
 def discover_meta(text: str) -> list[Candidate]:
-    # Meta's first-party pages commonly expose family/display names rather than a single API ID.
     patterns = [
         (r"\bLlama\s+4\s+(?:Scout|Maverick)\b", "llama"),
         (r"\bLlama\s+3(?:\.\d)?\s*:\s*[0-9B& ]+\b", "llama"),
+        (r"\bLlama\s+3(?:\.\d)?\s+(?:[0-9]+B(?:\s*&\s*[0-9]+B)?)\b", "llama"),
         (r"\bLlama\s+Guard\s+4(?:\s+\d+B)?\b", "safety"),
         (r"\bLlama\s+Prompt\s+Guard\s+2(?:\s+\d+[MB])?\b", "safety"),
     ]
@@ -91,6 +106,4 @@ DISCOVERERS = {
 
 def discover(provider_slug: str, text: str) -> list[Candidate]:
     fn = DISCOVERERS.get(provider_slug)
-    if not fn:
-        return []
-    return fn(text)
+    return fn(text) if fn else []
