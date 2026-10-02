@@ -53,6 +53,7 @@ Cette politique ne choisit jamais automatiquement « le meilleur » modèle. Ell
 - `registry/evals.json` — contrat d'évaluation versionné et cas de test de référence ;
 - `registry/benchmarks.json` — résultat du corpus de régression Aurora exécuté dans CI ;
 - `registry/golden.json` — contrats d'acceptation de référence pour création, optimisation, adaptation, agentic et multimodal ;
+- `registry/runtime.json` — politique d'acceptation appliquée juste avant livraison d'un prompt substantiel ;
 - `registry/models/*.json` — fiches détaillées par fournisseur.
 
 ## Sécurité
@@ -120,3 +121,24 @@ Un contrat golden ne contient pas une « bonne réponse » figée. Il décrit pl
 Cette approche évite de comparer des formulations au mot près. Une optimisation peut donc être plus courte ou structurée différemment tout en restant conforme si elle préserve l'intention et les contraintes.
 
 Le validateur `automation/golden_suite.py` vérifie la cohérence du corpus. Les tests CI empêchent notamment une adaptation sans contrôle de conservation de l'intention ou un scénario agentique sans politique d'outils.
+
+
+## Runtime acceptance
+
+`registry/runtime.json` relie le contrat d'evals, la golden suite et le benchmark CI à une politique d'acceptation utilisable au moment où Aurora produit un prompt.
+
+Le runtime :
+- sélectionne les contrats golden applicables selon l'opération et le type de tâche ;
+- applique le contrat d'evals ;
+- vérifie les invariants `must_preserve`, `must_include_if_applicable` et `must_not_add` ;
+- autorise au maximum deux passes de réparation automatique lorsque la correction ne nécessite pas de nouvelle information utilisateur ;
+- produit un release gate final `PASS`, `NEEDS_REVIEW` ou `FAIL`.
+
+`PASS` n'est possible que si les dépendances dynamiques nécessaires sont saines. Une golden suite invalide, un benchmark en échec, un contrat d'evals absent ou une donnée modèle/guidance non vérifiée ne sont jamais masqués.
+
+La sortie utilisateur recommandée reste compacte :
+`Aurora validation: PASS`
+ou, lorsqu'une preuve manque :
+`Aurora validation: NEEDS_REVIEW — <raison courte>`.
+
+Le runtime n'est pas un benchmark de performance de modèle et n'exécute pas automatiquement une API payante. Il contrôle la conformité du prompt produit aux contrats Aurora et aux données vérifiées disponibles.
