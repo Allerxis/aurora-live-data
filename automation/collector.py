@@ -13,6 +13,7 @@ from adapters import discover
 from openai_semantic import parse_openai_model_page
 from anthropic_semantic import detail_slug_candidates, parse_anthropic_model_page, parse_anthropic_lifecycle_page
 from google_semantic import parse_google_model_page, parse_google_lifecycle_page
+from xai_semantic import parse_xai_model_page, parse_xai_knowledge_cutoffs, parse_xai_retirement_page
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
@@ -22,7 +23,7 @@ SOURCES_OUT = REGISTRY_DIR / "sources.json"
 STATUS_OUT = REGISTRY_DIR / "status.json"
 CHANGES_OUT = REGISTRY_DIR / "changes.json"
 CATALOG_OUT = REGISTRY_DIR / "catalog.json"
-SCHEMA_VERSION = "0.5.0"
+SCHEMA_VERSION = "0.6.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -59,7 +60,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.5 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.6 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
@@ -288,6 +289,52 @@ def verify_google_candidates(candidates: dict, generated_at: str):
     return verified, failures
 
 
+def verify_xai_candidates(candidates: dict, generated_at: str):
+    verified = {}
+    failures = {}
+
+    for model_id in sorted(candidates):
+        detail_url = f"https://docs.x.ai/developers/models/{model_id}"
+        try:
+            result = fetch(detail_url)
+            final_url = result["final_url"].rstrip("/")
+            expected_suffix = f"/developers/models/{model_id}"
+
+            if not final_url.endswith(expected_suffix):
+                raise RuntimeError(
+                    f"unexpected redirect to {result['final_url']}"
+                )
+
+            normalized = normalize_html(result["body"])
+            text = normalized.decode("utf-8", errors="replace")
+            facts = parse_xai_model_page(
+                model_id=model_id,
+                text=text,
+                source_url=result["final_url"],
+            )
+            if not facts:
+                raise RuntimeError(
+                    "detail page did not expose required deterministic fields"
+                )
+
+            semantic_hash = stable_hash(facts)
+            verified[model_id] = {
+                "facts": facts,
+                "semantic_hash": semantic_hash,
+                "semantic_verified_at": generated_at,
+                "semantic_source_url": result["final_url"],
+            }
+            print(
+                f"[semantic-ok] xai:{model_id}: "
+                f"context={facts.get('context_window_tokens')}"
+            )
+        except Exception as exc:
+            failures[model_id] = f"{type(exc).__name__}: {exc}"
+            print(f"[semantic-error] xai:{model_id}: {exc}")
+
+    return verified, failures
+
+
 def main():
     now = utcnow()
     generated_at = iso(now)
@@ -467,6 +514,41 @@ def main():
             google_lifecycle_source["final_url"],
         )
 
+    xai_verified, xai_semantic_failures = verify_xai_candidates(
+        discovered.get("xai", {}),
+        generated_at,
+    )
+    xai_cutoffs = {}
+    xai_models_source = source_texts.get("xai-models")
+    if xai_models_source:
+        xai_cutoffs = parse_xai_knowledge_cutoffs(
+            xai_models_source["text"],
+            xai_models_source["final_url"],
+        )
+
+    # Knowledge cutoff statements live on the xAI catalog page rather than all
+    # detail pages. Merge only an explicitly parsed cutoff into an otherwise
+    # verified detail record, then recompute the semantic hash.
+    for model_key, cutoff in xai_cutoffs.items():
+        if model_key in xai_verified:
+            xai_verified[model_key]["facts"]["knowledge_cutoff"] = cutoff.get(
+                "knowledge_cutoff"
+            )
+            xai_verified[model_key]["facts"]["knowledge_cutoff_source_url"] = cutoff.get(
+                "source_url"
+            )
+            xai_verified[model_key]["semantic_hash"] = stable_hash(
+                xai_verified[model_key]["facts"]
+            )
+
+    xai_retirements = {}
+    xai_retirement_source = source_texts.get("xai-retirement-2026-05")
+    if xai_retirement_source:
+        xai_retirements = parse_xai_retirement_page(
+            xai_retirement_source["text"],
+            xai_retirement_source["final_url"],
+        )
+
     all_catalog_models = []
     present_total = 0
     retained_missing_total = 0
@@ -500,6 +582,9 @@ def main():
             elif provider == "google":
                 semantic = google_verified.get(model_key)
                 semantic_failure = google_semantic_failures.get(model_key)
+            elif provider == "xai":
+                semantic = xai_verified.get(model_key)
+                semantic_failure = xai_semantic_failures.get(model_key)
             else:
                 semantic = None
                 semantic_failure = None
@@ -525,6 +610,7 @@ def main():
                     "openai": "OpenAI",
                     "anthropic": "Anthropic",
                     "google": "Google",
+                    "xai": "xAI",
                 }.get(provider, provider)
 
                 if not old_semantic_hash:
@@ -558,7 +644,7 @@ def main():
                         ),
                     )
 
-            elif provider in ("openai", "anthropic", "google"):
+            elif provider in ("openai", "anthropic", "google", "xai"):
                 semantic_error = semantic_failure
                 if verification_state == "verified_official_detail":
                     verification_state = "verified_official_detail_stale"
@@ -576,6 +662,10 @@ def main():
                         if lifecycle.get("shutdown_announced")
                         else "no_shutdown_announced"
                     )
+            elif provider == "xai":
+                lifecycle = xai_retirements.get(model_key)
+                if lifecycle:
+                    lifecycle_status = lifecycle.get("status") or lifecycle_status
 
             model = {
                 "provider_slug": provider,
@@ -753,6 +843,9 @@ def main():
             "anthropic_lifecycle_rows": len(anthropic_lifecycle),
             "google_semantic_failures": len(google_semantic_failures),
             "google_lifecycle_rows": len(google_lifecycle),
+            "xai_semantic_failures": len(xai_semantic_failures),
+            "xai_knowledge_cutoff_rows": len(xai_cutoffs),
+            "xai_retirement_rows": len(xai_retirements),
         },
     )
 
