@@ -54,6 +54,7 @@ Cette politique ne choisit jamais automatiquement « le meilleur » modèle. Ell
 - `registry/benchmarks.json` — résultat du corpus de régression Aurora exécuté dans CI ;
 - `registry/golden.json` — contrats d'acceptation de référence pour création, optimisation, adaptation, agentic et multimodal ;
 - `registry/runtime.json` — politique d'acceptation appliquée juste avant livraison d'un prompt substantiel ;
+- `registry/traceability.json` — schéma public du manifeste de validation et politique de confidentialité associée ;
 - `registry/models/*.json` — fiches détaillées par fournisseur.
 
 ## Sécurité
@@ -142,3 +143,34 @@ ou, lorsqu'une preuve manque :
 `Aurora validation: NEEDS_REVIEW — <raison courte>`.
 
 Le runtime n'est pas un benchmark de performance de modèle et n'exécute pas automatiquement une API payante. Il contrôle la conformité du prompt produit aux contrats Aurora et aux données vérifiées disponibles.
+
+
+## Traçabilité des validations
+
+`registry/traceability.json` publie le schéma et la politique de traçabilité utilisés par Aurora. Il ne contient aucun manifeste utilisateur.
+
+Pour un prompt substantiel, Aurora peut produire un manifeste de validation indiquant notamment :
+- la version d'Aurora et d'Aurora Live Data ;
+- la date de validation ;
+- l'opération exécutée ;
+- le fournisseur et le modèle cible lorsqu'ils sont connus ;
+- l'état de vérification du modèle ;
+- les contrats golden appliqués ;
+- les règles de guidance utilisées ;
+- les hashes des dépendances d'eval/runtime/benchmark ;
+- le nombre de passes de réparation ;
+- les éléments restant en `NEEDS_REVIEW` ;
+- le release gate final.
+
+### Confidentialité
+
+Par défaut :
+- le contenu du prompt n'est jamais inclus dans le manifeste ;
+- les entrées utilisateur et sorties d'outils ne sont jamais incluses ;
+- aucun token, secret, mot de passe ou clé API ne doit apparaître ;
+- aucun manifeste utilisateur n'est envoyé vers ce dépôt ;
+- la persistance est désactivée.
+
+Un fingerprint SHA-256 du prompt peut être généré localement uniquement sur demande explicite. Il n'est jamais publié automatiquement, car un hash peut encore être corrélé si le contenu candidat est déjà connu ou facilement devinable.
+
+Cette couche permet de reproduire le contexte de validation sans transformer Aurora Live Data en journal des prompts utilisateurs.
