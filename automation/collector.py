@@ -14,6 +14,7 @@ from openai_semantic import parse_openai_model_page
 from anthropic_semantic import detail_slug_candidates, parse_anthropic_model_page, parse_anthropic_lifecycle_page
 from google_semantic import parse_google_model_page, parse_google_lifecycle_page
 from xai_semantic import parse_xai_model_page, parse_xai_knowledge_cutoffs, parse_xai_pricing_page, parse_xai_retirement_page
+from mistral_semantic import extract_mistral_detail_urls, parse_mistral_model_page, parse_mistral_pricing_page
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
@@ -23,7 +24,7 @@ SOURCES_OUT = REGISTRY_DIR / "sources.json"
 STATUS_OUT = REGISTRY_DIR / "status.json"
 CHANGES_OUT = REGISTRY_DIR / "changes.json"
 CATALOG_OUT = REGISTRY_DIR / "catalog.json"
-SCHEMA_VERSION = "0.7.0"
+SCHEMA_VERSION = "0.8.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -60,7 +61,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.7 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.8 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
@@ -335,6 +336,73 @@ def verify_xai_candidates(candidates: dict, generated_at: str):
     return verified, failures
 
 
+def verify_mistral_candidates(
+    candidates: dict,
+    detail_urls: list[str],
+    pricing_rows: dict,
+    generated_at: str,
+):
+    verified = {}
+    failures = {}
+
+    for detail_url in detail_urls:
+        try:
+            result = fetch(detail_url)
+            final_url = result["final_url"]
+            if "/models/" not in final_url:
+                continue
+
+            normalized = normalize_html(result["body"])
+            text = normalized.decode("utf-8", errors="replace")
+
+            for model_id in sorted(candidates):
+                if model_id in verified:
+                    continue
+                if not re.search(
+                    rf"(?<![a-z0-9._-]){re.escape(model_id)}(?![a-z0-9._-])",
+                    text,
+                    re.I,
+                ):
+                    continue
+
+                facts = parse_mistral_model_page(
+                    model_id=model_id,
+                    text=text,
+                    source_url=final_url,
+                )
+                if not facts:
+                    continue
+
+                pricing_key = facts.get("pricing_key")
+                if pricing_key and pricing_key in pricing_rows:
+                    facts["pricing"] = pricing_rows[pricing_key]
+
+                semantic_hash = stable_hash(facts)
+                verified[model_id] = {
+                    "facts": facts,
+                    "semantic_hash": semantic_hash,
+                    "semantic_verified_at": generated_at,
+                    "semantic_source_url": final_url,
+                }
+                print(
+                    f"[semantic-ok] mistral:{model_id}: "
+                    f"context={facts.get('context_window_tokens')}, "
+                    f"stage={facts.get('release_stage')}"
+                )
+        except Exception as exc:
+            print(f"[semantic-page-error] mistral:{detail_url}: {exc}")
+
+    for model_id in sorted(candidates):
+        if model_id not in verified:
+            failures[model_id] = "No matching verified Mistral model card"
+            print(
+                f"[semantic-error] mistral:{model_id}: "
+                f"{failures[model_id]}"
+            )
+
+    return verified, failures
+
+
 def main():
     now = utcnow()
     generated_at = iso(now)
@@ -391,6 +459,7 @@ def main():
             normalized_text = normalized.decode("utf-8", errors="replace")
             source_texts[key] = {
                 "text": normalized_text,
+                "raw_html": result["body"].decode("utf-8", errors="replace"),
                 "final_url": result["final_url"],
             }
             new_hash = hashlib.sha256(normalized).hexdigest()
@@ -570,6 +639,29 @@ def main():
             xai_retirement_source["final_url"],
         )
 
+    mistral_pricing = {}
+    mistral_pricing_source = source_texts.get("mistral-pricing")
+    if mistral_pricing_source:
+        mistral_pricing = parse_mistral_pricing_page(
+            mistral_pricing_source["text"],
+            mistral_pricing_source["final_url"],
+        )
+
+    mistral_detail_urls = set()
+    for source_key in ("mistral-models", "mistral-labs"):
+        source = source_texts.get(source_key)
+        if source:
+            mistral_detail_urls.update(
+                extract_mistral_detail_urls(source.get("raw_html", ""))
+            )
+
+    mistral_verified, mistral_semantic_failures = verify_mistral_candidates(
+        discovered.get("mistral", {}),
+        sorted(mistral_detail_urls),
+        mistral_pricing,
+        generated_at,
+    )
+
     all_catalog_models = []
     present_total = 0
     retained_missing_total = 0
@@ -606,6 +698,9 @@ def main():
             elif provider == "xai":
                 semantic = xai_verified.get(model_key)
                 semantic_failure = xai_semantic_failures.get(model_key)
+            elif provider == "mistral":
+                semantic = mistral_verified.get(model_key)
+                semantic_failure = mistral_semantic_failures.get(model_key)
             else:
                 semantic = None
                 semantic_failure = None
@@ -632,6 +727,7 @@ def main():
                     "anthropic": "Anthropic",
                     "google": "Google",
                     "xai": "xAI",
+                    "mistral": "Mistral",
                 }.get(provider, provider)
 
                 if not old_semantic_hash:
@@ -665,7 +761,7 @@ def main():
                         ),
                     )
 
-            elif provider in ("openai", "anthropic", "google", "xai"):
+            elif provider in ("openai", "anthropic", "google", "xai", "mistral"):
                 semantic_error = semantic_failure
                 if verification_state == "verified_official_detail":
                     verification_state = "verified_official_detail_stale"
@@ -687,6 +783,11 @@ def main():
                 lifecycle = xai_retirements.get(model_key)
                 if lifecycle:
                     lifecycle_status = lifecycle.get("status") or lifecycle_status
+            elif provider == "mistral" and semantic:
+                lifecycle_status = (
+                    semantic.get("facts", {}).get("release_stage")
+                    or lifecycle_status
+                )
 
             model = {
                 "provider_slug": provider,
@@ -868,6 +969,9 @@ def main():
             "xai_knowledge_cutoff_rows": len(xai_cutoffs),
             "xai_pricing_rows": len(xai_pricing),
             "xai_retirement_rows": len(xai_retirements),
+            "mistral_detail_pages": len(mistral_detail_urls),
+            "mistral_pricing_rows": len(mistral_pricing),
+            "mistral_semantic_failures": len(mistral_semantic_failures),
         },
     )
 
