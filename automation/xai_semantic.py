@@ -165,7 +165,7 @@ def parse_xai_model_page(
     m = re.search(
         r"\bReasoning efforts\s+(Supported|Not supported)(.*?)(?:\bDefault\b|\bRate limits\b|$)",
         details_section,
-        re.I,
+        re.I | re.S,
     )
     if m:
         reasoning_supported = m.group(1).lower() == "supported"
