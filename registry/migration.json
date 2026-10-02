@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-02T19:06:10Z",
+  "generated_at": "2026-10-02T19:09:54Z",
   "ready": true,
-  "policy_hash": "271dd1e80dc9e20d4ce84c96049da0707801e1db205d6b4c0c5d8872881f66c4",
+  "policy_hash": "d8483340bfade8b7e9d7cef998b3f52d09415dd05ec27c9a3e00b4076a13a3b0",
   "storage": {
     "persistence_default": "none",
     "public_registry_contains_user_migrations": false,
@@ -64,7 +64,9 @@
       "only warning/specialized candidates remain and user intent does not establish acceptance",
       "cross-provider migration would be required without prior user authorization"
     ],
-    "never_use_global_quality_score": true
+    "never_use_global_quality_score": true,
+    "tie_behavior": "needs_review",
+    "selection_basis": "verified hard constraints and documented replacement evidence only"
   },
   "migration_flow": [
     "inspect_source_target",
