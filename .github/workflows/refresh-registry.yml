@@ -4,6 +4,12 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 */12 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "automation/**"
+      - ".github/workflows/refresh-registry.yml"
 
 permissions:
   contents: write
