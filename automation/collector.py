@@ -23,6 +23,7 @@ from runtime_acceptance import build_runtime_document
 from validation_manifest import build_traceability_document
 from manifest_compare import build_comparison_document
 from revalidation_replay import build_replay_document
+from prompt_migration import build_migration_document
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
@@ -33,6 +34,7 @@ RUNTIME_POLICY_FILE = ROOT / "automation" / "runtime_policy.json"
 TRACEABILITY_POLICY_FILE = ROOT / "automation" / "traceability_policy.json"
 COMPARISON_POLICY_FILE = ROOT / "automation" / "comparison_policy.json"
 REPLAY_POLICY_FILE = ROOT / "automation" / "replay_policy.json"
+MIGRATION_POLICY_FILE = ROOT / "automation" / "migration_policy.json"
 REGISTRY_DIR = ROOT / "registry"
 MODELS_DIR = REGISTRY_DIR / "models"
 SOURCES_OUT = REGISTRY_DIR / "sources.json"
@@ -47,7 +49,8 @@ RUNTIME_OUT = REGISTRY_DIR / "runtime.json"
 TRACEABILITY_OUT = REGISTRY_DIR / "traceability.json"
 COMPARISON_OUT = REGISTRY_DIR / "comparison.json"
 REPLAY_OUT = REGISTRY_DIR / "replay.json"
-SCHEMA_VERSION = "0.18.0"
+MIGRATION_OUT = REGISTRY_DIR / "migration.json"
+SCHEMA_VERSION = "0.19.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -84,7 +87,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.18 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.19 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
@@ -1099,6 +1102,16 @@ def main():
     )
     write_json(REPLAY_OUT, replay_document)
 
+    migration_policy_document = read_json(
+        MIGRATION_POLICY_FILE,
+        {},
+    )
+    migration_document = build_migration_document(
+        policy=migration_policy_document,
+        generated_at=generated_at,
+    )
+    write_json(MIGRATION_OUT, migration_document)
+
     changes = changes[:MAX_CHANGE_HISTORY]
 
     write_json(
@@ -1195,6 +1208,10 @@ def main():
             "replay_policy_hash": replay_document.get("policy_hash"),
             "replay_persistence_default": replay_document.get("storage", {}).get("persistence_default"),
             "replay_public_user_replays": replay_document.get("storage", {}).get("public_registry_contains_user_replays"),
+            "migration_ready": migration_document.get("ready"),
+            "migration_policy_hash": migration_document.get("policy_hash"),
+            "migration_persistence_default": migration_document.get("storage", {}).get("persistence_default"),
+            "migration_public_user_migrations": migration_document.get("storage", {}).get("public_registry_contains_user_migrations"),
         },
     )
 
