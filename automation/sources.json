@@ -10,8 +10,8 @@
     {
       "source_key": "anthropic-models",
       "provider_slug": "anthropic",
-      "label": "Anthropic Models overview",
-      "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+      "label": "Claude Models overview",
+      "url": "https://platform.claude.com/docs/en/models/overview",
       "freshness_hours": 24
     },
     {
@@ -61,6 +61,13 @@
       "provider_slug": "openai",
       "label": "OpenAI all models catalog",
       "url": "https://developers.openai.com/api/docs/models/all",
+      "freshness_hours": 24
+    },
+    {
+      "source_key": "anthropic-deprecations",
+      "provider_slug": "anthropic",
+      "label": "Claude model deprecations",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
       "freshness_hours": 24
     }
   ]
