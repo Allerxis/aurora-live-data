@@ -67,7 +67,9 @@ class OpenAISemanticParserTests(unittest.TestCase):
         self.assertFalse(facts["features"]["fine_tuning"])
         self.assertTrue(facts["features"]["structured_outputs"])
         self.assertTrue(facts["tools"]["mcp"])
-        self.assertIn("v1/responses", facts["endpoints"])
+        self.assertIsNone(facts["endpoints"])
+        self.assertFalse(facts["endpoint_matrix_qualified"])
+        self.assertIn("v1/responses", facts["endpoint_matrix_paths"])
         self.assertEqual(
             facts["reasoning_efforts"],
             ["low", "medium", "high", "xhigh", "max"],
