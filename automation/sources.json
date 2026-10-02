@@ -111,6 +111,41 @@
       "label": "Meta Llama 4 official model card",
       "url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
       "freshness_hours": 72
+    },
+    {
+      "source_key": "openai-prompt-engineering",
+      "provider_slug": "openai",
+      "label": "OpenAI prompt engineering guide",
+      "url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "freshness_hours": 24
+    },
+    {
+      "source_key": "anthropic-prompting-best-practices",
+      "provider_slug": "anthropic",
+      "label": "Claude prompting best practices",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "freshness_hours": 24
+    },
+    {
+      "source_key": "google-prompting-strategies",
+      "provider_slug": "google",
+      "label": "Gemini prompt design strategies",
+      "url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+      "freshness_hours": 24
+    },
+    {
+      "source_key": "mistral-prompting",
+      "provider_slug": "mistral",
+      "label": "Mistral prompting guide",
+      "url": "https://docs.mistral.ai/inference/prompting",
+      "freshness_hours": 48
+    },
+    {
+      "source_key": "xai-prompt-caching-best-practices",
+      "provider_slug": "xai",
+      "label": "xAI prompt caching best practices",
+      "url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
+      "freshness_hours": 48
     }
   ]
 }
