@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Assess whether a historical Aurora validation can still be relied on against the current Live Data environment and identify the minimum revalidation scope.",
+  "storage": {
+    "persistence_default": "none",
+    "public_registry_contains_user_replays": false,
+    "prompt_content_required_for_assessment": false,
+    "prompt_content_required_for_actual_semantic_revalidation": true
+  },
+  "statuses": {
+    "current": "No tracked prompt-relevant validation dependency changed; the historical gate remains the last established outcome.",
+    "selective_revalidation_required": "Only specific validation scopes changed and should be rerun.",
+    "full_revalidation_required": "Core eval/golden/runtime assumptions changed broadly, so the substantive runtime acceptance should be rerun.",
+    "blocked": "The current validation environment is not healthy enough to establish a fresh result.",
+    "different_prompt": "Both fingerprints are available and prove that the supplied/current prompt differs from the historical prompt."
+  },
+  "dependency_impacts": {
+    "eval_spec_hash": {
+      "scope": "eval",
+      "prompt_revalidation": true,
+      "action": "rerun_eval_contract"
+    },
+    "golden_suite_hash": {
+      "scope": "golden",
+      "prompt_revalidation": true,
+      "action": "rerun_golden_invariants"
+    },
+    "runtime_policy_hash": {
+      "scope": "runtime",
+      "prompt_revalidation": true,
+      "action": "rerun_runtime_routing"
+    },
+    "benchmark_corpus_hash": {
+      "scope": "assurance",
+      "prompt_revalidation": false,
+      "action": "confirm_current_benchmark_pass"
+    },
+    "traceability_policy_hash": {
+      "scope": "traceability",
+      "prompt_revalidation": false,
+      "action": "refresh_manifest_format_if_needed"
+    }
+  },
+  "target_rules": {
+    "semantic_hash_match": "reuse_model_semantic_result",
+    "semantic_hash_changed": "rerun_model_compatibility",
+    "historical_manifest_missing_semantic_hash": "rerun_model_compatibility",
+    "current_model_missing": "rerun_model_discovery_and_compatibility",
+    "current_model_stale_or_unverified": "needs_review"
+  },
+  "guidance_rules": {
+    "source_hash_match_and_current_verified": "reuse_guidance_alignment",
+    "source_hash_changed": "rerun_guidance_alignment",
+    "current_rule_missing": "rerun_guidance_alignment",
+    "current_rule_stale_or_unverified": "needs_review"
+  },
+  "escalation": {
+    "full_revalidation_scopes": [
+      "eval",
+      "golden",
+      "runtime"
+    ],
+    "full_revalidation_if_all_changed": true,
+    "different_prompt_requires_full_revalidation": true,
+    "unhealthy_registry_blocks_replay": true,
+    "runtime_not_ready_blocks_fresh_runtime": true,
+    "benchmark_fail_blocks_fresh_runtime": true,
+    "golden_fail_blocks_fresh_runtime": true
+  },
+  "output": {
+    "required_fields": [
+      "schema_version",
+      "replay_id",
+      "source_manifest_id",
+      "assessed_at",
+      "status",
+      "historical_release_gate",
+      "prompt_identity",
+      "environment",
+      "changes",
+      "impacted_scopes",
+      "reusable_results",
+      "required_actions",
+      "requires_prompt_content",
+      "summary"
+    ],
+    "prompt_identity_values": [
+      "same",
+      "different",
+      "unknown"
+    ]
+  },
+  "interpretation_rules": [
+    "Replay assesses the validity of the historical validation context; it does not infer that prompt text changed unless fingerprints prove it.",
+    "A version bump alone does not require prompt revalidation when the tracked validation hashes and model/guidance semantics are unchanged.",
+    "A benchmark corpus hash change alone does not invalidate a prompt when the current benchmark suite still passes.",
+    "A traceability policy change alone affects provenance/manifest formatting, not the historical prompt gate.",
+    "When prompt content is unavailable, replay may identify the exact scopes that need revalidation but must not fabricate their new outcomes."
+  ]
+}
