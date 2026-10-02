@@ -20,6 +20,7 @@ from selector_view import build_selector
 from guidance_view import build_guidance
 from golden_suite import validate_golden_suite
 from runtime_acceptance import build_runtime_document
+from validation_manifest import build_traceability_document
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
@@ -27,6 +28,7 @@ GUIDANCE_RULES_FILE = ROOT / "automation" / "guidance_rules.json"
 EVAL_SPEC_FILE = ROOT / "automation" / "eval_spec.json"
 GOLDEN_CASES_FILE = ROOT / "automation" / "golden_cases.json"
 RUNTIME_POLICY_FILE = ROOT / "automation" / "runtime_policy.json"
+TRACEABILITY_POLICY_FILE = ROOT / "automation" / "traceability_policy.json"
 REGISTRY_DIR = ROOT / "registry"
 MODELS_DIR = REGISTRY_DIR / "models"
 SOURCES_OUT = REGISTRY_DIR / "sources.json"
@@ -38,7 +40,8 @@ GUIDANCE_OUT = REGISTRY_DIR / "guidance.json"
 EVALS_OUT = REGISTRY_DIR / "evals.json"
 GOLDEN_OUT = REGISTRY_DIR / "golden.json"
 RUNTIME_OUT = REGISTRY_DIR / "runtime.json"
-SCHEMA_VERSION = "0.15.0"
+TRACEABILITY_OUT = REGISTRY_DIR / "traceability.json"
+SCHEMA_VERSION = "0.16.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -75,7 +78,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.15 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.16 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
@@ -1060,6 +1063,16 @@ def main():
     )
     write_json(RUNTIME_OUT, runtime_document)
 
+    traceability_policy_document = read_json(
+        TRACEABILITY_POLICY_FILE,
+        {},
+    )
+    traceability_document = build_traceability_document(
+        policy=traceability_policy_document,
+        generated_at=generated_at,
+    )
+    write_json(TRACEABILITY_OUT, traceability_document)
+
     changes = changes[:MAX_CHANGE_HISTORY]
 
     write_json(
@@ -1144,6 +1157,10 @@ def main():
             "runtime_policy_gate": runtime_document.get("validation", {}).get("suite_gate"),
             "runtime_policy_hash": runtime_document.get("validation", {}).get("policy_hash"),
             "runtime_operations": runtime_document.get("validation", {}).get("summary", {}).get("operations"),
+            "traceability_ready": traceability_document.get("ready"),
+            "traceability_policy_hash": traceability_document.get("policy_hash"),
+            "traceability_persistence_default": traceability_document.get("privacy", {}).get("persistence_default"),
+            "traceability_public_user_manifests": traceability_document.get("privacy", {}).get("public_registry_contains_user_manifests"),
         },
     )
 
