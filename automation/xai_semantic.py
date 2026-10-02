@@ -281,3 +281,78 @@ def parse_xai_retirement_page(
         )
 
     return rows
+
+
+def parse_xai_pricing_page(
+    text: str,
+    source_url: str,
+) -> dict[str, dict[str, Any]]:
+    """
+    Parse xAI Text API pricing rows.
+
+    Supports both models with a long-context pricing tier (6 prices) and
+    single-tier rows (3 prices). All rates are USD per 1M tokens.
+    """
+    rows: dict[str, dict[str, Any]] = {}
+
+    model_pat = r"grok-[a-z0-9._-]+"
+    context_pat = r"[0-9]+(?:\.[0-9]+)?[kKmM]"
+    money_pat = r"\$([0-9]+(?:\.[0-9]+)?)"
+
+    long_pattern = re.compile(
+        rf"(?P<model>{model_pat})"
+        rf"(?:Long context\s*[≥>=]+\s*(?P<threshold>{context_pat})\s*tokens)?\s*"
+        rf"(?P<context>{context_pat})\s+"
+        rf"{money_pat}\s+{money_pat}\s+{money_pat}\s+"
+        rf"{money_pat}\s+{money_pat}\s+{money_pat}",
+        re.I,
+    )
+
+    occupied = []
+    for m in long_pattern.finditer(text):
+        model_id = m.group("model").lower()
+        threshold = _int_value(m.group("threshold")) if m.group("threshold") else None
+        values = [_money(m.group(i)) for i in range(4, 10)]
+        rows[model_id] = {
+            "unit": "USD_per_1M_tokens",
+            "context_window_tokens": _int_value(m.group("context")),
+            "long_context_threshold_tokens": threshold,
+            "short_context": {
+                "input": values[0],
+                "cached_input": values[1],
+                "output": values[2],
+            },
+            "long_context": {
+                "input": values[3],
+                "cached_input": values[4],
+                "output": values[5],
+            },
+            "source_url": source_url,
+        }
+        occupied.append((m.start(), m.end()))
+
+    single_pattern = re.compile(
+        rf"(?P<model>{model_pat})\s+"
+        rf"(?P<context>{context_pat})\s+"
+        rf"{money_pat}\s+{money_pat}\s+{money_pat}",
+        re.I,
+    )
+    for m in single_pattern.finditer(text):
+        if any(start <= m.start() < end for start, end in occupied):
+            continue
+        model_id = m.group("model").lower()
+        values = [_money(m.group(i)) for i in range(3, 6)]
+        rows[model_id] = {
+            "unit": "USD_per_1M_tokens",
+            "context_window_tokens": _int_value(m.group("context")),
+            "long_context_threshold_tokens": None,
+            "short_context": {
+                "input": values[0],
+                "cached_input": values[1],
+                "output": values[2],
+            },
+            "long_context": None,
+            "source_url": source_url,
+        }
+
+    return rows
