@@ -78,7 +78,7 @@ def detail_slug_candidates(model_id: str) -> list[str]:
     # Older IDs place the generation before the family:
     # claude-3-5-sonnet-20241022 -> sonnet-3-5
     legacy = re.fullmatch(
-        r"(\\d+(?:-\\d+)?)-(opus|sonnet|haiku)",
+        r"(\d+(?:-\d+)?)-(opus|sonnet|haiku)",
         core_without_snapshot,
     )
     if legacy:
@@ -339,13 +339,13 @@ def extract_current_anthropic_model_ids(text: str) -> list[str]:
     This avoids treating historical IDs elsewhere on the page as current lineup.
     """
     m = re.search(
-        r"\\bCompare models\\b(.+?)\\bUsing the Models API\\b",
+        r"\bCompare models\b(.+?)\bUsing the Models API\b",
         text,
         re.I | re.S,
     )
     section = m.group(1) if m else text
     ids = re.findall(
-        r"\\bclaude-(?:fable|opus|sonnet|haiku)-[a-z0-9-]+\\b",
+        r"\bclaude-(?:fable|opus|sonnet|haiku)-[a-z0-9-]+\b",
         section,
         re.I,
     )
