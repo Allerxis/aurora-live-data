@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.8.0",
+  "schema_version": "0.9.0",
   "provider": "mistral",
-  "generated_at": "2026-10-02T12:16:33Z",
+  "generated_at": "2026-10-02T12:21:05Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -18,7 +18,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models",
@@ -26,26 +26,34 @@
       ],
       "source_urls": [
         "https://docs.mistral.ai/inference/pricing",
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/codestral-24-05"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
         "mistral-pricing": "84a48f786473b14d74e0bce68dfb94bb487f3b9dcce932e8c72c261cb08a996c"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/codestral-24-05",
-      "semantic_hash": "710693a7912beeb89dde073fe38f4dece348f870535a5a3a42116c9ab19d3f64",
+      "semantic_hash": "9716769719f8a8c37a110388ea5e82c8f2783badbf53b5767f41bae730b1a9ee",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/codestral-24-05",
         "context_window_tokens": 32000,
-        "release_stage": "Labs",
+        "release_stage": null,
         "version": null,
         "released": "2024-05-29",
         "features": {},
         "endpoints": [],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "codestral"
+        "pricing_key": "codestral",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.3,
+          "cached_input": 0.03,
+          "output": 0.9,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -59,35 +67,43 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/codestral-24-05"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/codestral-24-05",
-      "semantic_hash": "710693a7912beeb89dde073fe38f4dece348f870535a5a3a42116c9ab19d3f64",
+      "semantic_hash": "80fcd7392d86efd2f9093841e73d3fb3fc8da553ac6c7a3b421e029ca3052ab5",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/codestral-24-05",
         "context_window_tokens": 32000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2024-05-29",
         "features": {},
         "endpoints": [],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "codestral"
+        "pricing_key": "codestral",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.3,
+          "cached_input": 0.03,
+          "output": 0.9,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -101,29 +117,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/codestral-25-01"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/codestral-25-01",
-      "semantic_hash": "d58c8249d41408201baf22dc03cc46c5f8b40fe538ae2c79b74071c52e371955",
+      "semantic_hash": "c41ec7b8de6cf4eabb20b28bfb42af28d1e62ff15c07eaca30149e0806241e2b",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/codestral-25-01",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2025-01-13",
         "features": {
@@ -142,7 +159,123 @@
           "/v1/fim/completions"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "codestral"
+        "pricing_key": "codestral",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.3,
+          "cached_input": 0.03,
+          "output": 0.9,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "codestral-2508",
+      "display_name": "codestral-2508",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "GA",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/codestral-25-08"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/codestral-25-08",
+      "semantic_hash": "d78acc6a20dff9d01541ebd4cc2e7cceba740f45be3cc575d9a032373b936d91",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.mistral.ai/models/codestral-25-08",
+        "context_window_tokens": 128000,
+        "release_stage": "GA",
+        "version": null,
+        "released": "2025-07-30",
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "predicted_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations",
+          "/v1/fim/completions"
+        ],
+        "displayed_price_values_usd_per_1M_tokens": [],
+        "pricing_key": "codestral",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.3,
+          "cached_input": 0.03,
+          "output": 0.9,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "codestral-embed-2505",
+      "display_name": "codestral-embed-2505",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "GA",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/codestral-embed-25-05"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/codestral-embed-25-05",
+      "semantic_hash": "0405eafe5c8ae7369a8ec0110767cb703750f553cda91b7067d9e31377329f2f",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.mistral.ai/models/codestral-embed-25-05",
+        "context_window_tokens": 8000,
+        "release_stage": "GA",
+        "version": null,
+        "released": "2025-05-28",
+        "features": {
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/embeddings"
+        ],
+        "displayed_price_values_usd_per_1M_tokens": [],
+        "pricing_key": "codestral embed"
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -160,7 +293,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -192,7 +325,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -200,20 +333,21 @@
       ],
       "source_urls": [
         "https://docs.mistral.ai/inference/labs",
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/devstral-2-25-12"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
         "mistral-labs": "cccc99c0c55c1fc6430d840b3c46fcb4a2dccb60ba840dad6bfacc3876955580"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/devstral-2-25-12",
-      "semantic_hash": "cba084c8760834dc5db5349d4b756276e45c064ad53881376328c4136e7ccb33",
+      "semantic_hash": "e26fc453b7566cdd790d605324226522f688cca1d8b888f41a2308f41649bd67",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/devstral-2-25-12",
         "context_window_tokens": 256000,
-        "release_stage": "Labs",
+        "release_stage": null,
         "version": null,
         "released": "2025-12-09",
         "features": {
@@ -230,7 +364,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral medium 3.5"
+        "pricing_key": "mistral medium 3.5",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.5,
+          "cached_input": 0.15,
+          "output": 7.5,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -244,29 +385,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/devstral-2-25-12"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/devstral-2-25-12",
-      "semantic_hash": "cba084c8760834dc5db5349d4b756276e45c064ad53881376328c4136e7ccb33",
+      "semantic_hash": "5f9e6de454fc0de40616d3256c27251532fe7082aa837e0068f410f691bd6b48",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/devstral-2-25-12",
         "context_window_tokens": 256000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2025-12-09",
         "features": {
@@ -283,7 +425,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral medium 3.5"
+        "pricing_key": "mistral medium 3.5",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.5,
+          "cached_input": 0.15,
+          "output": 7.5,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -297,29 +446,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/devstral-medium-1-0-25-07"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/devstral-medium-1-0-25-07",
-      "semantic_hash": "d9f72d61a410aca6dbce3d9b47704eb81e55e09499f7666318ccdff830852872",
+      "semantic_hash": "cfb879d9b300e09c8e2fd4d880afce7480e97ef66c4e66c383401d3a4ce8a3fd",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/devstral-medium-1-0-25-07",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2025-07-10",
         "features": {
@@ -336,7 +486,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral medium 3.5"
+        "pricing_key": "mistral medium 3.5",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.5,
+          "cached_input": 0.15,
+          "output": 7.5,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -350,29 +507,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/devstral-small-1-0-25-05"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/devstral-small-1-0-25-05",
-      "semantic_hash": "a5b98aff24ff28fe99d60e53bdcd6f0f01c8ff4c3ccd95896f34daebf3fb710f",
+      "semantic_hash": "7394766749868821cf2b22560b8dadfeec835b6d66bdd525d0cef40b1ac8b3c2",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/devstral-small-1-0-25-05",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2025-05-21",
         "features": {
@@ -389,7 +547,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral medium 3.5"
+        "pricing_key": "mistral medium 3.5",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.5,
+          "cached_input": 0.15,
+          "output": 7.5,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -403,29 +568,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/devstral-small-1-1-25-07"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/devstral-small-1-1-25-07",
-      "semantic_hash": "3048c1b6e24f92c360ef6d9a392a26f3b6f7693943ec8e80bd55fbfccd372d88",
+      "semantic_hash": "44c01d1c728d5bf0eaf499bc3e8f8c8f5c9f52513e582dcb15a6aa09ecb8aee0",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/devstral-small-1-1-25-07",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2025-07-10",
         "features": {
@@ -442,7 +608,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral small 4"
+        "pricing_key": "mistral small 4",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.15,
+          "cached_input": 0.015,
+          "output": 0.6,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -460,7 +633,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -491,11 +664,11 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -503,20 +676,21 @@
       ],
       "source_urls": [
         "https://docs.mistral.ai/inference/labs",
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/devstral-small-2-25-12"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
         "mistral-labs": "cccc99c0c55c1fc6430d840b3c46fcb4a2dccb60ba840dad6bfacc3876955580"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/devstral-small-2-25-12",
-      "semantic_hash": "8052a229336726b77a28c2635439539b9a50bfbb1c8f29d3f6716bbe27b0dcd4",
+      "semantic_hash": "36dc6dd35a1ea22fee14c71188b05d4bd95ee745b34b22f7e72fd5a00ad5f9fb",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/devstral-small-2-25-12",
         "context_window_tokens": 256000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2025-12-09",
         "features": {
@@ -533,7 +707,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral medium 3.5"
+        "pricing_key": "mistral medium 3.5",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.5,
+          "cached_input": 0.15,
+          "output": 7.5,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -547,11 +728,11 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -559,20 +740,21 @@
       ],
       "source_urls": [
         "https://docs.mistral.ai/inference/labs",
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/leanstral-1-5"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
         "mistral-labs": "cccc99c0c55c1fc6430d840b3c46fcb4a2dccb60ba840dad6bfacc3876955580"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/leanstral-1-5",
-      "semantic_hash": "1e866a2de0bacea54e8ba1d2c6357f1f7b0ea3c8c9b9a7ce021316b77d080236",
+      "semantic_hash": "3405c38ace77c014cbeff37d7138d6b54798823aac8281b0f16ec357786976d8",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/leanstral-1-5",
         "context_window_tokens": 256000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2026-06-30",
         "features": {
@@ -587,7 +769,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "z.ai glm 5.3"
+        "pricing_key": "z.ai glm 5.3",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.4,
+          "cached_input": 0.14,
+          "output": 4.4,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -601,11 +790,11 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -613,20 +802,21 @@
       ],
       "source_urls": [
         "https://docs.mistral.ai/inference/labs",
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/leanstral-26-03"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
         "mistral-labs": "cccc99c0c55c1fc6430d840b3c46fcb4a2dccb60ba840dad6bfacc3876955580"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/leanstral-26-03",
-      "semantic_hash": "f26081b37857000d5f025b8202fd10a5542f402c7a023ffcfd4a1ad3ecfc998b",
+      "semantic_hash": "c392e8c0f18c12b330fe38dd173ff19c1a2c92c9e4225fc8f014d6026cc2d1f2",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/leanstral-26-03",
         "context_window_tokens": 256000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2026-03-16",
         "features": {
@@ -641,7 +831,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "z.ai glm 5.3"
+        "pricing_key": "z.ai glm 5.3",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.4,
+          "cached_input": 0.14,
+          "output": 4.4,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -659,7 +856,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -667,15 +864,16 @@
       ],
       "source_urls": [
         "https://docs.mistral.ai/inference/labs",
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-small-creative-25-12"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
         "mistral-labs": "cccc99c0c55c1fc6430d840b3c46fcb4a2dccb60ba840dad6bfacc3876955580"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-creative-25-12",
-      "semantic_hash": "e0be964af86f510c64651b4442a782d197dc8bccd81ba75895a055f8e6b2d67b",
+      "semantic_hash": "49b9d68e3f3f2ce1d8f20537fd067c36ee704f49e65df79cb0bf89b588967da5",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-small-creative-25-12",
@@ -696,7 +894,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "ministral 3 8b"
+        "pricing_key": "ministral 3 8b",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.15,
+          "cached_input": 0.015,
+          "output": 0.15,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -710,29 +915,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/magistral-medium-1-0-25-06"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/magistral-medium-1-0-25-06",
-      "semantic_hash": "c66450b13e24c7742d8f17360dfd0245ae92ee0d036107da57c3ac1a97ebb54b",
+      "semantic_hash": "40c38b415b380ea03d3cea1c5826251e912c9690821f2c3bbcdebc7117da68b3",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/magistral-medium-1-0-25-06",
         "context_window_tokens": 40000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2025-06-10",
         "features": {
@@ -747,7 +953,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral medium 3.5"
+        "pricing_key": "mistral medium 3.5",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.5,
+          "cached_input": 0.15,
+          "output": 7.5,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -761,29 +974,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/magistral-medium-1-1-25-07"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/magistral-medium-1-1-25-07",
-      "semantic_hash": "192c4055099e85e7376c3651e90e3cd6cd4a0eecaa52a95e7f4ac86f2cb2cf76",
+      "semantic_hash": "2673bf5b0dd33b77d8d417644cdb74f37c63240017de2c017650c064f2d54cb8",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/magistral-medium-1-1-25-07",
         "context_window_tokens": 40000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2025-07-24",
         "features": {
@@ -798,7 +1012,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral medium 3.5"
+        "pricing_key": "mistral medium 3.5",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.5,
+          "cached_input": 0.15,
+          "output": 7.5,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -812,29 +1033,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/magistral-medium-1-2-25-09"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/magistral-medium-1-2-25-09",
-      "semantic_hash": "6950646f9528472a71352c83f5927fde08fef847b920cd978361870586d7830b",
+      "semantic_hash": "32b015fa8a28f4e894fbb0bbebfa64b97f8d55ed60fc991f46206657cfabfa14",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/magistral-medium-1-2-25-09",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2025-09-18",
         "features": {
@@ -849,7 +1071,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral medium 3.5"
+        "pricing_key": "mistral medium 3.5",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.5,
+          "cached_input": 0.15,
+          "output": 7.5,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -863,29 +1092,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/magistral-small-1-0-25-06"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/magistral-small-1-0-25-06",
-      "semantic_hash": "71319ef9fc74cea5603b6eee29696e91c9b69c8b577c5909f8722ffe6a0924e0",
+      "semantic_hash": "65c1bb9047a6432eae3c944c20535fed32a46e403ba97ee04f5b20408c310697",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/magistral-small-1-0-25-06",
         "context_window_tokens": 40000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2025-06-10",
         "features": {
@@ -900,7 +1130,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral small 4"
+        "pricing_key": "mistral small 4",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.15,
+          "cached_input": 0.015,
+          "output": 0.6,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -914,29 +1151,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/magistral-small-1-1-25-07"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/magistral-small-1-1-25-07",
-      "semantic_hash": "0868d3466f4c1c6a9bb9b7dd54b196aef9356b9b25b413a90f54b04803f7a596",
+      "semantic_hash": "cd8493416ef08b19f41ef6a8d8cd7d511ccbf4310c808a86e578aaf1be2df8db",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/magistral-small-1-1-25-07",
         "context_window_tokens": 40000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2025-07-24",
         "features": {
@@ -951,7 +1189,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral small 4"
+        "pricing_key": "mistral small 4",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.15,
+          "cached_input": 0.015,
+          "output": 0.6,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -965,29 +1210,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/magistral-small-1-2-25-09"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/magistral-small-1-2-25-09",
-      "semantic_hash": "3ce335c605ecc8bfd1a1de5ca9c36a3fc5601ebf49c9d02dc99ba1aea7728c01",
+      "semantic_hash": "4e0abcdcae015d3e2d51b1932409346d7de182ff0d7005923fa88e2969e6a81f",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/magistral-small-1-2-25-09",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2025-09-18",
         "features": {
@@ -1002,7 +1248,67 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral small 4"
+        "pricing_key": "mistral small 4",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.15,
+          "cached_input": 0.015,
+          "output": 0.6,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ministral-14b-2512",
+      "display_name": "ministral-14b-2512",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "GA",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/ministral-3-14b-25-12"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ministral-3-14b-25-12",
+      "semantic_hash": "dbf131a9191abe8f41f266be73bdaf76657fe80d2652e2fb34d860c78e68a0d8",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.mistral.ai/models/ministral-3-14b-25-12",
+        "context_window_tokens": 256000,
+        "release_stage": "GA",
+        "version": null,
+        "released": "2025-12-02",
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "displayed_price_values_usd_per_1M_tokens": [],
+        "pricing_key": "mistral small 3.2"
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1016,29 +1322,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/ministral-3b-24-1"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/ministral-3b-24-1",
-      "semantic_hash": "4b87a3ceb8db4b210c769181c122125f3c8cbaf4af44385a546af8db68e32d5a",
+      "semantic_hash": "8b124cf53332ef68d852aa95bc1a4c4d94c2dafccb2c37e2af8749c5fd0958e2",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/ministral-3b-24-1",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2024-10-09",
         "features": {
@@ -1055,7 +1362,74 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "ministral 3 3b"
+        "pricing_key": "ministral 3 3b",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.1,
+          "cached_input": 0.01,
+          "output": 0.1,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ministral-3b-2512",
+      "display_name": "ministral-3b-2512",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "GA",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/ministral-3-3b-25-12"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ministral-3-3b-25-12",
+      "semantic_hash": "8eb12feabee21b89be7c53560b3ca4ab6ae72f3cd6aa20080e9441b65cd0fbdd",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.mistral.ai/models/ministral-3-3b-25-12",
+        "context_window_tokens": 256000,
+        "release_stage": "GA",
+        "version": null,
+        "released": "2025-12-02",
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "displayed_price_values_usd_per_1M_tokens": [],
+        "pricing_key": "ministral 3 3b",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.1,
+          "cached_input": 0.01,
+          "output": 0.1,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1069,29 +1443,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/ministral-8b-24-1"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/ministral-8b-24-1",
-      "semantic_hash": "79897dc85c135607ff999ca80f54da5de5f1ef92ef0a122fc59beee2fbab135a",
+      "semantic_hash": "3787b1884cb5ef85d75023e2f7ca0c30af51e12439e661c39175914b73783c60",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/ministral-8b-24-1",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2024-10-09",
         "features": {
@@ -1108,7 +1483,128 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "ministral 3 8b"
+        "pricing_key": "ministral 3 8b",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.15,
+          "cached_input": 0.015,
+          "output": 0.15,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "ministral-8b-2512",
+      "display_name": "ministral-8b-2512",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "GA",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/ministral-3-8b-25-12"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ministral-3-8b-25-12",
+      "semantic_hash": "3bb727eadd8103432e963309949c2c10500dc0ee341bf8b127065094bb1dcd25",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.mistral.ai/models/ministral-3-8b-25-12",
+        "context_window_tokens": 256000,
+        "release_stage": "GA",
+        "version": null,
+        "released": "2025-12-02",
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "displayed_price_values_usd_per_1M_tokens": [],
+        "pricing_key": "ministral 3 8b",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.15,
+          "cached_input": 0.015,
+          "output": 0.15,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-embed-2312",
+      "display_name": "mistral-embed-2312",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "GA",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/mistral-embed-23-12"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-embed-23-12",
+      "semantic_hash": "cdc34495f3deafd8eab44ba68fb19282ce28aed2601dd446b15e816a1ae2dac8",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.mistral.ai/models/mistral-embed-23-12",
+        "context_window_tokens": 8000,
+        "release_stage": "GA",
+        "version": null,
+        "released": "2023-12-11",
+        "features": {
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/embeddings"
+        ],
+        "displayed_price_values_usd_per_1M_tokens": [],
+        "pricing_key": "z.ai glm 5.3",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.4,
+          "cached_input": 0.14,
+          "output": 4.4,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1122,29 +1618,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-large-1-0-24-02"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-large-1-0-24-02",
-      "semantic_hash": "2e9523c91c709c13159cc5e322ee8244ee427e5392b9626e81ee74af735bbe46",
+      "semantic_hash": "97f33c401608833762417409fa680eac25139e9aa04a2c842b75dbe1dd2736bd",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-large-1-0-24-02",
         "context_window_tokens": 32000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2024-02-26",
         "features": {},
@@ -1164,29 +1661,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-large-2-0-24-07"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-large-2-0-24-07",
-      "semantic_hash": "09072e7c0cf18fb1d2ac60525447a004a58340e1e404165250c769beda98c503",
+      "semantic_hash": "f1e7f0acac82f247c92dd26063ae98cd7b7d0c2297d38f3adc7b6a70e38b58b9",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-large-2-0-24-07",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2024-07-24",
         "features": {},
@@ -1206,29 +1704,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-large-2-1-24-11"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-large-2-1-24-11",
-      "semantic_hash": "8588cbb96315e577be6d364ed32976541f79f78f379c8b38b9dbba4562f0148a",
+      "semantic_hash": "6859ea9029e4f93a190275751c293619e61dcb272153f0f1cc3be00891276e60",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-large-2-1-24-11",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2024-11-18",
         "features": {
@@ -1255,34 +1754,98 @@
     },
     {
       "provider_slug": "mistral",
-      "model_key": "mistral-medium-2312",
-      "display_name": "mistral-medium-2312",
+      "model_key": "mistral-large-2512",
+      "display_name": "mistral-large-2512",
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "GA",
       "lifecycle": null,
       "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models/mistral-large-3-25-12"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-large-3-25-12",
+      "semantic_hash": "bd07b9ad10dd355d3fd149a53f222b15a743b6481df9fdb29be10cad7e39e66f",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.mistral.ai/models/mistral-large-3-25-12",
+        "context_window_tokens": 256000,
+        "release_stage": "GA",
+        "version": null,
+        "released": "2025-12-02",
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "agents_conversations": true,
+          "built_in_tools": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/agents",
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "displayed_price_values_usd_per_1M_tokens": [],
+        "pricing_key": "mistral large 3",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.5,
+          "cached_input": 0.05,
+          "output": 1.5,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-medium-2312",
+      "display_name": "mistral-medium-2312",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "Retired",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-medium-1-0-23-12"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-medium-1-0-23-12",
-      "semantic_hash": "182e48d67be7c2fb84624012464765326ef786277ceae96b4638d33ed8cbce24",
+      "semantic_hash": "8ea48b61958cbe703d8f67f273ef404d31c4dcdd8bfea4a73ecc7ee4d2262656",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-medium-1-0-23-12",
         "context_window_tokens": 32000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2023-12-11",
         "features": {},
@@ -1302,29 +1865,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-medium-3-25-05"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-medium-3-25-05",
-      "semantic_hash": "5c517d36f0d81db68b8ce0edf2ee12b5873832a9fdd1195e29ff707b1275c9be",
+      "semantic_hash": "f67c37416ad97fd49caaaaab5269526f7e1a2b34196233020b968332d83bf6de",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-medium-3-25-05",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2025-05-07",
         "features": {
@@ -1359,29 +1923,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-medium-3-1-25-08"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-medium-3-1-25-08",
-      "semantic_hash": "c6e1aa2111549fc5a924e317152e5c987da34cb90e5d23aed7a692c1bc454288",
+      "semantic_hash": "07b727f686586f3f7620f340a618dfefa220944a30daf7851267212e3e3571c0",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-medium-3-1-25-08",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2025-08-12",
         "features": {
@@ -1420,7 +1985,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-lifecycle"
@@ -1448,29 +2013,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "GA",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:16:33Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-lifecycle"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/inference/model-lifecycle"
+        "https://docs.mistral.ai/inference/model-lifecycle",
+        "https://docs.mistral.ai/models/mistral-medium-3-5-26-04"
       ],
       "source_hashes": {
         "mistral-lifecycle": "b3276be6bf65abba300cf2f921e05d1098ed2d4ec3625248bbd1b97af6491100"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
-      "semantic_hash": "0eea34d5388e61fe1d8bee0aa3ee983d27fc83faf72a2d7405905f32e8f85286",
+      "semantic_hash": "04baf97c3f1908898b7665f01a3000b0129b7ae5947facf2eada19232136305d",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
         "context_window_tokens": 256000,
-        "release_stage": "Labs",
+        "release_stage": "GA",
         "version": null,
         "released": "2026-04-28",
         "features": {
@@ -1491,7 +2057,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral medium 3.5"
+        "pricing_key": "mistral medium 3.5",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.5,
+          "cached_input": 0.15,
+          "output": 7.5,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1509,7 +2082,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:16:33Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-lifecycle"
@@ -1537,29 +2110,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:16:33Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-moderation-24-11"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-moderation-24-11",
-      "semantic_hash": "5ef95fbef3596459cb01b62ccf02f5ed6dabf3d8a24abf8e81d5ef4fc0df783c",
+      "semantic_hash": "285a430eceb14a5af0421ca73f272e6a75e1f346330fc914015a9ed69cd69b27",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-moderation-24-11",
         "context_window_tokens": 8000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2024-11-06",
         "features": {
@@ -1570,7 +2144,68 @@
           "/v1/moderations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "z.ai glm 5.3"
+        "pricing_key": "z.ai glm 5.3",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.4,
+          "cached_input": 0.14,
+          "output": 4.4,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-moderation-2603",
+      "display_name": "mistral-moderation-2603",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "GA",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/mistral-moderation-26-03"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-moderation-26-03",
+      "semantic_hash": "59bc1913cd17e9ecc3930fe7ca38c2afb7ae716f455a75421a048406c9d35a9c",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.mistral.ai/models/mistral-moderation-26-03",
+        "context_window_tokens": 128000,
+        "release_stage": "GA",
+        "version": null,
+        "released": "2026-03-01",
+        "features": {
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/moderations"
+        ],
+        "displayed_price_values_usd_per_1M_tokens": [],
+        "pricing_key": "z.ai glm 5.3",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.4,
+          "cached_input": 0.14,
+          "output": 4.4,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1588,7 +2223,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
@@ -1616,29 +2251,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/ocr-2-25-05"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/ocr-2-25-05",
-      "semantic_hash": "964c022c1cd300e38f0f9c879ccb518d50ab77f40ac8dada87b7a65992eca632",
+      "semantic_hash": "1e7e1093d78f67139ab1cbec5e477e782b57d30fbc2b66633dd4cd1f6d64bb52",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/ocr-2-25-05",
         "context_window_tokens": null,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2025-05-22",
         "features": {
@@ -1649,7 +2285,68 @@
           "/v1/ocr"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "z.ai glm 5.3"
+        "pricing_key": "z.ai glm 5.3",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.4,
+          "cached_input": 0.14,
+          "output": 4.4,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-2512",
+      "display_name": "mistral-ocr-2512",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "GA",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/ocr-3-25-12"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ocr-3-25-12",
+      "semantic_hash": "c8615808061f9832e3be731ff8874f6de9d7aaca2dc3d4d9c1b3a2fab1500074",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.mistral.ai/models/ocr-3-25-12",
+        "context_window_tokens": null,
+        "release_stage": "GA",
+        "version": null,
+        "released": "2025-12-18",
+        "features": {
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/ocr"
+        ],
+        "displayed_price_values_usd_per_1M_tokens": [],
+        "pricing_key": "z.ai glm 5.3",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.4,
+          "cached_input": 0.14,
+          "output": 4.4,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1663,29 +2360,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/ocr-4-0"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/ocr-4-0",
-      "semantic_hash": "54def2a40c61ff4091529aedb45054927ac00cdd3b90633f444212fac1ae89bf",
+      "semantic_hash": "cdfbb647da7307c6f1448b00503bcdf486b2e90572f5a7e20c833dae0cf227af",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/ocr-4-0",
         "context_window_tokens": null,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2026-06-23",
         "features": {
@@ -1696,7 +2394,68 @@
           "/v1/ocr"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "z.ai glm 5.3"
+        "pricing_key": "z.ai glm 5.3",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.4,
+          "cached_input": 0.14,
+          "output": 4.4,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "mistral-ocr-4-1",
+      "display_name": "mistral-ocr-4-1",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "GA",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/ocr-4-1"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/ocr-4-1",
+      "semantic_hash": "4490363606a5998caae960552ac19e581a2e92aa9e52bb5ff8bc6de214b75313",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.mistral.ai/models/ocr-4-1",
+        "context_window_tokens": null,
+        "release_stage": "GA",
+        "version": null,
+        "released": "2026-07-16",
+        "features": {
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/ocr"
+        ],
+        "displayed_price_values_usd_per_1M_tokens": [],
+        "pricing_key": "z.ai glm 5.3",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.4,
+          "cached_input": 0.14,
+          "output": 4.4,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1710,35 +2469,43 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-saba-25-02"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-saba-25-02",
-      "semantic_hash": "88fd45e41585db740ed59140a7b1dd9e555adbda97554c253584081e2d2b631f",
+      "semantic_hash": "2a879a88b327c154ba88f71eca2068ab7de3c2e3a8af95c87c07271064d56d61",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-saba-25-02",
         "context_window_tokens": 32000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2025-02-17",
         "features": {},
         "endpoints": [],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral small 4"
+        "pricing_key": "mistral small 4",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.15,
+          "cached_input": 0.015,
+          "output": 0.6,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -1752,29 +2519,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-small-1-0-24-02"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-1-0-24-02",
-      "semantic_hash": "9ab8ee2e800e8d78365c7df05496226357298c14622fbe1325d15417c491c8be",
+      "semantic_hash": "e3039dbab3789e1078b54f311dd75675d044580feb9676295b2f4d0aca9262b4",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-small-1-0-24-02",
         "context_window_tokens": 32000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2024-02-26",
         "features": {},
@@ -1794,29 +2562,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-small-2-0-24-09"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-2-0-24-09",
-      "semantic_hash": "e2ace633c16eb568c279182b39e78500d347ae137bc2a9a6ff44975148ebc812",
+      "semantic_hash": "d22dc75124e077939d1e4af4b309f05958241c3fce7c03e3c884395b040e2eba",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-small-2-0-24-09",
         "context_window_tokens": 32000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2024-09-17",
         "features": {
@@ -1847,29 +2616,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-small-3-0-25-01"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-3-0-25-01",
-      "semantic_hash": "414fd0ad6ca3fa3e93d71993eae39fa4840b797b45d1d2b02d1e208197a24a0c",
+      "semantic_hash": "6ee2e200c333e4061e8ce257b95f67e3df2f9d125d4913090ab02d850054e70c",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-small-3-0-25-01",
         "context_window_tokens": 32000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2025-01-30",
         "features": {
@@ -1903,29 +2673,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-small-3-1-25-03"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-3-1-25-03",
-      "semantic_hash": "433cbef3f3e7c022a427de613436ae4e9fb210b7f0d612a30ed394049f6139c5",
+      "semantic_hash": "a399476faa01baef1a5b8cbbf1af22c67339aeb4c57c00b8919a6f4c23aee654",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-small-3-1-25-03",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2025-03-17",
         "features": {
@@ -1960,29 +2731,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-small-3-2-25-06"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-3-2-25-06",
-      "semantic_hash": "79e3cd98bc568f2d79181fa81fcbad0606aadf04e0c9017a44fa4f3fc21b5cc3",
+      "semantic_hash": "30b143fa3e31859e3ea7a76ad7a1f8aa1e3b54d1f79230e138989b8b61309c7b",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-small-3-2-25-06",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2025-06-20",
         "features": {
@@ -2012,6 +2784,70 @@
     },
     {
       "provider_slug": "mistral",
+      "model_key": "mistral-small-2603",
+      "display_name": "mistral-small-2603",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "GA",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/mistral-small-4-0-26-03"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/mistral-small-4-0-26-03",
+      "semantic_hash": "2a8cc046a5d8b50b1a5c210eeb2320d61e19e7f182697d09c8a6803558a259fe",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.mistral.ai/models/mistral-small-4-0-26-03",
+        "context_window_tokens": 256000,
+        "release_stage": "GA",
+        "version": null,
+        "released": "2026-03-16",
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "agents_conversations": true,
+          "built_in_tools": true,
+          "structured_outputs": true,
+          "predicted_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/agents",
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "displayed_price_values_usd_per_1M_tokens": [],
+        "pricing_key": "mistral small 4",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.15,
+          "cached_input": 0.015,
+          "output": 0.6,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
       "model_key": "mistral-small-creative",
       "display_name": "mistral-small-creative",
       "kind": "model",
@@ -2021,7 +2857,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-labs",
@@ -2052,35 +2888,43 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-7b-0-2"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-7b-0-2",
-      "semantic_hash": "0ea75a4c68263cbcd8ae7e264948d5561a3ce8a850cad3e803f3f70c06abaf28",
+      "semantic_hash": "ced69dac28745b96478744166e42836571c1a89a82ac126d62d73e735c5b817a",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-7b-0-2",
         "context_window_tokens": 32000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2023-12-11",
         "features": {},
         "endpoints": [],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "ministral 3 8b"
+        "pricing_key": "ministral 3 8b",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.15,
+          "cached_input": 0.015,
+          "output": 0.15,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -2094,29 +2938,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mistral-nemo-12b-24-07"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mistral-nemo-12b-24-07",
-      "semantic_hash": "9e56e359e22a6eddaf341073c5ae1760beefd6be77b536acdcce4693d9c233f9",
+      "semantic_hash": "3455c1db4fb20c6f3bef033adf4b71c536789cefd13438460d6bbbe91722d202",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mistral-nemo-12b-24-07",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2024-07-18",
         "features": {
@@ -2133,7 +2978,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "ministral 3 8b"
+        "pricing_key": "ministral 3 8b",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.15,
+          "cached_input": 0.015,
+          "output": 0.15,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -2147,35 +2999,43 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mixtral-8x22b-0-1-0-3"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mixtral-8x22b-0-1-0-3",
-      "semantic_hash": "3f729397c93326640d29c7a99c5b6c95dc8f4c4670eaa95a141139ae226798a6",
+      "semantic_hash": "b3033c2a6fa6c76bc7c3dde2041682c248d54abe24758f4817ee43537742df23",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mixtral-8x22b-0-1-0-3",
         "context_window_tokens": 64000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2024-04-17",
         "features": {},
         "endpoints": [],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral small 4"
+        "pricing_key": "mistral small 4",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.15,
+          "cached_input": 0.015,
+          "output": 0.6,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -2189,35 +3049,43 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Retired",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/mixtral-8x7b-0-1"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/mixtral-8x7b-0-1",
-      "semantic_hash": "dd6f825edc992d1b7e411dcb9a107caf396321260e7b3cfef83e273fdff34503",
+      "semantic_hash": "6603ac8e3c3b7d79c171b72bb6fae3a9932651f19b5865e135b5071ffae4366a",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/mixtral-8x7b-0-1",
         "context_window_tokens": 32000,
-        "release_stage": "Labs",
+        "release_stage": "Retired",
         "version": null,
         "released": "2023-12-11",
         "features": {},
         "endpoints": [],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral small 4"
+        "pricing_key": "mistral small 4",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.15,
+          "cached_input": 0.015,
+          "output": 0.6,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -2231,29 +3099,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/pixtral-12b-24-09"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/pixtral-12b-24-09",
-      "semantic_hash": "efae38987b2b63e082f65c0508b97794a4e703851347204a76708166ee07bb19",
+      "semantic_hash": "8ccbf0c02da4b31b268bce0fc4a47a244af0cd2c56b0f7126d5a8182adf98450",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/pixtral-12b-24-09",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2024-09-11",
         "features": {
@@ -2270,7 +3139,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "ministral 3 14b"
+        "pricing_key": "ministral 3 14b",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 0.2,
+          "cached_input": 0.02,
+          "output": 0.2,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -2284,29 +3160,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/pixtral-large-24-11"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/pixtral-large-24-11",
-      "semantic_hash": "e814129cc584c2a2070a4f83b052acd12a8e38eb784349d776c5f828a6a6d101",
+      "semantic_hash": "2d29819ef4baf7346e0351241cce626b86dc6bfa2550d9877a408478731009c6",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/pixtral-large-24-11",
         "context_window_tokens": 128000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2024-11-18",
         "features": {
@@ -2324,7 +3201,14 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "mistral medium 3.5"
+        "pricing_key": "mistral medium 3.5",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.5,
+          "cached_input": 0.15,
+          "output": 7.5,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
@@ -2338,29 +3222,30 @@
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Labs",
+      "lifecycle_status": "Deprecated",
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-02T12:16:33Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
       "missing_since": null,
       "source_keys": [
         "mistral-models"
       ],
       "source_urls": [
-        "https://docs.mistral.ai/models"
+        "https://docs.mistral.ai/models",
+        "https://docs.mistral.ai/models/voxtral-mini-25-07"
       ],
       "source_hashes": {
         "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
       },
-      "semantic_verified_at": "2026-10-02T12:16:33Z",
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
       "semantic_source_url": "https://docs.mistral.ai/models/voxtral-mini-25-07",
-      "semantic_hash": "e8b42ed4d5a27433056afe701f28ac96ebe1446b0b5dcd7a151fee39df29d152",
+      "semantic_hash": "ecdfb425d562e3a01d4f0f9ac834694185fc0932c92b6048bfef923dc77436cf",
       "semantic_error": null,
       "facts": {
         "source_url": "https://docs.mistral.ai/models/voxtral-mini-25-07",
         "context_window_tokens": 32000,
-        "release_stage": "Labs",
+        "release_stage": "Deprecated",
         "version": null,
         "released": "2025-07-15",
         "features": {
@@ -2376,7 +3261,170 @@
           "/v1/conversations"
         ],
         "displayed_price_values_usd_per_1M_tokens": [],
-        "pricing_key": "z.ai glm 5.3"
+        "pricing_key": "z.ai glm 5.3",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.4,
+          "cached_input": 0.14,
+          "output": 4.4,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "voxtral-mini-2602",
+      "display_name": "voxtral-mini-2602",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/voxtral-mini-transcribe-26-02"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "No matching verified Mistral model card",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "voxtral-mini-transcribe-realtime-2602",
+      "display_name": "voxtral-mini-transcribe-realtime-2602",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/voxtral-mini-transcribe-realtime-26-02"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "No matching verified Mistral model card",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "voxtral-mini-tts-2603",
+      "display_name": "voxtral-mini-tts-2603",
+      "kind": "model",
+      "discovery_state": "discovered_unverified",
+      "verification_state": "unverified",
+      "lifecycle_status": "unknown",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/voxtral-tts-26-03"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": null,
+      "semantic_source_url": null,
+      "semantic_hash": null,
+      "semantic_error": "No matching verified Mistral model card",
+      "facts": {},
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
+      ]
+    },
+    {
+      "provider_slug": "mistral",
+      "model_key": "voxtral-small-2507",
+      "display_name": "voxtral-small-2507",
+      "kind": "model",
+      "discovery_state": "discovered_verified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "GA",
+      "lifecycle": null,
+      "present_in_current_sources": true,
+      "first_discovered_at": "2026-10-02T12:21:05Z",
+      "last_seen_at": "2026-10-02T12:21:05Z",
+      "missing_since": null,
+      "source_keys": [
+        "mistral-models"
+      ],
+      "source_urls": [
+        "https://docs.mistral.ai/models/voxtral-small-25-07"
+      ],
+      "source_hashes": {
+        "mistral-models": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666"
+      },
+      "semantic_verified_at": "2026-10-02T12:21:05Z",
+      "semantic_source_url": "https://docs.mistral.ai/models/voxtral-small-25-07",
+      "semantic_hash": "99f2524eb3386068e825d20bc6dcb1ec986787236fef7292ae4673e953940c42",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://docs.mistral.ai/models/voxtral-small-25-07",
+        "context_window_tokens": 32000,
+        "release_stage": "GA",
+        "version": null,
+        "released": "2025-07-15",
+        "features": {
+          "chat_completion": true,
+          "function_calling": true,
+          "structured_outputs": true,
+          "document_qna": true,
+          "prefix": true,
+          "batch": true
+        },
+        "endpoints": [
+          "/v1/batch",
+          "/v1/chat/completions",
+          "/v1/conversations"
+        ],
+        "displayed_price_values_usd_per_1M_tokens": [],
+        "pricing_key": "z.ai glm 5.3",
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.4,
+          "cached_input": 0.14,
+          "output": 4.4,
+          "source_url": "https://docs.mistral.ai/inference/pricing"
+        }
       },
       "notes": [
         "Automatically discovered from official provider documentation.",
