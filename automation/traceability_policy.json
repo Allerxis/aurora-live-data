@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "purpose": "Traceability policy for Aurora runtime validation manifests.",
   "privacy": {
     "persistence_default": "none",
@@ -50,7 +50,8 @@
       "provider_slug",
       "model_key",
       "verification_state",
-      "semantic_verified_at"
+      "semantic_verified_at",
+      "semantic_hash"
     ],
     "dependency_fields": [
       "eval_spec_hash",
@@ -81,7 +82,7 @@
     "if_dependencies_mismatch": "NEEDS_REVIEW"
   },
   "example_manifest": {
-    "schema_version": "1.0.0",
+    "schema_version": "1.1.0",
     "manifest_id": "vm_example_001",
     "aurora_version": "0.50.0",
     "live_data_version": "0.16.0",
@@ -91,7 +92,8 @@
       "provider_slug": "openai",
       "model_key": "example-model",
       "verification_state": "verified_official_detail",
-      "semantic_verified_at": "2026-10-02T00:00:00Z"
+      "semantic_verified_at": "2026-10-02T00:00:00Z",
+      "semantic_hash": "example"
     },
     "dependencies": {
       "eval_spec_hash": "example",
