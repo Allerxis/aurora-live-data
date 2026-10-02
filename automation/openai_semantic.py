@@ -159,7 +159,12 @@ def parse_openai_model_page(model_id: str, text: str, source_url: str) -> dict[s
             modalities[modality.lower()] = m.group(1).lower().replace(" ", "_")
 
     endpoints_section = _section(text, "Endpoints", ("Features", "Tools", "Snapshots", "Rate limits"))
-    endpoints = sorted(set(re.findall(r"\bv1/[a-z0-9_./-]+", endpoints_section, re.I)))
+    # The OpenAI model page renders an endpoint matrix whose visual support state
+    # is not preserved reliably after HTML-to-text normalization. Paths observed
+    # here are therefore inventory only, not proof that this model supports them.
+    endpoint_matrix_paths = sorted(
+        set(re.findall(r"\bv1/[a-z0-9_./-]+", endpoints_section, re.I))
+    )
 
     features = {}
     features_section = _section(text, "Features", ("Tools", "Snapshots", "Rate limits"))
@@ -193,7 +198,9 @@ def parse_openai_model_page(model_id: str, text: str, source_url: str) -> dict[s
         "knowledge_cutoff": knowledge_cutoff,
         "pricing": pricing,
         "modalities": modalities,
-        "endpoints": endpoints,
+        "endpoints": None,
+        "endpoint_matrix_paths": endpoint_matrix_paths,
+        "endpoint_matrix_qualified": False,
         "features": features,
         "tools": tools,
         "reasoning_efforts": reasoning_efforts,
