@@ -51,7 +51,7 @@ def _date(raw: str | None) -> str | None:
 
 def _extract_after_label(text: str, label: str, pattern: str) -> str | None:
     m = re.search(
-        rf"\b{re.escape(label)}\b\s*({pattern})",
+        rf"(?<!\\w){re.escape(label)}(?!\\w)\\s*({pattern})",
         text,
         re.I,
     )
