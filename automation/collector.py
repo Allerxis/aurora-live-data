@@ -22,6 +22,7 @@ from golden_suite import validate_golden_suite
 from runtime_acceptance import build_runtime_document
 from validation_manifest import build_traceability_document
 from manifest_compare import build_comparison_document
+from revalidation_replay import build_replay_document
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
@@ -31,6 +32,7 @@ GOLDEN_CASES_FILE = ROOT / "automation" / "golden_cases.json"
 RUNTIME_POLICY_FILE = ROOT / "automation" / "runtime_policy.json"
 TRACEABILITY_POLICY_FILE = ROOT / "automation" / "traceability_policy.json"
 COMPARISON_POLICY_FILE = ROOT / "automation" / "comparison_policy.json"
+REPLAY_POLICY_FILE = ROOT / "automation" / "replay_policy.json"
 REGISTRY_DIR = ROOT / "registry"
 MODELS_DIR = REGISTRY_DIR / "models"
 SOURCES_OUT = REGISTRY_DIR / "sources.json"
@@ -44,7 +46,8 @@ GOLDEN_OUT = REGISTRY_DIR / "golden.json"
 RUNTIME_OUT = REGISTRY_DIR / "runtime.json"
 TRACEABILITY_OUT = REGISTRY_DIR / "traceability.json"
 COMPARISON_OUT = REGISTRY_DIR / "comparison.json"
-SCHEMA_VERSION = "0.17.0"
+REPLAY_OUT = REGISTRY_DIR / "replay.json"
+SCHEMA_VERSION = "0.18.0"
 MAX_CHANGE_HISTORY = 1000
 PROVIDERS = ("openai", "anthropic", "google", "mistral", "xai", "meta")
 
@@ -81,7 +84,7 @@ def fetch(url: str):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "AuroraLiveData/0.17 (+public official-source monitor)",
+            "User-Agent": "AuroraLiveData/0.18 (+public official-source monitor)",
             "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
         },
         method="GET",
@@ -1086,6 +1089,16 @@ def main():
     )
     write_json(COMPARISON_OUT, comparison_document)
 
+    replay_policy_document = read_json(
+        REPLAY_POLICY_FILE,
+        {},
+    )
+    replay_document = build_replay_document(
+        policy=replay_policy_document,
+        generated_at=generated_at,
+    )
+    write_json(REPLAY_OUT, replay_document)
+
     changes = changes[:MAX_CHANGE_HISTORY]
 
     write_json(
@@ -1178,6 +1191,10 @@ def main():
             "comparison_policy_hash": comparison_document.get("policy_hash"),
             "comparison_persistence_default": comparison_document.get("storage", {}).get("persistence_default"),
             "comparison_public_history": comparison_document.get("storage", {}).get("public_registry_contains_comparison_history"),
+            "replay_ready": replay_document.get("ready"),
+            "replay_policy_hash": replay_document.get("policy_hash"),
+            "replay_persistence_default": replay_document.get("storage", {}).get("persistence_default"),
+            "replay_public_user_replays": replay_document.get("storage", {}).get("public_registry_contains_user_replays"),
         },
     )
 
