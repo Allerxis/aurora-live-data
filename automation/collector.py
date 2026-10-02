@@ -11,7 +11,7 @@ from pathlib import Path
 
 from adapters import discover
 from openai_semantic import parse_openai_model_page
-from anthropic_semantic import detail_slug_candidates, parse_anthropic_model_page
+from anthropic_semantic import detail_slug_candidates, parse_anthropic_model_page, parse_anthropic_lifecycle_page
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_FILE = ROOT / "automation" / "sources.json"
@@ -261,6 +261,7 @@ def main():
     discovered = {provider: {} for provider in PROVIDERS}
 
     current_sources = []
+    source_texts = {}
     reachable_count = 0
     fresh_count = 0
 
@@ -294,6 +295,10 @@ def main():
             result = fetch(source["url"])
             normalized = normalize_html(result["body"])
             normalized_text = normalized.decode("utf-8", errors="replace")
+            source_texts[key] = {
+                "text": normalized_text,
+                "final_url": result["final_url"],
+            }
             new_hash = hashlib.sha256(normalized).hexdigest()
             status = int(result["status"])
             reachable = 200 <= status < 400
@@ -395,6 +400,14 @@ def main():
         generated_at,
     )
 
+    anthropic_lifecycle = {}
+    lifecycle_source = source_texts.get("anthropic-deprecations")
+    if lifecycle_source:
+        anthropic_lifecycle = parse_anthropic_lifecycle_page(
+            lifecycle_source["text"],
+            lifecycle_source["final_url"],
+        )
+
     all_catalog_models = []
     present_total = 0
     retained_missing_total = 0
@@ -487,6 +500,12 @@ def main():
                 if verification_state == "verified_official_detail":
                     verification_state = "verified_official_detail_stale"
 
+            lifecycle = None
+            if provider == "anthropic":
+                lifecycle = anthropic_lifecycle.get(model_key)
+                if lifecycle:
+                    lifecycle_status = lifecycle.get("status") or lifecycle_status
+
             model = {
                 "provider_slug": provider,
                 "model_key": model_key,
@@ -499,6 +518,7 @@ def main():
                 ),
                 "verification_state": verification_state,
                 "lifecycle_status": lifecycle_status,
+                "lifecycle": lifecycle,
                 "present_in_current_sources": True,
                 "first_discovered_at": (
                     prev.get("first_discovered_at") or generated_at
@@ -659,6 +679,7 @@ def main():
             "semantic_models_verified": semantic_verified_total,
             "openai_semantic_failures": len(openai_semantic_failures),
             "anthropic_semantic_failures": len(anthropic_semantic_failures),
+            "anthropic_lifecycle_rows": len(anthropic_lifecycle),
         },
     )
 
