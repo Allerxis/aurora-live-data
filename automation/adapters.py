@@ -26,8 +26,8 @@ def _tokens(text: str, pattern: str, flags: int = re.I) -> list[str]:
 
 def discover_openai(text: str) -> list[Candidate]:
     patterns = [
-        r"\bgpt-[0-9][a-z0-9]*(?:[._-][a-z0-9]+){0,10}\b",
-        r"\bo[1-9](?:[._-][a-z0-9]+){1,10}\b",
+        r"\bgpt-[0-9][a-z0-9]*(?:[._-][a-z0-9]+){0,8}\b",
+        r"\bo[1-9](?:[._-][a-z0-9]+){1,8}\b",
     ]
     raw = []
     for pattern in patterns:
@@ -35,10 +35,10 @@ def discover_openai(text: str) -> list[Candidate]:
     return _unique(Candidate(x.lower(), x.lower()) for x in raw)
 
 def discover_anthropic(text: str) -> list[Candidate]:
-    # Restrict discovery to Anthropic model families, excluding products such as Claude Code/API.
+    # Claude API model families. Excludes product/docs tokens such as claude-code and claude-api.
     raw = _tokens(
         text,
-        r"\bclaude-(?:opus|sonnet|haiku|fable|mythos)(?:-[a-z0-9]+){1,8}\b",
+        r"\bclaude-(?:opus|sonnet|haiku|fable|mythos)-\d+(?:-\d+)?(?:-\d{8})?\b",
     )
     return _unique(Candidate(x.lower(), x.lower()) for x in raw)
 
@@ -56,23 +56,23 @@ def discover_google(text: str) -> list[Candidate]:
     return _unique(Candidate(x.lower(), x.lower()) for x in raw)
 
 def discover_xai(text: str) -> list[Candidate]:
-    raw = _tokens(
-        text,
-        r"\bgrok-[0-9][0-9a-z]*(?:[._-][a-z0-9]+){0,8}\b",
-    )
+    raw = _tokens(text, r"\bgrok-[0-9][0-9a-z]*(?:[._-][a-z0-9]+){0,8}\b")
     return _unique(Candidate(x.lower(), x.lower()) for x in raw)
 
 def discover_mistral(text: str) -> list[Candidate]:
+    # API-like identifiers only; avoids docs/package names such as *-readme or code-interpreter examples.
     patterns = [
-        r"\bmistral-(?:large|medium|small|ocr|saba|embed)[a-z0-9._-]*\b",
-        r"\bministral-[a-z0-9][a-z0-9._-]*\b",
-        r"\bcodestral[a-z0-9._-]*\b",
-        r"\bvoxtral[a-z0-9._-]*\b",
-        r"\bdevstral[a-z0-9._-]*\b",
-        r"\bmagistral[a-z0-9._-]*\b",
-        r"\bpixtral[a-z0-9._-]*\b",
-        r"\bopen-(?:mistral|mixtral|codestral)[a-z0-9._-]*\b",
-        r"\blabs-[a-z0-9][a-z0-9._-]*\b",
+        r"\bmistral-(?:large|medium|small)(?:-\d{4}|-latest)?\b",
+        r"\bmistral-(?:ocr|saba|embed)(?:-\d{4}|-latest)?\b",
+        r"\bministral-(?:3b|8b|14b|[0-9]+)(?:-\d{4}|-latest)?\b",
+        r"\bcodestral(?:-mamba)?(?:-\d{4}|-latest)?\b",
+        r"\bvoxtral-(?:mini|small)(?:-(?:transcribe|realtime|latest|\d{4})){0,3}\b",
+        r"\bdevstral(?:-(?:small|medium))?(?:-\d{4}|-latest)?\b",
+        r"\bmagistral-(?:small|medium)(?:-\d{4}|-latest)?\b",
+        r"\bpixtral-(?:large|12b)(?:-\d{4}|-latest)?\b",
+        r"\bopen-mistral-[a-z0-9]+(?:-[a-z0-9]+){0,2}\b",
+        r"\bopen-mixtral-[a-z0-9x]+(?:-[a-z0-9]+){0,2}\b",
+        r"\blabs-(?:leanstral|mistral-small-creative|devstral-small)(?:-[a-z0-9]+){0,3}\b",
     ]
     raw = []
     for pattern in patterns:
