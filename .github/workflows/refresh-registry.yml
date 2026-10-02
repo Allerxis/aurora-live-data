@@ -32,7 +32,7 @@ jobs:
           python-version: "3.12"
 
       - name: Run adapter regression tests
-        run: python -m unittest automation/test_adapters.py
+        run: python -m unittest discover -s automation -p 'test_*.py'
 
       - name: Refresh official source observations
         run: python automation/collector.py
