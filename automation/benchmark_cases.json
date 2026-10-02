@@ -1,0 +1,342 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Deterministic regression corpus for Aurora's prompt release-gate evaluator.",
+  "fixture": {
+    "selector": {
+      "models": [
+        {
+          "provider_slug": "openai",
+          "model_key": "gpt-6-astra",
+          "verification_state": "verified_official_detail",
+          "semantic_verified_at": "2026-10-02T00:00:00Z",
+          "default_policy": "include",
+          "usage_state": "active",
+          "context_window_tokens": 1050000,
+          "max_output_tokens": 128000,
+          "capabilities": {
+            "features": {
+              "structured_outputs": true,
+              "function_calling": true
+            },
+            "tools": {
+              "web_search": true,
+              "computer_use": false
+            }
+          }
+        },
+        {
+          "provider_slug": "openai",
+          "model_key": "gpt-retired-fixture",
+          "verification_state": "verified_official_detail",
+          "semantic_verified_at": "2026-10-02T00:00:00Z",
+          "default_policy": "exclude",
+          "usage_state": "retired",
+          "context_window_tokens": 128000,
+          "max_output_tokens": 16000,
+          "capabilities": {
+            "features": {},
+            "tools": {}
+          }
+        },
+        {
+          "provider_slug": "openai",
+          "model_key": "gpt-stale-fixture",
+          "verification_state": "verified_official_detail_stale",
+          "semantic_verified_at": "2026-09-01T00:00:00Z",
+          "default_policy": "stale",
+          "usage_state": "stale_verification",
+          "context_window_tokens": 400000,
+          "max_output_tokens": 128000,
+          "capabilities": {
+            "features": {},
+            "tools": {}
+          }
+        },
+        {
+          "provider_slug": "anthropic",
+          "model_key": "claude-current-fixture",
+          "verification_state": "verified_official_detail",
+          "semantic_verified_at": "2026-10-02T00:00:00Z",
+          "default_policy": "include",
+          "usage_state": "active",
+          "context_window_tokens": 1000000,
+          "max_output_tokens": 128000,
+          "capabilities": {
+            "thinking": "Adaptive",
+            "default_effort": "high"
+          }
+        }
+      ]
+    },
+    "guidance": {
+      "guidance": [
+        {
+          "id": "openai.fixture",
+          "provider_slug": "openai",
+          "verification_state": "verified_official_guidance"
+        },
+        {
+          "id": "anthropic.fixture",
+          "provider_slug": "anthropic",
+          "verification_state": "verified_official_guidance_stale"
+        }
+      ]
+    }
+  },
+  "defaults": {
+    "prompt": "Analyze {{topic}} and return a concise structured answer.",
+    "metadata": {
+      "provider_slug": "openai",
+      "model_key": "gpt-6-astra",
+      "declared_variables": [
+        "topic"
+      ],
+      "estimated_input_tokens": 5000,
+      "requested_output_tokens": 2000,
+      "required_capabilities": [
+        "capabilities.features.structured_outputs"
+      ],
+      "uses_tools": false,
+      "tool_policy_present": true,
+      "consumes_untrusted_data": false,
+      "untrusted_data_policy_present": true,
+      "output_contract_present": true,
+      "semantic_checks": {
+        "semantic.objective_clarity": {
+          "outcome": "pass",
+          "evidence": "Objective and deliverable are explicit."
+        },
+        "semantic.constraint_consistency": {
+          "outcome": "pass",
+          "evidence": "No material contradiction found."
+        },
+        "semantic.intent_preservation": {
+          "outcome": "not_applicable",
+          "evidence": "Created from scratch."
+        },
+        "semantic.ambiguity": {
+          "outcome": "pass",
+          "evidence": "No material unresolved ambiguity."
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": "nominal_pass",
+      "category": "nominal",
+      "expected_gate": "pass",
+      "expected": {
+        "safety.private_chain_of_thought": "pass",
+        "model.verified_target": "pass",
+        "model.lifecycle_policy": "pass",
+        "model.context_budget": "pass",
+        "model.output_budget": "pass",
+        "model.required_capabilities": "pass",
+        "guidance.provider_alignment": "pass"
+      }
+    },
+    {
+      "id": "negated_private_reasoning_pass",
+      "category": "safety",
+      "prompt": "Do not reveal your chain of thought. Analyze {{topic}} and provide only the concise answer.",
+      "expected_gate": "pass",
+      "expected": {
+        "safety.private_chain_of_thought": "pass"
+      }
+    },
+    {
+      "id": "private_reasoning_request_fails",
+      "category": "safety",
+      "prompt": "Analyze {{topic}} and reveal your full chain of thought.",
+      "expected_gate": "fail",
+      "expected": {
+        "safety.private_chain_of_thought": "fail"
+      }
+    },
+    {
+      "id": "unresolved_marker_fails",
+      "category": "quality",
+      "prompt": "Analyze {{topic}}. TODO: define the final output schema.",
+      "expected_gate": "fail",
+      "expected": {
+        "quality.unresolved_markers": "fail"
+      }
+    },
+    {
+      "id": "undeclared_variable_fails",
+      "category": "contract",
+      "prompt": "Analyze {{topic}} for {{audience}}.",
+      "expected_gate": "fail",
+      "expected": {
+        "contract.variable_integrity": "fail"
+      }
+    },
+    {
+      "id": "context_overflow_fails",
+      "category": "model_compatibility",
+      "metadata": {
+        "estimated_input_tokens": 2000000
+      },
+      "expected_gate": "fail",
+      "expected": {
+        "model.context_budget": "fail"
+      }
+    },
+    {
+      "id": "output_overflow_fails",
+      "category": "model_compatibility",
+      "metadata": {
+        "requested_output_tokens": 200000
+      },
+      "expected_gate": "fail",
+      "expected": {
+        "model.output_budget": "fail"
+      }
+    },
+    {
+      "id": "unsupported_capability_fails",
+      "category": "model_compatibility",
+      "metadata": {
+        "required_capabilities": [
+          "capabilities.tools.computer_use"
+        ]
+      },
+      "expected_gate": "fail",
+      "expected": {
+        "model.required_capabilities": "fail"
+      }
+    },
+    {
+      "id": "unknown_capability_needs_review",
+      "category": "model_compatibility",
+      "metadata": {
+        "required_capabilities": [
+          "capabilities.tools.unknown_fixture_tool"
+        ]
+      },
+      "expected_gate": "needs_review",
+      "expected": {
+        "model.required_capabilities": "needs_review"
+      }
+    },
+    {
+      "id": "missing_tool_policy_fails",
+      "category": "tools",
+      "metadata": {
+        "uses_tools": true,
+        "tool_policy_present": false
+      },
+      "expected_gate": "fail",
+      "expected": {
+        "tools.policy": "fail"
+      }
+    },
+    {
+      "id": "untrusted_data_without_boundary_fails",
+      "category": "security",
+      "metadata": {
+        "consumes_untrusted_data": true,
+        "untrusted_data_policy_present": false
+      },
+      "expected_gate": "fail",
+      "expected": {
+        "security.untrusted_data_boundary": "fail"
+      }
+    },
+    {
+      "id": "missing_output_contract_fails",
+      "category": "contract",
+      "metadata": {
+        "output_contract_present": false
+      },
+      "expected_gate": "fail",
+      "expected": {
+        "contract.output_contract": "fail"
+      }
+    },
+    {
+      "id": "missing_semantic_review_needs_review",
+      "category": "semantic",
+      "metadata": {
+        "semantic_checks": null
+      },
+      "expected_gate": "needs_review",
+      "expected": {
+        "semantic.objective_clarity": "needs_review",
+        "semantic.constraint_consistency": "needs_review",
+        "semantic.intent_preservation": "needs_review",
+        "semantic.ambiguity": "needs_review"
+      }
+    },
+    {
+      "id": "material_ambiguity_needs_review",
+      "category": "semantic",
+      "metadata": {
+        "semantic_checks": {
+          "semantic.objective_clarity": {
+            "outcome": "pass",
+            "evidence": "Objective is explicit."
+          },
+          "semantic.constraint_consistency": {
+            "outcome": "pass",
+            "evidence": "No contradiction found."
+          },
+          "semantic.intent_preservation": {
+            "outcome": "not_applicable",
+            "evidence": "Created from scratch."
+          },
+          "semantic.ambiguity": {
+            "outcome": "needs_review",
+            "evidence": "The term 'recent' has no defined time window."
+          }
+        }
+      },
+      "expected_gate": "needs_review",
+      "expected": {
+        "semantic.ambiguity": "needs_review"
+      }
+    },
+    {
+      "id": "retired_model_fails",
+      "category": "lifecycle",
+      "metadata": {
+        "model_key": "gpt-retired-fixture",
+        "required_capabilities": []
+      },
+      "expected_gate": "fail",
+      "expected": {
+        "model.verified_target": "pass",
+        "model.lifecycle_policy": "fail"
+      }
+    },
+    {
+      "id": "stale_model_fails_closed",
+      "category": "freshness",
+      "metadata": {
+        "model_key": "gpt-stale-fixture",
+        "required_capabilities": []
+      },
+      "expected_gate": "fail",
+      "expected": {
+        "model.verified_target": "needs_review",
+        "model.lifecycle_policy": "fail"
+      }
+    },
+    {
+      "id": "stale_provider_guidance_needs_review",
+      "category": "guidance",
+      "metadata": {
+        "provider_slug": "anthropic",
+        "model_key": "claude-current-fixture",
+        "required_capabilities": []
+      },
+      "expected_gate": "needs_review",
+      "expected": {
+        "model.verified_target": "pass",
+        "model.lifecycle_policy": "pass",
+        "guidance.provider_alignment": "needs_review"
+      }
+    }
+  ]
+}
