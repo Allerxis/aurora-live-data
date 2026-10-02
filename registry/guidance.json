@@ -1,0 +1,281 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-02T14:00:02Z",
+  "purpose": "Source-anchored prompt-engineering guidance. A rule is current only while deterministic evidence patterns remain present in the tracked official source.",
+  "trust_model": {
+    "verified_official_guidance": "All configured evidence patterns matched the current official source.",
+    "verified_official_guidance_stale": "The rule was previously verified but could not be revalidated against the current source; direct source review is required.",
+    "unverified": "The current source did not provide enough deterministic evidence to validate this rule."
+  },
+  "counts": {
+    "total": 13,
+    "verified": 13,
+    "stale": 0,
+    "unverified": 0
+  },
+  "guidance": [
+    {
+      "id": "anthropic.clear_direct",
+      "provider_slug": "anthropic",
+      "category": "clarity",
+      "applicability": [
+        "current_claude_models"
+      ],
+      "guidance": "Use clear, explicit instructions and state the desired output format and constraints directly.",
+      "source_key": "anthropic-prompting-best-practices",
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "source_hash": "d29b7a085177f2eb07e13f7ebecd16a90c734dab762a6de8bde6fa719fcdfe89",
+      "verification_state": "verified_official_guidance",
+      "verified_at": "2026-10-02T14:00:02Z",
+      "evidence_patterns": [
+        "clear.*explicit instructions",
+        "desired output format.*constraints"
+      ],
+      "matched_patterns": 2,
+      "total_patterns": 2
+    },
+    {
+      "id": "anthropic.examples",
+      "provider_slug": "anthropic",
+      "category": "few_shot",
+      "applicability": [
+        "current_claude_models"
+      ],
+      "guidance": "Use relevant, diverse and structured examples when examples materially constrain behavior; Anthropic currently recommends 3–5 examples for best results.",
+      "source_key": "anthropic-prompting-best-practices",
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "source_hash": "d29b7a085177f2eb07e13f7ebecd16a90c734dab762a6de8bde6fa719fcdfe89",
+      "verification_state": "verified_official_guidance",
+      "verified_at": "2026-10-02T14:00:02Z",
+      "evidence_patterns": [
+        "examples are one of the most reliable",
+        "3.?5 examples"
+      ],
+      "matched_patterns": 2,
+      "total_patterns": 2
+    },
+    {
+      "id": "anthropic.long_context_order",
+      "provider_slug": "anthropic",
+      "category": "long_context",
+      "applicability": [
+        "current_claude_models"
+      ],
+      "guidance": "For long-context Claude prompts, place long documents/data before the query and place the specific request near the end.",
+      "source_key": "anthropic-prompting-best-practices",
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "source_hash": "d29b7a085177f2eb07e13f7ebecd16a90c734dab762a6de8bde6fa719fcdfe89",
+      "verification_state": "verified_official_guidance",
+      "verified_at": "2026-10-02T14:00:02Z",
+      "evidence_patterns": [
+        "Put longform data at the top",
+        "Queries at the end"
+      ],
+      "matched_patterns": 2,
+      "total_patterns": 2
+    },
+    {
+      "id": "anthropic.xml_structure",
+      "provider_slug": "anthropic",
+      "category": "structure",
+      "applicability": [
+        "current_claude_models"
+      ],
+      "guidance": "For complex Claude prompts, use consistent descriptive XML tags to separate instructions, context, examples and variable inputs.",
+      "source_key": "anthropic-prompting-best-practices",
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "source_hash": "d29b7a085177f2eb07e13f7ebecd16a90c734dab762a6de8bde6fa719fcdfe89",
+      "verification_state": "verified_official_guidance",
+      "verified_at": "2026-10-02T14:00:02Z",
+      "evidence_patterns": [
+        "XML tags help Claude",
+        "consistent.*descriptive tag"
+      ],
+      "matched_patterns": 2,
+      "total_patterns": 2
+    },
+    {
+      "id": "google.precise_direct",
+      "provider_slug": "google",
+      "category": "clarity",
+      "applicability": [
+        "gemini"
+      ],
+      "guidance": "Use precise, direct instructions and define ambiguous terms or parameters explicitly.",
+      "source_key": "google-prompting-strategies",
+      "source_url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+      "source_hash": "1214cccab78afda1f2da27deb36711b66b8d5edfbe792afb31d1dc8a20412896",
+      "verification_state": "verified_official_guidance",
+      "verified_at": "2026-10-02T14:00:02Z",
+      "evidence_patterns": [
+        "Be precise and direct",
+        "Define parameters"
+      ],
+      "matched_patterns": 2,
+      "total_patterns": 2
+    },
+    {
+      "id": "google.critical_instructions",
+      "provider_slug": "google",
+      "category": "instruction_hierarchy",
+      "applicability": [
+        "gemini"
+      ],
+      "guidance": "Place critical behavioral constraints, role definitions and output-format requirements in the system instruction or at the beginning of the user prompt.",
+      "source_key": "google-prompting-strategies",
+      "source_url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+      "source_hash": "1214cccab78afda1f2da27deb36711b66b8d5edfbe792afb31d1dc8a20412896",
+      "verification_state": "verified_official_guidance",
+      "verified_at": "2026-10-02T14:00:02Z",
+      "evidence_patterns": [
+        "Prioritize critical instructions",
+        "System Instruction.*beginning"
+      ],
+      "matched_patterns": 2,
+      "total_patterns": 2
+    },
+    {
+      "id": "google.long_context_order",
+      "provider_slug": "google",
+      "category": "long_context",
+      "applicability": [
+        "gemini"
+      ],
+      "guidance": "For large contexts, provide the context first and place the specific instructions/questions at the end, with an explicit transition anchoring the request to the preceding context.",
+      "source_key": "google-prompting-strategies",
+      "source_url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+      "source_hash": "1214cccab78afda1f2da27deb36711b66b8d5edfbe792afb31d1dc8a20412896",
+      "verification_state": "verified_official_guidance",
+      "verified_at": "2026-10-02T14:00:02Z",
+      "evidence_patterns": [
+        "Structure for long contexts",
+        "specific instructions or questions.*end",
+        "Anchor context"
+      ],
+      "matched_patterns": 3,
+      "total_patterns": 3
+    },
+    {
+      "id": "google.consistent_structure",
+      "provider_slug": "google",
+      "category": "structure",
+      "applicability": [
+        "gemini"
+      ],
+      "guidance": "Use one consistent delimiter scheme such as XML-style tags or Markdown headings to separate prompt sections.",
+      "source_key": "google-prompting-strategies",
+      "source_url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+      "source_hash": "1214cccab78afda1f2da27deb36711b66b8d5edfbe792afb31d1dc8a20412896",
+      "verification_state": "verified_official_guidance",
+      "verified_at": "2026-10-02T14:00:02Z",
+      "evidence_patterns": [
+        "Use consistent structure",
+        "XML-style tags.*Markdown headings"
+      ],
+      "matched_patterns": 2,
+      "total_patterns": 2
+    },
+    {
+      "id": "mistral.system_user_roles",
+      "provider_slug": "mistral",
+      "category": "instruction_hierarchy",
+      "applicability": [
+        "api"
+      ],
+      "guidance": "Use the system prompt for general context and behavioral instructions, and the user prompt for task-specific context or instructions.",
+      "source_key": "mistral-prompting",
+      "source_url": "https://docs.mistral.ai/inference/prompting",
+      "source_hash": "f1e70800b995843030947b6a126860b59ad122f254ad36267fe423da7d945b09",
+      "verification_state": "verified_official_guidance",
+      "verified_at": "2026-10-02T14:00:02Z",
+      "evidence_patterns": [
+        "system prompt.*beginning of the conversation",
+        "user prompt.*specific context or instructions"
+      ],
+      "matched_patterns": 2,
+      "total_patterns": 2
+    },
+    {
+      "id": "openai.instruction_authority",
+      "provider_slug": "openai",
+      "category": "instruction_hierarchy",
+      "applicability": [
+        "api"
+      ],
+      "guidance": "Place stable application rules in developer/instructions-level content and keep end-user task input in user/input content; higher-authority developer instructions take precedence over user instructions.",
+      "source_key": "openai-prompt-engineering",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "source_hash": "af5c75587c68f6ea037fb13ea59221e8da571596f1fcb51a741c8a97722afa8b",
+      "verification_state": "verified_official_guidance",
+      "verified_at": "2026-10-02T14:00:02Z",
+      "evidence_patterns": [
+        "developer messages are instructions",
+        "prioritized ahead of.*user messages"
+      ],
+      "matched_patterns": 2,
+      "total_patterns": 2
+    },
+    {
+      "id": "openai.prompt_boundaries",
+      "provider_slug": "openai",
+      "category": "structure",
+      "applicability": [
+        "api"
+      ],
+      "guidance": "Use clear Markdown structure and/or XML-style tags to separate instructions from supporting context and other logical prompt sections.",
+      "source_key": "openai-prompt-engineering",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "source_hash": "af5c75587c68f6ea037fb13ea59221e8da571596f1fcb51a741c8a97722afa8b",
+      "verification_state": "verified_official_guidance",
+      "verified_at": "2026-10-02T14:00:02Z",
+      "evidence_patterns": [
+        "Markdown headers and lists",
+        "XML tags.*delineate"
+      ],
+      "matched_patterns": 2,
+      "total_patterns": 2
+    },
+    {
+      "id": "xai.cache_append_only",
+      "provider_slug": "xai",
+      "category": "conversation_architecture",
+      "applicability": [
+        "api",
+        "prompt_caching"
+      ],
+      "guidance": "For cache-efficient multi-turn Grok prompts, keep earlier messages unchanged and append new messages rather than editing, removing or reordering prior content.",
+      "source_key": "xai-prompt-caching-best-practices",
+      "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
+      "source_hash": "4d52eda54f0ea8ddb91304d0451ec190ebe62f50d6f9400081a7b154ae79b310",
+      "verification_state": "verified_official_guidance",
+      "verified_at": "2026-10-02T14:00:02Z",
+      "evidence_patterns": [
+        "Never modify earlier messages",
+        "Only append new"
+      ],
+      "matched_patterns": 2,
+      "total_patterns": 2
+    },
+    {
+      "id": "xai.cache_frontload_static",
+      "provider_slug": "xai",
+      "category": "conversation_architecture",
+      "applicability": [
+        "api",
+        "prompt_caching"
+      ],
+      "guidance": "Front-load stable system instructions, few-shot examples and reference documents so they form a reusable prompt-cache prefix.",
+      "source_key": "xai-prompt-caching-best-practices",
+      "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
+      "source_hash": "4d52eda54f0ea8ddb91304d0451ec190ebe62f50d6f9400081a7b154ae79b310",
+      "verification_state": "verified_official_guidance",
+      "verified_at": "2026-10-02T14:00:02Z",
+      "evidence_patterns": [
+        "Front-load static content",
+        "system prompts.*few-shot examples.*reference documents"
+      ],
+      "matched_patterns": 2,
+      "total_patterns": 2
+    }
+  ]
+}

@@ -1,15 +1,15 @@
 {
-  "schema_version": "0.10.0",
+  "schema_version": "0.11.0",
   "service": "Aurora Live Data",
-  "generated_at": "2026-10-02T13:51:56Z",
+  "generated_at": "2026-10-02T14:00:02Z",
   "healthy": true,
-  "sources_total": 16,
-  "sources_reachable": 16,
-  "sources_fresh": 16,
-  "model_candidates_present": 226,
+  "sources_total": 21,
+  "sources_reachable": 21,
+  "sources_fresh": 21,
+  "model_candidates_present": 227,
   "model_candidates_historical": 233,
   "semantic_models_verified": 153,
-  "openai_semantic_failures": 8,
+  "openai_semantic_failures": 9,
   "anthropic_semantic_failures": 13,
   "anthropic_lifecycle_rows": 22,
   "google_semantic_failures": 33,
@@ -28,5 +28,9 @@
   "selector_include_with_warning": 67,
   "selector_specialized": 2,
   "selector_excluded": 40,
-  "selector_stale": 0
+  "selector_stale": 0,
+  "guidance_total": 13,
+  "guidance_verified": 13,
+  "guidance_stale": 0,
+  "guidance_unverified": 0
 }
