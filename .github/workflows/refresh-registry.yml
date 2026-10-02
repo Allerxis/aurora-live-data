@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: aurora-live-data-refresh
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   refresh:
@@ -31,25 +31,49 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run adapter regression tests
+      - name: Run registry regression tests
         run: python -m unittest discover -s automation -p 'test_*.py'
 
       - name: Refresh official source observations
         run: python automation/collector.py
 
-      - name: Commit registry changes
+      - name: Publish registry atomically
+        shell: bash
         run: |
-          if git diff --quiet -- registry/; then
-            echo "No registry changes."
-            exit 0
-          fi
+          set -euo pipefail
 
           git config user.name "aurora-live-data-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add registry/
-          git commit -m "chore: refresh Aurora live data"
 
-          # Another configuration commit may have landed while this run was executing.
-          # Rebase the generated registry commit before pushing instead of failing.
-          git pull --rebase origin main
-          git push
+          for attempt in 1 2 3; do
+            git fetch origin main
+
+            # If configuration changed while collection was running, discard only
+            # this runner's generated working tree and regenerate from latest main.
+            if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+              echo "Remote configuration changed; regenerating from latest main (attempt $attempt)."
+              git reset --hard origin/main
+              python -m unittest discover -s automation -p 'test_*.py'
+              python automation/collector.py
+            fi
+
+            if git diff --quiet -- registry/; then
+              echo "No registry changes."
+              exit 0
+            fi
+
+            git add registry/
+            git commit -m "chore: refresh Aurora live data"
+
+            if git push origin HEAD:main; then
+              echo "Registry published."
+              exit 0
+            fi
+
+            echo "Push raced with another commit; retrying from latest main."
+            git fetch origin main
+            git reset --hard origin/main
+          done
+
+          echo "Unable to publish registry after 3 attempts."
+          exit 1
