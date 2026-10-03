@@ -1,7 +1,7 @@
 {
   "schema_version": "0.19.0",
   "service": "Aurora Live Data",
-  "generated_at": "2026-10-03T05:14:31Z",
+  "generated_at": "2026-10-03T16:16:38Z",
   "healthy": true,
   "sources_total": 21,
   "sources_reachable": 21,
