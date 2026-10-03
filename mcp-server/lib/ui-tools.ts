@@ -8,9 +8,6 @@ import {
 import { fetchRegistry } from './registry';
 import { createAuroraWidgetHtml } from './ui';
 
-const STATUS_UI = 'ui://aurora/status/v1.html';
-const COMPARISON_UI = 'ui://aurora/model-comparison/v1.html';
-const VALIDATION_UI = 'ui://aurora/validation-report/v1.html';
 const MIGRATION_UI = 'ui://aurora/migration-plan/v2.html';
 const STATUS_UI_V2 = 'ui://aurora/status/v2.html';
 const COMPARISON_UI_V2 = 'ui://aurora/model-comparison/v2.html';
@@ -170,7 +167,7 @@ export function registerAuroraUi(server: any) {
       inputSchema: z.object({}),
       _meta: {
         ui: { resourceUri: STATUS_UI_V2, visibility: ['model', 'app'] },
-        'openai/outputTemplate': STATUS_UI_V2_V2,
+        'openai/outputTemplate': STATUS_UI_V2,
         'openai/toolInvocation/invoking': 'Loading Aurora Live Data status…',
         'openai/toolInvocation/invoked': 'Aurora Live Data status ready.',
       },
@@ -218,7 +215,7 @@ export function registerAuroraUi(server: any) {
       }),
       _meta: {
         ui: { resourceUri: COMPARISON_UI_V2, visibility: ['model', 'app'] },
-        'openai/outputTemplate': COMPARISON_UI_V2_V2,
+        'openai/outputTemplate': COMPARISON_UI_V2,
         'openai/toolInvocation/invoking': 'Preparing model comparison…',
         'openai/toolInvocation/invoked': 'Model comparison ready.',
       },
@@ -298,7 +295,7 @@ export function registerAuroraUi(server: any) {
       }),
       _meta: {
         ui: { resourceUri: VALIDATION_UI_V2, visibility: ['model', 'app'] },
-        'openai/outputTemplate': VALIDATION_UI_V2_V2,
+        'openai/outputTemplate': VALIDATION_UI_V2,
         'openai/toolInvocation/invoking': 'Rendering Aurora validation…',
         'openai/toolInvocation/invoked': 'Aurora validation report ready.',
       },
