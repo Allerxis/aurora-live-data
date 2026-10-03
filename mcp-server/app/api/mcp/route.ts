@@ -1,4 +1,5 @@
 import { createMcpHandler } from 'mcp-handler';
+import { registerAuroraUi } from '../../../lib/ui-tools';
 import { z } from 'zod';
 import {
   POLICY_NAMES,
@@ -24,6 +25,7 @@ const defaultPolicySchema = z.enum([
 
 const handler = createMcpHandler(
   (server) => {
+    registerAuroraUi(server);
     server.registerTool(
       'get_status',
       {
