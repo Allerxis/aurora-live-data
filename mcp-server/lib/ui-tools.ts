@@ -1,12 +1,21 @@
 
 import { z } from 'zod';
+import {
+  registerAppResource,
+  registerAppTool,
+  RESOURCE_MIME_TYPE,
+} from '@modelcontextprotocol/ext-apps/server';
 import { fetchRegistry } from './registry';
 import { createAuroraWidgetHtml } from './ui';
 
 const STATUS_UI = 'ui://aurora/status/v1.html';
 const COMPARISON_UI = 'ui://aurora/model-comparison/v1.html';
 const VALIDATION_UI = 'ui://aurora/validation-report/v1.html';
-const MIGRATION_UI = 'ui://aurora/migration-plan/v1.html';
+const MIGRATION_UI = 'ui://aurora/migration-plan/v2.html';
+const STATUS_UI_V2 = 'ui://aurora/status/v2.html';
+const COMPARISON_UI_V2 = 'ui://aurora/model-comparison/v2.html';
+const VALIDATION_UI_V2 = 'ui://aurora/validation-report/v2.html';
+const UI_DOMAIN = 'https://aurora-live-data.vercel.app';
 
 const providerSchema = z.enum([
   'openai',
@@ -56,15 +65,22 @@ function uiResource(
     contents: [
       {
         uri,
-        mimeType: 'text/html;profile=mcp-app',
+        mimeType: RESOURCE_MIME_TYPE,
         text: createAuroraWidgetHtml(kind),
         _meta: {
           ui: {
             prefersBorder: true,
+            domain: UI_DOMAIN,
             csp: {
               connectDomains: [],
               resourceDomains: [],
             },
+          },
+          'openai/ui': {
+            availableDisplayModes:
+              kind === 'comparison' || kind === 'validation' || kind === 'migration'
+                ? ['inline', 'fullscreen']
+                : ['inline'],
           },
           'openai/widgetDescription': description,
         },
@@ -74,46 +90,62 @@ function uiResource(
 }
 
 export function registerAuroraUi(server: any) {
-  server.registerResource(
+  registerAppResource(
+    server,
     'aurora-live-data-status-ui',
-    STATUS_UI,
-    {},
+    STATUS_UI_V2,
+    {
+      description: 'Aurora Live Data status dashboard',
+      _meta: { ui: { domain: UI_DOMAIN } },
+    },
     async () =>
       uiResource(
-        STATUS_UI,
+        STATUS_UI_V2,
         'status',
         'Compact Aurora Live Data health and validation readiness dashboard.',
       ),
   );
 
-  server.registerResource(
+  registerAppResource(
+    server,
     'aurora-model-comparison-ui',
-    COMPARISON_UI,
-    {},
+    COMPARISON_UI_V2,
+    {
+      description: 'Aurora verified model comparison',
+      _meta: { ui: { domain: UI_DOMAIN } },
+    },
     async () =>
       uiResource(
-        COMPARISON_UI,
+        COMPARISON_UI_V2,
         'comparison',
         'Side-by-side factual comparison of verified AI model records.',
       ),
   );
 
-  server.registerResource(
+  registerAppResource(
+    server,
     'aurora-validation-report-ui',
-    VALIDATION_UI,
-    {},
+    VALIDATION_UI_V2,
+    {
+      description: 'Aurora validation report',
+      _meta: { ui: { domain: UI_DOMAIN } },
+    },
     async () =>
       uiResource(
-        VALIDATION_UI,
+        VALIDATION_UI_V2,
         'validation',
         'Interactive Aurora PASS / NEEDS_REVIEW / FAIL validation report.',
       ),
   );
 
-  server.registerResource(
+  registerAppResource(
+    server,
     'aurora-migration-plan-ui',
     MIGRATION_UI,
-    {},
+    {
+      description: 'Aurora prompt migration plan',
+      _meta: { ui: { domain: UI_DOMAIN } },
+    },
     async () =>
       uiResource(
         MIGRATION_UI,
@@ -122,7 +154,8 @@ export function registerAuroraUi(server: any) {
       ),
   );
 
-  server.registerTool(
+  registerAppTool(
+    server,
     'render_live_data_status',
     {
       title: 'Show Aurora Live Data status',
@@ -136,8 +169,8 @@ export function registerAuroraUi(server: any) {
       },
       inputSchema: z.object({}),
       _meta: {
-        ui: { resourceUri: STATUS_UI },
-        'openai/outputTemplate': STATUS_UI,
+        ui: { resourceUri: STATUS_UI_V2, visibility: ['model', 'app'] },
+        'openai/outputTemplate': STATUS_UI_V2_V2,
         'openai/toolInvocation/invoking': 'Loading Aurora Live Data status…',
         'openai/toolInvocation/invoked': 'Aurora Live Data status ready.',
       },
@@ -159,7 +192,8 @@ export function registerAuroraUi(server: any) {
     },
   );
 
-  server.registerTool(
+  registerAppTool(
+    server,
     'render_model_comparison',
     {
       title: 'Compare verified AI models',
@@ -183,8 +217,8 @@ export function registerAuroraUi(server: any) {
           .max(4),
       }),
       _meta: {
-        ui: { resourceUri: COMPARISON_UI },
-        'openai/outputTemplate': COMPARISON_UI,
+        ui: { resourceUri: COMPARISON_UI_V2, visibility: ['model', 'app'] },
+        'openai/outputTemplate': COMPARISON_UI_V2_V2,
         'openai/toolInvocation/invoking': 'Preparing model comparison…',
         'openai/toolInvocation/invoked': 'Model comparison ready.',
       },
@@ -238,7 +272,8 @@ export function registerAuroraUi(server: any) {
     },
   );
 
-  server.registerTool(
+  registerAppTool(
+    server,
     'render_validation_report',
     {
       title: 'Show Aurora validation report',
@@ -262,8 +297,8 @@ export function registerAuroraUi(server: any) {
         unresolved: z.array(z.string()).default([]),
       }),
       _meta: {
-        ui: { resourceUri: VALIDATION_UI },
-        'openai/outputTemplate': VALIDATION_UI,
+        ui: { resourceUri: VALIDATION_UI_V2, visibility: ['model', 'app'] },
+        'openai/outputTemplate': VALIDATION_UI_V2_V2,
         'openai/toolInvocation/invoking': 'Rendering Aurora validation…',
         'openai/toolInvocation/invoked': 'Aurora validation report ready.',
       },
@@ -293,7 +328,8 @@ export function registerAuroraUi(server: any) {
     }),
   );
 
-  server.registerTool(
+  registerAppTool(
+    server,
     'render_migration_plan',
     {
       title: 'Show Aurora prompt migration plan',
@@ -332,7 +368,7 @@ export function registerAuroraUi(server: any) {
         required_actions: z.array(z.string()).default([]),
       }),
       _meta: {
-        ui: { resourceUri: MIGRATION_UI },
+        ui: { resourceUri: MIGRATION_UI, visibility: ['model', 'app'] },
         'openai/outputTemplate': MIGRATION_UI,
         'openai/toolInvocation/invoking': 'Rendering migration plan…',
         'openai/toolInvocation/invoked': 'Migration plan ready.',
