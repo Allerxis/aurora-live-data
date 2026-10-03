@@ -28,6 +28,12 @@ const handler = createMcpHandler(
       'get_status',
       {
         title: 'Get Aurora Live Data status',
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          openWorldHint: true,
+          idempotentHint: true,
+        },
         description:
           'Read Aurora Live Data health, freshness, coverage counters, validation gates, and policy hashes. Use this first for volatile Aurora model or prompt-engineering questions.',
         inputSchema: z.object({}),
@@ -42,6 +48,12 @@ const handler = createMcpHandler(
       'find_models',
       {
         title: 'Find verified AI models',
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          openWorldHint: true,
+          idempotentHint: true,
+        },
         description:
           'Search the current verified Aurora model selector. Missing or null facts mean unknown, never unsupported. Use only constraints that materially matter to the user task.',
         inputSchema: z.object({
@@ -162,6 +174,12 @@ const handler = createMcpHandler(
       'get_model',
       {
         title: 'Get verified model details',
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          openWorldHint: true,
+          idempotentHint: true,
+        },
         description:
           'Get the current Aurora selector record and official-source detail record for one exact provider/model pair.',
         inputSchema: z.object({
@@ -211,6 +229,12 @@ const handler = createMcpHandler(
       'get_guidance',
       {
         title: 'Get verified provider guidance',
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          openWorldHint: true,
+          idempotentHint: true,
+        },
         description:
           'Read current provider prompting guidance verified against official documentation. Stale and unverified rules are excluded by default.',
         inputSchema: z.object({
@@ -258,6 +282,12 @@ const handler = createMcpHandler(
       'get_validation_policy',
       {
         title: 'Get Aurora validation policy',
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          openWorldHint: true,
+          idempotentHint: true,
+        },
         description:
           'Read one current Aurora validation/lifecycle policy document: evals, benchmarks, golden, runtime, traceability, comparison, replay, or migration.',
         inputSchema: z.object({
