@@ -4,7 +4,7 @@ export type AuroraWidgetKind =
   | 'validation'
   | 'migration';
 
-const BASE_WIDGET = String.raw\`<!doctype html>
+const BASE_WIDGET = String.raw`<!doctype html>
 <html>
 <head>
 <meta charset="utf-8" />
@@ -393,7 +393,7 @@ h1{font-size:18px;line-height:1.2;margin:3px 0 4px}
 })();
 </script>
 </body>
-</html>\`;
+</html>`;
 
 export function createAuroraWidgetHtml(kind: AuroraWidgetKind): string {
   return BASE_WIDGET.replace('__KIND__', kind);
