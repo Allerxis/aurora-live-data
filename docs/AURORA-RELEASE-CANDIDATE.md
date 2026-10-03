@@ -4,7 +4,7 @@ Status date: 2026-10-03
 
 ## Candidate
 
-- Aurora plugin: **0.61.0**
+- Aurora plugin: **0.62.0**
 - Scope: private/user while final public-site and submission work is pending
 - Production MCP: `https://aurora-live-data.vercel.app/api/mcp`
 - Aurora Live Data schema: **0.19.0**
@@ -82,3 +82,21 @@ Do not add new Aurora infrastructure features before public-release preparation 
 - submission compliance;
 - official-site integration;
 - documentation and presentation.
+
+
+## Interactive MCP Apps UI
+
+Aurora 0.62.0 adds four optional ChatGPT-compatible MCP Apps surfaces while keeping the five data tools independent from presentation:
+
+- `render_live_data_status` — Live Data health/readiness dashboard.
+- `render_model_comparison` — factual side-by-side comparison for 2–4 verified models.
+- `render_validation_report` — PASS / NEEDS_REVIEW / FAIL report with criterion details and repair actions.
+- `render_migration_plan` — migration status, compatible candidates, warnings and target-selection actions.
+
+The resources are versioned under:
+- `ui://aurora/status/v1.html`
+- `ui://aurora/model-comparison/v1.html`
+- `ui://aurora/validation-report/v1.html`
+- `ui://aurora/migration-plan/v1.html`
+
+The UI layer is presentation-only. It does not replace Aurora Live Data facts, eval policies, runtime gates, or migration logic. If a host does not render MCP Apps, Aurora must still return the equivalent result in normal chat text.
