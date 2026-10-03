@@ -273,3 +273,8 @@ Remaining manual submission items:
 - current MCP tool scan in the OpenAI submission portal;
 - reviewer-accessible video walkthrough;
 - final policy attestations and Submit for review.
+
+
+## Current release candidate
+
+See [Aurora Release Candidate](docs/AURORA-RELEASE-CANDIDATE.md) for the frozen pre-publication status and remaining manual submission steps.
