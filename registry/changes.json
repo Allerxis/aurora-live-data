@@ -1,7 +1,47 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-02T19:09:54Z",
+  "generated_at": "2026-10-03T05:14:31Z",
   "changes": [
+    {
+      "observed_at": "2026-10-03T05:14:31Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "af5c75587c68f6ea037fb13ea59221e8da571596f1fcb51a741c8a97722afa8b",
+      "new_hash": "4c0945f663493d26387fae69d53e0f2dfab3312841284d385958c7349aea4607",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-03T05:14:31Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "4dec1819df46ff51b8ae76c518835792ae4c25f68b29e53e1941dabfe12fb2e1",
+      "new_hash": "fef86a20c968cede1e34e75a62510e101f80b3acd5bbd01d36f4613d682cd338",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-03T05:14:31Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "32379c6e22a181e2662ad42006e08ae192b2391a103e0748c555581c240b434d",
+      "new_hash": "118dd11a458ece568889e02f37f36dc14461d0e05eeece5f34b5091cd19c4f9b",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-03T05:14:31Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "b52c1adbdfafaee3c1af8c8cd36e65d6a9ec54c189497abda93052fdf5c1f410",
+      "new_hash": "beb678decc87a84992744ddb0cb9e4935be845f8bdd742b63df1572e67e42b00",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-02T19:06:10Z",
       "entity_type": "source",
@@ -9956,46 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "google:gemini-2.5-flash-preview-09-25",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-2.5-flash-preview-09-2025",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-2.5-flash-preview-05-20",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-2.5-flash-native-audio-preview-12-2025",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-2.5-flash-lite-preview-09-2025",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
