@@ -8,10 +8,10 @@ import {
 import { fetchRegistry } from './registry';
 import { createAuroraWidgetHtml } from './ui';
 
-const MIGRATION_UI = 'ui://aurora/migration-plan/v2.html';
-const STATUS_UI_V2 = 'ui://aurora/status/v2.html';
-const COMPARISON_UI_V2 = 'ui://aurora/model-comparison/v2.html';
-const VALIDATION_UI_V2 = 'ui://aurora/validation-report/v2.html';
+const MIGRATION_UI = 'ui://aurora/migration-plan/v3.html';
+const STATUS_UI_V2 = 'ui://aurora/status/v3.html';
+const COMPARISON_UI_V2 = 'ui://aurora/model-comparison/v3.html';
+const VALIDATION_UI_V2 = 'ui://aurora/validation-report/v3.html';
 const UI_DOMAIN = 'https://aurora-live-data.vercel.app';
 
 const providerSchema = z.enum([
