@@ -251,3 +251,25 @@ Après migration, Aurora doit :
 - appliquer le runtime acceptance ;
 - générer un nouveau validation manifest ;
 - comparer l'ancien et le nouveau manifeste afin de rendre visibles les changements de cible, guidance et gate.
+
+
+## Public plugin review readiness
+
+Aurora's production MCP endpoint is:
+
+`https://aurora-live-data.vercel.app/api/mcp`
+
+Public review URLs:
+- Product: `https://aurora-live-data.vercel.app/`
+- Support: `https://aurora-live-data.vercel.app/support`
+- Privacy: `https://aurora-live-data.vercel.app/privacy`
+- Terms: `https://aurora-live-data.vercel.app/terms`
+
+The public MCP is read-only and does not require authentication. Aurora 0.61.0 includes five positive and three negative MCP review cases plus publication release notes.
+
+Remaining manual submission items:
+- verified OpenAI developer/business identity;
+- MCP domain-verification challenge token;
+- current MCP tool scan in the OpenAI submission portal;
+- reviewer-accessible video walkthrough;
+- final policy attestations and Submit for review.
