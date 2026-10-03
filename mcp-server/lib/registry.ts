@@ -76,7 +76,13 @@ export function explicitlySupported(value: unknown): boolean {
 }
 
 export function jsonText(value: unknown) {
+  const structuredContent =
+    value && typeof value === 'object' && !Array.isArray(value)
+      ? (value as Record<string, unknown>)
+      : { value };
+
   return {
+    structuredContent,
     content: [
       {
         type: 'text' as const,
