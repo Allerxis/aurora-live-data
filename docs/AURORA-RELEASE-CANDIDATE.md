@@ -5,7 +5,7 @@ Status date: 2026-10-04
 ## Candidate
 
 - Aurora plugin: **0.65.0**
-- Scope: private/user while final public-site and submission work is pending
+- Scope: private/user while final validation and submission work is pending
 - Production MCP: `https://aurora-live-data.vercel.app/api/mcp`
 - Aurora Live Data schema: **0.19.0**
 
@@ -50,7 +50,7 @@ Aurora 0.65.0 contains:
 - exactly 5 positive review cases;
 - exactly 3 negative review cases;
 - production MCP endpoint;
-- temporary HTTPS product/support/privacy/terms URLs.
+- final HTTPS product/support/privacy/terms URLs.
 
 Final review URLs:
 - Product: `https://aurora.le-corre-alexis.fr/`
