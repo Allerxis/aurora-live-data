@@ -1,19 +1,19 @@
 # Aurora — OpenAI public submission dossier
 
-Status date: 2026-10-03
+Status date: 2026-10-04
 
 This document is the operational checklist for the public review of Aurora.
 
 ## Candidate
 
-- Aurora package: **0.61.0**
+- Aurora package: **0.65.0**
 - Production MCP: `https://aurora-live-data.vercel.app/api/mcp`
 - MCP authentication: none
 - MCP behavior: public, read-only
 - Live Data schema at final technical test: **0.19.0**
 - GitHub repository: `https://github.com/Allerxis/aurora-live-data`
 
-Do not submit until the official product website has been updated and the plugin manifest points to the final official product/support/privacy/terms URLs.
+The plugin manifest now points to the final official product/support/privacy/terms URLs. Keep these URLs unchanged through final review unless a blocking issue requires a correction.
 
 ## Production MCP tools
 
@@ -111,7 +111,7 @@ Never commit the token to GitHub.
 
 ## Review test cases
 
-Aurora 0.61.0 already declares exactly five positive and three negative review cases in the plugin package.
+Aurora 0.65.0 declares exactly five positive and three negative review cases in the plugin package.
 
 Before submission, run all eight against the exact final plugin version and record PASS/FAIL.
 
@@ -335,35 +335,31 @@ Do not show:
 
 ## Portal order
 
-1. Update the final official Aurora website.
-2. Update Aurora plugin metadata to use the official website/support/privacy/terms URLs.
-3. Upload/select the final plugin package.
-4. Wait for Metadata & Skills scans to pass.
-5. Open MCPs and connect `https://aurora-live-data.vercel.app/api/mcp`.
-6. Complete domain verification using the already-deployed challenge route.
-7. Select Scan Tools.
-8. Verify all five tools and their annotations.
-9. Resolve every blocking tool finding.
-10. Run all five positive and three negative cases against the final candidate.
-11. Record the demo walkthrough and add the reviewer-accessible URL.
-12. Confirm release notes.
-13. Complete required policy attestations.
-14. Submit for review.
-15. After approval, select Publish when ready.
+1. Confirm the final official Aurora product/support/privacy/terms pages are publicly reachable.
+2. Upload/select the exact final plugin package.
+3. Wait for Metadata & Skills scans to pass.
+4. Open MCPs and connect `https://aurora-live-data.vercel.app/api/mcp`.
+5. Complete domain verification using the already-deployed challenge route.
+6. Select Scan Tools.
+7. Verify all five tools and their annotations.
+8. Resolve every blocking tool finding.
+9. Run all five positive and three negative cases against the final candidate.
+10. Record the demo walkthrough and add the reviewer-accessible URL.
+11. Confirm release notes.
+12. Complete required policy attestations.
+13. Submit for review.
+14. After approval, select Publish when ready.
 
-## Final URL transition
-
-Temporary review pages currently exist on Vercel, but the public candidate should use the official Aurora site when that site is ready.
-
-Target final URLs:
+## Final URLs
 
 - Website: `https://aurora.le-corre-alexis.fr/`
 - Support: `https://aurora.le-corre-alexis.fr/support`
 - Privacy: `https://aurora.le-corre-alexis.fr/privacy`
 - Terms: `https://aurora.le-corre-alexis.fr/terms`
+- Creator: `https://le-corre-alexis.fr/`
 
 The MCP origin remains:
 
 `https://aurora-live-data.vercel.app/api/mcp`
 
-Changing the product website does not require moving the MCP.
+The domain-verification challenge remains on the MCP origin because it is the submitted MCP host.
