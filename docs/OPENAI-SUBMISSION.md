@@ -6,7 +6,7 @@ This document is the operational checklist for the public review of Aurora.
 
 ## Candidate
 
-- Aurora package: **0.90.0**
+- Aurora package: **0.90.1**
 - Production MCP: `https://aurora-live-data.vercel.app/api/mcp`
 - MCP authentication: none
 - MCP behavior: public, read-only
@@ -111,7 +111,7 @@ Never commit the token to GitHub.
 
 ## Review test cases
 
-Aurora 0.90.0 declares exactly five positive and three negative review cases in the plugin package.
+Aurora 0.90.1 declares exactly five positive and three negative review cases in the plugin package.
 
 All eight review cases were run against the fresh ChatGPT host candidate on 2026-10-04 and passed. Re-run only if the candidate changes materially before submission.
 
