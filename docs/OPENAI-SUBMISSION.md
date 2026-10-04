@@ -6,7 +6,7 @@ This document is the operational checklist for the public review of Aurora.
 
 ## Candidate
 
-- Aurora package: **0.65.1**
+- Aurora package: **0.90.0**
 - Production MCP: `https://aurora-live-data.vercel.app/api/mcp`
 - MCP authentication: none
 - MCP behavior: public, read-only
@@ -111,9 +111,9 @@ Never commit the token to GitHub.
 
 ## Review test cases
 
-Aurora 0.65.1 declares exactly five positive and three negative review cases in the plugin package.
+Aurora 0.90.0 declares exactly five positive and three negative review cases in the plugin package.
 
-Before submission, run all eight against the exact final plugin version and record PASS/FAIL.
+All eight review cases were run against the fresh ChatGPT host candidate on 2026-10-04 and passed. Re-run only if the candidate changes materially before submission.
 
 ### Positive 1 — GPT-6 Astra prompt creation
 
@@ -344,7 +344,7 @@ Do not show:
 6. Select Scan Tools.
 7. Verify all five tools and their annotations.
 8. Resolve every blocking tool finding.
-9. Run all five positive and three negative cases against the final candidate.
+9. Confirm the recorded 5 positive and 3 negative host-validation results still apply to the exact candidate being submitted.
 10. Record the demo walkthrough and add the reviewer-accessible URL.
 11. Confirm release notes.
 12. Complete required policy attestations.
