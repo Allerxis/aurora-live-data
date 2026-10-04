@@ -266,14 +266,20 @@ Public review URLs:
 - Terms: `https://aurora.le-corre-alexis.fr/terms`
 - Creator: `https://le-corre-alexis.fr/`
 
-The public MCP is read-only and does not require authentication. Aurora 0.90.1 includes five positive and three negative MCP review cases plus publication release notes.
+The public MCP is read-only and does not require authentication. Aurora 0.90.2 includes five positive and three negative MCP review cases plus publication release notes.
+
+Publication choices:
+- public developer identity: Alexis Le Corre;
+- country targeting: unrestricted (all available countries);
+- commerce: false.
 
 Remaining manual submission items:
-- verified OpenAI developer/business identity;
+- verify/select Alexis Le Corre as the developer identity in the OpenAI submission portal;
 - MCP domain-verification challenge token;
 - current MCP tool scan in the OpenAI submission portal;
-- reviewer-accessible video walkthrough;
 - final policy attestations and Submit for review.
+
+No demo recording is included in Aurora 0.90.2. If the submission portal requires a reviewer-accessible demo for this initial MCP review, that requirement remains unresolved.
 
 
 ## Current release candidate
