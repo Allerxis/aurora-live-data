@@ -266,7 +266,7 @@ Public review URLs:
 - Terms: `https://aurora.le-corre-alexis.fr/terms`
 - Creator: `https://le-corre-alexis.fr/`
 
-The public MCP is read-only and does not require authentication. Aurora 0.90.0 includes five positive and three negative MCP review cases plus publication release notes.
+The public MCP is read-only and does not require authentication. Aurora 0.90.1 includes five positive and three negative MCP review cases plus publication release notes.
 
 Remaining manual submission items:
 - verified OpenAI developer/business identity;
