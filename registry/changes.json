@@ -1,7 +1,27 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-03T16:16:38Z",
+  "generated_at": "2026-10-04T05:48:11Z",
   "changes": [
+    {
+      "observed_at": "2026-10-04T05:48:11Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "32379c6e22a181e2662ad42006e08ae192b2391a103e0748c555581c240b434d",
+      "new_hash": "118dd11a458ece568889e02f37f36dc14461d0e05eeece5f34b5091cd19c4f9b",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-04T05:48:11Z",
+      "entity_type": "source",
+      "entity_key": "xai-models",
+      "change_type": "content_changed",
+      "previous_hash": "2886c4293f25d0ba75f7a636e166efa42a64ec759d4da19600535beedd324251",
+      "new_hash": "0473241c817a912210c5527a5309c5ee2fe5033b5ba27179ca6d77cbb9ae0690",
+      "source_url": "https://docs.x.ai/developers/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-03T16:16:38Z",
       "entity_type": "source",
@@ -9976,26 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "google:gemini-2.5-pro-preview-03-25",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-2.5-pro",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-2.5-flash-preview-tts",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
