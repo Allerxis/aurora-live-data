@@ -6,7 +6,7 @@ This document is the operational checklist for the public review of Aurora.
 
 ## Candidate
 
-- Aurora package: **0.65.0**
+- Aurora package: **0.65.1**
 - Production MCP: `https://aurora-live-data.vercel.app/api/mcp`
 - MCP authentication: none
 - MCP behavior: public, read-only
@@ -111,7 +111,7 @@ Never commit the token to GitHub.
 
 ## Review test cases
 
-Aurora 0.65.0 declares exactly five positive and three negative review cases in the plugin package.
+Aurora 0.65.1 declares exactly five positive and three negative review cases in the plugin package.
 
 Before submission, run all eight against the exact final plugin version and record PASS/FAIL.
 
@@ -176,6 +176,7 @@ Audit this GPT-6 Astra prompt and identify concrete issues before proposing a co
 Expected tools:
 - get_status
 - get_model
+- get_guidance
 - get_validation_policy
 
 Pass conditions:
