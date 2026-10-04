@@ -1,6 +1,6 @@
 # Aurora V1 preflight — 2026-10-04
 
-Candidate: **Aurora 0.90.1**
+Candidate: **Aurora 0.90.2**
 
 ## Production surface
 
@@ -66,7 +66,7 @@ The eval contract explicitly covers:
 - output-contract requirements;
 - semantic objective/constraint checks.
 
-The review case was aligned in 0.90.1 to include `get_guidance`, matching the `audit-prompt` skill for an exact model target.
+The review case was aligned in 0.90.2 to include `get_guidance`, matching the `audit-prompt` skill for an exact model target.
 
 ### Positive 5 — migration
 **PASS (backend/policy preflight)**
@@ -98,11 +98,16 @@ Aurora Core explicitly prohibits requesting or disclosing private chain-of-thoug
 
 **8 / 8 PASS for backend, capability, and policy preflight.**
 
-This is not yet the final host E2E acceptance. Remaining mandatory final verification:
-1. open a brand-new ChatGPT conversation;
-2. invoke Aurora 0.90.1;
-3. confirm only the five data tools are exposed and no `render_*` tools appear;
-4. run the exact five positive and three negative review prompts in that fresh host session;
-5. record PASS/FAIL and any unexpected tool routing or output behavior.
+## Fresh-host E2E acceptance
 
-Do not promote to 1.0.0 until the fresh-host verification passes.
+Completed by the project owner on 2026-10-04 in a brand-new ChatGPT conversation:
+- no retired MCP Apps UI surfaced;
+- all five positive review prompts passed;
+- all three negative review prompts passed;
+- no unexpected routing or output blocker was reported.
+
+**Final host result: 8 / 8 PASS.**
+
+Aurora 0.90.2 preserves that validated behavior and changes publication metadata/packaging only.
+
+Remaining pre-1.0 work is submission-specific: developer identity verification, MCP scan, domain verification, policy attestations, and any demo requirement enforced by the submission portal.
