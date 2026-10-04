@@ -4,7 +4,7 @@ Status date: 2026-10-04
 
 ## Candidate
 
-- Aurora plugin: **0.63.0**
+- Aurora plugin: **0.65.0**
 - Scope: private/user while final public-site and submission work is pending
 - Production MCP: `https://aurora-live-data.vercel.app/api/mcp`
 - Aurora Live Data schema: **0.19.0**
@@ -42,7 +42,7 @@ Latest checked state:
 
 ## Review package prepared
 
-Aurora 0.61.0 contains:
+Aurora 0.65.0 contains:
 - product metadata;
 - English primary listing;
 - French translation;
@@ -52,27 +52,25 @@ Aurora 0.61.0 contains:
 - production MCP endpoint;
 - temporary HTTPS product/support/privacy/terms URLs.
 
-Temporary review URLs:
-- Product: `https://aurora-live-data.vercel.app/`
-- Support: `https://aurora-live-data.vercel.app/support`
-- Privacy: `https://aurora-live-data.vercel.app/privacy`
-- Terms: `https://aurora-live-data.vercel.app/terms`
+Final review URLs:
+- Product: `https://aurora.le-corre-alexis.fr/`
+- Support: `https://aurora.le-corre-alexis.fr/support`
+- Privacy: `https://aurora.le-corre-alexis.fr/privacy`
+- Terms: `https://aurora.le-corre-alexis.fr/terms`
+- Creator: `https://le-corre-alexis.fr/`
 
 ## Before public submission
 
-The existing official Aurora website should be updated first:
+The official Aurora URLs are now the final listing URLs.
 
-`https://aurora.le-corre-alexis.fr/`
-
-After that update:
-1. replace the temporary Vercel listing URLs with the official Aurora website URLs;
-2. run the 5 positive and 3 negative review cases in the final public candidate;
-3. complete developer/business identity requirements in the OpenAI submission portal;
-4. connect and scan the production MCP;
-5. complete the domain-verification challenge requested by OpenAI;
-6. record and provide the reviewer-accessible demonstration video;
-7. review policy attestations;
-8. submit for public review.
+Remaining steps:
+1. run the 5 positive and 3 negative review cases against the exact final candidate;
+2. complete developer/business identity requirements in the OpenAI submission portal;
+3. connect and scan the production MCP;
+4. complete the domain-verification challenge requested by OpenAI;
+5. record and provide the reviewer-accessible demonstration video;
+6. review policy attestations;
+7. submit for public review.
 
 ## Release discipline
 
