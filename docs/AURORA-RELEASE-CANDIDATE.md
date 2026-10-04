@@ -4,7 +4,7 @@ Status date: 2026-10-04
 
 ## Candidate
 
-- Aurora plugin: **0.65.0**
+- Aurora plugin: **0.65.1**
 - Scope: private/user while final validation and submission work is pending
 - Production MCP: `https://aurora-live-data.vercel.app/api/mcp`
 - Aurora Live Data schema: **0.19.0**
@@ -42,7 +42,7 @@ Latest checked state:
 
 ## Review package prepared
 
-Aurora 0.65.0 contains:
+Aurora 0.65.1 contains:
 - product metadata;
 - English primary listing;
 - French translation;
