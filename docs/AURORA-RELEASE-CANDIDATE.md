@@ -4,8 +4,8 @@ Status date: 2026-10-04
 
 ## Candidate
 
-- Aurora plugin: **0.65.1**
-- Scope: private/user while final validation and submission work is pending
+- Aurora plugin: **0.90.0**
+- Scope: private/user release candidate; final submission work remains
 - Production MCP: `https://aurora-live-data.vercel.app/api/mcp`
 - Aurora Live Data schema: **0.19.0**
 
@@ -42,7 +42,7 @@ Latest checked state:
 
 ## Review package prepared
 
-Aurora 0.65.1 contains:
+Aurora 0.90.0 contains:
 - product metadata;
 - English primary listing;
 - French translation;
@@ -59,18 +59,24 @@ Final review URLs:
 - Terms: `https://aurora.le-corre-alexis.fr/terms`
 - Creator: `https://le-corre-alexis.fr/`
 
+## Host validation
+
+Fresh ChatGPT host validation completed successfully on 2026-10-04:
+- no retired MCP Apps UI surface appeared;
+- all 5 positive review cases passed;
+- all 3 negative review cases passed.
+
 ## Before public submission
 
-The official Aurora URLs are now the final listing URLs.
+The official Aurora URLs are final and host validation is complete.
 
 Remaining steps:
-1. run the 5 positive and 3 negative review cases against the exact final candidate;
-2. complete developer/business identity requirements in the OpenAI submission portal;
-3. connect and scan the production MCP;
-4. complete the domain-verification challenge requested by OpenAI;
-5. record and provide the reviewer-accessible demonstration video;
-6. review policy attestations;
-7. submit for public review.
+1. complete developer/business identity requirements in the OpenAI submission portal;
+2. connect and scan the production MCP;
+3. complete the domain-verification challenge requested by OpenAI;
+4. record and provide the reviewer-accessible demonstration video;
+5. review policy attestations;
+6. submit for public review.
 
 ## Release discipline
 
