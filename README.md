@@ -278,17 +278,3 @@ Remaining manual submission items:
 ## Current release candidate
 
 See [Aurora Release Candidate](docs/AURORA-RELEASE-CANDIDATE.md) for the frozen pre-publication status and remaining manual submission steps.
-
-
-## MCP Apps UI
-
-Aurora exposes four optional interactive MCP Apps surfaces in ChatGPT-compatible hosts. Data tools remain usable without UI; render tools are invoked only when a visual result materially improves the workflow.
-
-- `render_live_data_status` → compact health/readiness dashboard.
-- `render_model_comparison` → side-by-side comparison of 2–4 verified models.
-- `render_validation_report` → interactive PASS / NEEDS_REVIEW / FAIL report.
-- `render_migration_plan` → migration plan with candidates, warnings and target selection.
-
-Each render tool references a versioned `ui://` resource with `text/html;profile=mcp-app`. The widgets use the MCP Apps `ui/*` bridge over `postMessage`, keep their presentation state ephemeral, and use no external network resources inside the iframe.
-
-The five existing data tools remain decoupled from rendering so internal Aurora checks do not create unnecessary UI.
