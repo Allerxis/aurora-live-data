@@ -260,12 +260,13 @@ Aurora's production MCP endpoint is:
 `https://aurora-live-data.vercel.app/api/mcp`
 
 Public review URLs:
-- Product: `https://aurora-live-data.vercel.app/`
-- Support: `https://aurora-live-data.vercel.app/support`
-- Privacy: `https://aurora-live-data.vercel.app/privacy`
-- Terms: `https://aurora-live-data.vercel.app/terms`
+- Product: `https://aurora.le-corre-alexis.fr/`
+- Support: `https://aurora.le-corre-alexis.fr/support`
+- Privacy: `https://aurora.le-corre-alexis.fr/privacy`
+- Terms: `https://aurora.le-corre-alexis.fr/terms`
+- Creator: `https://le-corre-alexis.fr/`
 
-The public MCP is read-only and does not require authentication. Aurora 0.61.0 includes five positive and three negative MCP review cases plus publication release notes.
+The public MCP is read-only and does not require authentication. Aurora 0.65.0 includes five positive and three negative MCP review cases plus publication release notes.
 
 Remaining manual submission items:
 - verified OpenAI developer/business identity;
