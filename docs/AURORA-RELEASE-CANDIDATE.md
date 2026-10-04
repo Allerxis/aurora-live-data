@@ -4,7 +4,7 @@ Status date: 2026-10-04
 
 ## Candidate
 
-- Aurora plugin: **0.90.0**
+- Aurora plugin: **0.90.1**
 - Scope: private/user release candidate; final submission work remains
 - Production MCP: `https://aurora-live-data.vercel.app/api/mcp`
 - Aurora Live Data schema: **0.19.0**
@@ -42,7 +42,7 @@ Latest checked state:
 
 ## Review package prepared
 
-Aurora 0.90.0 contains:
+Aurora 0.90.1 contains:
 - product metadata;
 - English primary listing;
 - French translation;
@@ -58,6 +58,12 @@ Final review URLs:
 - Privacy: `https://aurora.le-corre-alexis.fr/privacy`
 - Terms: `https://aurora.le-corre-alexis.fr/terms`
 - Creator: `https://le-corre-alexis.fr/`
+
+## Packaging validation
+
+- submission icon normalized to an exact 512 × 512 PNG in 0.90.1;
+- no root `.app.json` is present;
+- the validated MCP behavior is unchanged from 0.90.0.
 
 ## Host validation
 
