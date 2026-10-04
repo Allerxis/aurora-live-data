@@ -32,7 +32,7 @@ export default function Home() {
         <h2>Aurora Live Data</h2>
         <p>
           The public MCP server is read-only and exposes verified registry
-          data through five data tools plus four optional MCP Apps UI renderers:
+          data through five data tools:
         </p>
         {tools.map((tool) => <p key={tool}><code>{tool}</code></p>)}
         <p><strong>MCP endpoint</strong></p>
