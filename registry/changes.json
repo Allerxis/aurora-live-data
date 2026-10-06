@@ -1,7 +1,127 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-06T06:16:20Z",
+  "generated_at": "2026-10-06T18:19:33Z",
   "changes": [
+    {
+      "observed_at": "2026-10-06T18:19:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "mistral:mistral-large-4",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-06T18:19:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-large-4",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "efaaaa3e404dff56ac294dfb1a134f389b8862c994ee2924c55df95d4caca330",
+      "source_url": "https://docs.mistral.ai/models/mistral-large-4-0",
+      "summary": "Deterministic facts were verified from the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-06T18:19:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-omni-flash-preview",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-06T18:19:33Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-nano-banana-2.1",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-06T18:19:33Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-nano-banana-2.1",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "680ad0695ee404ee98e64d866cbaebc28646914060609610bacef41eb4dec9a0",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1",
+      "summary": "Deterministic facts were verified from the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-06T18:19:33Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "4c0945f663493d26387fae69d53e0f2dfab3312841284d385958c7349aea4607",
+      "new_hash": "abd7ea279d5e9cea0de5e6fa06f90f78aba4928f460e19a29d3578703a9411fe",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-06T18:19:33Z",
+      "entity_type": "source",
+      "entity_key": "mistral-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "84a48f786473b14d74e0bce68dfb94bb487f3b9dcce932e8c72c261cb08a996c",
+      "new_hash": "168f4e658de1bce410b9d1527d651f101c6ee4f315e03671bf234e2b4f62b5cf",
+      "source_url": "https://docs.mistral.ai/inference/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-06T18:19:33Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "fef86a20c968cede1e34e75a62510e101f80b3acd5bbd01d36f4613d682cd338",
+      "new_hash": "419c97e0efb4298ce1cd59c995678ac00f568e8dd6a9af7a558fda8812905746",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-06T18:19:33Z",
+      "entity_type": "source",
+      "entity_key": "mistral-models",
+      "change_type": "content_changed",
+      "previous_hash": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
+      "new_hash": "a1a2d98115f2c001ab56a38e6114be2f7a9aba7ea76c08cc4c12307917d0ce0c",
+      "source_url": "https://docs.mistral.ai/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-06T18:19:33Z",
+      "entity_type": "source",
+      "entity_key": "google-deprecations",
+      "change_type": "content_changed",
+      "previous_hash": "536d25ff164a705a15a406ec017043dea8447b939cc8933a0caa1137906e707a",
+      "new_hash": "8f1e692371a5cdb171325e125acebb3d974f6d02bcaa097bbde2e77e48dd6017",
+      "source_url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-06T18:19:33Z",
+      "entity_type": "source",
+      "entity_key": "google-models",
+      "change_type": "content_changed",
+      "previous_hash": "7e7577ce80b8fdfb2737c498eaecfb4809dc101750045dac69d7438a1f70c2df",
+      "new_hash": "4b43eb96766a5eeb6e215c290e3e96196ee9f61a5fbf67b1245bfcc406e09b83",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-06T18:19:33Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "beb678decc87a84992744ddb0cb9e4935be845f8bdd742b63df1572e67e42b00",
+      "new_hash": "908cdd9dae4f4ac93c3ed7329192ed1d0760712cbd1c2aec0a4ff620f4076d7e",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-06T06:16:20Z",
       "entity_type": "source",
@@ -9876,126 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "google:gemini-3.1-flash-live-preview",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-3.1-flash-lite-preview",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-3.1-flash-lite-image",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-3.1-flash-lite",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-3.1-flash-image-preview",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-3.1-flash-image",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-3-pro-preview",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-3-pro-image-preview",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-3-pro-image",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-3-flash-preview",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-2.5-pro-preview-tts",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-2.5-pro-preview-06-05",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-2.5-pro-preview-05-06",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
