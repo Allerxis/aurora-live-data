@@ -1,7 +1,17 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-05T05:34:25Z",
+  "generated_at": "2026-10-06T06:16:20Z",
   "changes": [
+    {
+      "observed_at": "2026-10-06T06:16:20Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-models",
+      "change_type": "content_changed",
+      "previous_hash": "b5b70ec95b996e3c9bd9efabe8b003e9936f9b1ad284a27f061daf6c025bb5ca",
+      "new_hash": "69f6bb2f84cfd45d2534c123b506685211584c1a265bb9300a18fb60c85d60aa",
+      "source_url": "https://platform.claude.com/docs/en/models/overview",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-04T05:48:11Z",
       "entity_type": "source",
@@ -9986,16 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "google:gemini-2.5-pro-preview-05-06",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-2.5-pro-preview-03-25",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
