@@ -1,7 +1,7 @@
 {
   "schema_version": "0.19.0",
   "provider": "anthropic",
-  "generated_at": "2026-10-07T05:54:52Z",
+  "generated_at": "2026-10-07T18:56:09Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -18,7 +18,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -27,7 +27,7 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -50,7 +50,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -59,7 +59,7 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -93,7 +93,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -102,7 +102,7 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -125,7 +125,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -134,7 +134,7 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -157,7 +157,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -166,7 +166,7 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -200,7 +200,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -209,7 +209,7 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -243,7 +243,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -252,7 +252,7 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -275,7 +275,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -284,7 +284,7 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -307,7 +307,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -316,7 +316,7 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -350,7 +350,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -359,9 +359,9 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/fable-5/overview",
       "semantic_hash": "04457c7f7e76b340013cc4db95ad596cebc57582d3da69a9efe77938a44a647b",
       "semantic_error": null,
@@ -431,7 +431,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -442,10 +442,10 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "38bdce7545e0e2d35dd7a831780787fb305ba62a63355b96483e236e0261eece",
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-models": "ea388c4832ea29d15b4e36f6fe85dc94401835238b24c0d3982df9c9b8299f9d",
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
       "semantic_hash": "bbcf5103f938bd0fdcec7d0cafe7431116dc4622a93c301ffc88ee8166d59486",
       "semantic_error": null,
@@ -495,29 +495,40 @@
     },
     {
       "provider_slug": "anthropic",
-      "model_key": "claude-haiku-4-5",
-      "display_name": "claude-haiku-4-5",
+      "model_key": "claude-haiku-4-5-20251001",
+      "display_name": "claude-haiku-4-5-20251001",
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
-      "lifecycle_status": "Active (latest)",
-      "lifecycle": null,
+      "lifecycle_status": "Active",
+      "lifecycle": {
+        "status": "Active",
+        "deprecated_at": null,
+        "retirement": "Not sooner than October 15, 2026",
+        "scope": [
+          "Claude API",
+          "Claude Platform on AWS",
+          "Microsoft Foundry"
+        ],
+        "partner_platform_schedule_may_differ": true,
+        "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+      },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
-        "anthropic-models"
+        "anthropic-deprecations"
       ],
       "source_urls": [
-        "https://platform.claude.com/docs/en/models/overview"
+        "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-models": "38bdce7545e0e2d35dd7a831780787fb305ba62a63355b96483e236e0261eece"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
-      "semantic_hash": "a2b974342abccd5f83c37654b670d897cb95b56472921e80dbf9c03967132839",
+      "semantic_hash": "e79d604ee83e6903c249cfc43eb3e510d9ac59b339dcf69c91202dc40ffda0c7",
       "semantic_error": null,
       "facts": {
         "source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
@@ -534,12 +545,12 @@
         },
         "thinking": "Extended",
         "default_effort": "Not supported",
-        "comparative_latency": "Fastest",
+        "comparative_latency": null,
         "input_output": "Text and images → text",
         "reliable_knowledge_cutoff": "2025-02",
         "training_data_cutoff": "2025-07",
         "lifecycle": {
-          "status": "Active (latest)",
+          "status": "Active",
           "released": "2025-10-15",
           "retirement": "Not sooner than October 15, 2026"
         },
@@ -565,8 +576,8 @@
     },
     {
       "provider_slug": "anthropic",
-      "model_key": "claude-haiku-4-5-20251001",
-      "display_name": "claude-haiku-4-5-20251001",
+      "model_key": "claude-haiku-5-5",
+      "display_name": "claude-haiku-5-5",
       "kind": "model",
       "discovery_state": "discovered_verified",
       "verification_state": "verified_official_detail",
@@ -574,7 +585,7 @@
       "lifecycle": {
         "status": "Active",
         "deprecated_at": null,
-        "retirement": "Not sooner than October 15, 2026",
+        "retirement": "Not sooner than October 7, 2027",
         "scope": [
           "Claude API",
           "Claude Platform on AWS",
@@ -584,8 +595,8 @@
         "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       },
       "present_in_current_sources": true,
-      "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "first_discovered_at": "2026-10-07T18:56:09Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -596,43 +607,43 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "38bdce7545e0e2d35dd7a831780787fb305ba62a63355b96483e236e0261eece",
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-models": "ea388c4832ea29d15b4e36f6fe85dc94401835238b24c0d3982df9c9b8299f9d",
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
-      "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
-      "semantic_hash": "a2b974342abccd5f83c37654b670d897cb95b56472921e80dbf9c03967132839",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+      "semantic_hash": "0414a60647195f512473baaa00345192604d6963a7672e8905197d1c11e3a8b1",
       "semantic_error": null,
       "facts": {
-        "source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
-        "context_window_tokens": 200000,
-        "max_output_tokens": 64000,
-        "max_output_batch_tokens": null,
+        "source_url": "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+        "context_window_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "max_output_batch_tokens": 300000,
         "pricing": {
           "unit": "USD_per_1M_tokens",
-          "input": 1.0,
-          "output": 5.0,
-          "cache_write_5m": 1.25,
-          "cache_write_1h": 2.0,
-          "cache_read": 0.1
+          "input": 0.1,
+          "output": 0.5,
+          "cache_write_5m": 0.125,
+          "cache_write_1h": 0.2,
+          "cache_read": 0.01
         },
-        "thinking": "Extended",
-        "default_effort": "Not supported",
+        "thinking": "Adaptive",
+        "default_effort": "medium",
         "comparative_latency": "Fastest",
         "input_output": "Text and images → text",
-        "reliable_knowledge_cutoff": "2025-02",
-        "training_data_cutoff": "2025-07",
+        "reliable_knowledge_cutoff": "2026-06",
+        "training_data_cutoff": "2026-06",
         "lifecycle": {
           "status": "Active (latest)",
-          "released": "2025-10-15",
-          "retirement": "Not sooner than October 15, 2026"
+          "released": "2026-10-07",
+          "retirement": "Not sooner than October 7, 2027"
         },
         "platform_ids": {
-          "claude_api": "claude-haiku-4-5-20251001",
-          "amazon_bedrock": "anthropic.claude-haiku-4-5",
-          "google_cloud": "claude-haiku-4-5@20251001",
-          "microsoft_foundry": "claude-haiku-4-5",
-          "claude_platform_aws": "claude-haiku-4-5"
+          "claude_api": "claude-haiku-5-5",
+          "amazon_bedrock": "anthropic.claude-haiku-5-5",
+          "google_cloud": "claude-haiku-5-5",
+          "microsoft_foundry": "claude-haiku-5-5",
+          "claude_platform_aws": "claude-haiku-5-5"
         },
         "platforms": [
           "Claude API",
@@ -669,7 +680,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -678,9 +689,9 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/mythos-5/overview",
       "semantic_hash": "42398d6bbb2d00eb32289b58d23f7ee3da057294f1307c3b69e8588889418120",
       "semantic_error": null,
@@ -748,7 +759,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -757,9 +768,9 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
       "semantic_hash": "1776f076ad34e6af8f040c003404864ed483533794545a7b43db86ce43f18f72",
       "semantic_error": null,
@@ -827,7 +838,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -836,7 +847,7 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -870,7 +881,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -879,7 +890,7 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -913,7 +924,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -922,7 +933,7 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -956,7 +967,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -965,9 +976,9 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
       "semantic_hash": "2cc5ec494bb11a7710751516439273c1030ee73ee1fc242d413e8ecbf9459cc2",
       "semantic_error": null,
@@ -1036,7 +1047,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1045,9 +1056,9 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
       "semantic_hash": "680ba82e7bbdcea8a6df16d16ed77fc62af177b0e7180e5a4111f4b3b8ce08b6",
       "semantic_error": null,
@@ -1116,7 +1127,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1125,9 +1136,9 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-7/overview",
       "semantic_hash": "782f6473353ec2c38f0580c47bf8be8b65e1aa8d756134ae24686a7e3e32af95",
       "semantic_error": null,
@@ -1197,7 +1208,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1208,10 +1219,10 @@
         "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3",
-        "anthropic-prompting-best-practices": "d29b7a085177f2eb07e13f7ebecd16a90c734dab762a6de8bde6fa719fcdfe89"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29",
+        "anthropic-prompting-best-practices": "bc4969028437c2f78d0d79307c40627581f871494323a3685764faff24f47d4f"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-8/overview",
       "semantic_hash": "e6ae3f080d4938ec8e555d71456f3986c5ee51c69ca713bffa1a865e38a6b62c",
       "semantic_error": null,
@@ -1281,7 +1292,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1290,9 +1301,9 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-5/overview",
       "semantic_hash": "e58676d09b9d82a8fb43697b7f335e211f1ff290ba59ff8abf2c3ecd56d624b5",
       "semantic_error": null,
@@ -1362,7 +1373,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1375,11 +1386,11 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "38bdce7545e0e2d35dd7a831780787fb305ba62a63355b96483e236e0261eece",
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3",
-        "anthropic-prompting-best-practices": "d29b7a085177f2eb07e13f7ebecd16a90c734dab762a6de8bde6fa719fcdfe89"
+        "anthropic-models": "ea388c4832ea29d15b4e36f6fe85dc94401835238b24c0d3982df9c9b8299f9d",
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29",
+        "anthropic-prompting-best-practices": "bc4969028437c2f78d0d79307c40627581f871494323a3685764faff24f47d4f"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
       "semantic_hash": "3a63f02f33a4e71b1df4ae5ba21873300a4b80e0e8bd8b889a934558c1584302",
       "semantic_error": null,
@@ -1449,7 +1460,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1458,7 +1469,7 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -1492,7 +1503,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1503,10 +1514,10 @@
         "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3",
-        "anthropic-prompting-best-practices": "d29b7a085177f2eb07e13f7ebecd16a90c734dab762a6de8bde6fa719fcdfe89"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29",
+        "anthropic-prompting-best-practices": "bc4969028437c2f78d0d79307c40627581f871494323a3685764faff24f47d4f"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview",
       "semantic_hash": "0da326c76e3d2de6d41ff0a778469d42c803218e85e25955ce1ac11bff000909",
       "semantic_error": null,
@@ -1575,7 +1586,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1584,9 +1595,9 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
       "semantic_hash": "ea96f654d4470f7b706e00100b97b6e176b8cee864bff444940db89879fbc17b",
       "semantic_error": null,
@@ -1655,7 +1666,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1664,9 +1675,9 @@
         "https://platform.claude.com/docs/en/about-claude/model-deprecations"
       ],
       "source_hashes": {
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
       "semantic_hash": "5ccb9efc106eff79387d87aa8aacd09cb7fa940d943ad03bbdd4bb2d9303512d",
       "semantic_error": null,
@@ -1736,7 +1747,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-07T05:54:52Z",
+      "last_seen_at": "2026-10-07T18:56:09Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1747,10 +1758,10 @@
         "https://platform.claude.com/docs/en/models/overview"
       ],
       "source_hashes": {
-        "anthropic-models": "38bdce7545e0e2d35dd7a831780787fb305ba62a63355b96483e236e0261eece",
-        "anthropic-deprecations": "165c7d69957d0e1fa2cee2b7d5cfa4d338de8c7a262fb56664cea7ca693421f3"
+        "anthropic-models": "ea388c4832ea29d15b4e36f6fe85dc94401835238b24c0d3982df9c9b8299f9d",
+        "anthropic-deprecations": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29"
       },
-      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_verified_at": "2026-10-07T18:56:09Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
       "semantic_hash": "cd19b087a164575164040c6b9a06dcd9e22fdc5b9b10b634c768a4b323f17221",
       "semantic_error": null,
@@ -2012,6 +2023,76 @@
       "notes": [
         "Automatically discovered from official provider documentation.",
         "Capabilities, limits, pricing and lifecycle are not considered verified unless verification_state says otherwise."
+      ]
+    },
+    {
+      "provider_slug": "anthropic",
+      "model_key": "claude-haiku-4-5",
+      "display_name": "claude-haiku-4-5",
+      "kind": "model",
+      "discovery_state": "historical_unverified",
+      "verification_state": "verified_official_detail",
+      "lifecycle_status": "Active (latest)",
+      "lifecycle": null,
+      "present_in_current_sources": false,
+      "first_discovered_at": "2026-10-02T11:26:55Z",
+      "last_seen_at": "2026-10-07T05:54:52Z",
+      "missing_since": "2026-10-07T18:56:09Z",
+      "source_keys": [
+        "anthropic-models"
+      ],
+      "source_urls": [
+        "https://platform.claude.com/docs/en/models/overview"
+      ],
+      "source_hashes": {
+        "anthropic-models": "38bdce7545e0e2d35dd7a831780787fb305ba62a63355b96483e236e0261eece"
+      },
+      "semantic_verified_at": "2026-10-07T05:54:52Z",
+      "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "semantic_hash": "a2b974342abccd5f83c37654b670d897cb95b56472921e80dbf9c03967132839",
+      "semantic_error": null,
+      "facts": {
+        "source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+        "context_window_tokens": 200000,
+        "max_output_tokens": 64000,
+        "max_output_batch_tokens": null,
+        "pricing": {
+          "unit": "USD_per_1M_tokens",
+          "input": 1.0,
+          "output": 5.0,
+          "cache_write_5m": 1.25,
+          "cache_write_1h": 2.0,
+          "cache_read": 0.1
+        },
+        "thinking": "Extended",
+        "default_effort": "Not supported",
+        "comparative_latency": "Fastest",
+        "input_output": "Text and images → text",
+        "reliable_knowledge_cutoff": "2025-02",
+        "training_data_cutoff": "2025-07",
+        "lifecycle": {
+          "status": "Active (latest)",
+          "released": "2025-10-15",
+          "retirement": "Not sooner than October 15, 2026"
+        },
+        "platform_ids": {
+          "claude_api": "claude-haiku-4-5-20251001",
+          "amazon_bedrock": "anthropic.claude-haiku-4-5",
+          "google_cloud": "claude-haiku-4-5@20251001",
+          "microsoft_foundry": "claude-haiku-4-5",
+          "claude_platform_aws": "claude-haiku-4-5"
+        },
+        "platforms": [
+          "Claude API",
+          "Amazon Bedrock",
+          "Google Cloud",
+          "Microsoft Foundry",
+          "Claude Platform on AWS"
+        ]
+      },
+      "notes": [
+        "Automatically discovered from official provider documentation.",
+        "Capabilities, limits, pricing and lifecycle are authoritative only when verification_state is verified_official_detail."
       ]
     },
     {
