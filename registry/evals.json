@@ -155,6 +155,6 @@
     "needs_review": "No fail, but at least one applicable criterion remains needs_review.",
     "pass": "All applicable criteria are pass or not_applicable, and required semantic evidence is present."
   },
-  "generated_at": "2026-10-06T18:19:33Z",
+  "generated_at": "2026-10-07T05:54:52Z",
   "spec_hash": "34763d835c712846c5a367135d85e5480f4cc5c0f423fe5b2429157f731b7ee6"
 }
