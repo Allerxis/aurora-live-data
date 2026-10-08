@@ -1,7 +1,47 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-08T05:58:51Z",
+  "generated_at": "2026-10-08T18:49:47Z",
   "changes": [
+    {
+      "observed_at": "2026-10-08T18:49:47Z",
+      "entity_type": "source",
+      "entity_key": "xai-prompt-caching-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "4d52eda54f0ea8ddb91304d0451ec190ebe62f50d6f9400081a7b154ae79b310",
+      "new_hash": "0849f137f2022ff8cf9f81f4792b99171d0e54d96bc25d6b0fc6db8b4ba116c2",
+      "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-08T18:49:47Z",
+      "entity_type": "source",
+      "entity_key": "xai-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "94fe77781fef08b471df1579e642f64c1f1bf12e23b232e70c89e4ba859b3a5b",
+      "new_hash": "93afd6f7e69d76e5897dd1cf20edbcc605e28df023ab71a6a0a429fae3eddf06",
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-08T18:49:47Z",
+      "entity_type": "source",
+      "entity_key": "xai-retirement-2026-05",
+      "change_type": "content_changed",
+      "previous_hash": "75ee08cb95c0cbfd61d36cfdcad8048d7420d65a86620abd91919f9c8a97d719",
+      "new_hash": "3ea5c1899cd52a072a16b4c802ebe183eeafb8f6dc6a92a405968d31b8ce28af",
+      "source_url": "https://docs.x.ai/developers/migration/may-15-retirement",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-08T18:49:47Z",
+      "entity_type": "source",
+      "entity_key": "xai-models",
+      "change_type": "content_changed",
+      "previous_hash": "0473241c817a912210c5527a5309c5ee2fe5033b5ba27179ca6d77cbb9ae0690",
+      "new_hash": "14e456c883bc58bf1819e5d8f9ff35d70a8f619a91df222d590aa5ef2a7f3b25",
+      "source_url": "https://docs.x.ai/developers/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-08T05:58:51Z",
       "entity_type": "model_semantics",
@@ -9956,46 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "google:gemini-api-supported",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-resources-footer",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-resource-item",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-recommended",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-not-supported",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
