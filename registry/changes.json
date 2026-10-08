@@ -1,7 +1,67 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-07T18:56:09Z",
+  "generated_at": "2026-10-08T05:58:51Z",
   "changes": [
+    {
+      "observed_at": "2026-10-08T05:58:51Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-sonnet-5-5",
+      "change_type": "semantic_changed",
+      "previous_hash": "cd19b087a164575164040c6b9a06dcd9e22fdc5b9b10b634c768a4b323f17221",
+      "new_hash": "58e480e3e0e79a5f14a075e0a4b38eddb6b84689098dbe1cc897527c46b47f33",
+      "source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-08T05:58:51Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-prompting-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "bc4969028437c2f78d0d79307c40627581f871494323a3685764faff24f47d4f",
+      "new_hash": "6e5b3997d85eaf217da99e814a39e8e02203a6f6e782f80289dee176f71a9527",
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-08T05:58:51Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-deprecations",
+      "change_type": "content_changed",
+      "previous_hash": "08e06bef7650b3a7625b968a5a39fe5e77a923407a5463b777e78fa93381bf29",
+      "new_hash": "6f743ae07af55850749eb1dd2c40b9510debd53fbd3b1b68f52fafdaa3e69b3a",
+      "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-08T05:58:51Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "4593dc72fab81b3a8a9a3b5e43ae9cb3c777fc6ad65d95d7871c1630e11ba255",
+      "new_hash": "a9bc3d41238087a8d75a30deacf6e59de45a547fdcae349454ff66d6cba60855",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-08T05:58:51Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama",
+      "change_type": "content_changed",
+      "previous_hash": "4593dc72fab81b3a8a9a3b5e43ae9cb3c777fc6ad65d95d7871c1630e11ba255",
+      "new_hash": "a9bc3d41238087a8d75a30deacf6e59de45a547fdcae349454ff66d6cba60855",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-08T05:58:51Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-models",
+      "change_type": "content_changed",
+      "previous_hash": "ea388c4832ea29d15b4e36f6fe85dc94401835238b24c0d3982df9c9b8299f9d",
+      "new_hash": "4f0cb9e7014706cd6096049160e5c228363abbc7fa6f37b766318d4bc43eeeae",
+      "source_url": "https://platform.claude.com/docs/en/models/overview",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-07T18:56:09Z",
       "entity_type": "model_semantics",
@@ -9936,66 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "google:gemini-api-not-supported",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-new",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-model-table-grid",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-model-table",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-model-font",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-model-button",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-logo.svg",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
