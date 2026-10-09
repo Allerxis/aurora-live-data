@@ -1,7 +1,27 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-08T18:49:47Z",
+  "generated_at": "2026-10-09T06:04:28Z",
   "changes": [
+    {
+      "observed_at": "2026-10-09T06:04:28Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "a9bc3d41238087a8d75a30deacf6e59de45a547fdcae349454ff66d6cba60855",
+      "new_hash": "25a84bf6358f0d40a570e3f0539cc4649bf33d2c9962edc684384783cdab9bb9",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-09T06:04:28Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama",
+      "change_type": "content_changed",
+      "previous_hash": "a9bc3d41238087a8d75a30deacf6e59de45a547fdcae349454ff66d6cba60855",
+      "new_hash": "7ef859de37a9b02e3a250f22c31945cb8911225cd51ab2b0cbe2cdbaac149fac",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-08T18:49:47Z",
       "entity_type": "source",
@@ -9976,26 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "google:gemini-card-centered",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-table-font-color",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-supported",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
