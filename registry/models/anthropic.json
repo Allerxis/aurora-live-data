@@ -1,7 +1,7 @@
 {
   "schema_version": "0.19.0",
   "provider": "anthropic",
-  "generated_at": "2026-10-10T05:47:53Z",
+  "generated_at": "2026-10-10T17:19:54Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -18,7 +18,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -50,7 +50,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -93,7 +93,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -125,7 +125,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -157,7 +157,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -200,7 +200,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -243,7 +243,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -275,7 +275,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -307,7 +307,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -350,7 +350,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -361,7 +361,7 @@
       "source_hashes": {
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/fable-5/overview",
       "semantic_hash": "04457c7f7e76b340013cc4db95ad596cebc57582d3da69a9efe77938a44a647b",
       "semantic_error": null,
@@ -431,7 +431,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -445,7 +445,7 @@
         "anthropic-models": "4f0cb9e7014706cd6096049160e5c228363abbc7fa6f37b766318d4bc43eeeae",
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
       "semantic_hash": "bbcf5103f938bd0fdcec7d0cafe7431116dc4622a93c301ffc88ee8166d59486",
       "semantic_error": null,
@@ -515,7 +515,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -526,7 +526,7 @@
       "source_hashes": {
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
       "semantic_hash": "e79d604ee83e6903c249cfc43eb3e510d9ac59b339dcf69c91202dc40ffda0c7",
       "semantic_error": null,
@@ -596,7 +596,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-07T18:56:09Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -610,7 +610,7 @@
         "anthropic-models": "4f0cb9e7014706cd6096049160e5c228363abbc7fa6f37b766318d4bc43eeeae",
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
       "semantic_hash": "0414a60647195f512473baaa00345192604d6963a7672e8905197d1c11e3a8b1",
       "semantic_error": null,
@@ -680,7 +680,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -691,7 +691,7 @@
       "source_hashes": {
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/mythos-5/overview",
       "semantic_hash": "42398d6bbb2d00eb32289b58d23f7ee3da057294f1307c3b69e8588889418120",
       "semantic_error": null,
@@ -759,7 +759,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -770,7 +770,7 @@
       "source_hashes": {
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
       "semantic_hash": "1776f076ad34e6af8f040c003404864ed483533794545a7b43db86ce43f18f72",
       "semantic_error": null,
@@ -838,7 +838,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -881,7 +881,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -924,7 +924,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -967,7 +967,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -978,7 +978,7 @@
       "source_hashes": {
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
       "semantic_hash": "2cc5ec494bb11a7710751516439273c1030ee73ee1fc242d413e8ecbf9459cc2",
       "semantic_error": null,
@@ -1047,7 +1047,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1058,7 +1058,7 @@
       "source_hashes": {
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
       "semantic_hash": "680ba82e7bbdcea8a6df16d16ed77fc62af177b0e7180e5a4111f4b3b8ce08b6",
       "semantic_error": null,
@@ -1127,7 +1127,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1138,7 +1138,7 @@
       "source_hashes": {
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-7/overview",
       "semantic_hash": "782f6473353ec2c38f0580c47bf8be8b65e1aa8d756134ae24686a7e3e32af95",
       "semantic_error": null,
@@ -1208,7 +1208,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1220,9 +1220,9 @@
       ],
       "source_hashes": {
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73",
-        "anthropic-prompting-best-practices": "3579b2dfa85a8f1aea0f4346ce28dab86bab346438be3b6e657c2dfb38fef649"
+        "anthropic-prompting-best-practices": "d350649ba28176cfcf6af3536767dbe5a032b473cbd8775ed6e715cf29cede83"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-4-8/overview",
       "semantic_hash": "e6ae3f080d4938ec8e555d71456f3986c5ee51c69ca713bffa1a865e38a6b62c",
       "semantic_error": null,
@@ -1292,7 +1292,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1303,7 +1303,7 @@
       "source_hashes": {
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-5/overview",
       "semantic_hash": "e58676d09b9d82a8fb43697b7f335e211f1ff290ba59ff8abf2c3ecd56d624b5",
       "semantic_error": null,
@@ -1373,7 +1373,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1388,9 +1388,9 @@
       "source_hashes": {
         "anthropic-models": "4f0cb9e7014706cd6096049160e5c228363abbc7fa6f37b766318d4bc43eeeae",
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73",
-        "anthropic-prompting-best-practices": "3579b2dfa85a8f1aea0f4346ce28dab86bab346438be3b6e657c2dfb38fef649"
+        "anthropic-prompting-best-practices": "d350649ba28176cfcf6af3536767dbe5a032b473cbd8775ed6e715cf29cede83"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
       "semantic_hash": "3a63f02f33a4e71b1df4ae5ba21873300a4b80e0e8bd8b889a934558c1584302",
       "semantic_error": null,
@@ -1460,7 +1460,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1503,7 +1503,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:54:27Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1515,9 +1515,9 @@
       ],
       "source_hashes": {
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73",
-        "anthropic-prompting-best-practices": "3579b2dfa85a8f1aea0f4346ce28dab86bab346438be3b6e657c2dfb38fef649"
+        "anthropic-prompting-best-practices": "d350649ba28176cfcf6af3536767dbe5a032b473cbd8775ed6e715cf29cede83"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview",
       "semantic_hash": "0da326c76e3d2de6d41ff0a778469d42c803218e85e25955ce1ac11bff000909",
       "semantic_error": null,
@@ -1586,7 +1586,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1597,7 +1597,7 @@
       "source_hashes": {
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
       "semantic_hash": "ea96f654d4470f7b706e00100b97b6e176b8cee864bff444940db89879fbc17b",
       "semantic_error": null,
@@ -1666,7 +1666,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations"
@@ -1677,7 +1677,7 @@
       "source_hashes": {
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
       "semantic_hash": "5ccb9efc106eff79387d87aa8aacd09cb7fa940d943ad03bbdd4bb2d9303512d",
       "semantic_error": null,
@@ -1747,7 +1747,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-10T05:47:53Z",
+      "last_seen_at": "2026-10-10T17:19:54Z",
       "missing_since": null,
       "source_keys": [
         "anthropic-deprecations",
@@ -1761,7 +1761,7 @@
         "anthropic-models": "4f0cb9e7014706cd6096049160e5c228363abbc7fa6f37b766318d4bc43eeeae",
         "anthropic-deprecations": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73"
       },
-      "semantic_verified_at": "2026-10-10T05:47:53Z",
+      "semantic_verified_at": "2026-10-10T17:19:54Z",
       "semantic_source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
       "semantic_hash": "58e480e3e0e79a5f14a075e0a4b38eddb6b84689098dbe1cc897527c46b47f33",
       "semantic_error": null,

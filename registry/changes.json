@@ -1,7 +1,17 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-10T05:47:53Z",
+  "generated_at": "2026-10-10T17:19:54Z",
   "changes": [
+    {
+      "observed_at": "2026-10-10T17:19:54Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-prompting-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "3579b2dfa85a8f1aea0f4346ce28dab86bab346438be3b6e657c2dfb38fef649",
+      "new_hash": "d350649ba28176cfcf6af3536767dbe5a032b473cbd8775ed6e715cf29cede83",
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-10T05:47:53Z",
       "entity_type": "model_semantics",
@@ -9986,16 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "google:imagen-4.0-ultra-generate-preview-06-06",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:imagen-4.0-ultra-generate-001",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,

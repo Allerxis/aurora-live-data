@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-10T05:47:53Z",
+  "generated_at": "2026-10-10T17:19:54Z",
   "purpose": "Source-anchored prompt-engineering guidance. A rule is current only while deterministic evidence patterns remain present in the tracked official source.",
   "trust_model": {
     "verified_official_guidance": "All configured evidence patterns matched the current official source.",
@@ -24,9 +24,9 @@
       "guidance": "Use clear, explicit instructions and state the desired output format and constraints directly.",
       "source_key": "anthropic-prompting-best-practices",
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
-      "source_hash": "3579b2dfa85a8f1aea0f4346ce28dab86bab346438be3b6e657c2dfb38fef649",
+      "source_hash": "d350649ba28176cfcf6af3536767dbe5a032b473cbd8775ed6e715cf29cede83",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-10T05:47:53Z",
+      "verified_at": "2026-10-10T17:19:54Z",
       "evidence_patterns": [
         "clear.*explicit instructions",
         "desired output format.*constraints"
@@ -44,9 +44,9 @@
       "guidance": "Use relevant, diverse and structured examples when examples materially constrain behavior; Anthropic currently recommends 3–5 examples for best results.",
       "source_key": "anthropic-prompting-best-practices",
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
-      "source_hash": "3579b2dfa85a8f1aea0f4346ce28dab86bab346438be3b6e657c2dfb38fef649",
+      "source_hash": "d350649ba28176cfcf6af3536767dbe5a032b473cbd8775ed6e715cf29cede83",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-10T05:47:53Z",
+      "verified_at": "2026-10-10T17:19:54Z",
       "evidence_patterns": [
         "examples are one of the most reliable",
         "3.?5 examples"
@@ -64,9 +64,9 @@
       "guidance": "For long-context Claude prompts, place long documents/data before the query and place the specific request near the end.",
       "source_key": "anthropic-prompting-best-practices",
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
-      "source_hash": "3579b2dfa85a8f1aea0f4346ce28dab86bab346438be3b6e657c2dfb38fef649",
+      "source_hash": "d350649ba28176cfcf6af3536767dbe5a032b473cbd8775ed6e715cf29cede83",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-10T05:47:53Z",
+      "verified_at": "2026-10-10T17:19:54Z",
       "evidence_patterns": [
         "Put longform data at the top",
         "Queries at the end"
@@ -84,9 +84,9 @@
       "guidance": "For complex Claude prompts, use consistent descriptive XML tags to separate instructions, context, examples and variable inputs.",
       "source_key": "anthropic-prompting-best-practices",
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
-      "source_hash": "3579b2dfa85a8f1aea0f4346ce28dab86bab346438be3b6e657c2dfb38fef649",
+      "source_hash": "d350649ba28176cfcf6af3536767dbe5a032b473cbd8775ed6e715cf29cede83",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-10T05:47:53Z",
+      "verified_at": "2026-10-10T17:19:54Z",
       "evidence_patterns": [
         "XML tags help Claude",
         "consistent.*descriptive tag"
@@ -106,7 +106,7 @@
       "source_url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
       "source_hash": "1214cccab78afda1f2da27deb36711b66b8d5edfbe792afb31d1dc8a20412896",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-10T05:47:53Z",
+      "verified_at": "2026-10-10T17:19:54Z",
       "evidence_patterns": [
         "Be precise and direct",
         "Define parameters"
@@ -126,7 +126,7 @@
       "source_url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
       "source_hash": "1214cccab78afda1f2da27deb36711b66b8d5edfbe792afb31d1dc8a20412896",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-10T05:47:53Z",
+      "verified_at": "2026-10-10T17:19:54Z",
       "evidence_patterns": [
         "Prioritize critical instructions",
         "System Instruction.*beginning"
@@ -146,7 +146,7 @@
       "source_url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
       "source_hash": "1214cccab78afda1f2da27deb36711b66b8d5edfbe792afb31d1dc8a20412896",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-10T05:47:53Z",
+      "verified_at": "2026-10-10T17:19:54Z",
       "evidence_patterns": [
         "Structure for long contexts",
         "specific instructions or questions.*end",
@@ -167,7 +167,7 @@
       "source_url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
       "source_hash": "1214cccab78afda1f2da27deb36711b66b8d5edfbe792afb31d1dc8a20412896",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-10T05:47:53Z",
+      "verified_at": "2026-10-10T17:19:54Z",
       "evidence_patterns": [
         "Use consistent structure",
         "XML-style tags.*Markdown headings"
@@ -187,7 +187,7 @@
       "source_url": "https://docs.mistral.ai/inference/prompting",
       "source_hash": "f1e70800b995843030947b6a126860b59ad122f254ad36267fe423da7d945b09",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-10T05:47:53Z",
+      "verified_at": "2026-10-10T17:19:54Z",
       "evidence_patterns": [
         "system prompt.*beginning of the conversation",
         "user prompt.*specific context or instructions"
@@ -207,7 +207,7 @@
       "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
       "source_hash": "796eb145f16c3deba48e6a50fcec772aefa7729544ab86bd7aa265d2f43f4e1d",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-10T05:47:53Z",
+      "verified_at": "2026-10-10T17:19:54Z",
       "evidence_patterns": [
         "developer messages are instructions",
         "prioritized ahead of.*user messages"
@@ -227,7 +227,7 @@
       "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
       "source_hash": "796eb145f16c3deba48e6a50fcec772aefa7729544ab86bd7aa265d2f43f4e1d",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-10T05:47:53Z",
+      "verified_at": "2026-10-10T17:19:54Z",
       "evidence_patterns": [
         "Markdown headers and lists",
         "XML tags.*delineate"
@@ -248,7 +248,7 @@
       "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
       "source_hash": "0849f137f2022ff8cf9f81f4792b99171d0e54d96bc25d6b0fc6db8b4ba116c2",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-10T05:47:53Z",
+      "verified_at": "2026-10-10T17:19:54Z",
       "evidence_patterns": [
         "Never modify earlier messages",
         "Only append new"
@@ -269,7 +269,7 @@
       "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
       "source_hash": "0849f137f2022ff8cf9f81f4792b99171d0e54d96bc25d6b0fc6db8b4ba116c2",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-10T05:47:53Z",
+      "verified_at": "2026-10-10T17:19:54Z",
       "evidence_patterns": [
         "Front-load static content",
         "system prompts.*few-shot examples.*reference documents"
