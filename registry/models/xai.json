@@ -1,7 +1,7 @@
 {
   "schema_version": "0.19.0",
   "provider": "xai",
-  "generated_at": "2026-10-09T18:20:11Z",
+  "generated_at": "2026-10-10T05:47:53Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -24,7 +24,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -62,7 +62,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -100,7 +100,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -138,7 +138,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -176,7 +176,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -214,7 +214,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -246,7 +246,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -278,7 +278,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -289,7 +289,7 @@
       "source_hashes": {
         "xai-pricing": "93afd6f7e69d76e5897dd1cf20edbcc605e28df023ab71a6a0a429fae3eddf06"
       },
-      "semantic_verified_at": "2026-10-09T18:20:11Z",
+      "semantic_verified_at": "2026-10-10T05:47:53Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning",
       "semantic_hash": "a890aa239e0de3e9db5557bbe7ce03f5754b70801dd4222903150c74e1d5a315",
       "semantic_error": null,
@@ -341,7 +341,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -352,7 +352,7 @@
       "source_hashes": {
         "xai-pricing": "93afd6f7e69d76e5897dd1cf20edbcc605e28df023ab71a6a0a429fae3eddf06"
       },
-      "semantic_verified_at": "2026-10-09T18:20:11Z",
+      "semantic_verified_at": "2026-10-10T05:47:53Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
       "semantic_hash": "c4179c3c5bb0e140e11a4d77fb2dcc27ab78ca30258af1018495520b3814a74a",
       "semantic_error": null,
@@ -404,7 +404,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -415,7 +415,7 @@
       "source_hashes": {
         "xai-pricing": "93afd6f7e69d76e5897dd1cf20edbcc605e28df023ab71a6a0a429fae3eddf06"
       },
-      "semantic_verified_at": "2026-10-09T18:20:11Z",
+      "semantic_verified_at": "2026-10-10T05:47:53Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309",
       "semantic_hash": "d168288697c75244d73645550e14edd27cf712335f78bea999fc002ceb187492",
       "semantic_error": null,
@@ -467,7 +467,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing",
@@ -481,7 +481,7 @@
         "xai-retirement-2026-05": "3ea5c1899cd52a072a16b4c802ebe183eeafb8f6dc6a92a405968d31b8ce28af",
         "xai-pricing": "93afd6f7e69d76e5897dd1cf20edbcc605e28df023ab71a6a0a429fae3eddf06"
       },
-      "semantic_verified_at": "2026-10-09T18:20:11Z",
+      "semantic_verified_at": "2026-10-10T05:47:53Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.3",
       "semantic_hash": "a8466d17a38fb3de478796f9f2185deab55c54aac583969427e28e1fe22fd2db",
       "semantic_error": null,
@@ -539,7 +539,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -550,7 +550,7 @@
       "source_hashes": {
         "xai-pricing": "93afd6f7e69d76e5897dd1cf20edbcc605e28df023ab71a6a0a429fae3eddf06"
       },
-      "semantic_verified_at": "2026-10-09T18:20:11Z",
+      "semantic_verified_at": "2026-10-10T05:47:53Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.5",
       "semantic_hash": "3e2d0af19fde93300bb19b2918a36cb588419a749b4843d4b7cb71ffb70b9860",
       "semantic_error": null,
@@ -607,7 +607,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -618,7 +618,7 @@
       "source_hashes": {
         "xai-pricing": "93afd6f7e69d76e5897dd1cf20edbcc605e28df023ab71a6a0a429fae3eddf06"
       },
-      "semantic_verified_at": "2026-10-09T18:20:11Z",
+      "semantic_verified_at": "2026-10-10T05:47:53Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.6",
       "semantic_hash": "c6dcbe28bee0a349b1748d00e59115b1b62606e56cfbb8d84f3c6eb34f51dda4",
       "semantic_error": null,
@@ -675,7 +675,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-09T18:20:11Z",
+      "last_seen_at": "2026-10-10T05:47:53Z",
       "missing_since": null,
       "source_keys": [
         "xai-models",
@@ -695,7 +695,7 @@
         "xai-pricing": "93afd6f7e69d76e5897dd1cf20edbcc605e28df023ab71a6a0a429fae3eddf06",
         "xai-prompt-caching-best-practices": "0849f137f2022ff8cf9f81f4792b99171d0e54d96bc25d6b0fc6db8b4ba116c2"
       },
-      "semantic_verified_at": "2026-10-09T18:20:11Z",
+      "semantic_verified_at": "2026-10-10T05:47:53Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.7",
       "semantic_hash": "a57bdaad06256b6a8c48669a66d4b0371bf5e75a142fa2c2a46ff249830c7f46",
       "semantic_error": null,
