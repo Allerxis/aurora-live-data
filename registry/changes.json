@@ -1,7 +1,77 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-10T17:19:54Z",
+  "generated_at": "2026-10-11T05:41:56Z",
   "changes": [
+    {
+      "observed_at": "2026-10-11T05:41:56Z",
+      "entity_type": "source",
+      "entity_key": "xai-prompt-caching-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "0849f137f2022ff8cf9f81f4792b99171d0e54d96bc25d6b0fc6db8b4ba116c2",
+      "new_hash": "0e96d2a94a50dd77b636cd54da5ccf084f6effa19e51fed4f2fc19477800ba4d",
+      "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-11T05:41:56Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "796eb145f16c3deba48e6a50fcec772aefa7729544ab86bd7aa265d2f43f4e1d",
+      "new_hash": "b9ae79d1a1eba0f7f960579aa32526803e1456a569319997ffeaa1780aa4deb8",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-11T05:41:56Z",
+      "entity_type": "source",
+      "entity_key": "xai-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "93afd6f7e69d76e5897dd1cf20edbcc605e28df023ab71a6a0a429fae3eddf06",
+      "new_hash": "a73340a5e536700c66c0c4bba743c08c201ad3c681e518a52b97353e796d2a25",
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-11T05:41:56Z",
+      "entity_type": "source",
+      "entity_key": "xai-retirement-2026-05",
+      "change_type": "content_changed",
+      "previous_hash": "3ea5c1899cd52a072a16b4c802ebe183eeafb8f6dc6a92a405968d31b8ce28af",
+      "new_hash": "2267fe19d20dc603c384e2b97138bb466aa1004d061b9682a591ac1d6a3db4b6",
+      "source_url": "https://docs.x.ai/developers/migration/may-15-retirement",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-11T05:41:56Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "aa1202408679ffeb7c4cbae1db5ab302002d5a045f90fd379cc5ea51de4f512d",
+      "new_hash": "1f5a1048b5617fc0199e2caa7571ef53685f3ae3856094ad9cd6ffbe537bae32",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-11T05:41:56Z",
+      "entity_type": "source",
+      "entity_key": "xai-models",
+      "change_type": "content_changed",
+      "previous_hash": "14e456c883bc58bf1819e5d8f9ff35d70a8f619a91df222d590aa5ef2a7f3b25",
+      "new_hash": "30897b5b77bd238184882f4b66ef6d10a0df51297fd855fe10c89798a9e76275",
+      "source_url": "https://docs.x.ai/developers/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-11T05:41:56Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "92ed229af0fe232b2edf14e7ae05e2167e1344ab8a98ead5e45fca04f3e4086d",
+      "new_hash": "5f4fec2e6a78eedd94563d789091c246b34d023cb8505620a4a7ee641ccc99a1",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-10T17:19:54Z",
       "entity_type": "source",
@@ -9926,76 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "google:veo-3.1-generate-preview",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:veo-3.1-fast-generate-preview",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:veo-3.0-generate-preview",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:veo-3.0-generate-001",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:veo-3.0-fast-generate-preview",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:veo-3.0-fast-generate-001",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:veo-2.0-generate-001",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:imagen-4.0-ultra-generate-preview-06-06",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
