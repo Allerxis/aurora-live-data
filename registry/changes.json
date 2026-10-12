@@ -1,7 +1,77 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-12T05:51:52Z",
+  "generated_at": "2026-10-12T21:15:13Z",
   "changes": [
+    {
+      "observed_at": "2026-10-12T21:15:13Z",
+      "entity_type": "source",
+      "entity_key": "xai-prompt-caching-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "0e96d2a94a50dd77b636cd54da5ccf084f6effa19e51fed4f2fc19477800ba4d",
+      "new_hash": "c0fdde9351fa082b75edc554bea2faeaf840998ae731cddc799618ab87c6fd72",
+      "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-12T21:15:13Z",
+      "entity_type": "source",
+      "entity_key": "xai-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "a73340a5e536700c66c0c4bba743c08c201ad3c681e518a52b97353e796d2a25",
+      "new_hash": "c9b8a07abb3d656bedb0c7bdb3e479025df96bab20856ccc79a5b63e18fa3685",
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-12T21:15:13Z",
+      "entity_type": "source",
+      "entity_key": "xai-retirement-2026-05",
+      "change_type": "content_changed",
+      "previous_hash": "2267fe19d20dc603c384e2b97138bb466aa1004d061b9682a591ac1d6a3db4b6",
+      "new_hash": "6eaf862cd3c33d1ef04265491c8d079ab910103f943693950bfd241c30403945",
+      "source_url": "https://docs.x.ai/developers/migration/may-15-retirement",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-12T21:15:13Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "f0f0792723981810cd5784658e71f6a80ceea20a6da0e0ae40f162d5b5b99b77",
+      "new_hash": "04c11cd3e085717119b57135e870104d55205842a82dd60140970fe43ec7798e",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-12T21:15:13Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama",
+      "change_type": "content_changed",
+      "previous_hash": "f0f0792723981810cd5784658e71f6a80ceea20a6da0e0ae40f162d5b5b99b77",
+      "new_hash": "04c11cd3e085717119b57135e870104d55205842a82dd60140970fe43ec7798e",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-12T21:15:13Z",
+      "entity_type": "source",
+      "entity_key": "xai-models",
+      "change_type": "content_changed",
+      "previous_hash": "30897b5b77bd238184882f4b66ef6d10a0df51297fd855fe10c89798a9e76275",
+      "new_hash": "a36e1af74dd6b282ace9ad5a74569a14b16ff128e1a7e5c462bf54321e8804c8",
+      "source_url": "https://docs.x.ai/developers/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-12T21:15:13Z",
+      "entity_type": "source",
+      "entity_key": "google-deprecations",
+      "change_type": "content_changed",
+      "previous_hash": "1532b1c62d404c8037fa00f21faa659c17b1751966d78cc08512f7419308fee1",
+      "new_hash": "3f2c30aca31f9807b59c314b1ba711cfc0e5fa11868e87e17445703225774505",
+      "source_url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-12T05:51:52Z",
       "entity_type": "source",
@@ -9926,76 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:codestral-code-interpreter-js-readme",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-2501",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-25-08",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-25-01",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-2405",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-24-05",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:veo-3.1-lite-generate-preview",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
