@@ -1,7 +1,57 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-12T21:15:13Z",
+  "generated_at": "2026-10-13T06:44:42Z",
   "changes": [
+    {
+      "observed_at": "2026-10-13T06:44:42Z",
+      "entity_type": "source",
+      "entity_key": "xai-prompt-caching-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "c0fdde9351fa082b75edc554bea2faeaf840998ae731cddc799618ab87c6fd72",
+      "new_hash": "4ef2ecafcb1beecfd57e1b2f27a90326ae7c73683c624c4ee241a5d662e674cd",
+      "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-13T06:44:42Z",
+      "entity_type": "source",
+      "entity_key": "xai-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "c9b8a07abb3d656bedb0c7bdb3e479025df96bab20856ccc79a5b63e18fa3685",
+      "new_hash": "1172ee3d167f6d9bad6e9f0963177921ce4c9d4c2a227f84860a3495c6aa9df1",
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-13T06:44:42Z",
+      "entity_type": "source",
+      "entity_key": "xai-retirement-2026-05",
+      "change_type": "content_changed",
+      "previous_hash": "6eaf862cd3c33d1ef04265491c8d079ab910103f943693950bfd241c30403945",
+      "new_hash": "a4cad5844c102eb7d24e04009bde68a81e0787694d55c09d2908a259eae07ca6",
+      "source_url": "https://docs.x.ai/developers/migration/may-15-retirement",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-13T06:44:42Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama",
+      "change_type": "content_changed",
+      "previous_hash": "04c11cd3e085717119b57135e870104d55205842a82dd60140970fe43ec7798e",
+      "new_hash": "5afa12959faf7cf135a7e917b4450f907ed9147ed30a1cf474c1705403d5116c",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-13T06:44:42Z",
+      "entity_type": "source",
+      "entity_key": "xai-models",
+      "change_type": "content_changed",
+      "previous_hash": "a36e1af74dd6b282ace9ad5a74569a14b16ff128e1a7e5c462bf54321e8804c8",
+      "new_hash": "39d51fcc91779b5c751260bb5eb071394ffe8a9882b4d3ee435ff242d41a8ef7",
+      "source_url": "https://docs.x.ai/developers/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-12T21:15:13Z",
       "entity_type": "source",
@@ -9946,56 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:codestral-mamba",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-embed-25-05",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-embed",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-code-interpreter-python-readme",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-code-interpreter-python-codestral_code_interpreter",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-code-interpreter-js-readme",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
