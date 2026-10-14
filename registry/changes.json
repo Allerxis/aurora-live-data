@@ -1,7 +1,77 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-13T19:14:23Z",
+  "generated_at": "2026-10-14T04:49:07Z",
   "changes": [
+    {
+      "observed_at": "2026-10-14T04:49:07Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-prompting-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "0c885be101f7f65c790abafbf0c773563fa9ce0c3943b71647d1b74d77a1aee7",
+      "new_hash": "1e369f8a8b15daa0710604198e0ff9b79d7ec81b0c71ec43d74e2d80460039fe",
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-14T04:49:07Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "789f421627ecff54a017a7aa11b6d98b06f21b601db56be924ec4e0e4bcd1c4a",
+      "new_hash": "d35038585c2e8c6ab17844f65fa99fa0b0c2e95e3cf556d1e08072555966088c",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-14T04:49:07Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "f3ea61008956cffbf7f2565d6bb308c2649b1a52b01d1b418bfebd275b6f05ff",
+      "new_hash": "81276954fb342a92aa1ed378b326b7902c1df5f74d9f7f454386685a16168cc7",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-14T04:49:07Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "e4bab811d385d62e0a3a423193a06dc8dd416cfee34ef2b2758722255c20b11e",
+      "new_hash": "6ad886ac74ba0ee75e1b7e0b809f3fecd4d4bc060808004e8e4616bdb4217410",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-14T04:49:07Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama",
+      "change_type": "content_changed",
+      "previous_hash": "e4bab811d385d62e0a3a423193a06dc8dd416cfee34ef2b2758722255c20b11e",
+      "new_hash": "6ad886ac74ba0ee75e1b7e0b809f3fecd4d4bc060808004e8e4616bdb4217410",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-14T04:49:07Z",
+      "entity_type": "source",
+      "entity_key": "google-models",
+      "change_type": "content_changed",
+      "previous_hash": "8aa060fd6b1f808582a9b1c3589cad526d61cb72de2ba7f583d0b76abfee1907",
+      "new_hash": "ea57de93ba7801d4adcb4842224f40f5840362750b874c5c96aaf18d1fa0caac",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-14T04:49:07Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "e989e952965af07910ca0ae3c1ce72470d53687aa89092a15fc2879a373df528",
+      "new_hash": "92d3fad5fe217e9709041612c370ca174325f915ab8289bd9f95ae7be0d84258",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-13T19:14:23Z",
       "entity_type": "model_candidate",
@@ -9926,76 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:ministral-3-3b-25-12",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ministral-3-14b-25-12",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-small-2509",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-small-2507",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-small-2506",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-small-1-2-25-09",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-small-1-1-25-07",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-small-1-0-25-06",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
