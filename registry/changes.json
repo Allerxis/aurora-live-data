@@ -1,7 +1,17 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-17T04:21:05Z",
+  "generated_at": "2026-10-17T15:30:05Z",
   "changes": [
+    {
+      "observed_at": "2026-10-17T15:30:05Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "2859da6e26c6f192323a5318c5de31e2d8738696a529f8b997554c0c51930781",
+      "new_hash": "6126479262289edae426df6dbe4ddf5254e34f3b8f683a41d6d72057f5b99e66",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-17T04:21:05Z",
       "entity_type": "source",
@@ -9986,16 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:mistral-medium-1-0-23-12",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-large-3-25-12",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
