@@ -1,7 +1,67 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-20T16:59:25Z",
+  "generated_at": "2026-10-21T04:41:12Z",
   "changes": [
+    {
+      "observed_at": "2026-10-21T04:41:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "xai:grok-4.7",
+      "change_type": "semantic_changed",
+      "previous_hash": "a57bdaad06256b6a8c48669a66d4b0371bf5e75a142fa2c2a46ff249830c7f46",
+      "new_hash": "45f7104085a21283b9e6890b1654a6d57b700d405f6dea674df45cac6ca2e27c",
+      "source_url": "https://docs.x.ai/developers/models/grok-4.7",
+      "summary": "Verified semantic facts changed on the official xAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-21T04:41:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "xai:grok-4.6",
+      "change_type": "semantic_changed",
+      "previous_hash": "c6dcbe28bee0a349b1748d00e59115b1b62606e56cfbb8d84f3c6eb34f51dda4",
+      "new_hash": "fdc4f6b597530cfad72cdcf581b3e12f157be744bb38bf8809a9352f8f31b99e",
+      "source_url": "https://docs.x.ai/developers/models/grok-4.6",
+      "summary": "Verified semantic facts changed on the official xAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-21T04:41:12Z",
+      "entity_type": "model_semantics",
+      "entity_key": "xai:grok-4.5",
+      "change_type": "semantic_changed",
+      "previous_hash": "3e2d0af19fde93300bb19b2918a36cb588419a749b4843d4b7cb71ffb70b9860",
+      "new_hash": "3d2425fc82dde0edc91033da3c3f0f55cea568a3a03d6c14c243d428a462230d",
+      "source_url": "https://docs.x.ai/developers/models/grok-4.5",
+      "summary": "Verified semantic facts changed on the official xAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-21T04:41:12Z",
+      "entity_type": "source",
+      "entity_key": "mistral-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "e70475f384faab36321317947155c05d48ef9cae9ede986aa6d055797119e56b",
+      "new_hash": "beaf89897dcea6694734c83c2e4b1dd98beb0fa737efe1e1cba84c58a7bf9a76",
+      "source_url": "https://docs.mistral.ai/inference/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-21T04:41:12Z",
+      "entity_type": "source",
+      "entity_key": "xai-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "002684eea917822caa18b847d0576b2413e5e4ccecfa53cf425ff41adc81f2da",
+      "new_hash": "2a3e72d093022dd35080cd2a343caff2af12c17f529398d34ad1d595c2cfef8c",
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-21T04:41:12Z",
+      "entity_type": "source",
+      "entity_key": "mistral-models",
+      "change_type": "content_changed",
+      "previous_hash": "a7b170c566a3f1d5ba571751451c3b8b30d5b50d5afcc1c5e799d1cda62a32ae",
+      "new_hash": "58cc567732527477c41d90045bd1b0e06a68cfc2a2878abe4f132e63c5d1750f",
+      "source_url": "https://docs.mistral.ai/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-20T16:59:25Z",
       "entity_type": "model_candidate",
@@ -9936,66 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:ocr-25-03",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-2-25-05",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-small-creative-25-12",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-small-creative",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-small-4-0-26-03",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-small-3-2-25-06",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-small-3-1-25-03",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
