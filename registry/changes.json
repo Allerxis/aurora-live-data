@@ -1,7 +1,57 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-21T04:41:12Z",
+  "generated_at": "2026-10-21T17:08:21Z",
   "changes": [
+    {
+      "observed_at": "2026-10-21T17:08:21Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-robotics-er-2-streaming-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "6f068f6e7f3800f45f61ef646945088f315e8d8455582616fbb0b804631fbd38",
+      "new_hash": "c45753af6afc2d77fd5ce51e74b77c28b9ca6843f86e79092d45d8f071c80413",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-streaming-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-21T17:08:21Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-robotics-er-2-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "6d703abf3ac17c3e5e3577d4cc7e23bfd2d017723555299d45a7bbefc0be239b",
+      "new_hash": "88aa9a8a22d1574a716c484b0e4a50dea79e87b9478a2c0224f711ffff9e8d9d",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-2-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-21T17:08:21Z",
+      "entity_type": "model_semantics",
+      "entity_key": "google:gemini-robotics-er-1.6-preview",
+      "change_type": "semantic_changed",
+      "previous_hash": "3c0ba4063b0b89b2722514c0ea5fd7a0c1cb0fd3550bc1524e6d8c80b3ae87d9",
+      "new_hash": "c2c158969b6479eb8c7492aaafd450c8e94426f4dd84352bcbbe30cbaa3d91ab",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview",
+      "summary": "Verified semantic facts changed on the official Google model detail page."
+    },
+    {
+      "observed_at": "2026-10-21T17:08:21Z",
+      "entity_type": "source",
+      "entity_key": "mistral-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "beaf89897dcea6694734c83c2e4b1dd98beb0fa737efe1e1cba84c58a7bf9a76",
+      "new_hash": "311b5c304bf5ae2ceca09d99ab2f042747610162d97345fab1b7f728965b864b",
+      "source_url": "https://docs.mistral.ai/inference/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-21T17:08:21Z",
+      "entity_type": "source",
+      "entity_key": "google-models",
+      "change_type": "content_changed",
+      "previous_hash": "d19fc6b96b8c38578315e05d7265dc66bea35b365c74056e8ba7fe7776afa8c5",
+      "new_hash": "bff49c8fa57161be471879d4501bdde7e7243c21d02db8356da3c8357ab11573",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-21T04:41:12Z",
       "entity_type": "model_semantics",
@@ -9946,56 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:ocr-4-1",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-4-0",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-3-25-12",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-2505",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-2503",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-25-03",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
