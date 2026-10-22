@@ -1,7 +1,37 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-21T17:08:21Z",
+  "generated_at": "2026-10-22T04:39:02Z",
   "changes": [
+    {
+      "observed_at": "2026-10-22T04:39:02Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-prompting-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "9e4c60e5ae617e6ed3461f8472c3934c915b6b40cf23787e2de6b722954cf2e3",
+      "new_hash": "78d104dbc7d2a6be2b2ae959af52238794b2f33c151ce5034872cbbb3bc5283d",
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-22T04:39:02Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-deprecations",
+      "change_type": "content_changed",
+      "previous_hash": "211bfbf3069765ac809eb83795ffd043a58e96bccde56030b1b0ea88829bfb73",
+      "new_hash": "1eaec68e7564d4f872e3d2849e6e9e29a9478a396908b5a0b08a16ac4e5bd0ca",
+      "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-22T04:39:02Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-models",
+      "change_type": "content_changed",
+      "previous_hash": "9d1d81f593b294d0d0aef88a23cd65e86d033966add47d66e8ba31c4e866b0ec",
+      "new_hash": "904b802e6dbd13f9fb55d406bd731b2bd72e6cde07c0b3d46f2cb3ce9609b057",
+      "source_url": "https://platform.claude.com/docs/en/models/overview",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-21T17:08:21Z",
       "entity_type": "model_semantics",
@@ -9966,36 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:ocr-data_extraction",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-batch_ocr",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-at-scale",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-4-1",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
