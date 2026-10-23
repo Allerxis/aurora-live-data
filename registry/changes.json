@@ -1,7 +1,207 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-22T17:07:23Z",
+  "generated_at": "2026-10-23T04:44:27Z",
   "changes": [
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-sonnet-5-5",
+      "change_type": "semantic_changed",
+      "previous_hash": "58e480e3e0e79a5f14a075e0a4b38eddb6b84689098dbe1cc897527c46b47f33",
+      "new_hash": "1b2c8d4f57846635deb6d1f8d8214f9d973e891ecc5ec179a56d71014dd4221b",
+      "source_url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-sonnet-5",
+      "change_type": "semantic_changed",
+      "previous_hash": "5ccb9efc106eff79387d87aa8aacd09cb7fa940d943ad03bbdd4bb2d9303512d",
+      "new_hash": "ab15aea819a0a403343685e53aa520750c142550f180c71dfa066b92c753f549",
+      "source_url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-sonnet-4-6",
+      "change_type": "semantic_changed",
+      "previous_hash": "ea96f654d4470f7b706e00100b97b6e176b8cee864bff444940db89879fbc17b",
+      "new_hash": "b7516ef1be42e8bfc24abdb9158c34e0997d3093ed28539ee45e81eff15f1610",
+      "source_url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-sonnet-4-5-20250929",
+      "change_type": "semantic_changed",
+      "previous_hash": "0da326c76e3d2de6d41ff0a778469d42c803218e85e25955ce1ac11bff000909",
+      "new_hash": "712425e156da9295223b44c9c70146d4ef40044117220fcd8696f55588365219",
+      "source_url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-5-5",
+      "change_type": "semantic_changed",
+      "previous_hash": "3a63f02f33a4e71b1df4ae5ba21873300a4b80e0e8bd8b889a934558c1584302",
+      "new_hash": "bfff92c529fcf38b0a250f31b3a6c75f3368de43b3010d82d2aa1b1c73e6d8bd",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-5",
+      "change_type": "semantic_changed",
+      "previous_hash": "e58676d09b9d82a8fb43697b7f335e211f1ff290ba59ff8abf2c3ecd56d624b5",
+      "new_hash": "95b507df5cb8cb145aec74954f56e97880a77e81a2c9ab27bf5321d387779c4d",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-4-8",
+      "change_type": "semantic_changed",
+      "previous_hash": "e6ae3f080d4938ec8e555d71456f3986c5ee51c69ca713bffa1a865e38a6b62c",
+      "new_hash": "5c9485ebd3cf36939477968f35de49c32db1f5c42f1afa3a6452c679b5d265db",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-4-8/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-4-7",
+      "change_type": "semantic_changed",
+      "previous_hash": "782f6473353ec2c38f0580c47bf8be8b65e1aa8d756134ae24686a7e3e32af95",
+      "new_hash": "d1b0a21ea078174463b15a47a4ad806d6905edb62650d0a03eb858b2bd6ac4c1",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-4-7/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-4-6",
+      "change_type": "semantic_changed",
+      "previous_hash": "680ba82e7bbdcea8a6df16d16ed77fc62af177b0e7180e5a4111f4b3b8ce08b6",
+      "new_hash": "dcbaf8db42390ce4ffd73e982d399341f6f3bc23b4f45793c91d1c6d8969eca5",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-4-5-20251101",
+      "change_type": "semantic_changed",
+      "previous_hash": "2cc5ec494bb11a7710751516439273c1030ee73ee1fc242d413e8ecbf9459cc2",
+      "new_hash": "a4cdd28861d7c63d0f1899da44d5e3fa30e829cd4d08575dd15bb450239adbd2",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-mythos-5-1",
+      "change_type": "semantic_changed",
+      "previous_hash": "1776f076ad34e6af8f040c003404864ed483533794545a7b43db86ce43f18f72",
+      "new_hash": "791cd0a385d0417733199051569567552d00e85c16d96f8281de42d2b33ed3de",
+      "source_url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-mythos-5",
+      "change_type": "semantic_changed",
+      "previous_hash": "42398d6bbb2d00eb32289b58d23f7ee3da057294f1307c3b69e8588889418120",
+      "new_hash": "890543bac4a9cebea6bca2a8e14590ec8250bbbf56b113bd2f522a84edc4eff2",
+      "source_url": "https://platform.claude.com/docs/en/models/mythos-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-haiku-5-5",
+      "change_type": "semantic_changed",
+      "previous_hash": "0414a60647195f512473baaa00345192604d6963a7672e8905197d1c11e3a8b1",
+      "new_hash": "a5f28c05c652ee8a3d8ec42b02d290bd55c2135d292b829ee308a2c2f396d125",
+      "source_url": "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-haiku-4-5-20251001",
+      "change_type": "semantic_changed",
+      "previous_hash": "e79d604ee83e6903c249cfc43eb3e510d9ac59b339dcf69c91202dc40ffda0c7",
+      "new_hash": "8963641c191ce36184376b20b165a336382af81f81a2d9e41e5265bea541355f",
+      "source_url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-fable-5-1",
+      "change_type": "semantic_changed",
+      "previous_hash": "bbcf5103f938bd0fdcec7d0cafe7431116dc4622a93c301ffc88ee8166d59486",
+      "new_hash": "c98efb670469aeaaf6cac856d1321cc56d5cc6bd8098464a80b3936e094a71b0",
+      "source_url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-fable-5",
+      "change_type": "semantic_changed",
+      "previous_hash": "04457c7f7e76b340013cc4db95ad596cebc57582d3da69a9efe77938a44a647b",
+      "new_hash": "eb29e05eeb3b75d7be3f581c2d7bfca63f0c10404d940cbb0db8bbe79c7312a9",
+      "source_url": "https://platform.claude.com/docs/en/models/fable-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "source",
+      "entity_key": "mistral-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "3de6ec7bc408d99de87e480a49ca1ef1eaa057f8bfd655c0f1249778a28a6c20",
+      "new_hash": "6340d76f4778786b615651e784de408a0327d7186fffa7f15a185ee35c9387f2",
+      "source_url": "https://docs.mistral.ai/inference/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-deprecations",
+      "change_type": "content_changed",
+      "previous_hash": "1eaec68e7564d4f872e3d2849e6e9e29a9478a396908b5a0b08a16ac4e5bd0ca",
+      "new_hash": "95c9ff8ee7d7e5363c1f80412637ac67730b6d4f7e38e5c30ca479c13583dfc9",
+      "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "source",
+      "entity_key": "mistral-models",
+      "change_type": "content_changed",
+      "previous_hash": "b4ba479a2de4cc6a261b4d574d7171c135a7340c1169736094aa831bff381a4c",
+      "new_hash": "88376fc3d7a6ab31969f48b2b40425b5ad021370c4287e14a1b40e171ad27523",
+      "source_url": "https://docs.mistral.ai/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-23T04:44:27Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-models",
+      "change_type": "content_changed",
+      "previous_hash": "904b802e6dbd13f9fb55d406bd731b2bd72e6cde07c0b3d46f2cb3ce9609b057",
+      "new_hash": "91f6c52a785917b3d233c08511c3bd9d36dbf57867209fb231463f90af52d811",
+      "source_url": "https://platform.claude.com/docs/en/models/overview",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-22T17:07:23Z",
       "entity_type": "source",
@@ -9796,206 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:voxtral-small-25-07",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral-mini-transcribe-realtime-26-02",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral-mini-transcribe-26-02",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral-mini-transcribe-25-07",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral-mini-2507",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral-mini-25-07",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:pixtral-large-2411",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:pixtral-large-24-11",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:pixtral-large",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:pixtral-12b-2409",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:pixtral-12b-24-09",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:pixtral-12b",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:pixtral",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-tool_usage",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-structured_ocr",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-rate-limits",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-product_datasheet_analysis-product_datasheet_analysis",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-playground",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-pdfs",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-models",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
