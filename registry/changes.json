@@ -1,7 +1,37 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-23T17:03:04Z",
+  "generated_at": "2026-10-24T04:31:53Z",
   "changes": [
+    {
+      "observed_at": "2026-10-24T04:31:53Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "e944344a71e05c903c3b0fa0f193a19d198f95435c2854fca39cc0e699c25e18",
+      "new_hash": "a1399821ec246c86e93d033664ef711727eb113ff11eec6130d52ede06ee1ff0",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-24T04:31:53Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "678578a3e689e7b65fd8dd1ba9070c8df5ec236b0709d8387303e6d29fe3d488",
+      "new_hash": "ba6e7b2a72406a147bbe5a621b95fcc71c3eb931954439682132b9d26e515e89",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-24T04:31:53Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "4ee596dd17bdc9439eeb322990e80feefd459073525376cc2bc52bdf7ca9f315",
+      "new_hash": "5644e28b00132f7a8e5bb6d39f6ab015e8e30a8ab8c84569a2e41255b03c59b3",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-23T04:44:27Z",
       "entity_type": "model_semantics",
@@ -9966,36 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "xai:grok-4.20",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral.svg",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral-tts-26-03",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral-small-25-07",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
