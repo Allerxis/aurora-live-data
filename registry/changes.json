@@ -1,7 +1,77 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-26T04:41:28Z",
+  "generated_at": "2026-10-26T18:40:13Z",
   "changes": [
+    {
+      "observed_at": "2026-10-26T18:40:13Z",
+      "entity_type": "model_candidate",
+      "entity_key": "openai:gpt-6.1-terra",
+      "change_type": "candidate_discovered",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A model identifier/name was newly discovered in an official source."
+    },
+    {
+      "observed_at": "2026-10-26T18:40:13Z",
+      "entity_type": "model_semantics",
+      "entity_key": "openai:gpt-6.1-terra",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "5d6754ea4918a54a43e281909b3e78de2224a67049c3de1d236e9c56f84eeb13",
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
+    },
+    {
+      "observed_at": "2026-10-26T18:40:13Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "ba6e7b2a72406a147bbe5a621b95fcc71c3eb931954439682132b9d26e515e89",
+      "new_hash": "79358db4bf72bef83ece1402033e2f51b515a73dca917d529fba55e0c7924960",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-26T18:40:13Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "6126479262289edae426df6dbe4ddf5254e34f3b8f683a41d6d72057f5b99e66",
+      "new_hash": "790c888d632a6c68a4921b79b49b1999b01287ef5d5fb13cb83b8340816f543f",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-26T18:40:13Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama",
+      "change_type": "content_changed",
+      "previous_hash": "6126479262289edae426df6dbe4ddf5254e34f3b8f683a41d6d72057f5b99e66",
+      "new_hash": "790c888d632a6c68a4921b79b49b1999b01287ef5d5fb13cb83b8340816f543f",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-26T18:40:13Z",
+      "entity_type": "source",
+      "entity_key": "mistral-models",
+      "change_type": "content_changed",
+      "previous_hash": "88376fc3d7a6ab31969f48b2b40425b5ad021370c4287e14a1b40e171ad27523",
+      "new_hash": "ebe7ccf2bd39dddc1af088345ad0ad726f512a3fdc85787804eaac898fb33498",
+      "source_url": "https://docs.mistral.ai/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-26T18:40:13Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "5644e28b00132f7a8e5bb6d39f6ab015e8e30a8ab8c84569a2e41255b03c59b3",
+      "new_hash": "d5a9b991f48b8abe426f496aca3d35a648d8aea0481a5226f0c7539073124b56",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-24T04:31:53Z",
       "entity_type": "source",
@@ -9926,76 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "xai:grok-4.20-beta-0309-reasoning",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-beta-0309-non-reasoning",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-beta-0309",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-beta",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-0309-reasoning",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-0309-non-reasoning",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-0309",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
