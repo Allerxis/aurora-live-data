@@ -1,7 +1,7 @@
 {
   "schema_version": "0.19.0",
   "provider": "xai",
-  "generated_at": "2026-10-27T04:59:00Z",
+  "generated_at": "2026-10-27T17:58:07Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -24,7 +24,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -33,7 +33,7 @@
         "https://docs.x.ai/developers/migration/may-15-retirement"
       ],
       "source_hashes": {
-        "xai-retirement-2026-05": "a4cad5844c102eb7d24e04009bde68a81e0787694d55c09d2908a259eae07ca6"
+        "xai-retirement-2026-05": "1eb1beedb089002743f28410e6383f1ec52f98f3e6995abac993b9e42e8f422b"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -62,7 +62,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -71,7 +71,7 @@
         "https://docs.x.ai/developers/migration/may-15-retirement"
       ],
       "source_hashes": {
-        "xai-retirement-2026-05": "a4cad5844c102eb7d24e04009bde68a81e0787694d55c09d2908a259eae07ca6"
+        "xai-retirement-2026-05": "1eb1beedb089002743f28410e6383f1ec52f98f3e6995abac993b9e42e8f422b"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -100,7 +100,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -109,7 +109,7 @@
         "https://docs.x.ai/developers/migration/may-15-retirement"
       ],
       "source_hashes": {
-        "xai-retirement-2026-05": "a4cad5844c102eb7d24e04009bde68a81e0787694d55c09d2908a259eae07ca6"
+        "xai-retirement-2026-05": "1eb1beedb089002743f28410e6383f1ec52f98f3e6995abac993b9e42e8f422b"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -138,7 +138,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -147,7 +147,7 @@
         "https://docs.x.ai/developers/migration/may-15-retirement"
       ],
       "source_hashes": {
-        "xai-retirement-2026-05": "a4cad5844c102eb7d24e04009bde68a81e0787694d55c09d2908a259eae07ca6"
+        "xai-retirement-2026-05": "1eb1beedb089002743f28410e6383f1ec52f98f3e6995abac993b9e42e8f422b"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -176,7 +176,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -185,7 +185,7 @@
         "https://docs.x.ai/developers/migration/may-15-retirement"
       ],
       "source_hashes": {
-        "xai-retirement-2026-05": "a4cad5844c102eb7d24e04009bde68a81e0787694d55c09d2908a259eae07ca6"
+        "xai-retirement-2026-05": "1eb1beedb089002743f28410e6383f1ec52f98f3e6995abac993b9e42e8f422b"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -214,7 +214,7 @@
       },
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T12:09:24Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-retirement-2026-05"
@@ -223,7 +223,7 @@
         "https://docs.x.ai/developers/migration/may-15-retirement"
       ],
       "source_hashes": {
-        "xai-retirement-2026-05": "a4cad5844c102eb7d24e04009bde68a81e0787694d55c09d2908a259eae07ca6"
+        "xai-retirement-2026-05": "1eb1beedb089002743f28410e6383f1ec52f98f3e6995abac993b9e42e8f422b"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -246,7 +246,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-models"
@@ -255,7 +255,7 @@
         "https://docs.x.ai/developers/models"
       ],
       "source_hashes": {
-        "xai-models": "39d51fcc91779b5c751260bb5eb071394ffe8a9882b4d3ee435ff242d41a8ef7"
+        "xai-models": "3cc615e469db4f53a9f6983442cf7f3d94f9ec42367008976de68a87043c6f80"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -278,7 +278,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -287,9 +287,9 @@
         "https://docs.x.ai/developers/pricing"
       ],
       "source_hashes": {
-        "xai-pricing": "2a3e72d093022dd35080cd2a343caff2af12c17f529398d34ad1d595c2cfef8c"
+        "xai-pricing": "5aa5fc5ff62f09b40375083bba9c221c027ed61f2b1f9f629117a1fa073e73b7"
       },
-      "semantic_verified_at": "2026-10-27T04:59:00Z",
+      "semantic_verified_at": "2026-10-27T17:58:07Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-non-reasoning",
       "semantic_hash": "a890aa239e0de3e9db5557bbe7ce03f5754b70801dd4222903150c74e1d5a315",
       "semantic_error": null,
@@ -341,7 +341,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -350,9 +350,9 @@
         "https://docs.x.ai/developers/pricing"
       ],
       "source_hashes": {
-        "xai-pricing": "2a3e72d093022dd35080cd2a343caff2af12c17f529398d34ad1d595c2cfef8c"
+        "xai-pricing": "5aa5fc5ff62f09b40375083bba9c221c027ed61f2b1f9f629117a1fa073e73b7"
       },
-      "semantic_verified_at": "2026-10-27T04:59:00Z",
+      "semantic_verified_at": "2026-10-27T17:58:07Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
       "semantic_hash": "c4179c3c5bb0e140e11a4d77fb2dcc27ab78ca30258af1018495520b3814a74a",
       "semantic_error": null,
@@ -404,7 +404,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -413,9 +413,9 @@
         "https://docs.x.ai/developers/pricing"
       ],
       "source_hashes": {
-        "xai-pricing": "2a3e72d093022dd35080cd2a343caff2af12c17f529398d34ad1d595c2cfef8c"
+        "xai-pricing": "5aa5fc5ff62f09b40375083bba9c221c027ed61f2b1f9f629117a1fa073e73b7"
       },
-      "semantic_verified_at": "2026-10-27T04:59:00Z",
+      "semantic_verified_at": "2026-10-27T17:58:07Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent-0309",
       "semantic_hash": "d168288697c75244d73645550e14edd27cf712335f78bea999fc002ceb187492",
       "semantic_error": null,
@@ -467,7 +467,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing",
@@ -478,10 +478,10 @@
         "https://docs.x.ai/developers/pricing"
       ],
       "source_hashes": {
-        "xai-retirement-2026-05": "a4cad5844c102eb7d24e04009bde68a81e0787694d55c09d2908a259eae07ca6",
-        "xai-pricing": "2a3e72d093022dd35080cd2a343caff2af12c17f529398d34ad1d595c2cfef8c"
+        "xai-retirement-2026-05": "1eb1beedb089002743f28410e6383f1ec52f98f3e6995abac993b9e42e8f422b",
+        "xai-pricing": "5aa5fc5ff62f09b40375083bba9c221c027ed61f2b1f9f629117a1fa073e73b7"
       },
-      "semantic_verified_at": "2026-10-27T04:59:00Z",
+      "semantic_verified_at": "2026-10-27T17:58:07Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.3",
       "semantic_hash": "a8466d17a38fb3de478796f9f2185deab55c54aac583969427e28e1fe22fd2db",
       "semantic_error": null,
@@ -539,7 +539,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -548,9 +548,9 @@
         "https://docs.x.ai/developers/pricing"
       ],
       "source_hashes": {
-        "xai-pricing": "2a3e72d093022dd35080cd2a343caff2af12c17f529398d34ad1d595c2cfef8c"
+        "xai-pricing": "5aa5fc5ff62f09b40375083bba9c221c027ed61f2b1f9f629117a1fa073e73b7"
       },
-      "semantic_verified_at": "2026-10-27T04:59:00Z",
+      "semantic_verified_at": "2026-10-27T17:58:07Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.5",
       "semantic_hash": "3d2425fc82dde0edc91033da3c3f0f55cea568a3a03d6c14c243d428a462230d",
       "semantic_error": null,
@@ -607,7 +607,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-pricing"
@@ -616,9 +616,9 @@
         "https://docs.x.ai/developers/pricing"
       ],
       "source_hashes": {
-        "xai-pricing": "2a3e72d093022dd35080cd2a343caff2af12c17f529398d34ad1d595c2cfef8c"
+        "xai-pricing": "5aa5fc5ff62f09b40375083bba9c221c027ed61f2b1f9f629117a1fa073e73b7"
       },
-      "semantic_verified_at": "2026-10-27T04:59:00Z",
+      "semantic_verified_at": "2026-10-27T17:58:07Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.6",
       "semantic_hash": "fdc4f6b597530cfad72cdcf581b3e12f157be744bb38bf8809a9352f8f31b99e",
       "semantic_error": null,
@@ -675,7 +675,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:26:55Z",
-      "last_seen_at": "2026-10-27T04:59:00Z",
+      "last_seen_at": "2026-10-27T17:58:07Z",
       "missing_since": null,
       "source_keys": [
         "xai-models",
@@ -690,12 +690,12 @@
         "https://docs.x.ai/developers/pricing"
       ],
       "source_hashes": {
-        "xai-models": "39d51fcc91779b5c751260bb5eb071394ffe8a9882b4d3ee435ff242d41a8ef7",
-        "xai-retirement-2026-05": "a4cad5844c102eb7d24e04009bde68a81e0787694d55c09d2908a259eae07ca6",
-        "xai-pricing": "2a3e72d093022dd35080cd2a343caff2af12c17f529398d34ad1d595c2cfef8c",
-        "xai-prompt-caching-best-practices": "4ef2ecafcb1beecfd57e1b2f27a90326ae7c73683c624c4ee241a5d662e674cd"
+        "xai-models": "3cc615e469db4f53a9f6983442cf7f3d94f9ec42367008976de68a87043c6f80",
+        "xai-retirement-2026-05": "1eb1beedb089002743f28410e6383f1ec52f98f3e6995abac993b9e42e8f422b",
+        "xai-pricing": "5aa5fc5ff62f09b40375083bba9c221c027ed61f2b1f9f629117a1fa073e73b7",
+        "xai-prompt-caching-best-practices": "89a6ee511aa5678e4276b7ca2943ed09658847029b9eb6ab198eeac94765523c"
       },
-      "semantic_verified_at": "2026-10-27T04:59:00Z",
+      "semantic_verified_at": "2026-10-27T17:58:07Z",
       "semantic_source_url": "https://docs.x.ai/developers/models/grok-4.7",
       "semantic_hash": "45f7104085a21283b9e6890b1654a6d57b700d405f6dea674df45cac6ca2e27c",
       "semantic_error": null,
