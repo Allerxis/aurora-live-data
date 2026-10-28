@@ -1,7 +1,607 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-28T05:36:19Z",
+  "generated_at": "2026-10-28T18:20:01Z",
   "changes": [
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:voxtral-small-transcribe-3-0",
+      "change_type": "semantic_changed",
+      "previous_hash": "bc2f4d871924b9e4cde9fdff33bf10008602bc7d49334aaf807bbf3053d220dc",
+      "new_hash": "798fc8069219ac15751039825f52809d21a270fc1a24f8d9a5de95e83c8b3f20",
+      "source_url": "https://docs.mistral.ai/models/voxtral-small-transcribe-3-0",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:voxtral-small-2507",
+      "change_type": "semantic_changed",
+      "previous_hash": "22636457729647df8e4f237bf8acb05c9edabdc082fb54700a60b6471c601863",
+      "new_hash": "6aa787598f56741972bd6ab08da94c46a72b160aebe1a2f2040c0e2e8e37b3d7",
+      "source_url": "https://docs.mistral.ai/models/voxtral-small-25-07",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:voxtral-mini-transcribe-3-0",
+      "change_type": "semantic_changed",
+      "previous_hash": "d48a49ca229367d2f633e6517c0587eb52ba07438516876207b65b2ea8c38866",
+      "new_hash": "87788b386f846fa964bc930513bb97486714ae40bb7adefe94e270316d28eb97",
+      "source_url": "https://docs.mistral.ai/models/voxtral-mini-transcribe-3-0",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:voxtral-mini-2507",
+      "change_type": "semantic_changed",
+      "previous_hash": "ecdfb425d562e3a01d4f0f9ac834694185fc0932c92b6048bfef923dc77436cf",
+      "new_hash": "f1d58c436dbc60ee0ae2014ba7ebd47279c6b10924052d6cb2cdaed773f6e499",
+      "source_url": "https://docs.mistral.ai/models/voxtral-mini-25-07",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:pixtral-large-2411",
+      "change_type": "semantic_changed",
+      "previous_hash": "2d29819ef4baf7346e0351241cce626b86dc6bfa2550d9877a408478731009c6",
+      "new_hash": "c2b09115b9e35e9411ed8113d629952c5053322f5e13279f411d0929c1abf1fe",
+      "source_url": "https://docs.mistral.ai/models/pixtral-large-24-11",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:pixtral-12b-2409",
+      "change_type": "semantic_changed",
+      "previous_hash": "8ccbf0c02da4b31b268bce0fc4a47a244af0cd2c56b0f7126d5a8182adf98450",
+      "new_hash": "75fbc04efd228f922a9d9091235d5af5e00beb9d1baab09cb5d9ca1a5bb293a0",
+      "source_url": "https://docs.mistral.ai/models/pixtral-12b-24-09",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:open-mixtral-8x7b",
+      "change_type": "semantic_changed",
+      "previous_hash": "6603ac8e3c3b7d79c171b72bb6fae3a9932651f19b5865e135b5071ffae4366a",
+      "new_hash": "6c50fc24f199c2ac3234748b09dac060e35da11737dc949fb57b90ebf1802f98",
+      "source_url": "https://docs.mistral.ai/models/mixtral-8x7b-0-1",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:open-mixtral-8x22b",
+      "change_type": "semantic_changed",
+      "previous_hash": "b3033c2a6fa6c76bc7c3dde2041682c248d54abe24758f4817ee43537742df23",
+      "new_hash": "f6caf4cc7478a510b0dd450014c5c246e2b7a43dcb1942e0bc8cd15d654921fd",
+      "source_url": "https://docs.mistral.ai/models/mixtral-8x22b-0-1-0-3",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:open-mistral-nemo-2407",
+      "change_type": "semantic_changed",
+      "previous_hash": "3455c1db4fb20c6f3bef033adf4b71c536789cefd13438460d6bbbe91722d202",
+      "new_hash": "bcdaeb72082f2968d6dad7b646d43e0e8a838b5fd703b59b37bbdd3bbb98c708",
+      "source_url": "https://docs.mistral.ai/models/mistral-nemo-12b-24-07",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:open-mistral-7b",
+      "change_type": "semantic_changed",
+      "previous_hash": "ced69dac28745b96478744166e42836571c1a89a82ac126d62d73e735c5b817a",
+      "new_hash": "f318ad12e5a72b8e5bd30a51025019b1c1362bb855c29fb8a257d764859c31ed",
+      "source_url": "https://docs.mistral.ai/models/mistral-7b-0-2",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-small-2603",
+      "change_type": "semantic_changed",
+      "previous_hash": "a9be1f1f884da2038bba3bf9906ea9a2b8b604d7842a4d73a915d7332c3f1e81",
+      "new_hash": "c168dbc16c4a3267921fc56e57213c2fd34c8a03b0d2c18252e0ef54f80fa867",
+      "source_url": "https://docs.mistral.ai/models/mistral-small-4-0-26-03",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-small-2506",
+      "change_type": "semantic_changed",
+      "previous_hash": "30b143fa3e31859e3ea7a76ad7a1f8aa1e3b54d1f79230e138989b8b61309c7b",
+      "new_hash": "656e9b0f940ea0268f13e875b0dc8e1c708e0626279d18471c6e55dae62e6d04",
+      "source_url": "https://docs.mistral.ai/models/mistral-small-3-2-25-06",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-small-2503",
+      "change_type": "semantic_changed",
+      "previous_hash": "a399476faa01baef1a5b8cbbf1af22c67339aeb4c57c00b8919a6f4c23aee654",
+      "new_hash": "fdc0dcff8b9a72ea0c8a9687f776d74ae23a66d9227b60216c7b1b48f51fc620",
+      "source_url": "https://docs.mistral.ai/models/mistral-small-3-1-25-03",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-small-2501",
+      "change_type": "semantic_changed",
+      "previous_hash": "6ee2e200c333e4061e8ce257b95f67e3df2f9d125d4913090ab02d850054e70c",
+      "new_hash": "11817eca9e14e879e8db47ca0d3a46af057e9e14bf38e3a40727eadb3a4095d1",
+      "source_url": "https://docs.mistral.ai/models/mistral-small-3-0-25-01",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-small-2409",
+      "change_type": "semantic_changed",
+      "previous_hash": "d22dc75124e077939d1e4af4b309f05958241c3fce7c03e3c884395b040e2eba",
+      "new_hash": "9c0122f9e5e38c1f76f0c0ef7561c546a8cf4c535e0c971a2b37e5b7725916de",
+      "source_url": "https://docs.mistral.ai/models/mistral-small-2-0-24-09",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-small-2402",
+      "change_type": "semantic_changed",
+      "previous_hash": "e3039dbab3789e1078b54f311dd75675d044580feb9676295b2f4d0aca9262b4",
+      "new_hash": "f2aa0c58ed671a007e64fa823fe950636ea44ea5855b60bd18d065bc3ce820c6",
+      "source_url": "https://docs.mistral.ai/models/mistral-small-1-0-24-02",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-saba-2502",
+      "change_type": "semantic_changed",
+      "previous_hash": "2a879a88b327c154ba88f71eca2068ab7de3c2e3a8af95c87c07271064d56d61",
+      "new_hash": "29d9c3cb9ace23e895d6535798b289b31ef5a799f982b8313fc80a31f55da181",
+      "source_url": "https://docs.mistral.ai/models/mistral-saba-25-02",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-ocr-4-1",
+      "change_type": "semantic_changed",
+      "previous_hash": "4490363606a5998caae960552ac19e581a2e92aa9e52bb5ff8bc6de214b75313",
+      "new_hash": "969340f1826b554183a13630f68be51e6dd478e118c31a372804bcfaff489223",
+      "source_url": "https://docs.mistral.ai/models/ocr-4-1",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-ocr-4-0",
+      "change_type": "semantic_changed",
+      "previous_hash": "cdfbb647da7307c6f1448b00503bcdf486b2e90572f5a7e20c833dae0cf227af",
+      "new_hash": "5718243cdf86c58ed34de0e751fe62e948186db54390cc72b348996c3208912f",
+      "source_url": "https://docs.mistral.ai/models/ocr-4-0",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-ocr-2512",
+      "change_type": "semantic_changed",
+      "previous_hash": "c8615808061f9832e3be731ff8874f6de9d7aaca2dc3d4d9c1b3a2fab1500074",
+      "new_hash": "c39c6d8884f77fcbecbef8eb6be51aed4a8d6c4ef7f6010e29159d2bdd712a4e",
+      "source_url": "https://docs.mistral.ai/models/ocr-3-25-12",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-ocr-2505",
+      "change_type": "semantic_changed",
+      "previous_hash": "1e7e1093d78f67139ab1cbec5e477e782b57d30fbc2b66633dd4cd1f6d64bb52",
+      "new_hash": "76ba3f265ba7ec0cd355ccf5bf76acb4f11d0bf49cebed82e3ea3011a54157e9",
+      "source_url": "https://docs.mistral.ai/models/ocr-2-25-05",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-moderation-2603",
+      "change_type": "semantic_changed",
+      "previous_hash": "59bc1913cd17e9ecc3930fe7ca38c2afb7ae716f455a75421a048406c9d35a9c",
+      "new_hash": "42144b32647de6539f752ff11c541243fb9c19a13baa98a6688e1048e2af9603",
+      "source_url": "https://docs.mistral.ai/models/mistral-moderation-26-03",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-moderation-2411",
+      "change_type": "semantic_changed",
+      "previous_hash": "285a430eceb14a5af0421ca73f272e6a75e1f346330fc914015a9ed69cd69b27",
+      "new_hash": "dd4a506077b460046608b7f382044259dbe5e5ddbd3fc98417cea47c9b2c9835",
+      "source_url": "https://docs.mistral.ai/models/mistral-moderation-24-11",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-medium-3-5",
+      "change_type": "semantic_changed",
+      "previous_hash": "7f8c307cba0eb629b59f680892d5e2866187f4e945c7e09c1285a1e7cc693606",
+      "new_hash": "8487e7644efc8eeb5e26d563f68fb3002dc11ee3c0b9240c391a409ceaff3792",
+      "source_url": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-medium-2508",
+      "change_type": "semantic_changed",
+      "previous_hash": "07b727f686586f3f7620f340a618dfefa220944a30daf7851267212e3e3571c0",
+      "new_hash": "affbfa707662d01b57838f3ec6ad8b45e12f50be6b7eab9602750c47c859faa6",
+      "source_url": "https://docs.mistral.ai/models/mistral-medium-3-1-25-08",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-medium-2505",
+      "change_type": "semantic_changed",
+      "previous_hash": "f67c37416ad97fd49caaaaab5269526f7e1a2b34196233020b968332d83bf6de",
+      "new_hash": "29cf9dd09384ad86d4e4599eda3e7dc245b19aadc6006bfc7bf019e67359476f",
+      "source_url": "https://docs.mistral.ai/models/mistral-medium-3-25-05",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-medium-2312",
+      "change_type": "semantic_changed",
+      "previous_hash": "8ea48b61958cbe703d8f67f273ef404d31c4dcdd8bfea4a73ecc7ee4d2262656",
+      "new_hash": "98804b7277e75d8ed5acc49ef29ef34d37c436bfc86561f37148e61aa30b48ed",
+      "source_url": "https://docs.mistral.ai/models/mistral-medium-1-0-23-12",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-large-4",
+      "change_type": "semantic_changed",
+      "previous_hash": "6c0b3865b3f8b453a0abfd48981a855bf238da6f62ca057f84409d3cf879e1e8",
+      "new_hash": "5164b509097ef075cde74befa06324e367395ac69452f07d5f067263b426d537",
+      "source_url": "https://docs.mistral.ai/models/mistral-large-4-0",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-large-2512",
+      "change_type": "semantic_changed",
+      "previous_hash": "cd861c440d614bcf9cce373a65f0c7600cf950e95d7b57f358048b04e622ca4d",
+      "new_hash": "6ba9c0b26f5141e2155eb811f02d981c4b742c9ff74e6e6472b92700fdf1e82b",
+      "source_url": "https://docs.mistral.ai/models/mistral-large-3-25-12",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-large-2411",
+      "change_type": "semantic_changed",
+      "previous_hash": "6859ea9029e4f93a190275751c293619e61dcb272153f0f1cc3be00891276e60",
+      "new_hash": "e2ea29749035535c50843f7f52601c3c852f17dde7283f4f33967268bfcdbd3b",
+      "source_url": "https://docs.mistral.ai/models/mistral-large-2-1-24-11",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-large-2407",
+      "change_type": "semantic_changed",
+      "previous_hash": "f1e7f0acac82f247c92dd26063ae98cd7b7d0c2297d38f3adc7b6a70e38b58b9",
+      "new_hash": "68a681b217c119c841356c6c3d3a175835e1a09ee9c1878fc638449da5b55c0e",
+      "source_url": "https://docs.mistral.ai/models/mistral-large-2-0-24-07",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-large-2402",
+      "change_type": "semantic_changed",
+      "previous_hash": "97f33c401608833762417409fa680eac25139e9aa04a2c842b75dbe1dd2736bd",
+      "new_hash": "739edfe0dddfbbb75649b80ac1d1ef1a8e40e118c66e7fb9a77fb27d1274be63",
+      "source_url": "https://docs.mistral.ai/models/mistral-large-1-0-24-02",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-embed-2312",
+      "change_type": "semantic_changed",
+      "previous_hash": "934db9e7103607a409ac592d4f5cff04e84315c945fd1080092ad9f5ef06c241",
+      "new_hash": "67856812b948215db2ce23f30166b542370b943f53f91d7f35f23a0e5d60e73d",
+      "source_url": "https://docs.mistral.ai/models/mistral-embed-23-12",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:ministral-8b-2512",
+      "change_type": "semantic_changed",
+      "previous_hash": "5173f5c234435fe70f9e901eaee22a98fb0b186d008ee1e470538a65b943961e",
+      "new_hash": "f97f66e8e1f2d753a57ed270a26d93f8aa9de713de4afdefd163f2ff48a1c9c8",
+      "source_url": "https://docs.mistral.ai/models/ministral-3-8b-25-12",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:ministral-8b-2410",
+      "change_type": "semantic_changed",
+      "previous_hash": "3787b1884cb5ef85d75023e2f7ca0c30af51e12439e661c39175914b73783c60",
+      "new_hash": "f751bc56672df9f7cb7c48f23e0a10901b283cbd3231b69e19af08d03c3c0189",
+      "source_url": "https://docs.mistral.ai/models/ministral-8b-24-1",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:ministral-3b-2512",
+      "change_type": "semantic_changed",
+      "previous_hash": "f843fa5be34aebd08d00d4a9588e481130e2c3a970076d23f9dd91971dda5c36",
+      "new_hash": "344599e214b1af72898628322384f87a285b6833c27b75dd1c7260843f30cc79",
+      "source_url": "https://docs.mistral.ai/models/ministral-3-3b-25-12",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:ministral-3b-2410",
+      "change_type": "semantic_changed",
+      "previous_hash": "8b124cf53332ef68d852aa95bc1a4c4d94c2dafccb2c37e2af8749c5fd0958e2",
+      "new_hash": "1f454ffe55304c32c22efe131daac592e5c90bce44c1232967cb8e32efbc2b11",
+      "source_url": "https://docs.mistral.ai/models/ministral-3b-24-1",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:ministral-14b-2512",
+      "change_type": "semantic_changed",
+      "previous_hash": "d072cae701e1fe95b18d72ccfbb35aec8d3088bb7d047d0446f9ed3418551a7c",
+      "new_hash": "633c468271e2d7649a5bca855eeda928a1016d049303276b251939dc4ab24f82",
+      "source_url": "https://docs.mistral.ai/models/ministral-3-14b-25-12",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:magistral-small-2509",
+      "change_type": "semantic_changed",
+      "previous_hash": "4e0abcdcae015d3e2d51b1932409346d7de182ff0d7005923fa88e2969e6a81f",
+      "new_hash": "48459b1a14bcbac1632504066de8a230566c56cf1a61b876a9eb497be818767d",
+      "source_url": "https://docs.mistral.ai/models/magistral-small-1-2-25-09",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:magistral-small-2507",
+      "change_type": "semantic_changed",
+      "previous_hash": "cd8493416ef08b19f41ef6a8d8cd7d511ccbf4310c808a86e578aaf1be2df8db",
+      "new_hash": "0c06ebf15688523808ff83c24d0cc57eb385c636cdf28d3458166e009c7d131e",
+      "source_url": "https://docs.mistral.ai/models/magistral-small-1-1-25-07",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:magistral-small-2506",
+      "change_type": "semantic_changed",
+      "previous_hash": "65c1bb9047a6432eae3c944c20535fed32a46e403ba97ee04f5b20408c310697",
+      "new_hash": "6b4250018df5cb16561bad22ebb2d019763342accbcabea912ed0dc492a1e029",
+      "source_url": "https://docs.mistral.ai/models/magistral-small-1-0-25-06",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:magistral-medium-2509",
+      "change_type": "semantic_changed",
+      "previous_hash": "32b015fa8a28f4e894fbb0bbebfa64b97f8d55ed60fc991f46206657cfabfa14",
+      "new_hash": "ceb2d3e4404181850a5aae0483d9bf30e2451c5b4dc79bc30c26f4b4f384cf6f",
+      "source_url": "https://docs.mistral.ai/models/magistral-medium-1-2-25-09",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:magistral-medium-2507",
+      "change_type": "semantic_changed",
+      "previous_hash": "2673bf5b0dd33b77d8d417644cdb74f37c63240017de2c017650c064f2d54cb8",
+      "new_hash": "de9e76e7853a0555807bbfc62696667318042fdfbf9b49d6a40d620930e8f98c",
+      "source_url": "https://docs.mistral.ai/models/magistral-medium-1-1-25-07",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:magistral-medium-2506",
+      "change_type": "semantic_changed",
+      "previous_hash": "40c38b415b380ea03d3cea1c5826251e912c9690821f2c3bbcdebc7117da68b3",
+      "new_hash": "dcaba94bc75f36d758fd915da8bfb89423a8c66bfb04a4b0469d8d85c46202d7",
+      "source_url": "https://docs.mistral.ai/models/magistral-medium-1-0-25-06",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:labs-mistral-small-creative",
+      "change_type": "semantic_changed",
+      "previous_hash": "49b9d68e3f3f2ce1d8f20537fd067c36ee704f49e65df79cb0bf89b588967da5",
+      "new_hash": "7d3bef5e463d2654e27201bc777040c4472df18e3ce91a068934b984de5a8fae",
+      "source_url": "https://docs.mistral.ai/models/mistral-small-creative-25-12",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:labs-leanstral-2603",
+      "change_type": "semantic_changed",
+      "previous_hash": "c392e8c0f18c12b330fe38dd173ff19c1a2c92c9e4225fc8f014d6026cc2d1f2",
+      "new_hash": "89601e98ffc8dd816d909f63dac1c6d4e0b7d1ee3af4c63465ca3f580d6684db",
+      "source_url": "https://docs.mistral.ai/models/leanstral-26-03",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:labs-leanstral-1-5",
+      "change_type": "semantic_changed",
+      "previous_hash": "3405c38ace77c014cbeff37d7138d6b54798823aac8281b0f16ec357786976d8",
+      "new_hash": "c06457c6dfdb9af2a7d9e01fedec0604910f7080c03ca8141308be04c073e084",
+      "source_url": "https://docs.mistral.ai/models/leanstral-1-5",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:labs-devstral-small-2512",
+      "change_type": "semantic_changed",
+      "previous_hash": "36dc6dd35a1ea22fee14c71188b05d4bd95ee745b34b22f7e72fd5a00ad5f9fb",
+      "new_hash": "4445a5835e6b4f36fd929723ddd7f51b405ab4a48bdce531cb2ce0b7a79119a7",
+      "source_url": "https://docs.mistral.ai/models/devstral-small-2-25-12",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:devstral-small-2507",
+      "change_type": "semantic_changed",
+      "previous_hash": "44c01d1c728d5bf0eaf499bc3e8f8c8f5c9f52513e582dcb15a6aa09ecb8aee0",
+      "new_hash": "0fa87a724b4857b51b488988b80b8bb7c4624f5dbb5d4240a3c03ac42be42704",
+      "source_url": "https://docs.mistral.ai/models/devstral-small-1-1-25-07",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:devstral-small-2505",
+      "change_type": "semantic_changed",
+      "previous_hash": "7394766749868821cf2b22560b8dadfeec835b6d66bdd525d0cef40b1ac8b3c2",
+      "new_hash": "0c157d49564367ba7c5ae1efb0e32b82d98fe44b8c79648d031c79302277faa8",
+      "source_url": "https://docs.mistral.ai/models/devstral-small-1-0-25-05",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:devstral-medium-2507",
+      "change_type": "semantic_changed",
+      "previous_hash": "cfb879d9b300e09c8e2fd4d880afce7480e97ef66c4e66c383401d3a4ce8a3fd",
+      "new_hash": "77d8f3b909c446bffb8653493312653b3f1c63c8863f250e4aa98a07db3e3b57",
+      "source_url": "https://docs.mistral.ai/models/devstral-medium-1-0-25-07",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:devstral-2512",
+      "change_type": "semantic_changed",
+      "previous_hash": "5f9e6de454fc0de40616d3256c27251532fe7082aa837e0068f410f691bd6b48",
+      "new_hash": "2c8908d4e0147db20d01be6d1514d4073747f16aa94177809a0f0dd2c06c2b11",
+      "source_url": "https://docs.mistral.ai/models/devstral-2-25-12",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:devstral",
+      "change_type": "semantic_changed",
+      "previous_hash": "e26fc453b7566cdd790d605324226522f688cca1d8b888f41a2308f41649bd67",
+      "new_hash": "a9dfdd3d11007d2f6fb730e9d397a623bddd28f49c997ff5425f58035de5dd5b",
+      "source_url": "https://docs.mistral.ai/models/devstral-2-25-12",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:codestral-embed-2505",
+      "change_type": "semantic_changed",
+      "previous_hash": "3bfbc5280b13c20c6a1ee4aec47ff5662dbd37895b802fd38b7b4b72cd0b6617",
+      "new_hash": "f2e9c93f6648f05adcf73f4bf4cdb1034b0af977d94740ac188e98aa4cf3b5f4",
+      "source_url": "https://docs.mistral.ai/models/codestral-embed-25-05",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:codestral-2508",
+      "change_type": "semantic_changed",
+      "previous_hash": "db1df392789ec71363486bc63597306f608eb2d331b8d14358aeee918c3baba9",
+      "new_hash": "38b3976c5a0c8f45203a405ba127777a9070670086dc1316452b9c7ab5cfb055",
+      "source_url": "https://docs.mistral.ai/models/codestral-25-08",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:codestral-2501",
+      "change_type": "semantic_changed",
+      "previous_hash": "c41ec7b8de6cf4eabb20b28bfb42af28d1e62ff15c07eaca30149e0806241e2b",
+      "new_hash": "fde2c1d808e01b7894513c13d1557eae0deae0da57b79a7d2215618bdf3a6b9c",
+      "source_url": "https://docs.mistral.ai/models/codestral-25-01",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:codestral-2405",
+      "change_type": "semantic_changed",
+      "previous_hash": "80fcd7392d86efd2f9093841e73d3fb3fc8da553ac6c7a3b421e029ca3052ab5",
+      "new_hash": "2b2addb220fcb0f70e64c923a55a79d392d22a04105e9dfa344f62f4100ac060",
+      "source_url": "https://docs.mistral.ai/models/codestral-24-05",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:codestral",
+      "change_type": "semantic_changed",
+      "previous_hash": "9716769719f8a8c37a110388ea5e82c8f2783badbf53b5767f41bae730b1a9ee",
+      "new_hash": "16e7c72bd0187d0839fffb9f4792418e81b1dee901f52f3655563fe95fde9157",
+      "source_url": "https://docs.mistral.ai/models/codestral-24-05",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "source",
+      "entity_key": "mistral-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "0892214ef482e607ac409b7a896b19821ce62bc0da459605a19943fcc0d0f858",
+      "new_hash": "5eb7b0bcf339b25fed483a787d7f0dcb73e0b8151d94987131ea7b050d2ffd1a",
+      "source_url": "https://docs.mistral.ai/inference/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-28T18:20:01Z",
+      "entity_type": "source",
+      "entity_key": "mistral-models",
+      "change_type": "content_changed",
+      "previous_hash": "ebe7ccf2bd39dddc1af088345ad0ad726f512a3fdc85787804eaac898fb33498",
+      "new_hash": "e6005fa4708bc5b38444a78907763ec6194df39a665f4c09c66119a6bfc44aec",
+      "source_url": "https://docs.mistral.ai/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-28T05:36:19Z",
       "entity_type": "source",
@@ -9396,606 +9996,6 @@
       "observed_at": "2026-10-02T11:28:53Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:devstral-medium-1-0-25-07",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-2512",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-2507",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-2-25-12",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-prompting-best-practices",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-platform-on-aws-iam-actions",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-platform-on-aws",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-on-vertex-ai",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-on-amazon-bedrock-legacy",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-in-microsoft-foundry",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-in-amazon-bedrock",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-code-analytics-api",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-code",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-api-skill",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-api",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "openai:gpt-6.1-sol",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "openai:gpt-6.1",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "openai:gpt-6-luna",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "openai:gpt-6-astra",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "openai:gpt-6",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "openai:gpt-5.6",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "openai:gpt-4o",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "source",
-      "entity_key": "meta-llama",
-      "change_type": "content_changed",
-      "previous_hash": "2236d740e953d9d161b1b73a5fa1b366804801831d3593fcaf4144dbeee41f3c",
-      "new_hash": "8b54664693cf23f2f327c5d8db35bc30db40afcd7d8da8f155d6485886d4dcc7",
-      "source_url": "https://dev.meta.ai/ai",
-      "summary": "Normalized official-source content changed."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "source",
-      "entity_key": "xai-models",
-      "change_type": "content_changed",
-      "previous_hash": "f343d5cde9b6c3b856b9c6a1fbf400b643ab9987154cad02d82a7f617be7d001",
-      "new_hash": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59",
-      "source_url": "https://docs.x.ai/developers/models",
-      "summary": "Normalized official-source content changed."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "source",
-      "entity_key": "google-deprecations",
-      "change_type": "content_changed",
-      "previous_hash": "8443c70d06e406d065759e53fd7dc55a0e865339b6bd130c32d9f6a14cd1224c",
-      "new_hash": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5",
-      "source_url": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "summary": "Normalized official-source content changed."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "source",
-      "entity_key": "google-models",
-      "change_type": "content_changed",
-      "previous_hash": "640c1078347915d4d26cb95885b08fbfb2ea897972cbce1047b3148a4e510d4e",
-      "new_hash": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-      "source_url": "https://ai.google.dev/gemini-api/docs/models",
-      "summary": "Normalized official-source content changed."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "source",
-      "entity_key": "anthropic-models",
-      "change_type": "content_changed",
-      "previous_hash": "203c63e9783e8dd6591f1a2114fcd1a23dcd9358ca4265dd1fbb4ed4f9322a92",
-      "new_hash": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817",
-      "source_url": "https://platform.claude.com/docs/en/models/overview",
-      "summary": "Normalized official-source content changed."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "meta:llama-guard-4",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-voice-transcribe-2.0",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-voice-transcribe-1.0",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-voice-think-fast-2.0",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-voice-latest",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-tts",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-video-1.5-preview",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-video-1.5-lite",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-video-1.5-2026-05-30",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-video-1.5",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-video",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image-quality-latest",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image-quality-20260403",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image-quality",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image-pro",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image-2026-03-02",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image-2.0",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-code-fast-1-0825",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-code-fast-1",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-code-fast",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-build-latest",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-build-0.1",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-47",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.7",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.6",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.5-latest",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.5",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.3-latest",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.3",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-reasoning-latest",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-reasoning-gv2",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-reasoning",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
