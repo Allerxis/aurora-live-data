@@ -1,7 +1,87 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-27T17:58:07Z",
+  "generated_at": "2026-10-28T05:36:19Z",
   "changes": [
+    {
+      "observed_at": "2026-10-28T05:36:19Z",
+      "entity_type": "source",
+      "entity_key": "xai-prompt-caching-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "89a6ee511aa5678e4276b7ca2943ed09658847029b9eb6ab198eeac94765523c",
+      "new_hash": "2ce489c22585d7c81d2acba00011efb93f96bcbbea8ce5dc3c47647e1d94bbb3",
+      "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-28T05:36:19Z",
+      "entity_type": "source",
+      "entity_key": "google-prompting-strategies",
+      "change_type": "content_changed",
+      "previous_hash": "c8863bbd85eec9f6ff52f0f2c3b52691fa29865336971e907586c9f4d52bcfd1",
+      "new_hash": "47e122e39e6111f472642325986f71ade2ca13a5a45bb40c7705000e92624fb3",
+      "source_url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-28T05:36:19Z",
+      "entity_type": "source",
+      "entity_key": "mistral-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "033361c1ecae66f03984a2d2b7c6c648316329fb322ba7a8289e2e9860457fa8",
+      "new_hash": "0892214ef482e607ac409b7a896b19821ce62bc0da459605a19943fcc0d0f858",
+      "source_url": "https://docs.mistral.ai/inference/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-28T05:36:19Z",
+      "entity_type": "source",
+      "entity_key": "xai-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "5aa5fc5ff62f09b40375083bba9c221c027ed61f2b1f9f629117a1fa073e73b7",
+      "new_hash": "f83ce120e18332c9c9efd2dc0c1aa4b1dbe322c8910703817adc58f723daa4a7",
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-28T05:36:19Z",
+      "entity_type": "source",
+      "entity_key": "xai-retirement-2026-05",
+      "change_type": "content_changed",
+      "previous_hash": "1eb1beedb089002743f28410e6383f1ec52f98f3e6995abac993b9e42e8f422b",
+      "new_hash": "af3d257262e67779a81f05a8743f0229b221c133c3f5237a8943670c30b2b5e6",
+      "source_url": "https://docs.x.ai/developers/migration/may-15-retirement",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-28T05:36:19Z",
+      "entity_type": "source",
+      "entity_key": "xai-models",
+      "change_type": "content_changed",
+      "previous_hash": "3cc615e469db4f53a9f6983442cf7f3d94f9ec42367008976de68a87043c6f80",
+      "new_hash": "ddaa853ecbe9b2a3551d2f0c6b32ea8c1d4bd9338d3be8d15986a5960d26a31f",
+      "source_url": "https://docs.x.ai/developers/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-28T05:36:19Z",
+      "entity_type": "source",
+      "entity_key": "google-deprecations",
+      "change_type": "content_changed",
+      "previous_hash": "1f6201ae94503a302e4c65ee813bd509d638a670b144f74010cbd2593af59319",
+      "new_hash": "d5237046ee49d138c59265588b2d5c88cd548594e3f4bb1f2265a6e23510f882",
+      "source_url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-28T05:36:19Z",
+      "entity_type": "source",
+      "entity_key": "google-models",
+      "change_type": "content_changed",
+      "previous_hash": "fde99e9af9777c2c6aca403d0c38a64338259dde66cbf5acb525f29835b50e88",
+      "new_hash": "7c24fb7b46164edfc708d74fa69c102490280ef26dfc3dadd56fd2d009c376ce",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-27T17:58:07Z",
       "entity_type": "source",
@@ -9916,86 +9996,6 @@
       "observed_at": "2026-10-02T11:26:55Z",
       "entity_type": "model_candidate",
       "entity_key": "xai:grok-4.20-reasoning",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-non-reasoning-latest",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-non-reasoning-gv2",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-non-reasoning",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-multi-agent-latest",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-multi-agent-experimental-beta-latest",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-multi-agent-experimental-beta-0304",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-multi-agent-beta-latest",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:26:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.20-multi-agent-beta-0309",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
