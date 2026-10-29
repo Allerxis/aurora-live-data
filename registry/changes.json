@@ -1,7 +1,77 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-29T05:42:55Z",
+  "generated_at": "2026-10-29T18:26:39Z",
   "changes": [
+    {
+      "observed_at": "2026-10-29T18:26:39Z",
+      "entity_type": "model_semantics",
+      "entity_key": "mistral:mistral-large-4",
+      "change_type": "semantic_changed",
+      "previous_hash": "5164b509097ef075cde74befa06324e367395ac69452f07d5f067263b426d537",
+      "new_hash": "cecd92af74b30042218d915ccceea7ce9396890db0569f6b619cd61fec414c56",
+      "source_url": "https://docs.mistral.ai/models/mistral-large-4-0",
+      "summary": "Verified semantic facts changed on the official Mistral model detail page."
+    },
+    {
+      "observed_at": "2026-10-29T18:26:39Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-prompting-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "000e82316caab6e0eefe61e82b349608247e1b332ae4e0eff502ae76075d9551",
+      "new_hash": "c5a928df447587aec7df0a243fc1b3d04505ff868e1361ae222e3a2f6e5ec22d",
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-29T18:26:39Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "a9f669171ff4ef4d4f4a699ee1d01663cd1bb505f6378625fcf83a302cb80738",
+      "new_hash": "50900fb63f843979bff6b699a28ebc7ad56ac5e047865aa821197a93e2e3ebdd",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-29T18:26:39Z",
+      "entity_type": "source",
+      "entity_key": "mistral-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "5eb7b0bcf339b25fed483a787d7f0dcb73e0b8151d94987131ea7b050d2ffd1a",
+      "new_hash": "bd187d560462bb1e5b8d987ecda8a4a5498c923299876f03b2a7fb6a273199f7",
+      "source_url": "https://docs.mistral.ai/inference/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-29T18:26:39Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "e1c347ef8f3c40c6c0486febc470f22fe7c5e8803b51578f161662e03b691041",
+      "new_hash": "bf20de91b66e5abb3f92b61d60391218d43c704476819b16562840dc54281fc9",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-29T18:26:39Z",
+      "entity_type": "source",
+      "entity_key": "mistral-models",
+      "change_type": "content_changed",
+      "previous_hash": "e6005fa4708bc5b38444a78907763ec6194df39a665f4c09c66119a6bfc44aec",
+      "new_hash": "6193af5f1f5aeb125dc71fcc6d034f314ceebc38915ab60c0e63163a04697d70",
+      "source_url": "https://docs.mistral.ai/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-29T18:26:39Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "75d28bde3be3d7e3d9ee4af5655ad0df29fda54af6bee62e1c561e12e1998b4d",
+      "new_hash": "ab2947ead56f2802cbad257cbf119788a83c64b42a77a240cd0f72f5b4e1d3a2",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-29T05:42:55Z",
       "entity_type": "model_candidate",
@@ -9926,76 +9996,6 @@
       "observed_at": "2026-10-02T11:28:53Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:labs-models",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:labs-mistral-small-creative",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:labs-leanstral-2603",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:labs-leanstral-1-5",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:labs-devstral-small-2512",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-small-2512",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-small-2507",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-small-2505",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
