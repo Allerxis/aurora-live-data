@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-28T18:20:01Z",
+  "generated_at": "2026-10-29T05:42:55Z",
   "purpose": "Source-anchored prompt-engineering guidance. A rule is current only while deterministic evidence patterns remain present in the tracked official source.",
   "trust_model": {
     "verified_official_guidance": "All configured evidence patterns matched the current official source.",
@@ -46,7 +46,7 @@
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
       "source_hash": "000e82316caab6e0eefe61e82b349608247e1b332ae4e0eff502ae76075d9551",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-28T18:20:01Z",
+      "verified_at": "2026-10-29T05:42:55Z",
       "evidence_patterns": [
         "examples are one of the most reliable",
         "3.?5 examples"
@@ -86,7 +86,7 @@
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
       "source_hash": "000e82316caab6e0eefe61e82b349608247e1b332ae4e0eff502ae76075d9551",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-28T18:20:01Z",
+      "verified_at": "2026-10-29T05:42:55Z",
       "evidence_patterns": [
         "XML tags help Claude",
         "consistent.*descriptive tag"
@@ -106,7 +106,7 @@
       "source_url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
       "source_hash": "47e122e39e6111f472642325986f71ade2ca13a5a45bb40c7705000e92624fb3",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-28T18:20:01Z",
+      "verified_at": "2026-10-29T05:42:55Z",
       "evidence_patterns": [
         "Be precise and direct",
         "Define parameters"
@@ -126,7 +126,7 @@
       "source_url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
       "source_hash": "47e122e39e6111f472642325986f71ade2ca13a5a45bb40c7705000e92624fb3",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-28T18:20:01Z",
+      "verified_at": "2026-10-29T05:42:55Z",
       "evidence_patterns": [
         "Prioritize critical instructions",
         "System Instruction.*beginning"
@@ -146,7 +146,7 @@
       "source_url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
       "source_hash": "47e122e39e6111f472642325986f71ade2ca13a5a45bb40c7705000e92624fb3",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-28T18:20:01Z",
+      "verified_at": "2026-10-29T05:42:55Z",
       "evidence_patterns": [
         "Structure for long contexts",
         "specific instructions or questions.*end",
@@ -167,7 +167,7 @@
       "source_url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
       "source_hash": "47e122e39e6111f472642325986f71ade2ca13a5a45bb40c7705000e92624fb3",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-28T18:20:01Z",
+      "verified_at": "2026-10-29T05:42:55Z",
       "evidence_patterns": [
         "Use consistent structure",
         "XML-style tags.*Markdown headings"
@@ -187,7 +187,7 @@
       "source_url": "https://docs.mistral.ai/inference/prompting",
       "source_hash": "e797b5f06b7bef87247b74d1afd892333f9c1630ab4f261de85233b67018b8fb",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-28T18:20:01Z",
+      "verified_at": "2026-10-29T05:42:55Z",
       "evidence_patterns": [
         "system prompt.*beginning of the conversation",
         "user prompt.*specific context or instructions"
@@ -205,9 +205,9 @@
       "guidance": "Place stable application rules in developer/instructions-level content and keep end-user task input in user/input content; higher-authority developer instructions take precedence over user instructions.",
       "source_key": "openai-prompt-engineering",
       "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
-      "source_hash": "0227568e25e6c14439ac4ff5faaf77bc07cf910a73e4755b8c0485420e76fe37",
+      "source_hash": "a9f669171ff4ef4d4f4a699ee1d01663cd1bb505f6378625fcf83a302cb80738",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-28T18:20:01Z",
+      "verified_at": "2026-10-29T05:42:55Z",
       "evidence_patterns": [
         "developer messages are instructions",
         "prioritized ahead of.*user messages"
@@ -225,9 +225,9 @@
       "guidance": "Use clear Markdown structure and/or XML-style tags to separate instructions from supporting context and other logical prompt sections.",
       "source_key": "openai-prompt-engineering",
       "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
-      "source_hash": "0227568e25e6c14439ac4ff5faaf77bc07cf910a73e4755b8c0485420e76fe37",
+      "source_hash": "a9f669171ff4ef4d4f4a699ee1d01663cd1bb505f6378625fcf83a302cb80738",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-28T18:20:01Z",
+      "verified_at": "2026-10-29T05:42:55Z",
       "evidence_patterns": [
         "Markdown headers and lists",
         "XML tags.*delineate"
@@ -248,7 +248,7 @@
       "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
       "source_hash": "2ce489c22585d7c81d2acba00011efb93f96bcbbea8ce5dc3c47647e1d94bbb3",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-28T18:20:01Z",
+      "verified_at": "2026-10-29T05:42:55Z",
       "evidence_patterns": [
         "Never modify earlier messages",
         "Only append new"
@@ -269,7 +269,7 @@
       "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
       "source_hash": "2ce489c22585d7c81d2acba00011efb93f96bcbbea8ce5dc3c47647e1d94bbb3",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-10-28T18:20:01Z",
+      "verified_at": "2026-10-29T05:42:55Z",
       "evidence_patterns": [
         "Front-load static content",
         "system prompts.*few-shot examples.*reference documents"

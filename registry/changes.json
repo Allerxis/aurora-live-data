@@ -1,7 +1,57 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-28T18:20:01Z",
+  "generated_at": "2026-10-29T05:42:55Z",
   "changes": [
+    {
+      "observed_at": "2026-10-29T05:42:55Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-embedding-2-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-10-29T05:42:55Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "0227568e25e6c14439ac4ff5faaf77bc07cf910a73e4755b8c0485420e76fe37",
+      "new_hash": "a9f669171ff4ef4d4f4a699ee1d01663cd1bb505f6378625fcf83a302cb80738",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-29T05:42:55Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "8001e5b6a6670d3f1c2efc4547a7cb100a1733540aa007d7c0b32e675435a7aa",
+      "new_hash": "e1c347ef8f3c40c6c0486febc470f22fe7c5e8803b51578f161662e03b691041",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-29T05:42:55Z",
+      "entity_type": "source",
+      "entity_key": "google-models",
+      "change_type": "content_changed",
+      "previous_hash": "7c24fb7b46164edfc708d74fa69c102490280ef26dfc3dadd56fd2d009c376ce",
+      "new_hash": "2781c01da08ccb7885ea2355f227a39e394b6222b62470e885656b01976cd245",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-29T05:42:55Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "3a0f415bbefeae2c40aad69cbda2bd3c1c061e490f36e5a39a71c9e1b4a1de73",
+      "new_hash": "75d28bde3be3d7e3d9ee4af5655ad0df29fda54af6bee62e1c561e12e1998b4d",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-28T18:20:01Z",
       "entity_type": "model_semantics",
@@ -9946,56 +9996,6 @@
       "observed_at": "2026-10-02T11:28:53Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:devstral-small-2505",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-small-2-25-12",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-small-1-1-25-07",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-small-1-0-25-05",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-medium-2507",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-medium-1-0-25-07",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
