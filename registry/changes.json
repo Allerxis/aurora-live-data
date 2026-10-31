@@ -1,7 +1,67 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-30T17:58:59Z",
+  "generated_at": "2026-10-31T05:35:18Z",
   "changes": [
+    {
+      "observed_at": "2026-10-31T05:35:18Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-prompting-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "06d48b87618e3a90b50c7cd15fb70089bf1992b9a77de4fdc55a3bda41ca2579",
+      "new_hash": "b672cf5f12049eaeafef5b9297f7881a8b06172f63949f152e1678e358fc2b10",
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-31T05:35:18Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "50900fb63f843979bff6b699a28ebc7ad56ac5e047865aa821197a93e2e3ebdd",
+      "new_hash": "7eb319a3a3455d6795fa1b20220ba0b23651674b43a3149477bb7599932eb009",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-31T05:35:18Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-deprecations",
+      "change_type": "content_changed",
+      "previous_hash": "211c43d5e6b155e09da73f4be3dfb2991a3510de7e403237fff3d2a60ed884b6",
+      "new_hash": "73851879b4bbd39cb6a2763906791a202b2e210811e728d92b16e931128cf73e",
+      "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-31T05:35:18Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "bf20de91b66e5abb3f92b61d60391218d43c704476819b16562840dc54281fc9",
+      "new_hash": "09cb0dec9ad703809ba6deecc77ada307f642905248a36efbdb41cf260fb544f",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-31T05:35:18Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-models",
+      "change_type": "content_changed",
+      "previous_hash": "73854812e12b8f1e7d9c21ea965e0a285a3ff6e164efcafc217ae45e0c4ea1a6",
+      "new_hash": "4e64446362d8173dd46fa1cb4e697c70dd1ab36c3a34e4f24393f407d226c047",
+      "source_url": "https://platform.claude.com/docs/en/models/overview",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-31T05:35:18Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "ab2947ead56f2802cbad257cbf119788a83c64b42a77a240cd0f72f5b4e1d3a2",
+      "new_hash": "d6d63a7290ba727e46235ce1b8ef31fcce5af076506ac5a965fe7942ac099049",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-30T17:58:59Z",
       "entity_type": "model_semantics",
@@ -9936,66 +9996,6 @@
       "observed_at": "2026-10-02T11:28:53Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:ocr-batch_ocr",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-at-scale",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-4-1",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-4-0",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-3-25-12",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-2505",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-2503",
       "change_type": "candidate_not_seen",
       "previous_hash": null,
       "new_hash": null,
