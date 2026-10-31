@@ -1,7 +1,47 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-10-31T05:35:18Z",
+  "generated_at": "2026-10-31T17:14:18Z",
   "changes": [
+    {
+      "observed_at": "2026-10-31T17:14:18Z",
+      "entity_type": "source",
+      "entity_key": "xai-prompt-caching-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "2ce489c22585d7c81d2acba00011efb93f96bcbbea8ce5dc3c47647e1d94bbb3",
+      "new_hash": "1a82997519396d003673830bfb71a957c25e7d59cd221329014ca07ef43c1596",
+      "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-31T17:14:18Z",
+      "entity_type": "source",
+      "entity_key": "xai-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "f83ce120e18332c9c9efd2dc0c1aa4b1dbe322c8910703817adc58f723daa4a7",
+      "new_hash": "1c0a33fd148fa580eb7724cb8ddea98db1b259100a2e909892a18a44d6ad5451",
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-31T17:14:18Z",
+      "entity_type": "source",
+      "entity_key": "xai-retirement-2026-05",
+      "change_type": "content_changed",
+      "previous_hash": "af3d257262e67779a81f05a8743f0229b221c133c3f5237a8943670c30b2b5e6",
+      "new_hash": "9ef612a1a4e93dd05f2bdf036242bde17514a2adaba225351598c3f86c0c6288",
+      "source_url": "https://docs.x.ai/developers/migration/may-15-retirement",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-10-31T17:14:18Z",
+      "entity_type": "source",
+      "entity_key": "xai-models",
+      "change_type": "content_changed",
+      "previous_hash": "ddaa853ecbe9b2a3551d2f0c6b32ea8c1d4bd9338d3be8d15986a5960d26a31f",
+      "new_hash": "ac61194d030e8ad2d9abcba5a2399fd43a451cc2cafa4a5221ffacb6872d745a",
+      "source_url": "https://docs.x.ai/developers/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-10-31T05:35:18Z",
       "entity_type": "source",
@@ -9956,46 +9996,6 @@
       "observed_at": "2026-10-02T11:28:53Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:ocr-extractor",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-documentchunking-readme",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-document_understanding",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-data_extraction",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-batch_ocr",
       "change_type": "candidate_not_seen",
       "previous_hash": null,
       "new_hash": null,
