@@ -1,7 +1,947 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-11-02T05:57:13Z",
+  "generated_at": "2026-11-02T21:41:27Z",
   "changes": [
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.1-lite-generate-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.1-generate-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.1-fast-generate-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.0-generate-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.0-generate-001",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.0-fast-generate-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-3.0-fast-generate-001",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:veo-2.0-generate-001",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:lyria-realtime-exp",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:lyria-3.5",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:lyria-3-pro-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:lyria-3-clip-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-4.0-ultra-generate-preview-06-06",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-4.0-ultra-generate-001",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-4.0-generate-preview-06-06",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-4.0-generate-001",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-4.0-generate",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-4.0-fast-generate-001",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:imagen-3.0-generate-002",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-robotics-er-2-streaming-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-robotics-er-2-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-robotics-er-1.6-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-robotics-er-1.5-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-omni-flash-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-omni-1.1-flash",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-nano-banana-2.1",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-live-2.5-flash-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-flash-latest",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-embedding-exp-03-07",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-embedding-exp",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-embedding-2",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-embedding-001",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-4-argon",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.8-live-extended-thinking",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.8-live",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.8-flash-tts",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.8-flash-lite-tts",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.8-flash",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.7-flash",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.6-flash",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.5-transcribe-live",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.5-transcribe",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.5-live-translate-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.5-flash-lite",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.5-flash",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-pro-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-tts-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-live-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-lite-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-lite-image",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-lite",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-image-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3.1-flash-image",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3-pro-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3-pro-image-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3-pro-image",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-3-flash-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-pro-preview-tts",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-pro-preview-06-05",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-pro-preview-05-06",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-pro-preview-03-25",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-pro",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-preview-tts",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-preview-09-25",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-preview-09-2025",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-preview-05-20",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-native-audio-preview-12-2025",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-lite-preview-09-2025",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-lite",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-image-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash-image",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-flash",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.5-computer-use-preview-10-2025",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-preview-image-generation",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-live-001",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-lite-preview-02-05",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-lite-preview",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-lite-001",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-lite",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash-001",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:gemini-2.0-flash",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:deep-research-pro-preview-12-2025",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:deep-research-preview-04-2026",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:deep-research-max-preview-04-2026",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:antigravity-preview-09-2026",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:antigravity-preview-05-2026",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "model_candidate",
+      "entity_key": "google:antigravity",
+      "change_type": "candidate_not_seen",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "source",
+      "entity_key": "google-prompting-strategies",
+      "change_type": "content_changed",
+      "previous_hash": "47e122e39e6111f472642325986f71ade2ca13a5a45bb40c7705000e92624fb3",
+      "new_hash": "96f3add4b22b3d6d925a55a91b12af199f3de2a9920164b54d43a37524fb946f",
+      "source_url": "https://aistudio.google.com/docs/prompting-strategies",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "7eb319a3a3455d6795fa1b20220ba0b23651674b43a3149477bb7599932eb009",
+      "new_hash": "edde75c865555ca6ae9ccf290c9cc7fd4d6c00444e08c6487f4e80f3b3975207",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "09cb0dec9ad703809ba6deecc77ada307f642905248a36efbdb41cf260fb544f",
+      "new_hash": "7ad354199679e226364fa87b19aa6844275c55ea15aad0e6cc6668b2bff80440",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama",
+      "change_type": "content_changed",
+      "previous_hash": "7bfda8eb45f984fb40a57d1bc765be800989cb019481d52c4772a645613bf933",
+      "new_hash": "790c888d632a6c68a4921b79b49b1999b01287ef5d5fb13cb83b8340816f543f",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "source",
+      "entity_key": "google-deprecations",
+      "change_type": "content_changed",
+      "previous_hash": "d5237046ee49d138c59265588b2d5c88cd548594e3f4bb1f2265a6e23510f882",
+      "new_hash": "e1a898565dcafe10c36904941aeb61cc8a9a3b4ab30144a25f19289fecc355ae",
+      "source_url": "https://aistudio.google.com/docs/deprecations",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "source",
+      "entity_key": "google-models",
+      "change_type": "content_changed",
+      "previous_hash": "2781c01da08ccb7885ea2355f227a39e394b6222b62470e885656b01976cd245",
+      "new_hash": "a2992404d2464c0f7ea2da7735a43db671d8393bcd09ce4278a03b107eef8c28",
+      "source_url": "https://aistudio.google.com/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-02T21:41:27Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "d6d63a7290ba727e46235ce1b8ef31fcce5af076506ac5a965fe7942ac099049",
+      "new_hash": "d92b3e8fef7c1c85137acbc554ff716915093112a8533e28ca57f02e6555dcff",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-11-02T05:57:13Z",
       "entity_type": "source",
@@ -9056,946 +9996,6 @@
       "observed_at": "2026-10-02T11:31:36Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:mistral-large-2-1-24-11",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-large-2-0-24-07",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-large-1-0-24-02",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-embeddings-embeddings",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-embeddings-dequantization",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-embeddings-code_embedding",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-embedder",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-embed-23-12",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ministral-8b-24-1",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ministral-3b-24-1",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ministral-3-8b-25-12",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ministral-3-3b-25-12",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ministral-3-14b-25-12",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-small-1-2-25-09",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-small-1-1-25-07",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-small-1-0-25-06",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-medium-1-2-25-09",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-medium-1-1-25-07",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-medium-1-0-25-06",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:labs-models",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-small-2-25-12",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-small-1-1-25-07",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-small-1-0-25-05",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-medium-1-0-25-07",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-2-25-12",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral_embed.svg",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral.svg",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-mamba-7b-0-1",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-embed-25-05",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-embed",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-code-interpreter-python-readme",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-code-interpreter-python-codestral_code_interpreter",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-code-interpreter-js-readme",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-25-08",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-25-01",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:codestral-24-05",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral-small",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral-mini-transcribe-realtime",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral-mini-transcribe",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral-mini",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-small",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-saba",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-ocr",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-medium",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ministral-8b",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ministral-3b",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ministral-3",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-small",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:magistral-medium",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-small",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:devstral-medium",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-sonnet-5-5-system-card",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-opus-5-5-system-card",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-haiku-4-5-system-card",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-haiku-4-5-20251001-v1",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-fable-and-mythos-5-1",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-fable-5-1-mythos-5-1-system-card",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "source",
-      "entity_key": "meta-llama-docs",
-      "change_type": "source_initialized",
-      "previous_hash": null,
-      "new_hash": "c52728d18678ae86778d0467f865f561267964e709d825d43fb9328cd552454e",
-      "source_url": "https://dev.meta.ai/",
-      "summary": "Official source initialized in Aurora Live Data."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "source",
-      "entity_key": "xai-models",
-      "change_type": "content_changed",
-      "previous_hash": "89f89da30331562b291992f98b30459a559bed1833c7cdfc515047cbebce3d59",
-      "new_hash": "a8179554b1000c3e9e813f8ead611669305fb230c80afc71db4694a4f937e784",
-      "source_url": "https://docs.x.ai/developers/models",
-      "summary": "Normalized official-source content changed."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "source",
-      "entity_key": "google-deprecations",
-      "change_type": "content_changed",
-      "previous_hash": "004e9e4f291e8c70a1d9ad9d9cfcbafd357c5bf447975316168e415ffd6136a5",
-      "new_hash": "6b9bd251837cbcd8eaafb0cd9dbbf7c74ed647034fdb163ee087d3f243faaba3",
-      "source_url": "https://ai.google.dev/gemini-api/docs/deprecations",
-      "summary": "Normalized official-source content changed."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "source",
-      "entity_key": "google-models",
-      "change_type": "content_changed",
-      "previous_hash": "0c158e6ebe9c92213b104abe2665425552c3a3ca56aaad03a9eac2f65bf2d7f5",
-      "new_hash": "aa7ab60d1eafbb84f05d2a295e1434ceaacd6aa7d9c73e699466e926d745e751",
-      "source_url": "https://ai.google.dev/gemini-api/docs/models",
-      "summary": "Normalized official-source content changed."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "source",
-      "entity_key": "anthropic-models",
-      "change_type": "content_changed",
-      "previous_hash": "53f435c452235d6d217fd6a610fcfe3c4298462b8c211aefb2fa534fd6530817",
-      "new_hash": "36760a9dab4a6a2a13c52223856a961d6d7f49affd5fe5c3d6ff02885850e58c",
-      "source_url": "https://platform.claude.com/docs/en/models/overview",
-      "summary": "Normalized official-source content changed."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-voice-transcribe-2.0",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-voice-transcribe-1.0",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-voice-think-fast-2.0",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-voice-latest",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-tts",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-video-1.5-preview",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-video-1.5-lite",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-video-1.5-2026-05-30",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-video-1.5",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-video",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image-quality-latest",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image-quality-20260403",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image-quality",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image-pro",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image-2026-03-02",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image-2.0",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-imagine-image",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-code-fast-1-0825",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-code-fast-1",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-code-fast",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-build-latest",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-build-0.1",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-tool_usage",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-structured_ocr",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-rate-limits",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-product_datasheet_analysis-product_datasheet_analysis",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-playground",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-pdfs",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-models",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-images-and-pdfs",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-images",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:28:53Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:ocr-hcls-ocr_hcls",
       "change_type": "candidate_not_seen",
       "previous_hash": null,
       "new_hash": null,
