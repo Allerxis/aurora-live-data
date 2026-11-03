@@ -1,7 +1,17 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-11-02T21:41:27Z",
+  "generated_at": "2026-11-03T06:43:19Z",
   "changes": [
+    {
+      "observed_at": "2026-11-03T06:43:19Z",
+      "entity_type": "source",
+      "entity_key": "xai-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "1c0a33fd148fa580eb7724cb8ddea98db1b259100a2e909892a18a44d6ad5451",
+      "new_hash": "83d094e24c34fa4a7aa0846bae965783835b0606772dfda241c408c53346bddc",
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-11-02T21:41:27Z",
       "entity_type": "model_candidate",
@@ -9986,16 +9996,6 @@
       "observed_at": "2026-10-02T11:31:36Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:mistral-large-3-25-12",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-large-2-1-24-11",
       "change_type": "candidate_not_seen",
       "previous_hash": null,
       "new_hash": null,
