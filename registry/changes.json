@@ -1,7 +1,87 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-11-04T06:11:16Z",
+  "generated_at": "2026-11-04T19:42:41Z",
   "changes": [
+    {
+      "observed_at": "2026-11-04T19:42:41Z",
+      "entity_type": "source",
+      "entity_key": "mistral-prompting",
+      "change_type": "content_changed",
+      "previous_hash": "e797b5f06b7bef87247b74d1afd892333f9c1630ab4f261de85233b67018b8fb",
+      "new_hash": "e113f3507cdf13d24e7033698b0955e07f7550d1ef3b696d2a20bc902c70b55c",
+      "source_url": "https://docs.mistral.ai/inference/prompting",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-04T19:42:41Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "0d7cdc505fba4d6ad53e70df95a8f3d1d8d419caf0923c88d5959f11f60cf4d4",
+      "new_hash": "fa5a39dd7124e05454ca6a84250992ac82f0425d4237f2e8c70cca194b21fd78",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-04T19:42:41Z",
+      "entity_type": "source",
+      "entity_key": "mistral-labs",
+      "change_type": "content_changed",
+      "previous_hash": "5d0929c6d44aa7ca81dfe61ebf74c4166edee34aabc2ed442b57ba832ba7b72a",
+      "new_hash": "dadac99b874f26242f67687d560563cff4a500d4ba301a5d2234ef13c778d0bd",
+      "source_url": "https://docs.mistral.ai/inference/labs",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-04T19:42:41Z",
+      "entity_type": "source",
+      "entity_key": "mistral-lifecycle",
+      "change_type": "content_changed",
+      "previous_hash": "790b5cb8296d2bbdac3c5f2ce3365a21e3ffefe6de5ebca15ce057f6f9d4eaf3",
+      "new_hash": "96a9ee14766b2bf182691b46aee6f604a0009a2b0200ce44a7cd17af76a5f35c",
+      "source_url": "https://docs.mistral.ai/inference/model-lifecycle",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-04T19:42:41Z",
+      "entity_type": "source",
+      "entity_key": "mistral-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "5128c3f33b12e9f5576ecfe28764f3b0ac78ecfc87f6340b053fc2eb8ed46e03",
+      "new_hash": "2bb2e7e476532dc36e6307e019a414254e6e7a40bd75a47dc8422278af27cc65",
+      "source_url": "https://docs.mistral.ai/inference/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-04T19:42:41Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a",
+      "new_hash": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-04T19:42:41Z",
+      "entity_type": "source",
+      "entity_key": "mistral-models",
+      "change_type": "content_changed",
+      "previous_hash": "6053dce5ee18b903e3687eaab965f8a9723a8288ebceb084c7d0d0a5b85330f8",
+      "new_hash": "72de662cd245c5adf9d93cfab21040a7c2d4edf116eb678d43b3902c387acbb6",
+      "source_url": "https://docs.mistral.ai/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-04T19:42:41Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "39ff95299428012139a2715c34236896ea747a6ea794c5a28cd1b0bf98607d05",
+      "new_hash": "89bd73457607fd2433be092f36e8d8bcad64016b3c1273113a3f1a188f5eb171",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-11-04T06:11:16Z",
       "entity_type": "source",
@@ -9916,86 +9996,6 @@
       "observed_at": "2026-10-02T11:31:36Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:mistral-ocr-hcls-ocr_hcls",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-ocr-extractor",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-ocr-documentchunking-readme",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-ocr-document_understanding",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-ocr-data_extraction",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-ocr-batch_ocr",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-ocr-4-0",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-medium-3-5-26-04",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-medium-3-25-05",
       "change_type": "candidate_not_seen",
       "previous_hash": null,
       "new_hash": null,

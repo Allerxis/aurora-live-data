@@ -1,7 +1,7 @@
 {
   "schema_version": "0.19.0",
   "provider": "openai",
-  "generated_at": "2026-11-04T06:11:16Z",
+  "generated_at": "2026-11-04T19:42:41Z",
   "semantics": {
     "present_in_current_sources": "True means the deterministic discovery adapter found this candidate during the current refresh. It does not by itself prove API availability or product availability.",
     "verification_state": "verified_official_detail means facts were parsed during this refresh from a matching official model detail page. verified_official_detail_stale preserves previously verified facts but they must be revalidated before being treated as current."
@@ -18,7 +18,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -27,7 +27,7 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -50,7 +50,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -59,7 +59,7 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -82,7 +82,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -91,9 +91,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4",
       "semantic_hash": "2c6cf03e1043e7363a1cdc0e72604030415f4cf11ddd1e1f1835f0b05b0baa86",
       "semantic_error": null,
@@ -162,7 +162,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all",
@@ -173,10 +173,10 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a",
-        "openai-prompt-engineering": "0d7cdc505fba4d6ad53e70df95a8f3d1d8d419caf0923c88d5959f11f60cf4d4"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7",
+        "openai-prompt-engineering": "fa5a39dd7124e05454ca6a84250992ac82f0425d4237f2e8c70cca194b21fd78"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4.1",
       "semantic_hash": "db23027fb55c34149661214de52337fbf12c1f769d552ce053dc69167962a216",
       "semantic_error": null,
@@ -245,7 +245,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T14:00:02Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-prompt-engineering"
@@ -254,7 +254,7 @@
         "https://developers.openai.com/api/docs/guides/prompt-engineering"
       ],
       "source_hashes": {
-        "openai-prompt-engineering": "0d7cdc505fba4d6ad53e70df95a8f3d1d8d419caf0923c88d5959f11f60cf4d4"
+        "openai-prompt-engineering": "fa5a39dd7124e05454ca6a84250992ac82f0425d4237f2e8c70cca194b21fd78"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -277,7 +277,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -286,7 +286,7 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -309,7 +309,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -318,9 +318,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-4o",
       "semantic_hash": "2ef6e00cab01237baa42fe1632438d3cd2dc0b9a7b95920beb0111151c4ad29d",
       "semantic_error": null,
@@ -389,7 +389,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all",
@@ -400,10 +400,10 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a",
-        "openai-prompt-engineering": "0d7cdc505fba4d6ad53e70df95a8f3d1d8d419caf0923c88d5959f11f60cf4d4"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7",
+        "openai-prompt-engineering": "fa5a39dd7124e05454ca6a84250992ac82f0425d4237f2e8c70cca194b21fd78"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5",
       "semantic_hash": "3cfe223ffbfa1a46beab279ecc7ab18953c491290aa43c4fb933de124ac7154e",
       "semantic_error": null,
@@ -472,7 +472,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -481,9 +481,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5-codex",
       "semantic_hash": "696cf219332a5987e175b055290c68f0e2a11e9ada641941a7365913ccf6b20a",
       "semantic_error": null,
@@ -552,7 +552,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -561,9 +561,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1",
       "semantic_hash": "9f2dc23a25fa3e0c683c90c78b44e2a9639319b6b9aef85c6100a5c7964382bb",
       "semantic_error": null,
@@ -632,7 +632,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -641,9 +641,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
       "semantic_hash": "876214dade9fffc49408c6e3da83d1da7cd0a540682a0f58c660770852e5907f",
       "semantic_error": null,
@@ -712,7 +712,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -721,9 +721,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
       "semantic_hash": "686c2baba0841d5578c938730bbbf68d1d3f75d967c22bd8fdeadf089b78e584",
       "semantic_error": null,
@@ -792,7 +792,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -801,9 +801,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.2",
       "semantic_hash": "b2b574c988df5d0069249d40ed8653d3986040e7270990e35f71757040fe6b8c",
       "semantic_error": null,
@@ -872,7 +872,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -881,9 +881,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
       "semantic_hash": "5d88e080ab3eaf262a110b92c34ac582fd1b69e0709631a42b3502833ac580eb",
       "semantic_error": null,
@@ -952,7 +952,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -961,7 +961,7 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -984,7 +984,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -993,9 +993,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
       "semantic_hash": "88af5d48af88c15c47539f9738a2f210e1ba23f4d9ec3c68f1943887775f5a7e",
       "semantic_error": null,
@@ -1064,7 +1064,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -1073,9 +1073,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.4",
       "semantic_hash": "706609eda37e87578aa50108d30efb51d62e3c70dfd3cef2d7cccd8ed15deb77",
       "semantic_error": null,
@@ -1155,7 +1155,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -1164,7 +1164,7 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -1187,7 +1187,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all",
@@ -1198,10 +1198,10 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a",
-        "openai-prompt-engineering": "0d7cdc505fba4d6ad53e70df95a8f3d1d8d419caf0923c88d5959f11f60cf4d4"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7",
+        "openai-prompt-engineering": "fa5a39dd7124e05454ca6a84250992ac82f0425d4237f2e8c70cca194b21fd78"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-5.5",
       "semantic_hash": "fb9e58805006f08ca3f2201a5ac131dde8a4164a4b052652e54e32e9268f8b7b",
       "semantic_error": null,
@@ -1281,7 +1281,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models",
@@ -1292,8 +1292,8 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models": "39ff95299428012139a2715c34236896ea747a6ea794c5a28cd1b0bf98607d05",
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models": "89bd73457607fd2433be092f36e8d8bcad64016b3c1273113a3f1a188f5eb171",
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -1316,7 +1316,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models",
@@ -1329,9 +1329,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models": "39ff95299428012139a2715c34236896ea747a6ea794c5a28cd1b0bf98607d05",
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a",
-        "openai-prompt-engineering": "0d7cdc505fba4d6ad53e70df95a8f3d1d8d419caf0923c88d5959f11f60cf4d4"
+        "openai-models": "89bd73457607fd2433be092f36e8d8bcad64016b3c1273113a3f1a188f5eb171",
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7",
+        "openai-prompt-engineering": "fa5a39dd7124e05454ca6a84250992ac82f0425d4237f2e8c70cca194b21fd78"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -1354,7 +1354,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models",
@@ -1365,10 +1365,10 @@
         "https://developers.openai.com/api/docs/models"
       ],
       "source_hashes": {
-        "openai-models": "39ff95299428012139a2715c34236896ea747a6ea794c5a28cd1b0bf98607d05",
-        "openai-prompt-engineering": "0d7cdc505fba4d6ad53e70df95a8f3d1d8d419caf0923c88d5959f11f60cf4d4"
+        "openai-models": "89bd73457607fd2433be092f36e8d8bcad64016b3c1273113a3f1a188f5eb171",
+        "openai-prompt-engineering": "fa5a39dd7124e05454ca6a84250992ac82f0425d4237f2e8c70cca194b21fd78"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
       "semantic_hash": "63ca52debe9600dc67a91dd43002dc7036dcc41f0e9bfd5c4514e8ccea5b55ad",
       "semantic_error": null,
@@ -1454,7 +1454,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -1463,9 +1463,9 @@
         "https://developers.openai.com/api/docs/models"
       ],
       "source_hashes": {
-        "openai-models": "39ff95299428012139a2715c34236896ea747a6ea794c5a28cd1b0bf98607d05"
+        "openai-models": "89bd73457607fd2433be092f36e8d8bcad64016b3c1273113a3f1a188f5eb171"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
       "semantic_hash": "024cab3076bc4883df425d1e9c25954b8eeef3de35fe3d4d46f1833233e3eb8d",
       "semantic_error": null,
@@ -1552,7 +1552,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models",
@@ -1563,8 +1563,8 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models": "39ff95299428012139a2715c34236896ea747a6ea794c5a28cd1b0bf98607d05",
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models": "89bd73457607fd2433be092f36e8d8bcad64016b3c1273113a3f1a188f5eb171",
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
       "semantic_verified_at": null,
       "semantic_source_url": null,
@@ -1587,7 +1587,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:28:53Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -1596,9 +1596,9 @@
         "https://developers.openai.com/api/docs/models"
       ],
       "source_hashes": {
-        "openai-models": "39ff95299428012139a2715c34236896ea747a6ea794c5a28cd1b0bf98607d05"
+        "openai-models": "89bd73457607fd2433be092f36e8d8bcad64016b3c1273113a3f1a188f5eb171"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
       "semantic_hash": "35b3e755b5f37c4422a10690ab3f5181b076511330315444c84a59f46354806a",
       "semantic_error": null,
@@ -1684,7 +1684,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-26T18:40:13Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models"
@@ -1693,9 +1693,9 @@
         "https://developers.openai.com/api/docs/models"
       ],
       "source_hashes": {
-        "openai-models": "39ff95299428012139a2715c34236896ea747a6ea794c5a28cd1b0bf98607d05"
+        "openai-models": "89bd73457607fd2433be092f36e8d8bcad64016b3c1273113a3f1a188f5eb171"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
       "semantic_hash": "5d6754ea4918a54a43e281909b3e78de2224a67049c3de1d236e9c56f84eeb13",
       "semantic_error": null,
@@ -1782,7 +1782,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -1791,9 +1791,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o1-mini",
       "semantic_hash": "381a73308ae589cee46ec24c8793c43f8ae8a48c15ea5f22dc290e03d97e5c7b",
       "semantic_error": null,
@@ -1862,7 +1862,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -1871,9 +1871,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o1-pro",
       "semantic_hash": "d14371c622a4f95125958a9b9dc19cd3bac4a5dc435f97f675ac77c0404f7623",
       "semantic_error": null,
@@ -1942,7 +1942,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -1951,9 +1951,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-deep-research",
       "semantic_hash": "2f7e876b97264dccaca065c6d3680585bb6c6f844d28d6736f482bf655e6adb4",
       "semantic_error": null,
@@ -2022,7 +2022,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -2031,9 +2031,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-mini",
       "semantic_hash": "340de7072026eceab4dbec7b56a569848e6278eac4700c50c5feda7dac074af1",
       "semantic_error": null,
@@ -2102,7 +2102,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -2111,9 +2111,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o3-pro",
       "semantic_hash": "1976da34152efdec5ca72e4d5b56bd9c8bdbb8c3ecc0c0e5b4029dd77824a3bb",
       "semantic_error": null,
@@ -2182,7 +2182,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -2191,9 +2191,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o4-mini",
       "semantic_hash": "a4b10f2ae532863ea51c8f22c6caca5cd8eae42772754a284ab6018ae6acfdab",
       "semantic_error": null,
@@ -2262,7 +2262,7 @@
       "lifecycle": null,
       "present_in_current_sources": true,
       "first_discovered_at": "2026-10-02T11:39:24Z",
-      "last_seen_at": "2026-11-04T06:11:16Z",
+      "last_seen_at": "2026-11-04T19:42:41Z",
       "missing_since": null,
       "source_keys": [
         "openai-models-all"
@@ -2271,9 +2271,9 @@
         "https://developers.openai.com/api/docs/models/all"
       ],
       "source_hashes": {
-        "openai-models-all": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a"
+        "openai-models-all": "b3953459882afbc7307f74139eff6bb38f21de8ad411c58b8bebcce1d79795e7"
       },
-      "semantic_verified_at": "2026-11-04T06:11:16Z",
+      "semantic_verified_at": "2026-11-04T19:42:41Z",
       "semantic_source_url": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
       "semantic_hash": "807147ea883c25e25ca3f3dea4380c0f91cb68df858e370b84702aa2e5fc22d2",
       "semantic_error": null,

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-04T06:11:16Z",
+  "generated_at": "2026-11-04T19:42:41Z",
   "purpose": "Source-anchored prompt-engineering guidance. A rule is current only while deterministic evidence patterns remain present in the tracked official source.",
   "trust_model": {
     "verified_official_guidance": "All configured evidence patterns matched the current official source.",
@@ -46,7 +46,7 @@
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
       "source_hash": "b672cf5f12049eaeafef5b9297f7881a8b06172f63949f152e1678e358fc2b10",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-04T06:11:16Z",
+      "verified_at": "2026-11-04T19:42:41Z",
       "evidence_patterns": [
         "examples are one of the most reliable",
         "3.?5 examples"
@@ -86,7 +86,7 @@
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
       "source_hash": "b672cf5f12049eaeafef5b9297f7881a8b06172f63949f152e1678e358fc2b10",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-04T06:11:16Z",
+      "verified_at": "2026-11-04T19:42:41Z",
       "evidence_patterns": [
         "XML tags help Claude",
         "consistent.*descriptive tag"
@@ -185,9 +185,9 @@
       "guidance": "Use the system prompt for general context and behavioral instructions, and the user prompt for task-specific context or instructions.",
       "source_key": "mistral-prompting",
       "source_url": "https://docs.mistral.ai/inference/prompting",
-      "source_hash": "e797b5f06b7bef87247b74d1afd892333f9c1630ab4f261de85233b67018b8fb",
+      "source_hash": "e113f3507cdf13d24e7033698b0955e07f7550d1ef3b696d2a20bc902c70b55c",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-04T06:11:16Z",
+      "verified_at": "2026-11-04T19:42:41Z",
       "evidence_patterns": [
         "system prompt.*beginning of the conversation",
         "user prompt.*specific context or instructions"
@@ -205,9 +205,9 @@
       "guidance": "Place stable application rules in developer/instructions-level content and keep end-user task input in user/input content; higher-authority developer instructions take precedence over user instructions.",
       "source_key": "openai-prompt-engineering",
       "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
-      "source_hash": "0d7cdc505fba4d6ad53e70df95a8f3d1d8d419caf0923c88d5959f11f60cf4d4",
+      "source_hash": "fa5a39dd7124e05454ca6a84250992ac82f0425d4237f2e8c70cca194b21fd78",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-04T06:11:16Z",
+      "verified_at": "2026-11-04T19:42:41Z",
       "evidence_patterns": [
         "developer messages are instructions",
         "prioritized ahead of.*user messages"
@@ -225,9 +225,9 @@
       "guidance": "Use clear Markdown structure and/or XML-style tags to separate instructions from supporting context and other logical prompt sections.",
       "source_key": "openai-prompt-engineering",
       "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
-      "source_hash": "0d7cdc505fba4d6ad53e70df95a8f3d1d8d419caf0923c88d5959f11f60cf4d4",
+      "source_hash": "fa5a39dd7124e05454ca6a84250992ac82f0425d4237f2e8c70cca194b21fd78",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-04T06:11:16Z",
+      "verified_at": "2026-11-04T19:42:41Z",
       "evidence_patterns": [
         "Markdown headers and lists",
         "XML tags.*delineate"
@@ -248,7 +248,7 @@
       "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
       "source_hash": "1a82997519396d003673830bfb71a957c25e7d59cd221329014ca07ef43c1596",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-04T06:11:16Z",
+      "verified_at": "2026-11-04T19:42:41Z",
       "evidence_patterns": [
         "Never modify earlier messages",
         "Only append new"
@@ -269,7 +269,7 @@
       "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
       "source_hash": "1a82997519396d003673830bfb71a957c25e7d59cd221329014ca07ef43c1596",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-04T06:11:16Z",
+      "verified_at": "2026-11-04T19:42:41Z",
       "evidence_patterns": [
         "Front-load static content",
         "system prompts.*few-shot examples.*reference documents"
