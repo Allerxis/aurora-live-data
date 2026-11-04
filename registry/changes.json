@@ -1,7 +1,47 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-11-03T19:28:21Z",
+  "generated_at": "2026-11-04T06:11:16Z",
   "changes": [
+    {
+      "observed_at": "2026-11-04T06:11:16Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "edde75c865555ca6ae9ccf290c9cc7fd4d6c00444e08c6487f4e80f3b3975207",
+      "new_hash": "0d7cdc505fba4d6ad53e70df95a8f3d1d8d419caf0923c88d5959f11f60cf4d4",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-04T06:11:16Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-deprecations",
+      "change_type": "content_changed",
+      "previous_hash": "73851879b4bbd39cb6a2763906791a202b2e210811e728d92b16e931128cf73e",
+      "new_hash": "d38041e1d2820d38961ed33d43e0fc47f20e3e3d3bda3d71c2e33b1139146215",
+      "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-04T06:11:16Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "7ad354199679e226364fa87b19aa6844275c55ea15aad0e6cc6668b2bff80440",
+      "new_hash": "09f37bf76f3c2407955ae28dedd4b8c933c69a2147e107909f5c7e1652c67e1a",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-04T06:11:16Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "d92b3e8fef7c1c85137acbc554ff716915093112a8533e28ca57f02e6555dcff",
+      "new_hash": "39ff95299428012139a2715c34236896ea747a6ea794c5a28cd1b0bf98607d05",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-11-03T06:43:19Z",
       "entity_type": "source",
@@ -9956,46 +9996,6 @@
       "observed_at": "2026-10-02T11:31:36Z",
       "entity_type": "model_candidate",
       "entity_key": "mistral:mistral-medium-3-25-05",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-medium-3-1-25-08",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-medium-3",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-medium-1-0-23-12",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:31:36Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:mistral-large-3-25-12",
       "change_type": "candidate_not_seen",
       "previous_hash": null,
       "new_hash": null,
