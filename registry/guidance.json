@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-20T20:09:17Z",
+  "generated_at": "2026-11-21T06:59:53Z",
   "purpose": "Source-anchored prompt-engineering guidance. A rule is current only while deterministic evidence patterns remain present in the tracked official source.",
   "trust_model": {
     "verified_official_guidance": "All configured evidence patterns matched the current official source.",
@@ -24,7 +24,7 @@
       "guidance": "Use clear, explicit instructions and state the desired output format and constraints directly.",
       "source_key": "anthropic-prompting-best-practices",
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
-      "source_hash": "db5048d45880496639b290578914256ca9dfb9dda160beecb96fcd53ac161edd",
+      "source_hash": "019cbdb015fea8129ff113a7706977d1ff88747ae12583efef8434e0d2167793",
       "verification_state": "verified_official_guidance_stale",
       "verified_at": "2026-10-21T17:08:21Z",
       "evidence_patterns": [
@@ -44,9 +44,9 @@
       "guidance": "Use relevant, diverse and structured examples when examples materially constrain behavior; Anthropic currently recommends 3–5 examples for best results.",
       "source_key": "anthropic-prompting-best-practices",
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
-      "source_hash": "db5048d45880496639b290578914256ca9dfb9dda160beecb96fcd53ac161edd",
+      "source_hash": "019cbdb015fea8129ff113a7706977d1ff88747ae12583efef8434e0d2167793",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-20T20:09:17Z",
+      "verified_at": "2026-11-21T06:59:53Z",
       "evidence_patterns": [
         "examples are one of the most reliable",
         "3.?5 examples"
@@ -64,7 +64,7 @@
       "guidance": "For long-context Claude prompts, place long documents/data before the query and place the specific request near the end.",
       "source_key": "anthropic-prompting-best-practices",
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
-      "source_hash": "db5048d45880496639b290578914256ca9dfb9dda160beecb96fcd53ac161edd",
+      "source_hash": "019cbdb015fea8129ff113a7706977d1ff88747ae12583efef8434e0d2167793",
       "verification_state": "verified_official_guidance_stale",
       "verified_at": "2026-10-21T17:08:21Z",
       "evidence_patterns": [
@@ -84,9 +84,9 @@
       "guidance": "For complex Claude prompts, use consistent descriptive XML tags to separate instructions, context, examples and variable inputs.",
       "source_key": "anthropic-prompting-best-practices",
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
-      "source_hash": "db5048d45880496639b290578914256ca9dfb9dda160beecb96fcd53ac161edd",
+      "source_hash": "019cbdb015fea8129ff113a7706977d1ff88747ae12583efef8434e0d2167793",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-20T20:09:17Z",
+      "verified_at": "2026-11-21T06:59:53Z",
       "evidence_patterns": [
         "XML tags help Claude",
         "consistent.*descriptive tag"
@@ -187,7 +187,7 @@
       "source_url": "https://docs.mistral.ai/inference/prompting",
       "source_hash": "e113f3507cdf13d24e7033698b0955e07f7550d1ef3b696d2a20bc902c70b55c",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-20T20:09:17Z",
+      "verified_at": "2026-11-21T06:59:53Z",
       "evidence_patterns": [
         "system prompt.*beginning of the conversation",
         "user prompt.*specific context or instructions"
@@ -205,9 +205,9 @@
       "guidance": "Place stable application rules in developer/instructions-level content and keep end-user task input in user/input content; higher-authority developer instructions take precedence over user instructions.",
       "source_key": "openai-prompt-engineering",
       "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
-      "source_hash": "e37ef7d45a8e55032368487cc5304b44e1a0bf339959446d800a3c52159040e5",
+      "source_hash": "a323218e40dedcec15febed202f328a304db947f8ea1192be645a0b0f949445b",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-20T20:09:17Z",
+      "verified_at": "2026-11-21T06:59:53Z",
       "evidence_patterns": [
         "developer messages are instructions",
         "prioritized ahead of.*user messages"
@@ -225,9 +225,9 @@
       "guidance": "Use clear Markdown structure and/or XML-style tags to separate instructions from supporting context and other logical prompt sections.",
       "source_key": "openai-prompt-engineering",
       "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
-      "source_hash": "e37ef7d45a8e55032368487cc5304b44e1a0bf339959446d800a3c52159040e5",
+      "source_hash": "a323218e40dedcec15febed202f328a304db947f8ea1192be645a0b0f949445b",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-20T20:09:17Z",
+      "verified_at": "2026-11-21T06:59:53Z",
       "evidence_patterns": [
         "Markdown headers and lists",
         "XML tags.*delineate"
@@ -246,9 +246,9 @@
       "guidance": "For cache-efficient multi-turn Grok prompts, keep earlier messages unchanged and append new messages rather than editing, removing or reordering prior content.",
       "source_key": "xai-prompt-caching-best-practices",
       "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
-      "source_hash": "22ad766b6ac37c3136ac30d351847d0936d61e2790611842c2ace0a36a763726",
+      "source_hash": "7c7b3614ac16777448cab35e0df60143fbf2043da00bb4a0542458d4a2b332aa",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-20T20:09:17Z",
+      "verified_at": "2026-11-21T06:59:53Z",
       "evidence_patterns": [
         "Never modify earlier messages",
         "Only append new"
@@ -267,9 +267,9 @@
       "guidance": "Front-load stable system instructions, few-shot examples and reference documents so they form a reusable prompt-cache prefix.",
       "source_key": "xai-prompt-caching-best-practices",
       "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
-      "source_hash": "22ad766b6ac37c3136ac30d351847d0936d61e2790611842c2ace0a36a763726",
+      "source_hash": "7c7b3614ac16777448cab35e0df60143fbf2043da00bb4a0542458d4a2b332aa",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-20T20:09:17Z",
+      "verified_at": "2026-11-21T06:59:53Z",
       "evidence_patterns": [
         "Front-load static content",
         "system prompts.*few-shot examples.*reference documents"

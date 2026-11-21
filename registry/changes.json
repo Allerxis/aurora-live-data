@@ -1,7 +1,107 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-11-20T20:09:17Z",
+  "generated_at": "2026-11-21T06:59:53Z",
   "changes": [
+    {
+      "observed_at": "2026-11-21T06:59:53Z",
+      "entity_type": "source",
+      "entity_key": "xai-prompt-caching-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "22ad766b6ac37c3136ac30d351847d0936d61e2790611842c2ace0a36a763726",
+      "new_hash": "7c7b3614ac16777448cab35e0df60143fbf2043da00bb4a0542458d4a2b332aa",
+      "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-21T06:59:53Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-prompting-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "db5048d45880496639b290578914256ca9dfb9dda160beecb96fcd53ac161edd",
+      "new_hash": "019cbdb015fea8129ff113a7706977d1ff88747ae12583efef8434e0d2167793",
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-21T06:59:53Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "e37ef7d45a8e55032368487cc5304b44e1a0bf339959446d800a3c52159040e5",
+      "new_hash": "a323218e40dedcec15febed202f328a304db947f8ea1192be645a0b0f949445b",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-21T06:59:53Z",
+      "entity_type": "source",
+      "entity_key": "xai-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "ac78f280cb24cece2fe508b4b7e35317fad5c17305d86ddfbada4c381ed09665",
+      "new_hash": "d2a4c7a959d2e0b4618c2d759b3d8108c76b63d2a83a27d7f43709703e3c63db",
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-21T06:59:53Z",
+      "entity_type": "source",
+      "entity_key": "xai-retirement-2026-05",
+      "change_type": "content_changed",
+      "previous_hash": "48271ddc3737238f0255b37006af84b9554d11a1533188bea962d1f229737f6e",
+      "new_hash": "8e23086faa1d1939e0a915abf92a81f8ee9bb1370d4af95a73362c3419d03a43",
+      "source_url": "https://docs.x.ai/developers/migration/may-15-retirement",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-21T06:59:53Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "b2cfe6ec3a092712b2337dedeb4d6068e98bd0914f1e103b7386f39b3256b3b5",
+      "new_hash": "4f9c7f1473f7d8c1b4a0583dc4100d912d72abe93dfb8cec795ee19152e0f188",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-21T06:59:53Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "184d43633134c9ac49faf7fd046011997dce5c90d23725db6d3f7434855fce76",
+      "new_hash": "ccee0bf94049bdcf73fa1715eebeb0fcae585a065419452182ce10a2211a7efa",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-21T06:59:53Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama",
+      "change_type": "content_changed",
+      "previous_hash": "ba741f765b66a77e35a6977b664c7851ad1e983dc8a4dc50a2d7150fc0114416",
+      "new_hash": "a665c833a1234252305bb796d768b6b72e76e7407dc97103002350242236a157",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-21T06:59:53Z",
+      "entity_type": "source",
+      "entity_key": "xai-models",
+      "change_type": "content_changed",
+      "previous_hash": "8088474446cf7fa55bf7220b2a6036192697f5c0dd6c071f113a5599967034be",
+      "new_hash": "dac49ea1661b9af51ad0e9797e573d7aa934cbd80ea58a9369a111fda2163dbe",
+      "source_url": "https://docs.x.ai/developers/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-21T06:59:53Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "f8c22bc1de12d772ee7cc461f90541ca05dd133bc07b923d993c1dbd5f1a0f9a",
+      "new_hash": "5504bbdef03aea7f49dda7a889e9ed1b7cdf5cb27a6f9e5b732de0ea94de50d6",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-11-20T20:09:17Z",
       "entity_type": "model_semantics",
@@ -9901,106 +10001,6 @@
       "new_hash": null,
       "source_url": null,
       "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-haiku-3",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-fable-5",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_semantics",
-      "entity_key": "openai:gpt-6.1-sol",
-      "change_type": "semantic_verified",
-      "previous_hash": null,
-      "new_hash": "ad647937a3cd0f5e1ebbb0b771686aedfc243d2526a46216304f0484b6a4c426",
-      "source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
-      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_semantics",
-      "entity_key": "openai:gpt-6-luna",
-      "change_type": "semantic_verified",
-      "previous_hash": null,
-      "new_hash": "852d2a6c995afb9be26b34ff70e7ba09415f35b254fed05aa13d2dc724e77454",
-      "source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
-      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_semantics",
-      "entity_key": "openai:gpt-6-astra",
-      "change_type": "semantic_verified",
-      "previous_hash": null,
-      "new_hash": "67c5e15e544f9bfce7f6241c362411bdf7760abded862c4d98baa435a635304c",
-      "source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
-      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_semantics",
-      "entity_key": "openai:gpt-4o",
-      "change_type": "semantic_verified",
-      "previous_hash": null,
-      "new_hash": "e8489d614470ebb56bf03bcd48faa54a2750a4fe4e190fff92b62c8d665c8dde",
-      "source_url": "https://developers.openai.com/api/docs/models/gpt-4o",
-      "summary": "Deterministic facts were verified from the official OpenAI model detail page."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "source",
-      "entity_key": "meta-llama-docs",
-      "change_type": "content_changed",
-      "previous_hash": "cc2700da0b5fdafad4f0155ce6e1823fc54cd685432cf5a10715f89595ea5f88",
-      "new_hash": "118dd11a458ece568889e02f37f36dc14461d0e05eeece5f34b5091cd19c4f9b",
-      "source_url": "https://dev.meta.ai/",
-      "summary": "Normalized official-source content changed."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "source",
-      "entity_key": "meta-llama",
-      "change_type": "content_changed",
-      "previous_hash": "8b54664693cf23f2f327c5d8db35bc30db40afcd7d8da8f155d6485886d4dcc7",
-      "new_hash": "2479a9bd8ea62949c2edf6db6b37d7dcd456a63010c7af31443ca60ec5693de5",
-      "source_url": "https://dev.meta.ai/ai",
-      "summary": "Normalized official-source content changed."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "source",
-      "entity_key": "xai-models",
-      "change_type": "content_changed",
-      "previous_hash": "b39923df68865174f2e3cabc93c96b0215d259729dc63b61a0f71ee53769601c",
-      "new_hash": "2886c4293f25d0ba75f7a636e166efa42a64ec759d4da19600535beedd324251",
-      "source_url": "https://docs.x.ai/developers/models",
-      "summary": "Normalized official-source content changed."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "source",
-      "entity_key": "mistral-models",
-      "change_type": "content_changed",
-      "previous_hash": "16e80a1fbc88a50388478dd3f16b125a86878af1017b6929389ed240582bb556",
-      "new_hash": "4b833208a27dc591a8e65d0809a383e1d578d190921469bd978a84c9280de666",
-      "source_url": "https://docs.mistral.ai/models",
-      "summary": "Normalized official-source content changed."
     }
   ]
 }
