@@ -1,7 +1,147 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-11-23T07:29:41Z",
+  "generated_at": "2026-11-23T23:49:59Z",
   "changes": [
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-4-5-20251101",
+      "change_type": "semantic_changed",
+      "previous_hash": "a4cdd28861d7c63d0f1899da44d5e3fa30e829cd4d08575dd15bb450239adbd2",
+      "new_hash": "2d98fe3e1bdd0373c866a5508692e3dabe285ef2e02e4c54da0184532b6b8bd8",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
+      "summary": "Verified semantic facts changed on the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "model_candidate",
+      "entity_key": "anthropic:claude-opus-4-5",
+      "change_type": "candidate_reappeared",
+      "previous_hash": null,
+      "new_hash": null,
+      "source_url": null,
+      "summary": "A previously missing model candidate reappeared in official sources."
+    },
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "model_semantics",
+      "entity_key": "anthropic:claude-opus-4-5",
+      "change_type": "semantic_verified",
+      "previous_hash": null,
+      "new_hash": "2d98fe3e1bdd0373c866a5508692e3dabe285ef2e02e4c54da0184532b6b8bd8",
+      "source_url": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
+      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
+    },
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "source",
+      "entity_key": "xai-prompt-caching-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "7c7b3614ac16777448cab35e0df60143fbf2043da00bb4a0542458d4a2b332aa",
+      "new_hash": "77caf5b591d767558cbe95dac4b7fd0b102715253a4628905344c06749cee6ff",
+      "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-prompting-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "27e01fee5618e971c4964222c2e229bef2237f787d8b1fbfcbbabd7a2aa1cb37",
+      "new_hash": "1311a92342df956e2323d37bae2b2bfe270a33cc2620a24ce7eba06bed4097f4",
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "0ec2bc372856c30c324ca5eb6d86f62c7d8bb2a5a1730cc825536d06de262f36",
+      "new_hash": "c920fc323e5b4536255d1c45fff6f50f30aaad08daa57e13f9a365d1424c6978",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "source",
+      "entity_key": "xai-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "d2a4c7a959d2e0b4618c2d759b3d8108c76b63d2a83a27d7f43709703e3c63db",
+      "new_hash": "9c2b5e4b4953b960057fc70e41bd26a792a68389f025355ae4af860360afab14",
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "source",
+      "entity_key": "xai-retirement-2026-05",
+      "change_type": "content_changed",
+      "previous_hash": "8e23086faa1d1939e0a915abf92a81f8ee9bb1370d4af95a73362c3419d03a43",
+      "new_hash": "a33f459c82d7e11a867e41f4e5d0af16e0875ab9256c26ba566cc0efe16b1903",
+      "source_url": "https://docs.x.ai/developers/migration/may-15-retirement",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-deprecations",
+      "change_type": "content_changed",
+      "previous_hash": "93b28421b7230ead93898b4558ba57240be56be4705c044091933cf0e393c211",
+      "new_hash": "46c493f6dba38e7364a2dd62db3986d3fc36e3ce5c600f5685f9646989988db9",
+      "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "8125777c45f7bf0021ef60209e7266619c95513c843a5395d3998a291283d883",
+      "new_hash": "a6ffb3847aae21af5f361154a509c2e8710c9ccb818a3bafcb0ad648fce663b3",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "a665c833a1234252305bb796d768b6b72e76e7407dc97103002350242236a157",
+      "new_hash": "7e11ed314e7c42fbe653df11a7aecf100968eb7db05c6135b6cd2a4274912648",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama",
+      "change_type": "content_changed",
+      "previous_hash": "ba741f765b66a77e35a6977b664c7851ad1e983dc8a4dc50a2d7150fc0114416",
+      "new_hash": "7e11ed314e7c42fbe653df11a7aecf100968eb7db05c6135b6cd2a4274912648",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "source",
+      "entity_key": "xai-models",
+      "change_type": "content_changed",
+      "previous_hash": "dac49ea1661b9af51ad0e9797e573d7aa934cbd80ea58a9369a111fda2163dbe",
+      "new_hash": "8d4c3377284544d368cc50d40dc0d33840cb5b89ce40c9b332e8b67b11569e85",
+      "source_url": "https://docs.x.ai/developers/models",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-23T23:49:59Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "4e7c30e40fbd540456c6c195dda1aa75278843431c3e8a7eb49dd379aa7276b9",
+      "new_hash": "ce4e9cb7ba0f04ae18317f1b6a471589fce325b3d924cc97df660ba7bd873aa6",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-11-23T07:29:41Z",
       "entity_type": "source",
@@ -9856,146 +9996,6 @@
       "observed_at": "2026-10-02T11:36:55Z",
       "entity_type": "model_candidate",
       "entity_key": "google:gemini-api-elevation-3dp",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-elevation-1dp",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-cta-link",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-card-width",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-card-title",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-card-overview.with-links",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-card-overview",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-card-description-cta",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-card-description",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-card-bulletpoints",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-card",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-sonnet-5",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-sonnet-4-6",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-sonnet-4-5",
       "change_type": "candidate_not_seen",
       "previous_hash": null,
       "new_hash": null,
