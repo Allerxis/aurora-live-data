@@ -1,7 +1,27 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-11-23T23:49:59Z",
+  "generated_at": "2026-11-24T09:49:32Z",
   "changes": [
+    {
+      "observed_at": "2026-11-24T09:49:32Z",
+      "entity_type": "source",
+      "entity_key": "xai-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "9c2b5e4b4953b960057fc70e41bd26a792a68389f025355ae4af860360afab14",
+      "new_hash": "de413bffaf6820e0c431cb63f1aa5739ebe3b5d13e3051364945a2551b137fd3",
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-24T09:49:32Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "7e11ed314e7c42fbe653df11a7aecf100968eb7db05c6135b6cd2a4274912648",
+      "new_hash": "184d43633134c9ac49faf7fd046011997dce5c90d23725db6d3f7434855fce76",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-11-23T23:49:59Z",
       "entity_type": "model_semantics",
@@ -9976,26 +9996,6 @@
       "observed_at": "2026-10-02T11:36:55Z",
       "entity_type": "model_candidate",
       "entity_key": "google:gemini-api-header-with-cta",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-experimental",
-      "change_type": "candidate_not_seen",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "The candidate was not found in the currently monitored official sources. This is not by itself proof of deprecation or removal."
-    },
-    {
-      "observed_at": "2026-10-02T11:36:55Z",
-      "entity_type": "model_candidate",
-      "entity_key": "google:gemini-api-elevation-3dp",
       "change_type": "candidate_not_seen",
       "previous_hash": null,
       "new_hash": null,
