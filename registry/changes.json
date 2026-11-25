@@ -1,7 +1,77 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-11-24T22:22:17Z",
+  "generated_at": "2026-11-25T08:25:23Z",
   "changes": [
+    {
+      "observed_at": "2026-11-25T08:25:23Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-prompting-best-practices",
+      "change_type": "content_changed",
+      "previous_hash": "1311a92342df956e2323d37bae2b2bfe270a33cc2620a24ce7eba06bed4097f4",
+      "new_hash": "338d01244787aff087fc8793b3d29671b2b308eb54293da9e53b8d3566ac0853",
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-25T08:25:23Z",
+      "entity_type": "source",
+      "entity_key": "openai-prompt-engineering",
+      "change_type": "content_changed",
+      "previous_hash": "c920fc323e5b4536255d1c45fff6f50f30aaad08daa57e13f9a365d1424c6978",
+      "new_hash": "e51280221b46895d72ac89c32a46816884d94e5a6209934e7caa25dce733d1df",
+      "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-25T08:25:23Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-deprecations",
+      "change_type": "content_changed",
+      "previous_hash": "32435bc29da953df783ccbb6f59aad315a68d1ca8480fae8c1f8f9d09a016a4d",
+      "new_hash": "635d4ef30dc8904f79eeb0affa56e8ed708f44f738c27e7f0347049d6291cc6a",
+      "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-25T08:25:23Z",
+      "entity_type": "source",
+      "entity_key": "openai-models-all",
+      "change_type": "content_changed",
+      "previous_hash": "a6ffb3847aae21af5f361154a509c2e8710c9ccb818a3bafcb0ad648fce663b3",
+      "new_hash": "b7d0150aa2ddb6ccba93202e39c7b828201f311521fe0e7090044ed1c6c17677",
+      "source_url": "https://developers.openai.com/api/docs/models/all",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-25T08:25:23Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "184d43633134c9ac49faf7fd046011997dce5c90d23725db6d3f7434855fce76",
+      "new_hash": "ccee0bf94049bdcf73fa1715eebeb0fcae585a065419452182ce10a2211a7efa",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-25T08:25:23Z",
+      "entity_type": "source",
+      "entity_key": "anthropic-models",
+      "change_type": "content_changed",
+      "previous_hash": "6b689d78970005a328dcacd1c4dfa9ffd1fe2ecdd1799a4f2460b790a1ba3379",
+      "new_hash": "cfd15881e1da50fd389f4df246aca783a805f8cd99237d698274a23e08ebdd03",
+      "source_url": "https://platform.claude.com/docs/en/models/overview",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-25T08:25:23Z",
+      "entity_type": "source",
+      "entity_key": "openai-models",
+      "change_type": "content_changed",
+      "previous_hash": "ce4e9cb7ba0f04ae18317f1b6a471589fce325b3d924cc97df660ba7bd873aa6",
+      "new_hash": "cd22d828b9003fbd2cc4a8321a994c54125b4f421f2897f05954b8da6fadff32",
+      "source_url": "https://developers.openai.com/api/docs/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-11-24T22:22:17Z",
       "entity_type": "model_candidate",
@@ -9926,76 +9996,6 @@
       "observed_at": "2026-10-02T11:54:27Z",
       "entity_type": "model_candidate",
       "entity_key": "anthropic:claude-mythos-5",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:54:27Z",
-      "entity_type": "model_semantics",
-      "entity_key": "anthropic:claude-mythos-5",
-      "change_type": "semantic_verified",
-      "previous_hash": null,
-      "new_hash": "0971470fe992e39964fe93c207b2518b200db05e31273c2673593f27817c40e2",
-      "source_url": "https://platform.claude.com/docs/en/models/mythos-5/overview",
-      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
-    },
-    {
-      "observed_at": "2026-10-02T11:54:27Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-fable-5",
-      "change_type": "candidate_reappeared",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A previously missing model candidate reappeared in official sources."
-    },
-    {
-      "observed_at": "2026-10-02T11:54:27Z",
-      "entity_type": "model_semantics",
-      "entity_key": "anthropic:claude-fable-5",
-      "change_type": "semantic_verified",
-      "previous_hash": null,
-      "new_hash": "56e5de846f582b4e47df77dbed281bea413dc38ad5126f17caa137c268ba2f0c",
-      "source_url": "https://platform.claude.com/docs/en/models/fable-5/overview",
-      "summary": "Deterministic facts were verified from the official Anthropic model detail page."
-    },
-    {
-      "observed_at": "2026-10-02T11:54:27Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-3-sonnet-20240229",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:54:27Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-3-opus-20240229",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:54:27Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-3-haiku-20240307",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T11:54:27Z",
-      "entity_type": "model_candidate",
-      "entity_key": "anthropic:claude-3-7-sonnet-20250219",
       "change_type": "candidate_discovered",
       "previous_hash": null,
       "new_hash": null,
