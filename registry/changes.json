@@ -1,7 +1,37 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-11-26T08:10:20Z",
+  "generated_at": "2026-11-26T21:27:34Z",
   "changes": [
+    {
+      "observed_at": "2026-11-26T21:27:34Z",
+      "entity_type": "source",
+      "entity_key": "xai-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "de413bffaf6820e0c431cb63f1aa5739ebe3b5d13e3051364945a2551b137fd3",
+      "new_hash": "358859a64acde28bf802973dd43b43aa92783883bf28707487f0ca504b4989ce",
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-26T21:27:34Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "184d43633134c9ac49faf7fd046011997dce5c90d23725db6d3f7434855fce76",
+      "new_hash": "7e11ed314e7c42fbe653df11a7aecf100968eb7db05c6135b6cd2a4274912648",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-26T21:27:34Z",
+      "entity_type": "source",
+      "entity_key": "xai-models",
+      "change_type": "content_changed",
+      "previous_hash": "8d4c3377284544d368cc50d40dc0d33840cb5b89ce40c9b332e8b67b11569e85",
+      "new_hash": "a03b55bf23eb0a05b7254870947f4f037237167063a614497bb7c46a5a82f4ed",
+      "source_url": "https://docs.x.ai/developers/models",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-11-26T08:10:20Z",
       "entity_type": "model_semantics",
@@ -9971,36 +10001,6 @@
       "new_hash": "a57bdaad06256b6a8c48669a66d4b0371bf5e75a142fa2c2a46ff249830c7f46",
       "source_url": "https://docs.x.ai/developers/models/grok-4.7",
       "summary": "Verified semantic facts changed on the official xAI model detail page."
-    },
-    {
-      "observed_at": "2026-10-02T12:16:33Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.6",
-      "change_type": "candidate_reappeared",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A previously missing model candidate reappeared in official sources."
-    },
-    {
-      "observed_at": "2026-10-02T12:16:33Z",
-      "entity_type": "model_semantics",
-      "entity_key": "xai:grok-4.6",
-      "change_type": "semantic_verified",
-      "previous_hash": null,
-      "new_hash": "c6dcbe28bee0a349b1748d00e59115b1b62606e56cfbb8d84f3c6eb34f51dda4",
-      "source_url": "https://docs.x.ai/developers/models/grok-4.6",
-      "summary": "Deterministic facts were verified from the official xAI model detail page."
-    },
-    {
-      "observed_at": "2026-10-02T12:16:33Z",
-      "entity_type": "model_candidate",
-      "entity_key": "xai:grok-4.5",
-      "change_type": "candidate_reappeared",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A previously missing model candidate reappeared in official sources."
     }
   ]
 }
