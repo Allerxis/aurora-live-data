@@ -1,7 +1,7 @@
 {
   "schema_version": "0.19.0",
   "service": "Aurora Live Data",
-  "generated_at": "2026-11-26T21:27:34Z",
+  "generated_at": "2026-11-27T08:21:25Z",
   "healthy": true,
   "sources_total": 21,
   "sources_reachable": 21,
@@ -18,7 +18,7 @@
   "xai_knowledge_cutoff_rows": 1,
   "xai_pricing_rows": 7,
   "xai_retirement_rows": 8,
-  "mistral_detail_pages": 97,
+  "mistral_detail_pages": 98,
   "mistral_pricing_rows": 0,
   "mistral_semantic_failures": 19,
   "meta_semantic_failures": 3,
