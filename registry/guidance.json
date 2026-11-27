@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-27T08:21:25Z",
+  "generated_at": "2026-11-27T21:12:28Z",
   "purpose": "Source-anchored prompt-engineering guidance. A rule is current only while deterministic evidence patterns remain present in the tracked official source.",
   "trust_model": {
     "verified_official_guidance": "All configured evidence patterns matched the current official source.",
@@ -46,7 +46,7 @@
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
       "source_hash": "338d01244787aff087fc8793b3d29671b2b308eb54293da9e53b8d3566ac0853",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-27T08:21:25Z",
+      "verified_at": "2026-11-27T21:12:28Z",
       "evidence_patterns": [
         "examples are one of the most reliable",
         "3.?5 examples"
@@ -86,7 +86,7 @@
       "source_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
       "source_hash": "338d01244787aff087fc8793b3d29671b2b308eb54293da9e53b8d3566ac0853",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-27T08:21:25Z",
+      "verified_at": "2026-11-27T21:12:28Z",
       "evidence_patterns": [
         "XML tags help Claude",
         "consistent.*descriptive tag"
@@ -187,7 +187,7 @@
       "source_url": "https://docs.mistral.ai/inference/prompting",
       "source_hash": "2ac2f5e86c104fe0abcb1d17cf93e114480ec6ea9261a17ca96f12931b6b9803",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-27T08:21:25Z",
+      "verified_at": "2026-11-27T21:12:28Z",
       "evidence_patterns": [
         "system prompt.*beginning of the conversation",
         "user prompt.*specific context or instructions"
@@ -207,7 +207,7 @@
       "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
       "source_hash": "e51280221b46895d72ac89c32a46816884d94e5a6209934e7caa25dce733d1df",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-27T08:21:25Z",
+      "verified_at": "2026-11-27T21:12:28Z",
       "evidence_patterns": [
         "developer messages are instructions",
         "prioritized ahead of.*user messages"
@@ -227,7 +227,7 @@
       "source_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
       "source_hash": "e51280221b46895d72ac89c32a46816884d94e5a6209934e7caa25dce733d1df",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-27T08:21:25Z",
+      "verified_at": "2026-11-27T21:12:28Z",
       "evidence_patterns": [
         "Markdown headers and lists",
         "XML tags.*delineate"
@@ -248,7 +248,7 @@
       "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
       "source_hash": "77caf5b591d767558cbe95dac4b7fd0b102715253a4628905344c06749cee6ff",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-27T08:21:25Z",
+      "verified_at": "2026-11-27T21:12:28Z",
       "evidence_patterns": [
         "Never modify earlier messages",
         "Only append new"
@@ -269,7 +269,7 @@
       "source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/best-practices",
       "source_hash": "77caf5b591d767558cbe95dac4b7fd0b102715253a4628905344c06749cee6ff",
       "verification_state": "verified_official_guidance",
-      "verified_at": "2026-11-27T08:21:25Z",
+      "verified_at": "2026-11-27T21:12:28Z",
       "evidence_patterns": [
         "Front-load static content",
         "system prompts.*few-shot examples.*reference documents"

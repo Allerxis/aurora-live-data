@@ -1,7 +1,37 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-11-27T08:21:25Z",
+  "generated_at": "2026-11-27T21:12:28Z",
   "changes": [
+    {
+      "observed_at": "2026-11-27T21:12:28Z",
+      "entity_type": "source",
+      "entity_key": "mistral-pricing",
+      "change_type": "content_changed",
+      "previous_hash": "261111bd3ff214bddbbd556cb8130bafcc1062b1aeff6e98fe0be7c84e6e83ae",
+      "new_hash": "f0227018d731fce107b236b6bc2ad53524ea30b456240b4ab82a7c4002e5350c",
+      "source_url": "https://docs.mistral.ai/inference/pricing",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-27T21:12:28Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "184d43633134c9ac49faf7fd046011997dce5c90d23725db6d3f7434855fce76",
+      "new_hash": "7e11ed314e7c42fbe653df11a7aecf100968eb7db05c6135b6cd2a4274912648",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-27T21:12:28Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama",
+      "change_type": "content_changed",
+      "previous_hash": "7e11ed314e7c42fbe653df11a7aecf100968eb7db05c6135b6cd2a4274912648",
+      "new_hash": "a665c833a1234252305bb796d768b6b72e76e7407dc97103002350242236a157",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-11-27T08:21:25Z",
       "entity_type": "model_semantics",
@@ -9971,36 +10001,6 @@
       "new_hash": "42dfefbdb3359ab94293b7a6aa5bb18d27c37579a8220544925bbec96c943734",
       "source_url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
       "summary": "Official source initialized in Aurora Live Data."
-    },
-    {
-      "observed_at": "2026-10-02T12:21:05Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral-small-2507",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T12:21:05Z",
-      "entity_type": "model_semantics",
-      "entity_key": "mistral:voxtral-small-2507",
-      "change_type": "semantic_verified",
-      "previous_hash": null,
-      "new_hash": "99f2524eb3386068e825d20bc6dcb1ec986787236fef7292ae4673e953940c42",
-      "source_url": "https://docs.mistral.ai/models/voxtral-small-25-07",
-      "summary": "Deterministic facts were verified from the official Mistral model detail page."
-    },
-    {
-      "observed_at": "2026-10-02T12:21:05Z",
-      "entity_type": "model_candidate",
-      "entity_key": "mistral:voxtral-mini-tts-2603",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
     }
   ]
 }
