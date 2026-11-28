@@ -1,7 +1,27 @@
 {
   "schema_version": "0.19.0",
-  "generated_at": "2026-11-27T21:12:28Z",
+  "generated_at": "2026-11-28T07:41:28Z",
   "changes": [
+    {
+      "observed_at": "2026-11-28T07:41:28Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama-docs",
+      "change_type": "content_changed",
+      "previous_hash": "7e11ed314e7c42fbe653df11a7aecf100968eb7db05c6135b6cd2a4274912648",
+      "new_hash": "ccee0bf94049bdcf73fa1715eebeb0fcae585a065419452182ce10a2211a7efa",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
+    {
+      "observed_at": "2026-11-28T07:41:28Z",
+      "entity_type": "source",
+      "entity_key": "meta-llama",
+      "change_type": "content_changed",
+      "previous_hash": "a665c833a1234252305bb796d768b6b72e76e7407dc97103002350242236a157",
+      "new_hash": "b7339d3b458393c05db4c1dc6bb5369d6d54a9eadd7d105ed661a2a19daed8b4",
+      "source_url": "https://dev.meta.ai/",
+      "summary": "Normalized official-source content changed."
+    },
     {
       "observed_at": "2026-11-27T21:12:28Z",
       "entity_type": "source",
@@ -9981,26 +10001,6 @@
       "new_hash": null,
       "source_url": null,
       "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T12:27:02Z",
-      "entity_type": "model_candidate",
-      "entity_key": "meta:llama-3-1-405b",
-      "change_type": "candidate_discovered",
-      "previous_hash": null,
-      "new_hash": null,
-      "source_url": null,
-      "summary": "A model identifier/name was newly discovered in an official source."
-    },
-    {
-      "observed_at": "2026-10-02T12:27:02Z",
-      "entity_type": "source",
-      "entity_key": "meta-llama4-model-card",
-      "change_type": "source_initialized",
-      "previous_hash": null,
-      "new_hash": "42dfefbdb3359ab94293b7a6aa5bb18d27c37579a8220544925bbec96c943734",
-      "source_url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
-      "summary": "Official source initialized in Aurora Live Data."
     }
   ]
 }
